@@ -1,0 +1,28 @@
+<configs>
+<append xpath="/recipes">
+<recipe name="IronGate5x3Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+<recipe name="IronGate4x3Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+<recipe name="IronGate4x2Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+<recipe name="IronGate3x2Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+<recipe name="IronGate3x1Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+<recipe name="IronGate2x1Block" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+</recipe>
+</append>
+
+
+
+
+
+
+</configs>

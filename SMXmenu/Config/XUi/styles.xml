@@ -1,0 +1,13 @@
+<SMXmenu name="styles.xml">
+
+<!--	// SMX // Menu Button -->
+
+		<append xpath="/styles">
+			<style name="smx_menu_button">
+				<style_entry name="width" 							value="230" />				
+				<style_entry name="height" 							value="60" />				
+				<style_entry name="pivot" 							value="center" />				
+			</style>
+		</append>
+
+</SMXmenu>

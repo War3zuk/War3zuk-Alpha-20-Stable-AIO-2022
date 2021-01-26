@@ -1,0 +1,96 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="bansheescream">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert3"/>
+			<Channel name="Mouth"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="10"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="bansheebuff0">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutalert2"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="bansheebuff1">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Ambient_Oneshots/a_horde_oneshot2"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="sirenidle"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Announcements/trader_announce_closed"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Announcements/trader_announce_closing"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Announcements/trader_announce_open"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_special_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_special_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_special_01"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closed_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closed_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closed_03"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closing_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closing_02"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_closing_03"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_open_01"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_open_02"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+				<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_announce_open_03"/>
+			<LowestPitch name="0"/>
+			<HighestPitch name="0"/>
+			<Channel name="Mouth"/>
+			<Priority name="2"/>
+			<maxVoicesPerEntity value="1"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+			
+		
+		<SoundDataNode name="sirenspawn"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+				<AudioClip ClipName="Sounds/Ambient_oneshots/a_lullabye"/>
+			<LowestPitch name="0"/>
+			<HighestPitch name="0"/>
+			<Channel name="Mouth"/>
+			<Priority name="1"/>
+			<maxVoicesPerEntity value="1"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+			
+		
+<SoundDataNode name="sirenmed"> <AudioSource name="Sounds/AudioSource_Notifications"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_strong_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+
+<SoundDataNode name="sirenstrong"> <AudioSource name="Sounds/AudioSource_Notifications"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_kill_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+
+<SoundDataNode name="sirenweak"> <AudioSource name="Sounds/AudioSource_Notifications"/>
+	<AudioClip ClipName="Sounds/Ambient_Loops/a_radiated_medium_lp" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>
+	
+
+
+	</append>
+</configs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Snufkin's Server Side Custom Zombies" />
+		<Description value="Restoration of Snufkin's Custom Zombies for A19-Stable" />
+		<Author value="Snufkin, arramus, Slawa, and the community modders and server administators" />
+		<Version value="A19-Stable-2020Nov03" />
+		<Website value="https://community.7daystodie.com/topic/17992-snukfins-server-side-zsombies/" />
+	</ModInfo>
+</xml>

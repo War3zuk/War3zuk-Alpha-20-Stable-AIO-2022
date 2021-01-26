@@ -1,0 +1,80 @@
+<SMXmenu name="MENU/xui.xml">
+
+<!--	// MODLET:			SMXmenu
+
+		// EAC:				Friendly
+
+		// VERSION:			19.1.Release1
+
+		// BUILD:			A19.1
+
+		// DISCLAIMER:		Please be advised that this modlet is intended for use with the build mentioned above. That said it may very well be that
+							it can be used with other builds with little to no risk of failure. It all depends on the standard files being updated or not
+							and you can verify this by looking at the date of the standard files when an update have occured.
+
+		// MOD DESCRIPTION:	The purpose of this modlet is to enhance the menu UI experience of 7 Days to Die. Please note that this modlet will enhance the
+							main and in-game menu UI's only. If	you want to enhance the in-game HUD you can supplement this modlet with SMXhud. If you want
+							to opt for a total in-game UI conversion you can supplement this modlet with SMXui.
+
+		// DEPENDENCIES:	.
+
+		// TERMS OF USE:	You are allowed to use this modlet as is for your own personal use and/or on a server you run and/or administrate.
+		
+							You are under no circumstance allowed to distribute any SMX and/or ZMX branded modlets without written consent from the developer.
+
+							If you wish to distribute SMX and/or ZMX branded modlets as part of your own project and consent have been given you are required
+							to do so in such a way so that all the files of the SMX and/or ZMX modlet or modlets in question remain unaltered and you cannot
+							under any circumstance claim credit for creating the modlet or modlets or any of the files provided with it/them.
+							
+							If consent is given you are required to make the changes as a new modlet that injects into the modlet in question and
+							keeping load order in mind it is to be named so that it loads AFTER the original modlet. The original modlet shall be distributed
+							as is with no change to its files what so ever.
+
+							If consent is given it is only given on a case to case basis and those that receive consent cannot pass that consent on to another
+							party or project. Nor will the consent pass on to other creators that opt to include consented work into their project.
+
+							You are not allowed to use any of the assets bundled with SMX and/or ZMX branded modlets in other projects. This restriction
+							applies to all files that the SMX and/or ZMX modlets consist of.
+
+							You are required to seek special consent from the developer should you wish to make changes to any asset files provided with the
+							SMX and/or ZMX branded modlets.
+
+							You are required to inform the developer when your project that contains any SMX and/or ZMX modlet or modlets have been	made
+							available to the public.
+
+		// CREDITS:			Sirillion (developer, author)
+-->
+
+<!--	// SMX // Hud Logo -->
+
+		<append xpath="/xui/ruleset[@name='default']/window_group">
+			<window name="SMXhudLogo" anchor="RightTop" />
+		</append>
+
+		<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolTip']/window[@name='SMXhudLogo']" />
+
+
+<!--	// SMX // Main Menu -->
+
+		<setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='mainMenu']/window[@name='mainMenu']" name="anchor">LeftCenter</setattribute>
+
+
+<!--	// SMX // Options Menu -->
+
+		<setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='optionsMenu']/window[@name='optionsMenu']" name="anchor">LeftCenter</setattribute>
+
+
+<!--	// SMX // Editing Tools Menu -->
+
+		<setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='editingTools']/window[@name='editingTools']" name="anchor">LeftCenter</setattribute>
+
+
+<!--	// SMX // MainMenu Window -->
+
+		<set xpath="/xui/ruleset[@name='default']/window_group[@name='mainMenu']">
+			<window name="mainMenu" anchor="LeftCenter" />
+			<!--window name="currentProfile" anchor="CenterCenter" /-->
+			<window name="changeLogInfoWindow" anchor="RightCenter" />
+		</set>
+
+</SMXmenu>
