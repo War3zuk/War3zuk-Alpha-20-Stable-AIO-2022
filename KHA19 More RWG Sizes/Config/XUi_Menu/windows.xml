@@ -1,0 +1,132 @@
+<config>
+	<set xpath="/windows/window[@name='newContinueGame']/rect/rect[@name='newContent']/rect[@controller='WorldGenerationWindowGroup']">
+		<grid rows="13" cell_width="525" cell_height="45" repeat_content="false" arrangement="vertical">
+			<rect>
+				<label depth="4" width="250" height="30" style="hover" tooltip_key="xuiRwgCountyNameDesc" text="Seed" text_key="xuiRwgCountyName" font_size="28" color="[white]" justify="right" pivot="topleft" />
+				<sprite depth="3" name="backgroundMain"  pos="289,0" width="232" height="32" sprite="menu_empty3px" color="[darkGrey]" type="sliced" fillcenter="true" />
+				<label name="countyName" depth="4" pos="289,-2" width="232" height="32" style="hover" font_size="28" color="[white]" justify="center" pivot="topleft" />
+			</rect>
+			<rect>
+				<label depth="4" width="250" height="30" style="hover" tooltip_key="xuiRwgWorldSeedDesc" text="Seed" text_key="xuiRwgWorldSeed" font_size="28" color="[white]" justify="right" pivot="topleft" />
+				<textfield name="seedInput" depth="5" pos="289,0" width="232" height="32" pivot="topLeft" on_hover="true" />
+			</rect>
+			<rect>
+				<label depth="4" width="250" height="30" style="hover" tooltip_key="xuiRwgWorldSizeDesc" text="World Size" text_key="xuiRwgWorldSize" font_size="28" color="[white]" justify="right" pivot="topleft" />
+				<combobox depth="108" pos="255,0" width="300" height="32" name="WorldSize" type="ComboBoxList&lt;System.String&gt;" values="1024,2048,4096,6144,8192,10240,12288,14336,16384" value_wrap="false" />
+			</rect>
+			<rect/>
+			<rect/>
+			<rect>
+				<simplebutton name="btnGenerateWorld" pos="289,0" width="232" height="32" font_size="26" text="Advanced Generation" caption_key="btnAdvancedGeneration" upper_case="true"/>
+			</rect>
+		</grid>
+	</set>
+	
+	<set xpath="/windows/window[@name='createWorld']">
+		<panel name="header" pos="0,0" height="43" depth="1" backgroundspritename="ui_game_panel_header" bordercolor="[black]" borderthickness="3" >
+			<label style="header.name" pos="6,-6" width="650" text_key="xuiCreateWorld" />
+		</panel>
+		<panel name="content" pos="0,-46" height="685" depth="1" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" pivot="center">
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />	
+
+			<togglebutton name="toggleSelectWorld" caption_key="xuiCreateWorldLoadWorld" width="225" height="32" pos="10, -10" depth="3" />
+			<rect name="worlds" pos="240,-10" height="614" width="600" controller="WorldList">
+				<sprite depth="8" name="border" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+
+				<rect depth="4" name="searchControls" height="44" pos="0,-0">
+					<sprite depth="8" name="backgroundMain" sprite="menu_empty" color="[black]" type="sliced" fillcenter="false" />
+
+					<sprite depth="4" name="searchIcon" style="icon30px" pos="5,-22" sprite="ui_game_symbol_search" pivot="Left"/>
+					<textfield name="searchInput" depth="5" pos="40,-22" width="250" height="30" pivot="Left" />
+					
+					<panel pos="498,0" width="98" height="43" disableautobackground="true">
+						<button depth="4" name="pageDown" style="icon30px, press" pos="17,-22" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]" />
+						<rect depth="4" pos="34,-7" >
+							<sprite name="background" style="icon30px" color="[black]" type="sliced" />
+							<label depth="5" name="pageNumber" pos="0, -3" width="30" height="28" text="1" font_size="26" justify="center"/>
+						</rect>
+						<button depth="4" name="pageUp" style="icon30px, press" pos="81,-22" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" />
+					</panel>
+				</rect>
+				
+				<grid name="list" depth="2" rows="19" cols="1" pos="0,-44" height="590" cell_width="600" cell_height="30" repeat_content="true" arrangement="vertical" >
+					<world_list_entry width="600" height="30" />
+				</grid>
+			</rect>
+
+			<togglebutton name="toggleNewWorld" caption_key="xuiCreateWorldNewWorld" width="225" height="32" pos="10, -635" depth="3" />
+			<rect depth="2" width="600" height="32" pos="240,-635">
+				<label width="90" text_key="xuiCreateWorldName" justify="right" />
+				<textfield name="nameInput" depth="5" pos="95,-0" width="200" height="32" active_text_color="{customnamecolor}" tooltip_key="{customnamewarning}" />
+				<label width="120" pos="305,0" text_key="xuiCreateWorldSize" justify="right" />
+
+				<rect pos="430,0">
+					<combobox name="cmbSize" type="ComboBoxList&lt;System.Int32&gt;" value_wrap="false" values="-1,1024,2048,4096,6144,8192,10240,12288,14336,16384" pos="0,0" width="150" height="32" />
+					<panel createuipanel="true" disableautobackground="true" depth="10" visible="{iscustomsize}">
+						<sprite depth="3" name="background" pos="34,0" width="82" height="32" color="[black]" type="sliced" pivot="topleft" globalopacity="false" />
+						<textfield name="txtSize" depth="5" pos="34,0" width="82" height="32" pivot="topLeft" validation="integer" on_scroll="true" on_hover="true" active_text_color="{customsizecolor}" tooltip_key="{customsizewarning}" />
+					</panel>
+				</rect>
+				
+			</rect>
+		</panel>
+		
+		<rect pos="0, -735">
+			<simplebutton name="btnBack" depth="3" pos="0, 0" width="200" height="36" font_size="32" caption_key="xuiBack" upper_case="true" />
+			<simplebutton name="btnStart" depth="3" pos="650, 0" width="200" height="36" font_size="32" caption_key="xuiStart" upper_case="true" enabled="{startable}" />
+		</rect>
+	</set>
+	
+	<set xpath="/windows/window[@name='worldGeneration']/rect/rect[@name='generationControls']">
+		<sprite depth="10" name="border" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" globalopacity="false" />
+		<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" color="[mediumGrey]" type="sliced" fillcenter="true" />
+			
+		<rect pos="8,-40">
+			<grid rows="13" cell_width="425" cell_height="45" repeat_content="false" arrangement="vertical">
+				<rect>
+					<label depth="4" width="150" height="30" style="hover" tooltip_key="xuiWorldSeed" text="Seed" text_key="xuiWorldSeed" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<textfield name="seedInput" depth="5" pos="189,0" width="232" height="32" pivot="topLeft" on_hover="true" />
+				</rect>
+				<rect>
+					<label depth="4" width="150" height="30" style="hover" tooltip_key="xuiWorldSize" text="World Size" text_key="xuiWorldSize" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<combobox depth="108" pos="155,0" width="300" height="32" name="WorldSize" type="ComboBoxList&lt;System.String&gt;" values="1024,2048,4096,6144,8192,10240,12288,14336,16384" value_wrap="false" />
+				</rect>
+				<rect>
+					<simplebutton name="generate" pos="189,0" width="232" height="32" font_size="26" text="Generate World" text_key="xuiGenerateWorld" caption_key="xuiGenerateWorld" upper_case="true"/>
+				</rect>
+			</grid>
+		</rect>
+			
+		<rect pos="227,-432" width="250" height="340">
+				
+			<grid pos="6,-33" cell_width="244" cell_height="30" arrangement="vertical">
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Snow" text_key="xuiSnow" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="255,255,255" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+				
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Pine Forest" text_key="xuiPineForest" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="0,64,0" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Burnt Forest" text_key="xuiBurntForest" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="186,0,255" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Desert" text_key="xuiDesert" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="255,228,119" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Wasteland" text_key="xuiWasteland" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="255,168,0" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+				<rect>
+					<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Water" text_key="xuiWater" font_size="28" color="[white]" justify="right" pivot="topleft" />
+					<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="0,99,255" type="sliced" fillcenter="true" globalopacity="false" />
+				</rect>
+			</grid>
+			
+		</rect>
+	</set>
+</config>

@@ -1,0 +1,66 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="Suicide girls 001" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 002" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 003" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 004" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 005" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 006" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 007" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 008" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 009" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Suicide girls 010" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+	
+</append>
+</configs>
