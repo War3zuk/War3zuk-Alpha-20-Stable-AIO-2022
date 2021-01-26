@@ -1,0 +1,169 @@
+<configs>
+	
+<append xpath="/items">
+	
+<item name="meleeHandAnimalSpider">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/>
+		<property name="Range" value="1.4"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="20"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffRadiation03"/>
+	</property>
+	<effect_group name="meleeHandAnimalSpider" tiered="false">
+			<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+			<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+			<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffRadiation03"/>
+	</effect_group>
+</item>
+
+<!--  <item name="meleeHandZombieStripper">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="12"/>
+		<property name="DamageBlock" value="12"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01,BuffBrainPox"/>
+	</property>
+	<effect_group name="meleeHandZombieStripper" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBrainPox"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieStripperFeral">
+	<property name="Extends" value="meleeHandZombieStripper"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="24"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieStripperFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".60" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainPox"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieVulture">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/>
+		<property name="DamageEntity" value="12"/>
+		<property name="DamageBlock" value="12"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,BuffKrytos"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Vomit"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value=".5"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileVultureVomit"/>
+		<property name="Sound_warning" value="hulkvomitwarning"/>
+		<property name="Sound_start" value="hulkvomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieVulture" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffKrytos"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieHazMat">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="20"/>
+		<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch,buffInjuryStunned01,BuffSpattergroit"/>
+	</property>
+	<effect_group name="meleeHandZombieHazMat" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".99" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffSpattergroit"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieHazMatFeral">
+	<property name="Extends" value="meleeHandZombieHazMat"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="30"/>
+	</property>
+	<effect_group name="meleeHandZombieHazMatFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".99" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryStunned01"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffSpattergroit"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="200"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieDoctor">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="15"/>
+		<property name="Buff" value="buffInfectionCatch,BuffObonjan"/>
+		</property>
+	<effect_group name="meleeHandZombieFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffObonjan"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="10"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieDoctorFeral">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="30"/>
+		<property name="Buff" value="buffInfectionCatch,BuffObonjan"/>
+		</property>
+	<effect_group name="meleeHandZombieFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffObonjan"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="20"/>
+	</effect_group>
+</item> -->
+
+</append>
+</configs>

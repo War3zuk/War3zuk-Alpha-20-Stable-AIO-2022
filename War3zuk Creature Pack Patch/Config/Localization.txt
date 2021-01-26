@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+
+buffSpiderRadiationTooltip,buffs,Buff,,,You have been bitten by an eradiated Spider!,

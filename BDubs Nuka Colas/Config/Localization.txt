@@ -1,0 +1,48 @@
+Key,Source,Context,Changes,English
+drinkNukaCola,items,Food,New,Nuka Cola,,,,,
+drinkNukaColaDesc,items,Food,New,The wastelander's favorite beverage! Helps recover stamina quicker and restore a small amount of max health and stamina. The small trace of radiation also allow for a slight movement speed boost for a limited time!,,,,,
+drinkNukaCherry,items,Food,New,Nuka Cherry,,,,,
+drinkNukaCherryDesc,items,Food,New,Mmm...Nuka Cherry! Energizes you and helps you hit harder. Also restore a decent amount of max health and stamina. The traces of radiation also allow for a moderate movement speed boost for a limited time!,,,,,
+drinkNukaQuantum,items,Food,New,Nuka Quantum,,,,,
+drinkNukaQuantumDesc,items,Food,New,Nuka Quantum is totally safe! Boost yourself for a limited time but beware possible side effects!,,,,,
+drinkNukaQuartz,items,Food,New,Nuka Quartz,,,,,
+drinkNukaQuartzDesc,items,Food,New,Doesn't look too good but beggars can't be choosers! Damage resistance is increased and health will regenerate but it does make you queasy!,,,,,
+resourceNukaBaseIngredients,items,Item,New,Nuka Base Ingredients,,,,,
+resourceNukaBaseIngredientsDesc,items,Item,New,Base ingredients used to brew different Nuka flavors.,,,,,
+bookNukaRecipes,items,Item,New,Nuka Recipes,,,,,
+bookNukaRecipesDesc,items,Item,New,This will teach you how to brew multiple flavors of Nuka Cola!,,,,,
+thrownNukaNade,items,Gun,New,Nuka Nade (Ammo),,,,,
+thrownNukaNadeDesc,items,Gun,New,Too scared to drink that Quantum? May as well make a boom can out of it then!,,,,,
+
+NukaColaLight,blocks,blocks,New,Nuka Cola
+NukaQuantumLight,blocks,blocks,New,Nuka Quantum
+NukaQuartzLight,blocks,blocks,New,Nuka Quartz
+NukaCherryLight,blocks,blocks,New,Nuka Cherry
+NukaTruck,blocks,blocks,New,Nuka Truck
+
+cntNukaCrateS1,blocks,Container,New,Sealed Nuka Crate
+cntNukaCrateS2,blocks,Container,New,Sealed Nuka Crate
+cntNukaCrate1,blocks,Container,New,Nuka Crate
+cntNukaCrate2,blocks,Container,New,Nuka Crate
+cntNukaSafeSecure,blocks,Container,New,Secure Nuka Safe
+cntNukaSafeSecureDesc,blocks,Container,New,Nuka Safe.
+cntNukaSafe,blocks,Container,New,Nuka Safe
+cntNukaSafeDesc,blocks,Container,New,Nuka Safe.
+cntNukaVendingMachine,blocks,Container,New,Nuka Vending Machine
+
+Terminal,blocks,Container,New,Terminal
+TerminalDesc,blocks,Container,New,Old terminal that surprisingly still works.
+Terminaloff,blocks,Container,New,Broken Terminal
+TerminaloffDesc,blocks,Container,New,Old terminal that no longer works.
+Telephone,blocks,Container,New,Old Telephone
+TelephoneDesc,blocks,Container,New,"Old telephone. Doesn't really matter if it works now, does it?"
+
+mineBottlecapMine,items,Gun,New,Bottlecap Mine (Ammo),,,,,
+mineBottlecapMineDesc,items,Item,New,Homemade mine using an old lunchbox and some bottlecaps.,,,,,
+mineBottlecapMine,blocks,blocks,New,Bottlecap Mine
+cntLunchbox,blocks,Container,New,Old Lunchbox
+cntLunchboxDesc,blocks,Container,New,Some old lunchbox. Might be useful for something...
+cntLunchbox,items,Item,New,Old Lunchbox,,,,,
+cntLunchboxDesc,items,Item,New,Some old lunchbox. Might be useful for something...
+resourceBottlecaps,items,Item,New,Bottlecaps,,,,,
+resourceBottlecapsDesc,items,Item,New,Bottlecaps left over from various Nuka Colas. Might be useful for something...,,,,,

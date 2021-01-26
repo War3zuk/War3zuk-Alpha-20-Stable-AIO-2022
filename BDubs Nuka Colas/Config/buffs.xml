@@ -1,0 +1,119 @@
+<configs>
+	<append xpath="/buffs">
+
+	<buff name="NukaColaBuff" name_key="Nuka Cola" description_key="The delicious taste of Nuka Cola has you feeling revitalized! Recover stamina quicker, and restore a small amount of max health and stamina. The small trace of radiation also allow for a slight movement speed boost for a limited time!" icon="NukaBuffIcon" tags="drug">
+		<stack_type value="replace"/>
+		<duration value="180"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".1"/>
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.1"/>
+			<passive_effect name="HealthChangeOT" operation="base_add" value=".05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.25">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" duration="180" value="0.1">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="NukaCherryBuff" name_key="Nuka Cherry" description_key="Mmm...Nuka Cherry! Recover stamina quicker, increase melee damage, and restore a decent amount of max health and stamina. The traces of radiation also allow for a moderate movement speed boost for a limited time!" icon="NukaBuffIcon" tags="drug">
+		<stack_type value="replace"/>
+		<duration value="240"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".2"/>
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.1"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.28">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value="5">
+				<requirement name="HoldingItemHasTags" tags="fists,melee" />
+			</passive_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="25"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="NukaQuantumBuff" name_key="Nuka Quantum" description_key="Nuka Quantum has put you into overdrive! Recover stamina and health quicker, and restore a large amount of max health and stamina. The large amount of radiation also allows for a substantial movement speed boost for a limited time, but you'll probably feel it later!" icon="NukaBuffIcon" tags="drug">
+		<stack_type value="replace"/>
+		<duration value="300"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".5"/>
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.15"/>
+			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.2"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_subtract" value="0.25"/>			
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.33">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" duration="300" value="0.2">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="50"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="NukaQuantumSideEffect"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="NukaQuantumSideEffect">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+			</triggered_effect>
+		</effect_group>
+	</buff>
+	
+	<buff name="NukaQuantumSideEffect" name_key="Quantum Effect" description_key="Your body has crashed from the Quantum rush! But hey, at least your pee will glow for a week! Maybe you should lie down..." tooltip_key="buffDrugSteroidsSideEffectTooltip" icon="NukaSideEffectIcon" icon_color="255,128,0" tags="drug">
+		<damage_type value="disease"/>
+		<stack_type value="ignore"/>
+		<duration value="120"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value=".1"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.2"/>
+			<passive_effect name="AttributeLevel" tags="attStrength,attAgility" operation="base_subtract" value="2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+		</effect_group>
+	</buff> 
+			
+	<buff name="NukaQuartzBuff" name_key="Nuka Quartz" description_key="Was that expired? Too late now! Damage resistance is increased and health will regenerate, but it does make you queasy!" icon="NukaBuffIcon" tags="drug">
+		<stack_type value="replace"/>
+		<duration value="240"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".3"/>
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.15"/>
+			<passive_effect name="HealthLoss" operation="perc_subtract" value="0.25"/>
+			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.1"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_subtract" value="0.15"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.27">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="35"/>		
+		</effect_group>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="NukaQuantumSideEffect"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="NukaQuantumSideEffect">
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="33"/>
+			</triggered_effect>
+		</effect_group>
+
+		
+	</buff>
+	
+	<buff name="NukaQuartzSideEffect" name_key="Quartz Effect" description_key="Your body did not appreciate that! Hopefully it was worth it..." tooltip_key="buffDrugSteroidsSideEffectTooltip" icon="NukaSideEffectIcon" icon_color="255,128,0" tags="drug">
+		<damage_type value="disease"/>
+		<stack_type value="ignore"/>
+		<duration value="120"/>
+		<effect_group>
+			<passive_effect name="HealthLoss" operation="perc_add" value="0.1"/>
+			<passive_effect name="AttributeLevel" tags="attStrength,attAgility" operation="base_subtract" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+		</effect_group>
+	</buff> 
+
+	</append>
+</configs>

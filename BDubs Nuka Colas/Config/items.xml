@@ -1,0 +1,365 @@
+<configs>
+	<append xpath="/items">
+	
+		<item name="drinkNukaCola">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="NukaDisplay1"/>
+			<property name="DescriptionKey" value="drinkNukaColaDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaColaDrink.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaColaDrink.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="NukaCola"/>
+			<property name="Stacknumber" value="15"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="125"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="UnlockedBy" value="bookNukaRecipes"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkJarEmpty"/>
+				<property name="Create_item" value="resourceBottlecaps"/>				
+			</property>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="NukaColaLight"/>
+			</property>
+			<property name="Group" value="Basics,Decor/Miscellaneous"/>		
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+			<property name="Group" value="Food/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="10"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="40"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,NukaColaBuff"/>					
+			<display_value name="dStaminaRegen" value=".25"/>
+			<display_value name="dRunSpeed" value=".1"/>
+			<display_value name="dDuration" value="180"/>
+			<display_value name="dInstantHealth" value="20"/>
+			<display_value name="staminaAmount" value=".25" />
+			</effect_group>
+			
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkNukaCherry">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="NukaDisplay2"/>
+			<property name="DescriptionKey" value="drinkNukaCherryDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaCherryDrink.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaCherryDrink.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="NukaCherry"/>
+			<property name="Stacknumber" value="15"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="175"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="UnlockedBy" value="bookNukaRecipes"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="resourceBottlecaps"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="NukaCherryLight"/>
+			</property>
+			<property name="Group" value="Basics,Decor/Miscellaneous"/>		
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+			<property name="Group" value="Food/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="30"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,NukaCherryBuff"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="15"/>
+			<display_value name="dEntityDamageBrawling" value="5"/>
+			<display_value name="dStaminaRegen" value=".28"/>
+			<display_value name="dRunSpeed" value=".2"/>
+			<display_value name="dDuration" value="240"/>
+			<display_value name="dInstantHealth" value="25"/>
+			<display_value name="staminaAmount" value=".28" />
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkNukaQuantum">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="NukaDisplay1"/>
+			<property name="DescriptionKey" value="drinkNukaQuantumDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuantumDrink.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuantumDrink.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="NukaQuantum"/>
+			<property name="Stacknumber" value="15"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="UnlockedBy" value="bookNukaRecipes"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="resourceBottlecaps"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="NukaQuantumLight"/>
+			</property>
+			<property name="Group" value="Basics,Decor/Miscellaneous"/>		
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+			<property name="Group" value="Food/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,NukaQuantumBuff"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="35"/>
+			<display_value name="dStaminaRegen" value=".33"/>
+			<display_value name="dRunSpeed" value=".5"/>
+			<display_value name="dDuration" value="300"/>
+			<display_value name="dInstantHealth" value="50"/>
+			<display_value name="staminaAmount" value=".33" />
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkNukaQuartz">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="NukaDisplay1"/>
+			<property name="DescriptionKey" value="drinkNukaQuartzDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuartzDrink.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuartzDrink.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="NukaQuartz"/>
+			<property name="Stacknumber" value="15"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="UnlockedBy" value="bookNukaRecipes"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="resourceBottlecaps"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="NukaQuartzLight"/>
+			</property>
+			<property name="Group" value="Basics,Decor/Miscellaneous"/>		
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+			<property name="Group" value="Food/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,NukaQuartzBuff"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="maxHealthAmount" operation="add" value="25"/>
+			<display_value name="dStaminaRegen" value=".27"/>
+			<display_value name="dRunSpeed" value=".3"/>
+			<display_value name="dDuration" value="240"/>
+			<display_value name="dInstantHealth" value="35"/>
+			<display_value name="staminaAmount" value=".27" />
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+		
+		<item name="resourceBottlecaps">
+			<property name="Meshfile" value="#Other/Items?Tools/nailProjectilePrefab.prefab"/>
+			<property name="HoldType" value="45"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Bottlecaps"/>
+			<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="2"/>
+			<property name="Stacknumber" value="1000"/> 
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="bookNukaRecipes">
+			<property name="DescriptionKey" value="bookNukaRecipesDesc"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="21"/>
+			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="CustomIcon" value="schematicMaster"/> <property name="CustomIconTint" value="D42F2F"/>	
+			<property name="AltItemTypeIcon" value="book_read"/>
+			<property name="Stacknumber" value="50"/> 
+			<property name="EconomicValue" value="10000"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="FuelValue" value="4"/>
+			<property name="Weight" value="40"/>
+			<property name="Group" value="Books"/>
+			<property name="Unlocks" value="resourceNukaBaseIngredients,drinkNukaCola,drinkNukaCherry,drinkNukaQuartz,drinkNukaQuantum"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/> 
+				<property name="Consume" value="true"/> 
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="ActionExpBonusMultiplier" value="0"/> 
+				<property name="Sound_start" value="recipe_unlocked"/>				
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveSkillExp" target="self" skill="attIntellect" experience="1000"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceNukaBaseIngredients" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkNukaCola" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkNukaCherry" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkNukaQuartz" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkNukaQuantum" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Recipe Unlocked: Nuka Base Ingredients"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Recipe Unlocked: Nuka Cola"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Recipe Unlocked: Nuka Cherry"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Recipe Unlocked: Nuka Quartz"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Recipe Unlocked: Nuka Quantum"/>
+			</effect_group>
+		</item>
+		
+		<item name="resourceNukaBaseIngredients">
+			<property name="HoldType" value="45"/>
+			<property name="DescriptionKey" value="resourceNukaBaseIngredientsDesc"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="D42F2F"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="15"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="CraftingIngredientTime" value="20"/>
+			<property name="Group" value="Science"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="ActionSkillGroup" value="Medicine"/>
+			<property name="UnlockedBy" value="bookNukaRecipes"/>
+		</item>
+		
+		<item name="thrownNukaNade">
+			<property name="Tags" value="weapon,perkExplosiveWeapons"/>
+			<property name="DisplayType" value="ammoGrenade"/>
+			<property name="DescriptionKey" value="thrownNukaNadeDesc"/>
+			<property name="Class" value="ItemClassTimeBomb"/>
+			<property name="HoldType" value="54"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaNade.unity3d?NukaNade.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaNade.unity3d?NukaNade.prefab"/>
+			<property name="DropScale" value="2"/>
+			<property name="CustomIcon" value="NukaNade"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="5"/> 
+			<property name="EconomicValue" value="100"/>
+			<property name="Weight" value="0"/>
+			<property name="Explosion.BlockDamage" value="10"/>
+			<property name="Explosion.EntityDamage" value="400"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="10"/>
+			<property name="Explosion.DamageBonus.stone" value="0.0"/>
+			<property name="Explosion.DamageBonus.metal" value="0.0"/>
+			<property name="Explosion.DamageBonus.earth" value="0"/> 
+			<property name="Explosion.DamageBonus.wood" value="0.05"/>
+			<property name="Explosion.DamageBonus.water" value="0"/>
+			<property name="Explosion.BlastPower" value="500"/> 
+			<property name="FuseTime" value="5"/> 
+			<property class="Action0">
+				<property name="Class" value="ThrowAway"/>
+				<property name="Delay" value="1.2"/> 
+				<property name="Throw_strength_default" value="15"/>
+				<property name="Throw_strength_max" value="30"/>
+				<property name="Max_strain_time" value="1.0"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<property class="Action1"> 
+				<property name="Class" value="Activate"/>
+				<property name="Delay" value="1"/> 
+			</property>
+			<property name="ThrowableDecoy" value="true"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<effect_group tiered="false">
+				<display_value name="ExRadius" value="8" />
+			</effect_group>
+		</item>
+		
+		<item name="cntLunchbox">
+			<property name="HoldType" value="62"/>
+			<property name="DescriptionKey" value="cntLunchboxDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaBottlecapMine.unity3d?handLunchbox.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaBottlecapMine.unity3d?Lunchbox.prefab"/>
+			<property name="DropScale" value="1.5"/> 
+			<property name="Material" value="Miron"/>			
+			<property name="CustomIcon" value="cntLunchbox"/>
+			<property name="Stacknumber" value="15"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="cntLunchbox"/>
+			</property>
+			<property name="Group" value="Resources"/>			
+		</item>
+		
+		<item name="mineBottlecapMine">
+			<property name="HoldType" value="62"/>
+			<property name="DescriptionKey" value="mineBottlecapMineDesc"/>
+			<property name="DisplayType" value="ammoGrenadeContact"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaBottlecapMine.unity3d?handBottlecapMine.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaBottlecapMine.unity3d?BottlecapMine.prefab"/>
+			<property name="DropScale" value="1.5"/> 
+			<property name="Material" value="Miron"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="mineBottlecapMine"/>
+			<property name="Stacknumber" value="5"/> 
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Blockname" value="mineBottlecapMine"/>
+			</property>
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="lightSource"/>
+			<property name="AlwaysActive" value="true"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<effect_group tiered="false">
+				<display_value name="dExDamageEntity" value="350"/>
+				<display_value name="dExDamageBlock" value="10"/>
+				<display_value name="dExRadius" value="4"/>
+			</effect_group>
+		</item>
+		
+		
+	
+	</append>
+</configs>

@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>bdubyah</author>
+		<name>NukaColas</name>
+		<description>Adds in Nuka Colas in 4 flavors. Found in loot and at vending machines. Required for the Nuka Factoy prefab.</description>
+		<mod_version>1.9</mod_version>
+		<game_version>18.4</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+</mod>

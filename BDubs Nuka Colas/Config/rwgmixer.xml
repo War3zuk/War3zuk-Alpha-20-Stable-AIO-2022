@@ -1,0 +1,15 @@
+<configs>
+  
+  <!--  <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='bigcitytownPOIS']">
+    <prefab name="../../Mods/BDubs Nuka Colas/Prefabs/xcostum_Nuka_Factory(by_bdubyah)" min_count="1" max_count="1" prob=".08" min_repeat_distance="4000"/>
+  </append>
+  
+  <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']">
+    <prefab name="../../Mods/BDubs Nuka Colas/Prefabs/xcostum_Nuka_Factory(by_bdubyah)" min_count="1" max_count="1" prob=".09" min_repeat_distance="4000"/>
+  </append>
+  
+  <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrial_Bldgs']">
+    <prefab name="../../Mods/BDubs Nuka Colas/Prefabs/xcostum_Nuka_Factory(by_bdubyah)" min_count="1" max_count="1" prob=".09" min_repeat_distance="4000"/>
+  </append> -->
+  
+</configs>

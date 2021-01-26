@@ -1,0 +1,86 @@
+<configs>
+
+<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+<effect_group>
+<requirement name="!CVarCompare" cvar="AlreadyDead" target="other" operation="GTE" value="3"/>
+<requirement name="HoldingItemHasTags" tags="thrownWeapon,ranged"/>
+<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="self" buff="Hitmarker"> 
+	<requirement name="!HitLocation" body_parts="Head"/>
+	<requirement name="!EntityTagCompare" target="other" tags="player"/>
+	</triggered_effect>
+	
+<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="self" buff="HitmarkerRed"> 
+	<requirement name="HitLocation" body_parts="Head"/>
+	<requirement name="!EntityTagCompare" target="other" tags="player"/>
+	</triggered_effect>
+	
+	<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="self" buff="HitmarkerGreen"> 
+	<requirement name="EntityTagCompare" target="other" tags="player,npc"/>
+	</triggered_effect>
+</effect_group>
+<effect_group>
+<requirement name="!IsAlive" target="other"/>
+<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="AlreadyDead" operation="add" value="2"/>
+</effect_group>
+ </append>
+
+<append xpath="/buffs">	
+		<buff name="Hitmarker">
+		<stack_type value="replace"/>
+			<update_rate value=".05"/>
+		<duration value="0.1"/>
+		<effect_group>
+		<requirement name="IsLocalPlayer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarker" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerRed" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerGreen" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerBlack" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/Hitmarker.unity3d?HitMarker" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="HitmarkerCleaner"/>
+			</effect_group>
+	</buff>
+	
+		<buff name="HitmarkerGreen">
+		<stack_type value="replace"/>
+			<update_rate value=".05"/>
+		<duration value="0.1"/>
+		<effect_group>
+		<requirement name="IsLocalPlayer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarker" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerRed" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerGreen" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerBlack" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/Hitmarker.unity3d?HitMarkerGreen" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="HitmarkerCleaner"/>
+			</effect_group>
+	</buff>	
+	
+		<buff name="HitmarkerRed">
+		<stack_type value="replace"/>
+			<update_rate value=".05"/>
+		<duration value="0.1"/>
+		<effect_group>
+		<requirement name="IsLocalPlayer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarker" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerRed" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerGreen" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerBlack" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="AttachPrefabToEntity" target="self" prefab="#@modfolder:Resources/Hitmarker.unity3d?HitMarkerRed" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="HitmarkerCleaner"/>
+			</effect_group>
+	</buff>		
+	
+			<buff name="HitmarkerCleaner">
+		<stack_type value="replace"/>
+		<duration value="1"/>
+		<effect_group>
+		<requirement name="IsLocalPlayer"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" target="self" prefab="/HitMarker" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerRed" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerGreen" parent_transform="CameraNode"/> 
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" target="self" prefab="/HitMarkerBlack" parent_transform="CameraNode"/> 
+			</effect_group>
+	</buff>		
+
+		</append>
+</configs>

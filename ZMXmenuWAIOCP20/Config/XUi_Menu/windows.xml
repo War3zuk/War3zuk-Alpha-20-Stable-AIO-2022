@@ -1,0 +1,11 @@
+<configs>
+	
+	<remove xpath="/windows/window[@name='changeLogInfoWindow']" />
+	
+	<set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder:Textures/menu/WARmenu1.png</set>
+	<set xpath="/windows/window[@name='mainMenuLogo']/texture/@texture">@modfolder:Textures/menu/WARlogo1.png</set>
+	
+	<set xpath="/windows/window[@name='mainMenu']/label[@name='SMXmenuEditionInfo']/@text_key">War3zuk AIO OverHaul Alpha-19.3 B6 Stable</set>
+	<set xpath="/windows/window[@name='mainMenu']/label[@name='SMXmenuVersionInfo']/@text_key">Version 5.5</set>
+
+</configs>

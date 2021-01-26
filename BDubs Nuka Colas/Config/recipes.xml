@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<configs>
+	<append xpath="/recipes">		
+		
+		<recipe name="resourceNukaBaseIngredients" count="1" craft_area="chemistryStation" tags="learnable" craft_time="30" craft_exp_gain="5">
+			<ingredient name="resourceCropSnowberryPlant" count="2"/>
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="foodCropBlueberries" count="2"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkNukaCola" count="1" craft_area="chemistryStation" tags="learnable" craft_time="25" craft_exp_gain="25">
+			<ingredient name="resourceNukaBaseIngredients" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkNukaCherry" count="1" craft_area="chemistryStation" tags="learnable" craft_time="35" craft_exp_gain="35">
+			<ingredient name="resourceNukaBaseIngredients" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkNukaQuartz" count="1" craft_area="chemistryStation" tags="learnable" craft_time="45" craft_exp_gain="50">
+			<ingredient name="resourceNukaBaseIngredients" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+			<ingredient name="foodRottingFlesh" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkNukaQuantum" count="1" craft_area="chemistryStation" tags="learnable" craft_time="60" craft_exp_gain="75">
+			<ingredient name="resourceNukaBaseIngredients" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+			<ingredient name="foodRottingFlesh" count="10"/>
+			<ingredient name="foodCropGraceCorn" count="10"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="thrownNukaNade" count="1" craft_area="chemistryStation" craft_time="60" craft_exp_gain="75">
+			<ingredient name="drinkNukaQuantum" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="mineBottlecapMine" count="1" craft_area="chemistryStation" craft_time="60" craft_exp_gain="75">
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+			<ingredient name="resourceBottlecaps" count="10"/>
+			<ingredient name="resourceGunPowder" count="15"/>
+			<ingredient name="cntLunchbox" count="1"/>
+		</recipe>
+		
+		
+	</append>
+</configs>

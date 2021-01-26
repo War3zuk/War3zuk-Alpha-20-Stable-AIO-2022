@@ -1,0 +1,10 @@
+<configs>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntVendingMachine2RandomLootHelper']">
+		<block name="cntVendingMachine2Broken" prob=".15"/>
+		<block name="cntVendingMachine2" prob=".05"/>
+		<block name="cntNukaVendingMachineBroken" prob=".4"/>
+		<block name="cntNukaVendingMachine" prob=".4"/>
+	</set>
+	
+</configs>
