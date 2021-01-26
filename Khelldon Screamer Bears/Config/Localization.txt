@@ -1,0 +1,5 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonScreamerBear,entityclasses,Entity,,,Screamer Bear
+khelldonScreamerBearBaby,entityclasses,Entity,,,Screamer Baby Bear
+khelldonScreamerBearTeen,entityclasses,Entity,,,Screamer Teenage Bear
+khelldonScreamerBearHuge,entityclasses,Entity,,,Screamer Bear Huge

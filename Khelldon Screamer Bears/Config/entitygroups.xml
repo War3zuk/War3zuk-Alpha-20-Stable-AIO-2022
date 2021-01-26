@@ -1,0 +1,19 @@
+<Khelldon>
+	
+<remove xpath="/entitygroups/entitygroup[@name='ZombieScouts']/entity[@name='zombieScreamer']"/>
+
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" >
+	<entity name="zombieScreamer" prob="0.1"/>
+</append>
+
+<append xpath="/entitygroups/entitygroup[@name='ZombieScouts']" >
+	<entity name="khelldonScreamerBear" prob=".05"/>
+</append>
+
+<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]" >
+	<entity name="khelldonScreamerBearBaby" prob="0.4"/>
+	<entity name="khelldonScreamerBearTeen" prob="0.3"/>
+	<entity name="khelldonScreamerBear" prob="0.2"/>
+	<entity name="khelldonScreamerBearHuge" prob="0.1"/>
+	</append>
+</Khelldon>

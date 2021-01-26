@@ -1,0 +1,67 @@
+<configs>
+		<append xpath="/blocks">	
+      <block name="Goldenrod">
+		  <property name="Class" value="CropsGrown"/>
+        <property name="Material" value="Mplants" />
+        <property name="LightOpacity" value="0"/>
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQGoldenrodPrefab"/>
+        <property name="ModelOffset" value="0,-0.1,0"/>
+        <property name="ImposterDontBlock" value="true"/>
+        <property name="Collide" value="melee"/>
+        <property name="StabilitySupport" value="false"/>
+        <property name="IsTerrainDecoration" value="true" />
+        <property name="IsDecoration" value="true"/>
+        <property name="PlantGrowing.FertileLevel" value="1"/>
+        <property name="HarvestOverdamage" value="false"/>
+        <drop event="Destroy" count="0" />
+        <drop event="Harvest" name="resourceCropGoldenrodPlant" count="1" tag="wildCropsHarvest"/>
+        <property name="DisplayInfo" value="Name"/>
+        <property name="FilterTags" value="foutdoor,fcrops"/>
+        <property name="SortOrder1" value="a090"/>
+        <property name="SortOrder2" value="0002"/>
+      </block>
+      <block name="Chrysanthemum">
+		  <property name="Class" value="CropsGrown"/>
+        <property name="Material" value="Mplants" />
+        <property name="LightOpacity" value="0"/>
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQChrysanthemumPrefab"/>
+        <property name="ModelOffset" value="0,-0.1,0"/>
+        <property name="ImposterDontBlock" value="true"/>
+        <property name="Collide" value="melee"/>
+        <property name="StabilitySupport" value="false"/>
+        <property name="IsTerrainDecoration" value="true" />
+        <property name="IsDecoration" value="true"/>
+        <property name="PlantGrowing.FertileLevel" value="1"/>
+        <property name="HarvestOverdamage" value="false"/>
+        <drop event="Destroy" count="0" />
+        <drop event="Harvest" name="resourceCropChrysanthemumPlant" count="1" tag="wildCropsHarvest"/>
+        <property name="DisplayInfo" value="Name"/>
+        <property name="FilterTags" value="foutdoor,fcrops"/>
+        <property name="SortOrder1" value="a090"/>
+        <property name="SortOrder2" value="0002"/>
+      </block>
+      <block name="Cotton">
+		  <property name="Class" value="CropsGrown"/>
+        <property name="Material" value="Mplants" />
+        <property name="LightOpacity" value="0"/>
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQCottonPrefab"/>
+        <property name="ModelOffset" value="0,-0.1,0"/>
+        <property name="ImposterDontBlock" value="true"/>
+        <property name="Collide" value="melee"/>
+        <property name="StabilitySupport" value="false"/>
+        <property name="IsTerrainDecoration" value="true" />
+        <property name="IsDecoration" value="true"/>
+        <property name="PlantGrowing.FertileLevel" value="1"/>
+        <property name="HarvestOverdamage" value="false"/>
+        <drop event="Destroy" count="0" />
+        <drop event="Harvest" name="resourceCropCottonPlant" count="1" tag="wildCropsHarvest"/>
+        <property name="DisplayInfo" value="Name"/>
+        <property name="FilterTags" value="foutdoor,fcrops"/>
+        <property name="SortOrder1" value="a090"/>
+        <property name="SortOrder2" value="0002"/>
+      </block>
+		</append>
+</configs>

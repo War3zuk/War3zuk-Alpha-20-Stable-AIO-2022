@@ -1,0 +1,260 @@
+<configs>
+	
+	<append xpath="/entity_classes">
+
+		<!-- <entity_class name="pjVehicle4x4Truck">
+			<property name="Extends" value="vehicle4x4Truck"/>
+			<property name="Prefab" value="#@modfolder:Resources/Vehicles.unity3d?jeep_Prefab"/>
+		</entity_class> -->
+		<entity_class name="pjVehicle4x4TruckWhite" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckBlue" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckRed" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckSpartan" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_spartan"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckMissSpartan" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_miss_spartan"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckTest" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_test_pattern"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckUK" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4Patrol" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-patrol"/>
+		</entity_class>
+
+		<!-- Motorcycles -->
+		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_nohood"/>
+		</entity_class>
+
+
+		<entity_class name="pjVehicleMotorcycleRed" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_nohood"/>
+		</entity_class>
+		
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGold" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_nohood"/>
+		</entity_class>
+		
+
+		<entity_class name="pjVehicleMotorcycleBlue" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlueNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_blue_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlueNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_blue_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlueNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_blue_nohood"/>
+		</entity_class>
+		
+
+		<entity_class name="pjVehicleMotorcycleBlackAndRed" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlackAndRedNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlackAndRedNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBlackAndRedNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_nohood"/>
+		</entity_class>
+		
+		<!-- For the base model (copied from MotorcycleAlterations) -->
+		<entity_class name="pjVehicleMotorcycleNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_nohood"/>
+		</entity_class>
+
+
+		<!-- Bicycles -->
+		<entity_class name="pjVehicleBicycleBlack" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_black"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleBlue" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleCyan" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_cyan"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleGreen" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_green"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicyclePink" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_pink"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleRed" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleWhite" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white"/>
+		</entity_class>
+
+		<!-- Minibikes -->
+		<entity_class name="pjVehicleMinibikeWhite" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeBlack" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_black"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeBlue" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeGreen" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_green"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikePink" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_pink"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeRed" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeTeal" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_teal"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeYellow" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_yellow"/>
+		</entity_class>
+
+	</append>
+
+	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
+	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+
+	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
+	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base</setattribute>
+
+	<!-- Change the model for the standard Minibike -->
+	<setattribute xpath="//entity_class[@name='vehicleMinibike']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base</setattribute>
+
+
+</configs>
