@@ -62,6 +62,20 @@
   <prefab_rules>
 	<prefab_rule name="prefabGroup4k">
 		<prefab rule="prefabList"/>
+			<prefab name="trader_rekt" min_count="1" max_count="1" min_repeat_distance="500" />
+			<prefab name="trader_joel" min_count="1" max_count="1" min_repeat_distance="500" />
+			<prefab name="trader_jen" min_count="1" max_count="1" min_repeat_distance="500" />
+			<prefab name="trader_bob" min_count="1" max_count="1" min_repeat_distance="500" />
+			<prefab name="trader_hugh" min_count="1" max_count="1" min_repeat_distance="500" />
+			<prefab name="Custom_Trader_01" min_count="1" max_count="1" min_repeat_distance="1500" />
+			<prefab name="HUB51traders" min_count="1" max_count="1" min_repeat_distance="1500" />
+			<prefab name="War3zuk_Multi_Trader_01" min_count="1" max_count="1" min_repeat_distance="1500" />
+			<prefab name="War3zuk_Trader_Apoc01" min_count="1" max_count="1" min_repeat_distance="1500" />
+			<prefab name="xcostum_Multi_Trader_by_Sparrow" min_count="1" max_count="1" min_repeat_distance="1500" />
+	</prefab_rule>
+	
+	<prefab_rule name="prefabGroup8k">
+		<prefab rule="prefabList"/>
 			<prefab name="trader_rekt" min_count="1" max_count="1" min_repeat_distance="1500" />
 			<prefab name="trader_joel" min_count="1" max_count="1" min_repeat_distance="1500" />
 			<prefab name="trader_jen" min_count="1" max_count="1" min_repeat_distance="1500" />
@@ -71,21 +85,7 @@
 			<prefab name="HUB51traders" min_count="1" max_count="1" min_repeat_distance="2500" />
 			<prefab name="War3zuk_Multi_Trader_01" min_count="1" max_count="1" min_repeat_distance="2500" />
 			<prefab name="War3zuk_Trader_Apoc01" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="xcostum_Multi_Trader_by_Sparrow" min_count="1" max_count="1" min_repeat_distance="2500" />
-	</prefab_rule>
-	
-	<prefab_rule name="prefabGroup8k">
-		<prefab rule="prefabList"/>
-			<prefab name="trader_rekt" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="trader_joel" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="trader_jen" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="trader_bob" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="trader_hugh" min_count="1" max_count="1" min_repeat_distance="2500" />
-			<prefab name="Custom_Trader_01" min_count="1" max_count="1" min_repeat_distance="4500" />
-			<prefab name="HUB51traders" min_count="1" max_count="1" min_repeat_distance="4500" />
-			<prefab name="War3zuk_Multi_Trader_01" min_count="1" max_count="1" min_repeat_distance="4500" />
-			<prefab name="War3zuk_Trader_Apoc01" min_count="1" max_count="1" min_repeat_distance="4500" />
-			<prefab name="xcostum_Multi_Trader_by_Sparrow" min_count="1" max_count="1" min_repeat_distance="4500" />
+			<prefab name="xcostum_Multi_Trader_by_Sparrow" min_count="1" max_count="1" min_repeat_distance="3500" />
 	</prefab_rule>
 	
 	<prefab_rule name="prefabList">
