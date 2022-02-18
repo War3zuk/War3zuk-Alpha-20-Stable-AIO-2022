@@ -1,6 +1,0 @@
-<configs>
-
-  <set xpath="/windows/window[@name='ingameMenu']/label[@name='SMXmenuEditionInfo']/@text_key">War3zuk AIO OverHaul Alpha-19.3 B6 Stable</set>
-  <set xpath="/windows/window[@name='ingameMenu']/label[@name='SMXmenuVersionInfo']/@text_key">Version 5.5</set>
-
-</configs>

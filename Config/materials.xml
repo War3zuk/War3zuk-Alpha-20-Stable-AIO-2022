@@ -1,0 +1,128 @@
+<configs>
+	
+	<set xpath="/materials/material[@id='Mboulder']/property[@name='MaxDamage']/@value">800</set>
+	<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">900</set>
+	<set xpath="/materials/material[@id='MoreMetal']/property[@name='MaxDamage']/@value">1000</set>
+	
+<append xpath="/materials">
+
+<material id="Scrapped Schematics">
+	<property name="damage_category" value="cloth"/>
+	<property name="surface_category" value="cloth"/>
+	<property name="forge_category" value="Scrapped Schematics"/>
+	<property name="Hardness" type="float" value="0.1"/>
+	<property name="stepsound" value="wood"/>
+	<property name="stability_glue" value="0"/>
+	<property name="Mass" type="int" value="5"/>
+</material>
+	
+<material id="Kryptonite">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="400"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="2.5"/>
+	<property name="MaxDamage" value="20000"/>
+	<property name="Experience" value="0"/>
+</material>
+
+<material id="MresourceForgedBrass">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="Brass"/>
+</material>
+
+<material id="MresourceForgedTitanium">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="Brass"/>
+</material>
+
+<material id="MSteelPolish">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="1.85"/>
+	<property name="MaxDamage" value="12000"/>
+	<property name="Experience" value="8"/>
+</material>
+
+<material id="MTitaniumPolish">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="2.00"/>
+	<property name="MaxDamage" value="15000"/>
+	<property name="Experience" value="10"/>
+</material>
+
+<material id="BoxedWood">
+	<property name="damage_category" value="wood"/>
+	<property name="surface_category" value="wood"/>
+	<property name="particle_category" value="wood"/>
+	<property name="forge_category" value="wood"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="wood"/>
+	<property name="lightopacity" value="1"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="plant" value="true"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="Experience" value="0"/>
+</material>
+
+<material id="MBreachingMine">
+	<property name="damage_category" value="stone"/>
+	<property name="surface_category" value="metal"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="10"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Experience" value="0"/>
+</material>
+
+<material id="MHazmatFiber">
+	<property name="damage_category" value="cloth"/>
+	<property name="surface_category" value="cloth"/>
+	<property name="forge_category" value="resourceMilitaryFiber"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="cloth"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="0"/>
+	<property name="Mass" type="int" value="1"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Experience" value="4"/>
+</material>
+
+<material id="HDPlantMaterial">
+	<property name="damage_category" value="earth"/>
+	<property name="surface_category" value="plant"/>
+	<property name="particle_category" value="xt_tallgrass"/>
+	<property name="particle_destroy_category" value="xt_tallgrass"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="grass"/>
+	<property name="lightopacity" value="0"/>
+	<property name="plant" value="true"/>
+	<property name="stability_glue" value="0"/>
+	<property name="Mass" type="int" value="1"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Experience" value="0"/>
+</material>
+
+</append>
+</configs>

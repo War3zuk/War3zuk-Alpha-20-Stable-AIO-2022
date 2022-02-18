@@ -1,5 +1,0 @@
-Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-
-ManuxQuad,vehicles,item,EnChanged,Manux's Quad,,,,,
-ManuxQuad,vehicles,vehicle,EnChanged,Manux's Quad,,,,,
-ManuxQuadDesc,vehicles,vehicle,EnChanged,What would be the Apocalypse without a Quad.,

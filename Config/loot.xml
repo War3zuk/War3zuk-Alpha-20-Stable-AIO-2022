@@ -1,0 +1,1644 @@
+<configs>
+	
+	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
+
+	
+	<remove xpath="/lootcontainers/lootcontainer[@id='25']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='34']"></remove>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
+	
+<lootgroup name="War3zukHDWeaponParts01" count="1">
+		<item group="booksAllScaled" loot_prob_template="med"/>
+		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+		<item group="groupValuablesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+</lootgroup>
+	
+<lootgroup name="War3zukHDWeaponParts02" count="1">
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+	
+<lootgroup name="War3zukHDWeaponParts" count="1">
+	<item group="War3zukHDWeaponParts01" loot_prob_template="high"/>
+	<item group="War3zukHDWeaponParts02" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDWeapons01" count="1">
+		<item group="booksAllScaled" loot_prob_template="med"/>
+		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+		<item group="groupValuablesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDWeapons02" count="1">
+		<item name="HD BR1NXlS Booper Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Flame Thrower Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Desert Eagle Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Double Barrel Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Spas 12 Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Mossberg 500 Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Mac10 Auto Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD M3 Auto Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD M4A1 Carbine Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Tactical AR Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Winchester 1866 Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Royal Enfield Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD M1 Garand Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Karabiner 98k Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Dragunov SVD Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD CheyTac M300 Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Arctic Warfare Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Rocket Launcher Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Mods Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDWeapons" count="1">
+	<item group="War3zukHDWeapons01" loot_prob_template="high"/>
+	<item group="War3zukHDWeapons02" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenches01" count="1">
+		<item group="booksAllScaled" loot_prob_template="med"/>
+		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+		<item group="groupValuablesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenches02" count="1">
+		<item name="HD GunBench Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD WorkBench Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD AmmoBench Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD PicsBench Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenches" count="1">
+	<item group="War3zukHDBenches01" loot_prob_template="med"/>
+	<item group="War3zukHDBenches02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenchAddons01" count="1">
+		<item group="booksAllScaled" loot_prob_template="med"/>
+		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+		<item group="groupValuablesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenchAddons02" count="1">
+		<item name="HD Tool And Die Set Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Grinder Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Bullet Press Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Welder Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Cnc Automatics Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Cnc Rifles Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDBenchAddons" count="1">
+	<item group="War3zukHDBenchAddons01" loot_prob_template="med"/>
+	<item group="War3zukHDBenchAddons02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDTools01" count="1">
+		<item group="booksAllScaled" loot_prob_template="med"/>
+		<item group="schematicsToolsCommon" loot_prob_template="med"/>
+		<item group="groupValuablesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDTools02" count="1">
+		<item name="HDPumpJackE Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Wrench Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Junk Turret Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Forge Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Cement Mixer Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Generator Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Gas Generator Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Auger Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Chainsaw Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Impact Wrench Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDTools" count="1">
+	<item group="War3zukHDTools01" loot_prob_template="med"/>
+	<item group="War3zukHDTools02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDAmmo01" count="1">
+		<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1" loot_prob_template="low"/>
+		<item name="Ammo Supply Shredder" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 9mm" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDAmmo02" count="1">
+		<item name="Ammo Supply 44Mag" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 45 ACP" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply DE50" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply Shotgun" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply ShotgunSlug" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply Breach Slug" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 500 Auto Max" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 762mm" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 408 Round" count="1" loot_prob_template="med"/>
+		<item name="Ammo Supply 50 BMG Round" count="1" loot_prob_template="med"/>
+		<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle408Round" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="low"/>
+		<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDAmmo" count="1">
+	<item group="War3zukHDAmmo01" loot_prob_template="med"/>
+	<item group="War3zukHDAmmo02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMilitary01" count="1">
+		<item name="Military Purify Tablets" count="1,2" loot_prob_template="med"/>
+		<item name="MREMilitaryRation" count="1" loot_prob_template="med"/>
+		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+		<item name="resourceLockPick" count="1,4" loot_prob_template="med"/>
+		<item name="HD Blunderbuss" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMilitary02" count="1">
+		<item name="HD Military Gloves Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Military Boots Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Military Legs Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Military Vest Schematic" count="1" loot_prob_template="low"/>
+		<item name="HD Military Helmet Schematic" count="1" loot_prob_template="low"/>
+		<item name="HDArmorReinforcedPadding" count="1" loot_prob_template="low"/>
+		<item name="HDArmorPlasticPlating" count="1" loot_prob_template="low"/>
+		<item name="HDArmorMilitaryPlating" count="1" loot_prob_template="low"/>
+		<item name="HDArmorScrapPlating" count="1" loot_prob_template="low"/>
+		<item name="HDArmorIronPlating" count="1" loot_prob_template="low"/>
+		<item name="HDArmorSteelPlating" count="1" loot_prob_template="low"/>
+		<item name="HD Hazmat Fiber Schematic" count="1" loot_prob_template="low"/>
+		<item name="MREMilitaryRation" count="1,2" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMilitary" count="1">
+	<item group="War3zukHDMilitary01" loot_prob_template="med"/>
+	<item group="War3zukHDMilitary02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMedical01" count="1">
+	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
+	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMedical02" count="1">
+		<item name="HD First Aid Kit Schematic" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDMedical" count="1">
+	<item group="War3zukHDMedical01" loot_prob_template="med"/>
+	<item group="War3zukHDMedical02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFlares01" count="1">
+	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
+	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFlares02" count="1">
+		<item name="Food Supply Flare" count="1" loot_prob_template="low"/>
+		<item name="Ammo Supply Flare" count="1" loot_prob_template="low"/>
+		<item name="Building Supply Flare" count="1" loot_prob_template="low"/>
+		<item name="Health Supply Flare" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFlares" count="1">
+	<item group="War3zukHDFlares01" loot_prob_template="verylow" force_prob="true"/>
+	<item group="War3zukHDFlares02" loot_prob_template="verylow" force_prob="true"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDCarePackages01" count="1">
+	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
+	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDCarePackages02" count="1">
+		<item name="HD Care Package" count="1" loot_prob_template="med"/>
+		<item name="HD Food Care Package" count="1" loot_prob_template="med"/>
+		<item name="HD Ammo Care Package" count="1" loot_prob_template="med"/>
+		<item name="HD Resource Care Package" count="1" loot_prob_template="med"/>
+		<item name="HD Medicine Care Package" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDCarePackages" count="1">
+	<item group="War3zukHDCarePackages01" loot_prob_template="med"/>
+	<item group="War3zukHDCarePackages02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFoods01" count="1">
+	<item name="drinkJarBoiledWater" count="2,4" loot_prob_template="med"/>
+	<item group="cannedfood" count="2,4" loot_prob_template="low"/>
+	<item group="farmingCookingRecipesCommon" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFoods02" count="1">
+		<item name="HDBowl" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Honey" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Beef" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Chicken" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Lamb" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Surprise" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Chili" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Pasta" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Salmon" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Sirloin" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Vegetable Stew" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Meat Stew" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Sham Chowder" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Hobo Stew" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Steak And Potato" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky ChiliDog" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Fish Taco" count="1" loot_prob_template="low"/>
+		<item name="Warm Chunky Meat And Mash" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukHDFoods" count="1">
+	<item group="War3zukHDFoods01" loot_prob_template="med"/>
+	<item group="War3zukHDFoods02" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="War3zukSpecialItems01" count="1">
+		<item name="resourceLockPick" count="1,4" loot_prob_template="high"/>
+		<item group="groupScrapCommon" loot_prob_template="high"/>
+</lootgroup>
+
+<lootgroup name="War3zukSpecialItems02" count="1">
+		<item name="HDRuckSackUpgrade" count="1" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukSpecialItems" count="1">
+	<item group="War3zukSpecialItems01" loot_prob_template="high"/>
+	<item group="War3zukSpecialItems02" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="War3zukDumpsterLoot01" count="1,2">
+	<item name="HDAeroDynamicsUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDFuelSaverUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDTurboUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDTurboUpgrade" count="1" loot_prob_template="low"/>
+	<item name="resourceLockPick" count="1,2" loot_prob_template="med"/>
+	<item group="groupScrapCommon" loot_prob_template="high"/>
+</lootgroup>
+
+<lootgroup name="War3zukDumpsterLoot02" count="1">
+	<item group="groupScrapCommon" loot_prob_template="med"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="verylow"/>
+</lootgroup>	
+
+<lootgroup name="War3zukDumpsterLoot" count="1">
+	<item group="War3zukDumpsterLoot01" loot_prob_template="high"/>
+	<item group="War3zukDumpsterLoot02" loot_prob_template="verylow"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART1" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.5"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".5"/>
+	<item group="rareOres" count="1,2"/>
+	<item name="oldCash" count="200,250"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT1" count="all">
+	<item group="groupBuriedLootStashTreasureWART1"/>
+	<item name="casinoCoin" count="1000,2000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART2" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.5"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".5"/>
+	<item group="rareOres" count="3,5"/>
+	<item name="oldCash" count="200,350"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT2" count="all">
+	<item group="groupBuriedLootStashTreasureWART2"/>
+	<item name="casinoCoin" count="2000,4000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART3" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.6"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".6"/>
+	<item group="rareOres" count="4,6"/>
+	<item name="oldCash" count="150,300"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT3" count="all">
+	<item group="groupBuriedLootStashTreasureWART3"/>
+	<item name="casinoCoin" count="4000,6000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART4" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.7"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".7"/>
+	<item group="rareOres" count="5,7"/>
+	<item name="oldCash" count="300,450"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT4" count="all">
+	<item group="groupBuriedLootStashTreasureWART4"/>
+	<item name="casinoCoin" count="6000,8000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART5" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.8"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".8"/>
+	<item group="rareOres" count="6,8"/>
+	<item name="oldCash" count="450,600"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT5" count="all">
+	<item group="groupBuriedLootStashTreasureWART5"/>
+	<item name="casinoCoin" count="8000,10000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART6" count="all">
+	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
+	<item group="groupArmorT2" prob="0.9"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".9"/>
+	<item group="rareOres" count="8,10"/>
+	<item name="oldCash" count="600,900"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT6" count="all">
+	<item group="groupBuriedLootStashTreasureWART6"/>
+	<item name="casinoCoin" count="10000,12000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHiddenStash']">
+	
+<lootgroup name="SupplyMaterials" count="1">
+    <item name="resourceScrapBrass" count="50,100" loot_prob_template="low"/>
+	<item name="resourceFeather" count="10,20" loot_prob_template="low"/>
+	<item name="resourceGunPowder" count="10,50" loot_prob_template="low"/>
+	<item name="resourceNail" count="10,20" loot_prob_template="low"/>
+	<item name="resourceGlue" count="10,20" loot_prob_template="low"/>
+	<item name="resourceBulletCasing" count="100,200" loot_prob_template="low"/>
+	<item name="resourceDuctTape" count="10,20" loot_prob_template="low"/>
+	<item name="resourceScrapPolymers" count="100,200" loot_prob_template="low"/>
+	<item name="resourceLockPick" count="10,20" loot_prob_template="low"/>
+	<item name="resourceSewingKit" count="5,10" loot_prob_template="low"/>
+    <item name="resourceScrapIron" count="200,400" loot_prob_template="low"/>
+    <item name="resourceRockSmallBundle" count="1" loot_prob_template="low"/>
+	<item name="resourceWoodBundle" count="1" loot_prob_template="verylow"/>
+	<item name="resourceIronFragmentBundle" count="1" loot_prob_template="verylow"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" loot_prob_template="verylow"/>
+	<item name="resourceLeadBundle" count="1" loot_prob_template="verylow"/>
+	<item name="resourceCoalBundle" count="1" loot_prob_template="verylow"/>
+	<item name="resourceOilShaleBundle" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMaterials']">
+	
+<lootgroup name="SupplySchematics" count="1">
+	<item name="modArmorHelmetLightSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorBandolierSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorInsulatedLinerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorCoolingMeshSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorPlatingBasicSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorImprovedFittingsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorStoragePocketSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorDoubleStoragePocketSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorMuffledConnectorsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunBarrelExtenderSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunMuzzleBrakeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunFlashlightSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunScopeSmallSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunScopeMediumSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunReflexSightSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunTriggerGroupSemiSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunBipodSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunForegripSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunRetractingStockSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunDuckbillSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunChokeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunMagazineExtenderSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modShotgunSawedOffBarrelSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunCrippleEmSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunBowArrowRestSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunBowPolymerStringSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeTemperedBladeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeSerratedBladeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeWeightedHeadSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeStructuralBraceSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeErgonomicGripSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeFortifyingGripSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeClubBarbedWireSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeClubMetalSpikesSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeClubBurningShaftSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeGraveDiggerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeWoodSplitterSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modFuelTankSmallSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modFuelTankLargeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="medicalFirstAidBandageSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="resourceMilitaryFiberSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunScopeLargeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunLaserSightSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunTriggerGroupBurst3Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunSoundSuppressorSilencerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunTriggerGroupAutomaticSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modGunMeleeRadRemoverSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorPlatingReinforcedSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorTripleStoragePocketSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorAdvancedMuffledConnectorsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorWaterPurifierSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorCustomizedFittingsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeBunkerBusterSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modMeleeIronBreakerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="modArmorImpactBracingSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="medicalFirstAidKitSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="medicalPlasterCastSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drugAntibioticsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drugHerbalAntibioticsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="forgeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolRepairT3NailgunSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolSalvageT2RatchetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolSalvageT3ImpactDriverSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolPickT3AugerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolIronSetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolAxeT3ChainsawSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="ammoGasCanSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="resourceOilSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolSteelSetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnBladeT1HuntingKnifeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolSalvageT1WrenchSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnSledgeT1IronSledgehammerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolPickT3AugerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeToolAxeT3ChainsawSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="toolBellowsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="toolForgeCrucibleSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="toolAnvilSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="cementMixerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="workbenchSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="chemistryStationSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunHandgunT1PistolSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunShotgunT1DoubleBarrelSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunRifleT1HuntingRifleSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunMGT1AK47Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBowT1WoodenBowSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBowT1IronCrossbowSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBotT1JunkSledgeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownAmmoPipeBombSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownGrenadeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnBatonT2StunBatonSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnSpearT1IronSpearSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnKnucklesT1IronKnucklesSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBowT3CompoundBowSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBowT3CompoundCrossbowSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunBotT2JunkTurretSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunHandgunT3SMG5Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunHandgunT2Magnum44Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunHandgunT3DesertVultureSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunShotgunT2PumpShotgunSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunShotgunT3AutoShotgunSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunRifleT2LeverActionRifleSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunRifleT3SniperRifleSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunMGT2TacticalARSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunMGT3M60Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="gunExplosivesT3RocketLauncherSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnBladeT3MacheteSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownDynamiteSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownGrenadeContactSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnKnucklesT3SteelKnucklesSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownGrenadeContactSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownGrenadeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="thrownDynamiteSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="meleeWpnBladeT3MacheteSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="armorLeatherSetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="armorIronSetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="armorMilitarySetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="armorSteelSetSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleBicycleChassisSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleBicycleHandlebarsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleMinibikeChassisSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleMinibikeHandlebarsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleMotorcycleChassisSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleMotorcycleHandlebarsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicle4x4TruckChassisSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicle4x4TruckAccessoriesSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleGyroCopterChassisSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="vehicleGyroCopterAccessoriesSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarCoffeeSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarGoldenRodTeaSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarRedTeaSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkYuccaJuiceSmoothieSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarBeerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarGrandpasAwesomeSauceSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarGrandpasLearningElixirSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="drinkJarGrandpasMoonshineSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodBaconAndEggsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodBakedPotatoSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodBlueberryPieSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodBoiledMeatSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodCornBreadSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodCornOnTheCobSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodGrilledMeatSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodMeatStewSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodSteakAndPotatoSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodVegetableStewSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodShamChowderSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodHoboStewSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodFishTacosSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="foodChiliDogSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedAloe1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedBlueberry1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedChrysanthemum1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedCoffee1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedCorn1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedCotton1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedGoldenrod1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedGraceCorn1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedHop1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedMushroom1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedPotato1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedYucca1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="plantedPumpkin1Schematic" count="1" loot_prob_template="verylow"/>
+	<item name="pressureplateSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="poweredDoorsSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="bladeTrapSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="dartTrapSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="shotgunTurretSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="autoTurretSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="electricfencepostSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="motionsensorSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="speakerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="spotlightPlayerSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="switchSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="batterybankSchematic" count="1" loot_prob_template="verylow"/>
+	<item name="electrictimerrelaySchematic" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+	
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplySchematics']">
+	
+<lootgroup name="SupplyPerkBooks" count="1">	
+		<item name="bookRangersArrowRecovery" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersCripplingShot" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersKnockdown" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersFlamingArrows" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersAPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersExplodingBolts" count="1" loot_prob_template="verylow"/>
+		<item name="bookRangersForestGuide" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningLuckyStrike" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningDiamondTools" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningCoffee" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningBlackStrap" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningPallets" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningAvalanche" count="1" loot_prob_template="verylow"/>
+		<item name="bookArtOfMiningLantern" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsRagdoll" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsMaintenance" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsRecoil" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsDrumMag" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsUncontrolledBurst" count="1" loot_prob_template="verylow"/>
+		<item name="bookAutoWeaponsMachineGuns" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpBaseballBats" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpBigHits" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpGear" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpKnockdown" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpSlowPitch" count="1" loot_prob_template="verylow"/>
+		<item name="bookBatterUpMaintenance" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerAPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerApparel" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerCriminalPursuit" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerHPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerIntimidation" count="1" loot_prob_template="verylow"/>
+		<item name="bookEnforcerPunks" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacSpeed" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacAxes" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacEquipment" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacPrevention" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacHarvest" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacHeat" count="1" loot_prob_template="verylow"/>
+		<item name="bookFiremansAlmanacMolotov" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistAdrenalineFall" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistTimedCharge" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistClaimed" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistGems" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistMotionDetection" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistSafes" count="1" loot_prob_template="verylow"/>
+		<item name="bookGreatHeistSprintSneak" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalBears" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalCoyotes" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalDeer" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalMountainLions" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalVultures" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalWolves" count="1" loot_prob_template="verylow"/>
+		<item name="bookHuntingJournalSelfDefense" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterAmmunition" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterBooks" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterBrass" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterDukes" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterFood" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterLead" count="1" loot_prob_template="verylow"/>
+		<item name="bookLuckyLooterMedical" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadDesertWear" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadDusters" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadFootwear" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadLegwear" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadPockets" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadPufferCoats" count="1" loot_prob_template="verylow"/>
+		<item name="bookNeedleAndThreadWinterWear" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerArchery" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerBlades" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerSilentNight" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerSlumberParty" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerStealthDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerThiefAdrenaline" count="1" loot_prob_template="verylow"/>
+		<item name="bookNightStalkerTwilightThief" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteAPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteHPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteMaintenance" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteSteadyHand" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteSwissKnees" count="1" loot_prob_template="verylow"/>
+		<item name="bookPistolPeteTakeAim" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahBreachingSlugs" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahLimbShot" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahMaintenance" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahMagazine" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahPartyStarter" count="1" loot_prob_template="verylow"/>
+		<item name="bookShotgunMessiahSlugs" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperAPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperControlledBreathing" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperCripplingShot" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperDamage" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperHeadShot" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperReload" count="1" loot_prob_template="verylow"/>
+		<item name="bookSniperHPAmmo" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatAdrenalineRush" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatCigar" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatRoomClearing" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatJumping" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatLandMines" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatLanding" count="1" loot_prob_template="verylow"/>
+		<item name="bookUrbanCombatSneaking" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresAcid" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresCloth" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresCoffins" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresDoors" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresHoney" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresSinks" count="1" loot_prob_template="verylow"/>
+		<item name="bookWasteTreasuresWater" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyPerkBooks']">
+	
+<lootgroup name="SupplyFood" count="1">
+		<item name="foodCanBeef" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanCatfood" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanChicken" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanChili" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanDogfood" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanSham" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanLamb" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanMiso" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanPasta" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanPeas" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanSalmon" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanSoup" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanStock" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanTuna" count="1" loot_prob_template="verylow"/>
+		<item name="foodCanPears" count="1" loot_prob_template="verylow"/>
+		<item name="foodHoney" count="1" loot_prob_template="verylow"/>
+		<item name="foodCornMeal" count="1" loot_prob_template="verylow"/>
+		<item name="drugAtomJunkies" count="1" loot_prob_template="verylow"/>
+		<item name="drugCovertCats" count="1" loot_prob_template="verylow"/>
+		<item name="drugEyeKandy" count="1" loot_prob_template="verylow"/>
+		<item name="drugHackers" count="1" loot_prob_template="verylow"/>
+		<item name="drugHealthBar" count="1" loot_prob_template="verylow"/>
+		<item name="drugJailBreakers" count="1" loot_prob_template="verylow"/>
+		<item name="drugNerdTats" count="1" loot_prob_template="verylow"/>
+		<item name="drugOhShitzDrops" count="1" loot_prob_template="verylow"/>
+		<item name="drugRockBusters" count="1" loot_prob_template="verylow"/>
+		<item name="drugSkullCrushers" count="1" loot_prob_template="verylow"/>
+		<item name="drugSugarButts" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Honey" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Beef" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Chicken" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Lamb" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Surprise" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Chili" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Pasta" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Salmon" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Sirloin" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Vegetable Stew" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Meat Stew" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Sham Chowder" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Hobo Stew" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Steak And Potato" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky ChiliDog" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Fish Taco" count="1" loot_prob_template="verylow"/>
+		<item name="Warm Chunky Meat And Mash" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">
+	
+<lootgroup name="SupplyParts" count="1">
+		<item name="gunMGT1AK47Parts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunHandgunT1PistolParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunBowT1WoodenBowParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunRifleT1HuntingRifleParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunShotgunT1DoubleBarrelParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunExplosivesT3RocketLauncherParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="gunBotRoboticsParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnBatonT2StunBatonParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnBladeT3MacheteParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnSpearT3SteelSpearParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnClubT3SteelClubParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnSledgeT3SteelSledgehammerParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeWpnKnucklesT3SteelKnucklesParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeToolAxeT3ChainsawParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="meleeToolAllSteelParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="armorMilitarySetParts" count="1,2" loot_prob_template="verylow"/>
+		<item name="RepairKitHandGuns" count="1,2" loot_prob_template="verylow"/>
+		<item name="RepairKitAutomaticRifles" count="1,2" loot_prob_template="verylow"/>
+		<item name="RepairKitShotGuns" count="1,2" loot_prob_template="verylow"/>
+		<item name="RepairKitHuntingRifles" count="1,2" loot_prob_template="verylow"/>
+</lootgroup>
+	 
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyParts']">
+	
+<lootgroup name="SupplyWeapons" count="1">
+	    <item name="gunHandgunT0PipePistol" count="1" loot_prob_template="verylow"/>
+		<item name="gunShotgunT0PipeShotgun" count="1" loot_prob_template="verylow"/>
+		<item name="gunRifleT0PipeRifle" count="1" loot_prob_template="verylow"/>
+		<item name="gunMGT0PipeMachineGun" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyWeapons']">
+	
+<lootgroup name="SupplyMedical" count="1">
+        <item name="medicalFirstAidKit" count="1" loot_prob_template="verylow"/>
+		<item name="toolBeaker" count="1" loot_prob_template="verylow"/>
+		<item name="drugAntibiotics" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugSteroids" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugRecog" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugFortBites" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugPainkillers" count="1,2" loot_prob_template="verylow"/>
+		<item name="medicalFirstAidBandage" count="1,2" loot_prob_template="verylow"/>
+		<item name="medicalBandage" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugSteroids" count="1,2" loot_prob_template="verylow"/>
+		<item name="medicalBloodBag" count="1,2" loot_prob_template="verylow"/>
+		<item name="drugVitamins" count="1,2" loot_prob_template="verylow"/>
+		<item name="medicalSplint" count="1,2" loot_prob_template="verylow"/>
+		<item name="HD Bollock Rot Injection" count="1" loot_prob_template="verylow"/>
+		<item name="HD Bird Flu Injection" count="1" loot_prob_template="verylow"/>
+		<item name="HD Brain Herpes Injection" count="1" loot_prob_template="verylow"/>
+		<item name="HD MRSA Injection" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+	
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMedical']">
+	
+<lootgroup name="SupplyAmmo" count="1">
+        <item name="ammo9mmBulletBall" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo9mmBulletHP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo9mmBulletAP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo44MagnumBulletBall" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo44MagnumBulletHP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo44MagnumBulletAP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo762mmBulletBall" count="15,30" loot_prob_template="verylow"/>
+		<item name="ammo762mmBulletHP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammo762mmBulletAP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoShotgunShell" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoShotgunSlug" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoShotgunBreachingSlug" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoJunkTurretRegular" count="15,30" loot_prob_template="verylow"/>
+		<item name="ammoJunkTurretShell" count="15,30" loot_prob_template="verylow"/>
+		<item name="ammoJunkTurretAP" count="15,30" loot_prob_template="verylow"/>
+		<item name="ammoRocketHE" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoRocketFrag" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoGasCan" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoArrowStone" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoArrowIron" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoArrowSteelAP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoArrowFlaming" count="15,30" loot_prob_template="verylow"/>
+		<item name="ammoArrowExploding" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoCrossbowBoltStone" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoCrossbowBoltIron" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoCrossbowBoltSteelAP" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoCrossbowBoltFlaming" count="15,30" loot_prob_template="verylow"/>
+        <item name="ammoCrossbowBoltExploding" count="15,30" loot_prob_template="verylow"/>
+		<item name="HD Advanced Shredder Ammo" count="15,30" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmo']">
+	
+<lootgroup name="SupplyAmmoBundles" count="1">
+        <item name="ammoBundle9mmBulletBall" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundle9mmBulletHP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle9mmBulletAP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle44MagnumBulletBall" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle44MagnumBulletHP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle44MagnumBulletAP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle762mmBulletBall" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundle762mmBulletHP" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundle762mmBulletAP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleShotgunShell" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleShotgunSlug" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleShotgunBreachingSlug" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleJunkTurretRegular" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleJunkTurretShell" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundleJunkTurretAP" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundleArrowStone" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleArrowIron" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundleArrowSteelAP" count="1" loot_prob_template="verylow"/>
+		<item name="ammoBundleArrowFlaming" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleArrowExploding" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleCrossbowBoltStone" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleCrossbowBoltIron" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleCrossbowBoltSteelAP" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleCrossbowBoltFlaming" count="1" loot_prob_template="verylow"/>
+        <item name="ammoBundleCrossbowBoltExploding" count="1" loot_prob_template="verylow"/>
+		<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="verylow"/>
+		<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="verylow"/>
+		<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="verylow"/>
+		<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="verylow"/>
+		<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+	
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmoBundles']">
+	
+<lootgroup name="SupplyTools" count="1">
+        <item name="meleeToolSalvageT1Wrench" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolRepairT1ClawHammer" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolRepairT3Nailgun" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolAxeT1IronFireaxe" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolPickT1IronPickaxe" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolShovelT2SteelShovel" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolAxeT3Chainsaw" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolPickT3Auger" count="1" loot_prob_template="verylow"/>
+		<item name="meleeToolAxeT3Chainsaw" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolSalvageT1Wrench" count="1" loot_prob_template="verylow"/>
+        <item name="meleeToolSalvageT2Ratchet" count="1" loot_prob_template="verylow"/>
+		 <item name="meleeToolSalvageT3ImpactDriver" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyTools']">
+	
+<lootgroup name="SupplyAutomotive" count="1">
+        <item name="vehicleBicycleChassis" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleBicycleHandlebars" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleWheels" count="1" loot_prob_template="verylow"/>
+        <item name="vehicleMinibikeChassis" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleMinibikeHandlebars" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleMotorcycleChassis" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleMotorcycleHandlebars" count="1" loot_prob_template="verylow"/>
+		<item name="vehicle4x4TruckChassis" count="1" loot_prob_template="verylow"/>
+		<item name="vehicle4x4TruckAccessories" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleGyroCopterChassis" count="1" loot_prob_template="verylow"/>
+		<item name="vehicleGyroCopterAccessories" count="1" loot_prob_template="verylow"/>
+		<item name="smallEngine" count="1" loot_prob_template="verylow"/>
+		<item name="carBattery" count="1" loot_prob_template="verylow"/>
+		<item name="ammoGasCan" count="150,500" loot_prob_template="verylow"/>
+</lootgroup>
+		
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAutomotive']">	
+	
+<lootgroup name="SupplyGroups" count="1,2">
+		<item group="SupplyMaterials" count="1" loot_prob_template="verylow"/>
+        <item group="SupplyFood" count="1" loot_prob_template="verylow"/>
+        <item group="SupplyWeapons" count="1" loot_prob_template="verylow"/>
+        <item group="SupplySchematics" count="1" loot_prob_template="verylow"/>
+		<item group="SupplyPerkBooks" count="1" loot_prob_template="verylow"/>
+		<item group="SupplyMedical" count="1" loot_prob_template="verylow"/>
+		<item group="SupplyParts" count="1" loot_prob_template="verylow"/>
+        <item group="SupplyAutomotive" count="1" loot_prob_template="verylow"/>
+        <item group="SupplyAmmo" count="1" loot_prob_template="verylow"/>
+		<item group="SupplyAmmoBundles" count="1" loot_prob_template="verylow"/>
+        <item group="SupplyTools" count="1" loot_prob_template="verylow"/>
+</lootgroup>
+	
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGroups']">
+	
+<lootgroup name="SupplyGeneric" count="all">
+        <item group="groupApparelClothes" count="1" loot_prob_template="med"/>
+        <item group="booksAllScaled" count="1" loot_prob_template="med"/>
+</lootgroup>
+	   
+</insertAfter>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGeneric']">
+	
+<lootgroup name="SupplyCrate" count="all">
+        <item group="SupplyGeneric"/>
+        <item group="SupplyGroups"/>
+</lootgroup>
+	
+</insertAfter>
+
+<append xpath="/lootcontainers/lootcontainer[@id='11']">
+	<item group="War3zukHDFoods"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='12']">
+	<item group="War3zukHDFlares"/>
+	<item group="War3zukHDAmmo"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='21']">
+	<item group="War3zukHDFoods"/>
+</append>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='24']" >
+<lootcontainer id="25" name="birdNest" count="3" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item name="resourceFeather" count="4,6" loot_prob_template="high"/>
+	<item name="foodEgg" count="2,3" loot_prob_template="med"/>
+	<item name="CuteBabyChick" count="2,3" loot_prob_template="med"/>
+	<item name="Cute Baby Bee" count="2,3" loot_prob_template="med"/>
+	<item name="ammo9mmBulletBall" count="4,6" loot_prob_template="low"/>
+</lootcontainer>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
+<lootcontainer id="34" name="airDrop" count="4" size="9,9" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+     	<item group="SupplyCrate"/>
+</lootcontainer>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='34']" >
+<lootcontainer id="35" name="treeStump" count="3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item name="resourceFeather" count="4,6" loot_prob_template="high"/>
+	<item name="foodEgg" count="2,3" loot_prob_template="med"/>
+	<item name="CuteBabyChick" count="2,3" loot_prob_template="med"/>
+	<item name="Cute Baby Bee" count="2,3" loot_prob_template="med"/>
+	<item name="ammo9mmBulletBall" count="4,6" loot_prob_template="low"/>
+</lootcontainer>
+</insertAfter>
+
+<append xpath="/lootcontainers/lootcontainer[@id='40']">	
+	<item group="War3zukHDFlares"/>
+	<item group="War3zukHDMilitary"/>
+	<item group="War3zukHDAmmo"/>
+	<item group="War3zukHDWeapons"/>
+	<item group="War3zukHDWeaponParts"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='42']">	
+	<item group="War3zukHDFlares"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='43']">	
+	<item group="War3zukHDCarePackages"/>
+	<item group="War3zukHDMilitary"/>
+	<item group="War3zukSpecialItems"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='49']">	
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDMilitary"/>
+	<item group="War3zukHDTools"/>
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+	<item group="War3zukHDWeapons"/>
+	<item group="War3zukHDWeaponParts"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='50']">	
+	<item group="War3zukHDWeapons"/>
+	<item group="War3zukHDWeaponParts"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='51']">	
+	<item group="War3zukHDCarePackages"/>
+	<item group="War3zukHDMedical"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='53']">	
+	<item group="War3zukHDTools"/>
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='64']">	
+	<item name="HD Flame Fuel" count="10,50" prob="0.01"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='66']">
+	<item group="War3zukDumpsterLoot"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='83']">	
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDMilitary"/>
+	<item group="War3zukHDWeapons"/>
+	<item group="War3zukHDWeaponParts"/>
+	<item group="War3zukSpecialItems"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='89']">	
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDMilitary"/>
+	<item group="War3zukHDWeapons"/>
+	<item group="War3zukHDWeaponParts"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='90']">	
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='91']">	
+	<item name="HD Forge Schematic" count="1" prob="0.01"/>
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='92']">	
+	<item group="War3zukHDBenchAddons"/>
+	<item group="War3zukHDBenches"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='93']">	
+	<item name="HD Cement Mixer Schematic" prob="0.01"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='94']">
+	<item group="War3zukHDBenchAddons"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='108']">	
+	<item group="War3zukHDAmmo"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='109']">	
+	<item group="War3zukHDAmmo"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='110']">	
+	<item group="War3zukHDAmmo"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='114']">	
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDFlares"/>
+	<item group="War3zukHDCarePackages"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='115']">	
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDFlares"/>
+	<item group="War3zukHDCarePackages"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='116']">	
+	<item group="War3zukHDMedical"/>
+	<item group="War3zukHDFlares"/>
+	<item group="War3zukHDCarePackages"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='131']">	
+	<item group="War3zukHDCarePackages"/>
+	<item group="War3zukHDMedical"/>
+</append>
+
+
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='157']">
+	
+<!-- Standard Animal -->
+<lootcontainer id="300" name="StandardAnimal" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+	<item name="foodRawMeat" count="1,2" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="2,4" prob="0.1"/>
+</lootcontainer>
+
+<!-- Boneless Animal -->
+<lootcontainer id="301" name="BonelessAnimal" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+	<item name="foodRawMeat" count="2,4" prob="1"/>
+	<item name="Dropped Blood" count="2,4" prob="1"/>
+	<item name="resourceAnimalFat" count="2,4" prob="1"/>
+</lootcontainer>
+
+<!-- Undead Animal -->
+<lootcontainer id="302" name="UndeadAnimal" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="1,3" prob="0.1"/>
+	<item name="foodRottingFlesh" count="2,4" prob="1"/>
+</lootcontainer>
+
+<!-- Animal Chicken -->
+<lootcontainer id="303" name="AnimalChicken" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+	<item name="foodRawMeat" count="1,2" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="1,3" prob="0.1"/>
+	<item name="foodEgg" count="2,4" prob="1"/>
+	<item name="resourceFeather" count="5,10" prob="1"/>
+</lootcontainer>
+
+<lootcontainer id="307" name="BuildingSupplys" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupRareAutomotive" count="1" loot_prob_template="low"/>
+	<item group="groupToolsTiered" count="1" loot_prob_template="low"/>
+	<item group="groupToolsT2" count="1" loot_prob_template="low"/>
+	<item group="groupToolsT3" count="1" loot_prob_template="low"/>
+	<item group="toolParts" count="1" loot_prob_template="low"/>
+	<item group="groupAutomotive" count="1" loot_prob_template="low"/>
+	<item group="minibikeParts" count="1" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="308" name="HealthSupplys" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupMedicineCabinet" count="1" loot_prob_template="low"/>
+	<item group="rareOres" count="1" loot_prob_template="low"/>
+	<item group="herbalRecipes" count="1" loot_prob_template="low"/>
+	<item group="groupWarmClothes" count="1" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="309" name="AmmoSupplys" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupAmmoRegularGunslingerT1" count="1" loot_prob_template="low"/>
+	<item group="groupAmmoRegularGunslingerT2" count="1" loot_prob_template="low"/>
+	<item group="groupArmorT0" count="1" loot_prob_template="low"/>
+	<item group="groupArmorT1" count="1" loot_prob_template="low"/>
+	<item group="groupArmorT2" count="1" loot_prob_template="low"/>
+	<item group="groupWeaponsT3_Boomstick" count="1" loot_prob_template="low"/>
+	<item group="groupWeaponsT3_Machinegunner" count="1" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="310" name="FoodSupplys" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="cannedfood" count="1" loot_prob_template="low"/>
+	<item group="groupCooler" count="1" loot_prob_template="low"/>
+	<item group="groupApparelClothes" count="1" loot_prob_template="low"/>
+	<item group="shamwaySafeFiller" count="1" loot_prob_template="low"/>
+	<item group="airdropMedicine" count="1" loot_prob_template="low"/>
+	<item group="rareFoodDrink" count="1" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="311" name="WarUndeadCaskets" count="1,2" size="6,3" destroy_on_close="false" sound_open="UseActions/coffin_wood_open" sound_close="UseActions/coffin_wood_close" open_time="1" loot_quality_template="qualPlus1Template">
+	<item name="Dropped Blood" count="2,4" loot_prob_template="med"/>
+	<item name="resourceBone" count="2,4" loot_prob_template="med"/>
+	<item name="foodRottingFlesh" count="2,4" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="317" name="HDPumpJackF" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceIronFragment" count="50,100" prob="0.1"/>
+	<item name="resourceBone" count="5,10" prob="0.1"/>
+	<item name="resourceNail" count="25,50" prob="0.1"/>
+	<item name="resourceWood" count="10,30" prob="0.1"/>
+	<item name="resourceCloth" count="5,10" prob="0.1"/>
+	<item name="resourceDuctTape" count="2,4" prob="0.1"/>
+	<item name="resourceGlue" count="2,4" prob="0.1"/>
+	<item name="resourceOil" count="1,2" prob="0.1"/>
+	<item name="resourceSpring" count="2,4" prob="0.1"/>
+	<item name="resourceScrapBrass" count="50,100" prob="0.1"/>
+	<item name="resourceCoal" count="50,100" prob="0.1"/>
+	<item name="resourceRockSmall" count="100,250" prob="0.1"/>
+	<item name="resourceClayLump" count="50,500" prob="0.1"/>
+	<item name="resourceOilShale" count="50,500" prob="0.1"/>
+	<item name="resourceCobblestones" count="50,500" prob="0.1"/>
+	<item name="resourceRadiator" count="1,2" prob="0.1"/>
+	<item name="resourceRockSmallBundle" count="1" prob="0.005"/>
+	<item name="resourceWoodBundle" count="1" prob="0.005"/>
+	<item name="resourceIronFragmentBundle" count="1" prob="0.005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.005"/>
+	<item name="resourceLeadBundle" count="1" prob="0.005"/>
+	<item name="resourceCoalBundle" count="1" prob="0.005"/>
+	<item name="resourceOilShaleBundle" count="1" prob="0.005"/>
+	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
+</lootcontainer>
+		   
+<lootcontainer id="319" name="palletWhiteBagsBase" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+    <item name="resourceCement" count="5,10" loot_prob_template="med"/>
+</lootcontainer>
+		   
+<lootcontainer id="320" name="palletBrownBoxesBase" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+    <item name="resourcePaper" count="2,4" loot_prob_template="low"/>
+    <item name="resourceScrapPolymers" count="2,4" loot_prob_template="low"/>
+</lootcontainer>
+		   
+<lootcontainer id="321" name="palletBricksBase" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item name="resourceWood" count="5,10" loot_prob_template="med"/>
+	<item name="resourceRockSmall" count="5,10" loot_prob_template="med"/>
+	<item name="resourceScrapBrass" count="5,10" loot_prob_template="med"/>
+</lootcontainer>
+		   
+<lootcontainer id="322" name="palletBlueTarpBase" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+    <item name="resourceCobblestones" count="5,10" loot_prob_template="med"/>
+    <item name="resourceWood" count="5,10" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="323" name="WwineBarrel" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item name="resourceGunPowder" count="5,10" loot_prob_template="med"/>
+	<item name="BrassWire" count="5,10" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="324" name="airConditioner" count="2,4" size="3,3" sound_open="UseActions/casket_metal_open" sound_close="UseActions/casket_metal_close" loot_quality_template="qualPlus1Template">
+	<item name="resourceSpring" count="1,2" loot_prob_template="med"/>
+	<item name="resourceElectricParts" count="1,2" loot_prob_template="med"/>
+	<item name="resourceMetalPipe" count="1,2" loot_prob_template="med"/>
+	<item name="resourceMechanicalParts" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="325" name="palletCompressedCardboard" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item name="resourcePaper" count="1,2" loot_prob_template="med"/>
+	<item name="resourceCloth" count="1,2" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="326" name="storeShelving01Full" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupCooler" count="1" loot_prob_template="low"/>
+	<item group="groupShamwayCooler" count="1" loot_prob_template="low"/>
+	<item name="foodHoney" count="1,2" loot_prob_template="low"/>
+	<item name="drinkJarEmpty" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="327" name="storeShelving01DoubleFull" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupCooler" count="1" loot_prob_template="low"/>
+	<item group="groupShamwayCooler" count="1" loot_prob_template="low"/>
+	<item name="foodHoney" count="1" loot_prob_template="low"/>
+	<item name="drinkJarEmpty" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="328" name="storeShelving01TopFull" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupCooler" count="1" loot_prob_template="low"/>
+	<item group="groupShamwayCooler" count="1" loot_prob_template="low"/>
+	<item name="foodHoney" count="1" loot_prob_template="low"/>
+	<item name="drinkJarEmpty" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="329" name="storeShelving01TopDoubleFull" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupCooler" count="1" loot_prob_template="low"/>
+	<item group="groupShamwayCooler" count="1" loot_prob_template="low"/>
+	<item name="foodHoney" count="1" loot_prob_template="med"/>
+	<item name="drinkJarEmpty" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="330" name="HDIceMachineF" count="2,4" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceSnowBall" count="10,20" loot_prob_template="med"/>
+	<item name="Shaved Ice" count="10,20" loot_prob_template="high"/>
+</lootcontainer>
+
+<lootcontainer id="331" name="Building Supplys" count="1,2" size="6,8" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item group="groupCraftingRare" count="1" loot_prob_template="low"/>
+	<item group="groupBuildingRare" count="1" loot_prob_template="low"/>
+	<item group="groupWorkingStiffsBooks" count="1" loot_prob_template="med"/>
+	<item group="workstationToolsScaled" count="1" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="332" name="Health Supplys" count="1,2" size="6,8" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="drugHerbalAntibiotics" loot_prob_template="low"/>
+	<item name="medicalFirstAidBandage" loot_prob_template="low"/>
+	<item name="drugPainkillers" loot_prob_template="med"/>
+	<item name="medicalPlasterCast" loot_prob_template="med"/>
+	<item name="drugSteroids" loot_prob_template="low"/>
+	<item name="drugVitamins" loot_prob_template="low"/>
+	<item name="medicalBloodBag" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="331" name="cntBuriedLootStashT1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT1"/>
+</lootcontainer>
+
+<lootcontainer id="332" name="cntBuriedLootStashT2" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+	<item group="groupBuriedLootStashTreasureT2"/>
+</lootcontainer>
+
+<lootcontainer id="333" name="cntBuriedLootStashT3" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+	<item group="groupBuriedLootStashTreasureT3"/>
+</lootcontainer>
+
+<lootcontainer id="334" name="cntBuriedLootStashT4" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+	<item group="groupBuriedLootStashTreasureT4"/>
+</lootcontainer>
+
+<lootcontainer id="335" name="cntBuriedLootStashT5" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+	<item group="groupBuriedLootStashTreasureT5"/>
+</lootcontainer>
+
+<lootcontainer id="336" name="cntBuriedLootStashT6" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+	<item group="groupBuriedLootStashTreasureT6"/>
+</lootcontainer>
+
+<lootcontainer id="337" name="WcntToaster" count="1" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="false" loot_quality_template="qualPlus1Template" >
+	<item name="foodShamSandwich" count="1" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="338" name="WutilitySink" count="0,2" size="2,2" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+	<item name="drinkJarBoiledWater" count="1,2" loot_prob_template="verylow"/>
+	<item name="drinkJarRiverWater" count="1,2" loot_prob_template="med"/>
+	<item name="resourceMetalPipe" count="1,2" loot_prob_template="low"/>
+</lootcontainer>
+
+<lootcontainer id="339" name="WstreetLightClassic" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item name="resourceSpring" count="1,2" loot_prob_template="med"/>
+	<item name="resourceElectricParts" count="1,2" loot_prob_template="med"/>
+	<item name="resourceMetalPipe" count="1,2" loot_prob_template="med"/>
+	<item name="resourceMechanicalParts" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+<lootcontainer id="340" name="palletCans" count="1,2" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item name="resourceScrapIron" count="10,20" loot_prob_template="med"/>
+	<item name="drinkCanEmpty" count="1,2" loot_prob_template="med"/>
+</lootcontainer>
+
+</insertAfter>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']">
+	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="QuestT1Prob"/>
+	<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="QuestT2Prob"/>
+	<item name="HDammoBundle408Round" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="QuestT3Prob"/>
+	<item name="HDBreachingC4" count="2" loot_prob_template="QuestT3Prob"/>
+</append>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong01']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong02']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong03']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackBoss01']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackBoss02']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']"/>
+	
+<insertBefore xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasureT6']">
+	
+<lootgroup name="groupZpackStrong01">
+	<item group="groupFoodUncommon" loot_prob_template="medHigh"/>
+	<item group="groupDrinksUncommon" loot_prob_template="medHigh"/>
+	<item group="groupScrapUncommon" loot_prob_template="medHigh"/>
+	<item group="groupMedicalUncommon" loot_prob_template="med"/>
+	<item group="War3zukHDBenches02" loot_prob_template="verylow"/>
+	<item name="resourceBileExtract" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupZpackStrong02">
+	<item group="groupApparelClothes" loot_prob_template="low"/>
+	<item group="groupApparelHazmat" loot_prob_template="medHigh"/>
+	<item group="booksAllScaled" loot_prob_template="medHigh"/>
+	<item group="groupToolsTiered" loot_prob_template="medHigh"/>
+	<item group="groupArmorScaled" loot_prob_template="medHigh"/>
+	<item group="groupCraftingRare" loot_prob_template="med"/>
+	<item group="War3zukHDBenchAddons02" loot_prob_template="verylow"/>
+	<item name="resourceBileExtract" count="1" loot_prob_template="low"/>
+	<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" loot_prob_template="low"/>
+	<item name="armorSwatHelmet" mods="modArmorHelmetLight" mod_chance=".2" loot_prob_template="veryLow"/>
+</lootgroup>
+
+<lootgroup name="groupZpackStrong03">
+	<item group="groupRareToolsTiered" loot_prob_template="high"/>
+	<item group="groupWeaponsAllScaled" loot_prob_template="high"/>
+	<item name="casinoCoin" count="200,400" loot_prob_template="med"/>
+	<item name="oldCash" count="150,800" loot_prob_template="med"/>
+	<item group="groupMedicalRare" loot_prob_template="medHigh"/>
+	<item group="groupTreasureMaps" loot_prob_template="low"/>
+	<item name="apparelNightvisionGoggles" loot_prob_template="veryLow"/>
+	<item group="groupModAllScaled" loot_prob_template="med"/>
+	<item group="vehiclePartsTiered" loot_prob_template="med"/>
+	<item group="War3zukHDTools02" loot_prob_template="verylow"/>
+	<item name="resourceBileExtract" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupZpackStrong" count="all">
+	<item group="groupAmmoLarge" count="2"/>
+	<item group="groupZpackStrong01" count="2"/>
+	<item group="groupZpackStrong02" count="1"/>
+	<item group="groupZpackStrong03" loot_prob_template="low" force_prob="true"/>
+</lootgroup>
+	
+</insertBefore>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">
+	
+<lootgroup name="groupZpackBoss01">
+	<item group="groupFoodUncommon" loot_prob_template="medHigh"/>
+	<item group="groupDrinksUncommon" loot_prob_template="medHigh"/>
+	<item group="groupScrapUncommon" loot_prob_template="medHigh"/>
+	<item group="groupMedicalUncommon" loot_prob_template="med"/>
+	<item group="War3zukHDWeaponParts02" loot_prob_template="verylow"/>
+</lootgroup>
+
+<lootgroup name="groupZpackBoss02">
+	<item group="groupApparelClothes" loot_prob_template="low"/>
+	<item group="groupApparelHazmat" loot_prob_template="medHigh"/>
+	<item group="booksAllScaled" loot_prob_template="medHigh"/>
+	<item group="groupToolsTiered" loot_prob_template="medHigh"/>
+	<item group="groupArmorScaled" loot_prob_template="medHigh"/>
+	<item group="groupCraftingRare" loot_prob_template="med"/>
+	<item group="War3zukHDMilitary02" loot_prob_template="verylow"/>
+	<item name="resourceBileExtract" count="1" loot_prob_template="low"/>
+	<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" loot_prob_template="veryLow"/>
+	<item name="armorSwatHelmet" mods="modArmorHelmetLight" mod_chance=".2" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupZpackBoss03">
+	<item group="groupRareToolsTiered" loot_prob_template="high"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item group="groupWeaponsAllScaledNoStone" loot_prob_template="high"/>
+	<item name="casinoCoin" count="200,400" loot_prob_template="med"/>
+	<item name="oldCash" count="150,800" loot_prob_template="med"/>
+	<item group="groupMedicalRare" loot_prob_template="medHigh"/>
+	<item group="groupTreasureMaps" loot_prob_template="low"/>
+	<item name="apparelNightvisionGoggles" loot_prob_template="veryLow"/>
+	<item group="groupModAllScaled" loot_prob_template="med"/>
+	<item group="vehiclePartsTiered" loot_prob_template="med"/>
+	<item group="War3zukHDWeapons02" loot_prob_template="verylow"/>
+	<item name="resourceBileExtract" count="1" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupZpackBoss" count="all">
+	<item group="groupAmmoLarge" count="2"/>
+	<item group="groupZpackBoss01" count="2"/>
+	<item group="groupZpackBoss02" count="1"/>
+	<item group="groupZpackBoss03" loot_prob_template="low" force_prob="true"/>
+</lootgroup>
+	
+</insertAfter>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+	<item name="Jambalaya InstaMix"/>
+	<item name="Donut Sprinkles"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodPileCommon']">
+	<item name="Jambalaya InstaMix"/>
+	<item name="Donut Sprinkles"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
+	<item name="Jambalaya InstaMix"/>
+	<item name="Donut Sprinkles"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
+	<item name="Jambalaya InstaMix"/>
+	<item name="Donut Sprinkles"/>
+</append>
+
+<remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']"></remove>
+<remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot02']"></remove>
+<remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot03']"></remove>
+<remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']"></remove>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasureT5']">
+<!-- *** Small_Safe -->
+<lootgroup name="groupSmallSafeLoot01" count="3">
+	<item group="groupWeaponsAllScaledNoStone" loot_prob_template="med"/>
+	<item group="War3zukHDAmmo" loot_prob_template="med"/>
+	<item group="groupModAllScaled" loot_prob_template="med"/>
+	<item group="groupSchematicsAll" loot_prob_template="med"/>
+	<item group="War3zukHDWeaponParts" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="groupSmallSafeLoot02" count="2">
+	<item group="groupAmmoSmall" loot_prob_template="low"/>
+	<item group="groupAmmoMedium" loot_prob_template="low"/>
+	<item group="groupAmmoLarge" loot_prob_template="low"/>
+	<item group="groupSafeBooks" loot_prob_template="low"/>
+	<item group="War3zukHDMilitary" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupSmallSafeLoot03" count="1">
+	<item name="oldCash" count="100,150" loot_prob_template="veryLow"/>
+	<item group="War3zukHDWeapons" loot_prob_template="veryLow"/>
+	<item group="rareOres" loot_prob_template="veryLow"/>
+</lootgroup>
+
+<lootgroup name="groupSmallSafeLoot">
+	<item group="groupSmallSafeLoot01" loot_prob_template="med"/>
+	<item group="groupSmallSafeLoot02" loot_prob_template="low"/>
+	<item group="groupSmallSafeLoot03" loot_prob_template="veryLow"/>
+</lootgroup>
+<!-- *** Small_Safe -->
+</insertAfter>
+
+<remove xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"></remove>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasureT6']">
+<!-- *** Gun_Safe -->	
+<lootgroup name="groupGunSafeSecure01" count="3">
+	<item group="groupWeaponsAllScaledNoStone" loot_prob_template="med"/>
+	<item group="groupWeaponsMedMedHigh" loot_prob_template="med"/>
+	<item group="War3zukHDAmmo" loot_prob_template="med"/>
+	<item group="groupModAllScaled" loot_prob_template="med"/>
+	<item group="groupSchematicsAll" loot_prob_template="med"/>
+	<item group="War3zukHDWeaponParts" loot_prob_template="med"/>
+	<item group="groupWeaponsMedMedMed" loot_prob_template="med"/>
+</lootgroup>
+
+<lootgroup name="groupGunSafeSecure02" count="2">
+	<item group="groupAmmoSmall" loot_prob_template="low"/>
+	<item group="groupAmmoMedium" loot_prob_template="low"/>
+	<item group="groupAmmoLarge" loot_prob_template="low"/>
+	<item group="groupSafeBooks" loot_prob_template="low"/>
+	<item group="War3zukHDMilitary" loot_prob_template="low"/>
+	<item group="groupWeaponsMedMedMed" loot_prob_template="low"/>
+	<item group="groupMedAmmoHighMed" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupGunSafeSecure03" count="1">
+	<item name="oldCash" count="100,150" loot_prob_template="veryLow"/>
+	<item group="War3zukHDWeapons" loot_prob_template="veryLow"/>
+	<item group="rareOres" loot_prob_template="veryLow"/>
+	<item group="groupSafeBooks" loot_prob_template="veryLow"/>
+</lootgroup>
+
+<lootgroup name="groupGunSafeSecure">
+	<item group="groupGunSafeSecure01" loot_prob_template="med"/>
+	<item group="groupGunSafeSecure02" loot_prob_template="low"/>
+	<item group="groupGunSafeSecure03" loot_prob_template="veryLow"/>
+</lootgroup>
+<!-- *** Gun_Safe -->
+</insertAfter>
+
+</configs>

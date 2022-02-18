@@ -1,0 +1,17 @@
+<shapes>
+	
+	<remove xpath="/shapes/shape[@name='cube5mDomeMiddle06']"/>
+	
+<insertAfter xpath="/shapes/shape[@name='cube5mDomeTop03']" >
+	
+	<shape name="cube5mDomeMiddle06">
+		<property name="Shape" value="New"/>
+		<property name="Model" value="5m_dome_middle_06"/>
+		<property name="CustomIcon" value="shape5mDomeMiddle06"/>
+		<property name="ShapeCategories" value="Round"/>
+		<property name="MaterialHitpointMultiplier" value="0.001"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	</shape>
+	
+</insertAfter>
+</shapes>
