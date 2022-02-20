@@ -976,3 +976,5 @@ ChromiumMasterDesc,items,,,These Blocks are Indestructible and can not be Remove
 
 resourceBileExtract,items,Item,KgNone,Bile Extract,
 resourceBileExtractDesc,items,,,Use in the HD WorkBench to make Acid.,
+
+HDHazmatMaskDesc,items,,,Radiation Armor Pieces Are given at the end of the main quests.\n\nCrafted in the HD WorkBench using HD Hazmat Fiber.,

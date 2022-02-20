@@ -11237,7 +11237,7 @@
 </item>
 
 <item name="meleeHandZombieSpiderWAR">
-	<property name="Extends" value="meleeHandZombie02"/>
+	<property name="Extends" value="meleeHandMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="20"/>
@@ -11346,7 +11346,7 @@
 		<property name="Sound_empty" value=""/>
 		<property name="Sound_reload" value=""/>
 	</property>
-	<effect_group name="melee" tiered="false">
+	<effect_group name="meleeHandZombieStrong" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="MaxRange" operation="base_set" value="15"/>
@@ -11375,7 +11375,7 @@
 		<property name="DamageEntity" value="75"/>
 		<property name="DamageBlock" value="250"/>
 	</property>
-	<effect_group name="meleeHandMaster" tiered="false">
+	<effect_group name="meleeHandZombieStrong" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBrainHerpes"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
@@ -11396,7 +11396,7 @@
 		<property name="DamageEntity" value="75"/>
 		<property name="DamageBlock" value="250"/>
 	</property>
-	<effect_group name="meleeHandMaster" tiered="false">
+	<effect_group name="meleeHandZombieStrong" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="BuffBollockRot"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
@@ -11416,7 +11416,7 @@
 		<property name="DamageEntity" value="75"/>
 		<property name="DamageBlock" value="250"/>
 	</property>
-	<effect_group name="meleeHandMaster" tiered="false">
+	<effect_group name="meleeHandZombieStrong" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
@@ -11432,14 +11432,11 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="HoldType" value="35"/>
 		<property class="Action0">
-			<property name="Delay" value=".6"/>
+			<property name="Delay" value=".5"/>
 			<property name="Range" value="2"/>
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="100"/>
 		</property>
-			<effect_group name="meleeHandAnimalWolf" tiered="false">
-			<passive_effect name="ModSlots" operation="base_set" value="0"/>
-	</effect_group>
 </item>
 
 </insertAfter>

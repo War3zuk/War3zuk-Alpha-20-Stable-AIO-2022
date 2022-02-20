@@ -2,6 +2,7 @@ War3zuk-Alpha-20.2 B2 - AIO STABLE
 
 Updated v6.8 to v6.9
 
+Removed RadArmor Move Penalty
 Rebuilt Safes Loot
 Rebuilt Gunsafes Loot
 Fixed Name Localization HD Vehicles
@@ -9,6 +10,10 @@ Removed Some Old Code 10 Lines
 Replaced Stack 500 With 1
 Added Max Stack 50k Old 25k
 Added Mod Slots Vanilla Items
+Edited PhysicalDamageResist Titans
+Edited HealthMax Base Titans
+Edited PhysicalDamageResist Snuffkins
+Edited HealthMax Base Snuffkins
 
 Launcher Edits: (Only For Launcher Install)
 Updated PainJob / Trucks v2.3

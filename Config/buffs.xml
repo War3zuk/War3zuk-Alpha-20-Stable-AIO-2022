@@ -341,7 +341,7 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="buffMilitaryRadiation" name_key="buffMilitaryRadiation" description_key="buffMilitaryRadiation" tooltip_key="buffRadiation03Tooltip" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="true">
+	<buff name="buffMilitaryRadiation" name_key="buffMilitaryRadiation" description_key="buffMilitaryRadiation" tooltip_key="buffMilitaryRadiation" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="false">
 		<damage_type value="radiation"/>
 		<stack_type value="ignore"/>
 		<duration value="10"/>
@@ -376,35 +376,35 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="buffHDHazmatBoots" name_key="HD Hazmat Boots" hidden="false" icon="ui_game_symbol_HazmatBoots" icon_blink="true">>
+	<buff name="buffHDHazmatMask" name_key="HD Hazmat Mask" hidden="false" icon="ui_game_symbol_HazmatMask" icon_blink="false">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadiationSignal" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatPants" name_key="HD Hazmat Pants" hidden="false" icon="ui_game_symbol_HazmatPants" icon_blink="false">>
 		<effect_group name="display">
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
 		</effect_group>
 	</buff>
 	
-	<buff name="buffHDHazmatPants" name_key="HD Hazmat Pants" hidden="false" icon="ui_game_symbol_HazmatPants" icon_blink="true">>
+	<buff name="buffHDHazmatShirt" name_key="HD Hazmat Shirt" hidden="false" icon="ui_game_symbol_HazmatJacket" icon_blink="false">>
 		<effect_group name="display">
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
 		</effect_group>
 	</buff>
 	
-	<buff name="buffHDHazmatShirt" name_key="HD Hazmat Shirt" hidden="false" icon="ui_game_symbol_HazmatJacket" icon_blink="true">>
+	<buff name="buffHDHazmatGloves" name_key="HD Hazmat Gloves" hidden="false" icon="ui_game_symbol_HazmatGloves" icon_blink="false">>
 		<effect_group name="display">
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
 		</effect_group>
 	</buff>
 	
-	<buff name="buffHDHazmatGloves" name_key="HD Hazmat Gloves" hidden="false" icon="ui_game_symbol_HazmatGloves" icon_blink="true">>
-		<effect_group name="display">
-			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
-		</effect_group>
-	</buff>
-	
-	<buff name="buffHDHazmatMask" name_key="HD Hazmat Mask" hidden="false" icon="ui_game_symbol_HazmatMask" icon_blink="true">>
+	<buff name="buffHDHazmatBoots" name_key="HD Hazmat Boots" hidden="false" icon="ui_game_symbol_HazmatBoots" icon_blink="false">>
 		<effect_group name="display">
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
