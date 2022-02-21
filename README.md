@@ -16,10 +16,12 @@ Edited PhysicalDamageResist Snuffkins
 Edited HealthMax Base Snuffkins
 
 Launcher Edits: (Only For Launcher Install)
+Edited xcostum_ColonyShip Removed Clear Quest
 Updated PainJob / Trucks v2.3
 Snuffkins Removed Archon / Geist
 Added Spider_Cave_War3zukEdit Prefab
 Edited zztong_Store_XS_10 Loot
+Removed WolfGroup CP
 
 Updated v6.7 to v6.8
 
