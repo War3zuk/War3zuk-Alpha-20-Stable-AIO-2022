@@ -1550,4 +1550,7 @@
 	
 </insertAfter>
 
+<!--<set xpath="/quests/quest/objective[@type='POIStayWithin']/property[@name='radius']/@value">250</set>
+	<set xpath="/quests/quest/objective[@type='StayWithin']/property[@name='radius']/@value">250</set>-->
+
 </configs>

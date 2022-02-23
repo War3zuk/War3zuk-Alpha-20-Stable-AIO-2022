@@ -14,6 +14,11 @@ Edited PhysicalDamageResist Titans
 Edited HealthMax Base Titans
 Edited PhysicalDamageResist Snuffkins
 Edited HealthMax Base Snuffkins
+Replaced LootContainer Weak (Model PH)
+Replaced LootContainerStrong (Model PH)
+Replaced LootContainerBoss (Model PH)
+Added CntGasEmpty (Broken Model)
+Added Vanilla Icons (HD StoreShelves)
 
 Launcher Edits: (Only For Launcher Install)
 Edited xcostum_ColonyShip Removed Clear Quest
