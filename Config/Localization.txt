@@ -978,3 +978,7 @@ resourceBileExtract,items,Item,KgNone,Bile Extract,
 resourceBileExtractDesc,items,,,Use in the HD WorkBench to make Acid.,
 
 HDHazmatMaskDesc,items,,,Radiation Armor Pieces Are given at the end of the main quests.\n\nCrafted in the HD WorkBench using HD Hazmat Fiber.,
+
+DasTulips Milky Stout,items,Item,KgNone,DasTulip's Milky Stout,
+DasTulipsMilkyStoutDesc,items,,,Brewed for a longer lasting affect.\n\nBuzzed Off Your Tits you fight like a Boss. Unlocks L1 LivingOffTheLand.,
+ResourceOldMilkDesc,items,,,Left over Milk. Im sure it has its use.,

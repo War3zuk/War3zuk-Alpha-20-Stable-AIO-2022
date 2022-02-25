@@ -1546,24 +1546,64 @@
 </insertAfter>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
-	<item name="Jambalaya InstaMix"/>
-	<item name="Donut Sprinkles"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+	<item name="Resource Old Milk" count="1"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileCommon']">
-	<item name="Jambalaya InstaMix"/>
-	<item name="Donut Sprinkles"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+	<item name="Resource Old Milk" count="1"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
-	<item name="Jambalaya InstaMix"/>
-	<item name="Donut Sprinkles"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
 </append>
 
-<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
-	<item name="Jambalaya InstaMix"/>
-	<item name="Donut Sprinkles"/>
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+	<item name="Resource Old Milk" count="1"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
 </append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
+	<item name="Resource Old Milk" count="1"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']">
+	<item name="Resource Old Milk" count="1"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsUncommon']">
+	<item name="Resource Old Milk" count="1"/>
+	<item name="Jambalaya InstaMix" count="1"/>
+	<item name="Donut Sprinkles" count="1"/>
+</append>
+
+<!--<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsSmall01']">
+	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
+	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
+	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsMed01']">
+	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
+	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
+	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsLarge01']">
+	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
+	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
+	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
+</append>-->
 
 <remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']"></remove>
 <remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot02']"></remove>

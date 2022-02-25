@@ -6389,8 +6389,8 @@
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe">
-		<passive_effect name="EntityDamage" operation="base_set" value="10" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="35.5" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="5" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="35" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="112,300" tier="1,6" tags="perkMiner69r"/>
@@ -11954,6 +11954,56 @@
 			</triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
 	</effect_group>
+</item>
+
+<item name="DasTulips Milky Stout">
+	<property name="HoldType" value="3"/>
+	<property name="DescriptionKey" value="DasTulipsMilkyStoutDesc"/>
+	<property name="CustomIcon" value="DasTulips Milky Stout"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="50000"/>
+	<property name="EconomicValue" value="120"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="DisplayType" value="waterBeer"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaRegen" value=".6"/>
+			<display_value name="dEntityDamageBrawling" value="5"/>
+			<display_value name="dStunResist" value="1"/>
+			<display_value name="dDuration" value="120"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="123">
+				<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="123"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDasTulipsMilkyStout"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Resource Old Milk">
+	<property name="DescriptionKey" value="ResourceOldMilkDesc"/>
+	<property name="CustomIcon" value="Resource Old Milk"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Weight" value="6"/>
+	<property name="Stacknumber" value="50000"/>
+	<property name="EconomicValue" value="85"/>
+	<property name="Group" value="Resources"/>
 </item>
 		
 <item name="+ForgedChromium">

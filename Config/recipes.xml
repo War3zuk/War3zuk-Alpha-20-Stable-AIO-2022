@@ -1158,6 +1158,14 @@
 	<ingredient name="HD Honey" count="2"/>
 </recipe>
 
+<recipe name="DasTulips Milky Stout" count="1" craft_area="campfire" craft_time = "30" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="Resource Old Milk" count="2"/>
+	<ingredient name="foodCornMeal" count="20"/>
+	<ingredient name="drinkJarBeer" count="4"/>
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodCropBlueberries" count="10"/>
+</recipe>
+
 <recipe name="ammoBlunderbuss" count="2">
 	<ingredient name="resourceRockSmall" count="2"/>
 	<ingredient name="resourceGunPowder" count="2"/>

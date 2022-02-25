@@ -500,7 +500,7 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="buffNewbieCoat" name_key="HD Noobie Coat v2" description_key="There is no XP penalty on death And you will self heal when injured. You are also protected against All Pathogens And Radiation Poisoning but this protection will decrease and disappear so do not get caught in a radiation Zone past Level 5"	icon="ui_game_symbol_light_Noob" remove_on_death="false">
+	<buff name="buffNewbieCoat" name_key="HD Noobie Coat v2" description_key="There is no XP penalty on death And you will self heal when injured. You are also protected against All Pathogens, Radiation, Poisoning And Fire but this protection will decrease and disappear so do not get caught past Level 6"	icon="ui_game_symbol_light_Noob" remove_on_death="false">
 		<stack_type value="ignore"/>
 		
 		<effect_group>
@@ -677,6 +677,49 @@
 			<passive_effect name="WaterChangeOT" operation="base_subtract" value="10"/>
 			<passive_effect name="HypothermalResist" operation="base_add" value="30"/>
 			<passive_effect name="HyperthermalResist" operation="base_add" value="-10"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffDasTulipsMilkyStout" name_key="Buff Tulips Milky Stout" description_key="OMG Go Forth And Beat Shit Up" tooltip_key="buffDrunk01Tooltip" icon="ui_game_symbol_DasTulips">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/>
+		<duration value="0"/>
+			<display_value value=".buffBeerDisplay"/>
+			<display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="set" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="divide" value="2">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling7BoozedUp" operation="Equals" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@.dummy"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@.dummy"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDasTulipsMilkyStout">
+				<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".dummy" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="5">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1">
+				<requirement name="!HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.01" effect_name="Drunk">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling7BoozedUp" operation="Equals" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned00,buffInjuryStunned01,buffInjuryStunned01Shotgun,buffInjuryStunned02,buffInjuryStunned02Shotgun,buffInjuryStunned03,buffInjuryStunned03Shotgun,buffBlackOut"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
 		</effect_group>
 	</buff>
 
