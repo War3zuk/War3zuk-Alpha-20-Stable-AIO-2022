@@ -9,6 +9,10 @@ Added DasTulips Milky Stout (Custom Buff)
 
 Launcher Edits: (Only For Launcher Install)
 Gophers More Cooked Foods (Heavily Edited WIP)
+Edited Gophers More Cooked Foods (Recipes)
+Edited Gophers More Cooked Foods (Items)
+Added Gophers More Cooked Foods (Progression)
+Fixed Gophers More Cooked Foods (Localization)
 
 Updated v6.8 to v6.9
 

@@ -982,3 +982,5 @@ HDHazmatMaskDesc,items,,,Radiation Armor Pieces Are given at the end of the main
 DasTulips Milky Stout,items,Item,KgNone,DasTulip's Milky Stout,
 DasTulipsMilkyStoutDesc,items,,,Brewed for a longer lasting affect.\n\nBuzzed Off Your Tits you fight like a Boss. Unlocks L1 LivingOffTheLand.,
 ResourceOldMilkDesc,items,,,Left over Milk. Im sure it has its use.,
+
+apparelNerdGlasses,items,Clothes,,,DasTulip's Nerdy Glasses,,
