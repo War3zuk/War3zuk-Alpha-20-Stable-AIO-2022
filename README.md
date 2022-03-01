@@ -3,11 +3,11 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 Updated v6.9 to v7.0
 
 Adjusted HD Mini Hatchet (EntityDmg)
-Edited TFP Behemoths (Dmg / Resist)
 Added DasTulips Milky Stout
 Added DasTulips Milky Stout (Custom Buff)
 
 Launcher Edits: (Only For Launcher Install)
+Edited TFP Behemoths (Dmg / Resist)
 Gophers More Cooked Foods (Heavily Edited WIP)
 Edited Gophers More Cooked Foods (Recipes)
 Edited Gophers More Cooked Foods (Items)
