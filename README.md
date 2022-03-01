@@ -5,6 +5,15 @@ Updated v6.9 to v7.0
 Adjusted HD Mini Hatchet (EntityDmg)
 Added DasTulips Milky Stout
 Added DasTulips Milky Stout (Custom Buff)
+Updated HD Double Barrel
+Updated HD Double Barrel Snub
+
+Added Trader Avatars For Prefab Manipulation
+SpawnTraderJoel
+SpawnTraderRekt
+SpawnTraderHugh
+SpawnTraderBob
+SpawnTraderJen
 
 Launcher Edits: (Only For Launcher Install)
 Edited TFP Behemoths (Dmg / Resist)
@@ -13,6 +22,7 @@ Edited Gophers More Cooked Foods (Recipes)
 Edited Gophers More Cooked Foods (Items)
 Added Gophers More Cooked Foods (Progression)
 Fixed Gophers More Cooked Foods (Localization)
+Edited Gophers More Cooked Foods (RCF Loot)
 
 Updated v6.8 to v6.9
 

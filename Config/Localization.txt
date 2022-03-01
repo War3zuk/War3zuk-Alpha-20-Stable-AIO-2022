@@ -984,3 +984,14 @@ DasTulipsMilkyStoutDesc,items,,,Brewed for a longer lasting affect.\n\nBuzzed Of
 ResourceOldMilkDesc,items,,,Left over Milk. Im sure it has its use.,
 
 apparelNerdGlasses,items,Clothes,,,DasTulip's Nerdy Glasses,,
+SpawnTraderJoel,blocks,block,KgNone,Trader Joel,
+SpawnTraderRekt,blocks,block,KgNone,Trader Rekt,
+SpawnTraderHugh,blocks,block,KgNone,Trader Hugh,
+SpawnTraderBob,blocks,block,KgNone,Trader Bob,
+SpawnTraderJen,blocks,block,KgNone,Trader Jen,
+
+SpawnTraderJoelDesc,Block,,,This Spawns Trader Joel.\n\nAvatar Enabled For Easier Manipulation.,,
+SpawnTraderRektDesc,Block,,,This Spawns Trader Rekt.\n\nAvatar Enabled For Easier Manipulation.,,
+SpawnTraderHughDesc,Block,,,This Spawns Trader Hugh.\n\nAvatar Enabled For Easier Manipulation.,,
+SpawnTraderBobDesc,Block,,,This Spawns Trader Bob.\n\nAvatar Enabled For Easier Manipulation.,,
+SpawnTraderJenDesc,Block,,,This Spawns Trader Jen.\n\nAvatar Enabled For Easier Manipulation.,,

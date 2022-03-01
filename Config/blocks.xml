@@ -5442,4 +5442,102 @@
 
 </insertAfter>
 
+<!--  Trader Avatar Spawning For Prefab viewing -->
+	
+<insertAfter xpath="/blocks/block[@name='utilityElectricalBox_02']" >
+	
+<block name="SpawnTraderJoel">
+	<property name="ModelOffset" value="0,-0,0"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="metalTrussingRampOld"/>
+	<property name="CustomIcon" value="1-TraderJoel"/>
+	<property name="DescriptionKey" value="SpawnTraderJoelDesc"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#Entities/Traders?Prefabs/TraderJoel.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderJoel"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+	<property name="Collide" value="sight"/>
+	<property name="IndexName" value="Trader"/>
+</block>
+
+<block name="SpawnTraderRekt">
+	<property name="ModelOffset" value="0,-0,0"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="metalTrussingRampOld"/>
+	<property name="CustomIcon" value="1-TraderRekt"/>
+	<property name="DescriptionKey" value="SpawnTraderRektDesc"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#Entities/Traders?Prefabs/TraderRekt.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderRekt"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+	<property name="Collide" value="sight"/>
+	<property name="IndexName" value="Trader"/>
+</block>
+
+<block name="SpawnTraderHugh">
+	<property name="ModelOffset" value="0,-0,0"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="metalTrussingRampOld"/>
+	<property name="CustomIcon" value="1-TraderHugh"/>
+	<property name="DescriptionKey" value="SpawnTraderHughDesc"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#Entities/Traders?Prefabs/TraderHugh.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderHugh"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+	<property name="Collide" value="sight"/>
+	<property name="IndexName" value="Trader"/>
+</block>
+
+<block name="SpawnTraderBob">
+	<property name="ModelOffset" value="0,-0,0"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="metalTrussingRampOld"/>
+	<property name="CustomIcon" value="1-TraderBob"/>
+	<property name="DescriptionKey" value="SpawnTraderBobDesc"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#Entities/Traders?Prefabs/TraderBob.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderBob"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+	<property name="Collide" value="sight"/>
+	<property name="IndexName" value="Trader"/>
+</block>
+
+<block name="SpawnTraderJen">
+	<property name="ModelOffset" value="0,-0,0"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="metalTrussingRampOld"/>
+	<property name="CustomIcon" value="1-TraderJen"/>
+	<property name="DescriptionKey" value="SpawnTraderJenDesc"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="#Entities/Traders?Prefabs/TraderJen.prefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderJen"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+	<property name="Collide" value="sight"/>
+	<property name="IndexName" value="Trader"/>
+</block>
+
+</insertAfter>
+
+<!--  Trader Avatar Spawning For Prefab viewing -->
+
 </configs>
