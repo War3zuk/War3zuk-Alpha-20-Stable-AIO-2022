@@ -7,6 +7,13 @@ Added DasTulips Milky Stout
 Added DasTulips Milky Stout (Custom Buff)
 Updated HD Double Barrel
 Updated HD Double Barrel Snub
+Updated HD Spas 12
+Updated HD Spas 12 Street
+Updated HD Spas 12 USA
+Updated HD Spas 12 Alien
+Updated HD Spas 12 Irish
+Updated HD Mossberg 500
+Updated HD Bone Knuckles Dmg / Bonus
 
 Added Trader Avatars For Prefab Manipulation
 SpawnTraderJoel
@@ -23,6 +30,7 @@ Edited Gophers More Cooked Foods (Items)
 Added Gophers More Cooked Foods (Progression)
 Fixed Gophers More Cooked Foods (Localization)
 Edited Gophers More Cooked Foods (RCF Loot)
+Adjusted Custom Spider Sleeper Code
 
 Updated v6.8 to v6.9
 

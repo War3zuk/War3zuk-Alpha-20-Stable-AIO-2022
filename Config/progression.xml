@@ -38,4 +38,6 @@
 	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@level='1,3']/@tags">,HDHoneyKnife,HDHoneyExtractor,DasTulips Milky Stout</append>
 	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@level='2,3']/@tags">,HDHoneyStrainer,HDBeeHive,HDplantedMushroom1,HDplantedYucca1,HDplantedCotton1,HDplantedCoffee1,HDplantedGoldenrod1,HDplantedAloe1,HDplantedBlueberry1,HDplantedPotato1,HDplantedChrysanthemum1,HDplantedCorn1,HDplantedHop1,HDplantedPumpkin1,HDplantedGraceCorn1</append>
 	
+	<append xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@level='1,5']/@tags">,HDBoneKnuckles</append>
+	
 </configs>

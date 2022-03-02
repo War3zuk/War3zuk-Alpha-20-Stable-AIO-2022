@@ -238,6 +238,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HDKnuckles.unity3d?HDKnucklesRight.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="HoldType" value="79"/>
 	<property name="DescriptionKey" value="HDBoneKnucklesDesc"/>
+	<property name="UnlockedBy" value="perkBrawler"/>
 	<property class="Action0">
 		<property name="ToolCategory.Butcher" value="5" param1="1.5"/>
 		<property class="HitSounds">
@@ -257,10 +258,10 @@
 		</property>
 	</property>
 	<effect_group name="meleeWpnKnucklesT3SteelKnuckles">
-		<passive_effect name="EntityDamage" operation="base_set" value="11.0" tags="perkBrawler"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="3.5" tags="perkBrawler"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="100" tags="perkBrawler"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="8.0" tags="primary"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="40.0" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="8" tags="perkBrawler"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="65" tags="perkBrawler"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="7.5" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="350,650" tier="1,6" tags="perkBrawler"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBrawler"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkBrawler"/>

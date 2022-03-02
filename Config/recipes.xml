@@ -35,7 +35,7 @@
 	<ingredient name="resourceWood" count="50"/>
 </recipe>
 	
-<recipe name="HDBoneKnuckles" count="1" craft_time = "120" tags="perkBrawler">
+<recipe name="HDBoneKnuckles" count="1" craft_time = "120" tags="learnable,perkBrawler">
 	<ingredient name="resourceScrapIron" count="20"/>
 	<ingredient name="resourceBone" count="8"/>
 	<ingredient name="resourceScrapBrass" count="20"/>
