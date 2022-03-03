@@ -54,7 +54,6 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-
 	</window>
 </append>
 	
@@ -72,7 +71,6 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-
 	</window>
 </append>
 
@@ -90,7 +88,6 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-
 	</window>
 </append>
 
@@ -108,7 +105,6 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-
 	</window>
 </append>
 
@@ -126,7 +122,6 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-
 	</window>
 </append>
 	
