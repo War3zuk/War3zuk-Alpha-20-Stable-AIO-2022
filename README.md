@@ -1,5 +1,12 @@
 War3zuk-Alpha-20.3 B3 - AIO STABLE
 
+Updated v7.0 to v7.1
+
+Loot Re-Balance (Amount x2)
+
+Launcher Edits: (Only For Launcher Install)
+Fixed drinkNukaSarsaparilla Unlock
+
 Updated v6.9 to v7.0
 
 Adjusted HD Mini Hatchet (EntityDmg)

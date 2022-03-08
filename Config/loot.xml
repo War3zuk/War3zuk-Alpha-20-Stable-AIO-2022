@@ -14,14 +14,14 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
 	
-<lootgroup name="War3zukHDWeaponParts01" count="1">
+<lootgroup name="War3zukHDWeaponParts01" count="2">
 		<item group="booksAllScaled" loot_prob_template="med"/>
 		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
 		<item group="groupValuablesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 	
-<lootgroup name="War3zukHDWeaponParts02" count="1">
+<lootgroup name="War3zukHDWeaponParts02" count="2">
 		<item name="HD Vulcan 9mm Barrel Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Vulcan 9mm Parts Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Vulcan 9mm Motor Schematic" count="1" loot_prob_template="low"/>
@@ -38,14 +38,14 @@
 	<item group="War3zukHDWeaponParts02" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDWeapons01" count="1">
+<lootgroup name="War3zukHDWeapons01" count="2">
 		<item group="booksAllScaled" loot_prob_template="med"/>
 		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
 		<item group="groupValuablesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDWeapons02" count="1">
+<lootgroup name="War3zukHDWeapons02" count="2">
 		<item name="HD BR1NXlS Booper Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Flame Thrower Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Desert Eagle Schematic" count="1" loot_prob_template="low"/>
@@ -74,14 +74,14 @@
 	<item group="War3zukHDWeapons02" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDBenches01" count="1">
+<lootgroup name="War3zukHDBenches01" count="2">
 		<item group="booksAllScaled" loot_prob_template="med"/>
 		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
 		<item group="groupValuablesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDBenches02" count="1">
+<lootgroup name="War3zukHDBenches02" count="2">
 		<item name="HD GunBench Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD WorkBench Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD AmmoBench Schematic" count="1" loot_prob_template="low"/>
@@ -93,14 +93,14 @@
 	<item group="War3zukHDBenches02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDBenchAddons01" count="1">
+<lootgroup name="War3zukHDBenchAddons01" count="2">
 		<item group="booksAllScaled" loot_prob_template="med"/>
 		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
 		<item group="groupValuablesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDBenchAddons02" count="1">
+<lootgroup name="War3zukHDBenchAddons02" count="2">
 		<item name="HD Tool And Die Set Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Carbon Sewing Kit Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Grinder Schematic" count="1" loot_prob_template="low"/>
@@ -117,14 +117,14 @@
 	<item group="War3zukHDBenchAddons02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDTools01" count="1">
+<lootgroup name="War3zukHDTools01" count="2">
 		<item group="booksAllScaled" loot_prob_template="med"/>
 		<item group="schematicsToolsCommon" loot_prob_template="med"/>
 		<item group="groupValuablesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDTools02" count="1">
+<lootgroup name="War3zukHDTools02" count="2">
 		<item name="HDPumpJackE Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Wrench Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Junk Turret Schematic" count="1" loot_prob_template="low"/>
@@ -142,14 +142,14 @@
 	<item group="War3zukHDTools02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDAmmo01" count="1">
+<lootgroup name="War3zukHDAmmo01" count="2">
 		<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
 		<item name="resourceLockPick" count="1" loot_prob_template="low"/>
 		<item name="Ammo Supply Shredder" count="1" loot_prob_template="med"/>
 		<item name="Ammo Supply 9mm" count="1" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDAmmo02" count="1">
+<lootgroup name="War3zukHDAmmo02" count="2">
 		<item name="Ammo Supply 44Mag" count="1" loot_prob_template="med"/>
 		<item name="Ammo Supply 45 ACP" count="1" loot_prob_template="med"/>
 		<item name="Ammo Supply DE50" count="1" loot_prob_template="med"/>
@@ -184,7 +184,7 @@
 	<item group="War3zukHDAmmo02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDMilitary01" count="1">
+<lootgroup name="War3zukHDMilitary01" count="2">
 		<item name="Military Purify Tablets" count="1,2" loot_prob_template="med"/>
 		<item name="MREMilitaryRation" count="1" loot_prob_template="med"/>
 		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
@@ -192,7 +192,7 @@
 		<item name="HD Blunderbuss" count="1" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDMilitary02" count="1">
+<lootgroup name="War3zukHDMilitary02" count="2">
 		<item name="HD Military Gloves Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Military Boots Schematic" count="1" loot_prob_template="low"/>
 		<item name="HD Military Legs Schematic" count="1" loot_prob_template="low"/>
@@ -213,7 +213,7 @@
 	<item group="War3zukHDMilitary02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDMedical01" count="1">
+<lootgroup name="War3zukHDMedical01" count="2">
 	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
 	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
 </lootgroup>
@@ -227,12 +227,12 @@
 	<item group="War3zukHDMedical02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDFlares01" count="1">
+<lootgroup name="War3zukHDFlares01" count="2">
 	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
 	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDFlares02" count="1">
+<lootgroup name="War3zukHDFlares02" count="2">
 		<item name="Food Supply Flare" count="1" loot_prob_template="low"/>
 		<item name="Ammo Supply Flare" count="1" loot_prob_template="low"/>
 		<item name="Building Supply Flare" count="1" loot_prob_template="low"/>
@@ -244,12 +244,12 @@
 	<item group="War3zukHDFlares02" loot_prob_template="verylow" force_prob="true"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDCarePackages01" count="1">
+<lootgroup name="War3zukHDCarePackages01" count="2">
 	<item name="medicalFirstAidBandage" count="1" loot_prob_template="low"/>
 	<item name="drugPainkillers" count="2" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDCarePackages02" count="1">
+<lootgroup name="War3zukHDCarePackages02" count="2">
 		<item name="HD Care Package" count="1" loot_prob_template="med"/>
 		<item name="HD Food Care Package" count="1" loot_prob_template="med"/>
 		<item name="HD Ammo Care Package" count="1" loot_prob_template="med"/>
@@ -262,13 +262,13 @@
 	<item group="War3zukHDCarePackages02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDFoods01" count="1">
+<lootgroup name="War3zukHDFoods01" count="2">
 	<item name="drinkJarBoiledWater" count="2,4" loot_prob_template="med"/>
 	<item group="cannedfood" count="2,4" loot_prob_template="low"/>
 	<item group="farmingCookingRecipesCommon" count="1" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukHDFoods02" count="1">
+<lootgroup name="War3zukHDFoods02" count="2">
 		<item name="HDBowl" count="1" loot_prob_template="low"/>
 		<item name="Warm Chunky Honey" count="1" loot_prob_template="low"/>
 		<item name="Warm Chunky Beef" count="1" loot_prob_template="low"/>
@@ -294,7 +294,7 @@
 	<item group="War3zukHDFoods02" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="War3zukSpecialItems01" count="1">
+<lootgroup name="War3zukSpecialItems01" count="2">
 		<item name="resourceLockPick" count="1,4" loot_prob_template="high"/>
 		<item group="groupScrapCommon" loot_prob_template="high"/>
 </lootgroup>
@@ -308,7 +308,7 @@
 	<item group="War3zukSpecialItems02" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukDumpsterLoot01" count="1,2">
+<lootgroup name="War3zukDumpsterLoot01" count="2">
 	<item name="HDAeroDynamicsUpgrade" count="1" loot_prob_template="low"/>
 	<item name="HDFuelSaverUpgrade" count="1" loot_prob_template="low"/>
 	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="low"/>
@@ -423,7 +423,7 @@
 
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupHiddenStash']">
 	
-<lootgroup name="SupplyMaterials" count="1">
+<lootgroup name="SupplyMaterials" count="2">
     <item name="resourceScrapBrass" count="50,100" loot_prob_template="low"/>
 	<item name="resourceFeather" count="10,20" loot_prob_template="low"/>
 	<item name="resourceGunPowder" count="10,50" loot_prob_template="low"/>
@@ -448,7 +448,7 @@
 
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMaterials']">
 	
-<lootgroup name="SupplySchematics" count="1">
+<lootgroup name="SupplySchematics" count="2">
 	<item name="modArmorHelmetLightSchematic" count="1" loot_prob_template="verylow"/>
 	<item name="modArmorBandolierSchematic" count="1" loot_prob_template="verylow"/>
 	<item name="modArmorInsulatedLinerSchematic" count="1" loot_prob_template="verylow"/>
@@ -631,7 +631,7 @@
 
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplySchematics']">
 	
-<lootgroup name="SupplyPerkBooks" count="1">	
+<lootgroup name="SupplyPerkBooks" count="2">	
 		<item name="bookRangersArrowRecovery" count="1" loot_prob_template="verylow"/>
 		<item name="bookRangersCripplingShot" count="1" loot_prob_template="verylow"/>
 		<item name="bookRangersKnockdown" count="1" loot_prob_template="verylow"/>
@@ -749,7 +749,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyPerkBooks']">
 	
-<lootgroup name="SupplyFood" count="1">
+<lootgroup name="SupplyFood" count="2">
 		<item name="foodCanBeef" count="1" loot_prob_template="verylow"/>
 		<item name="foodCanCatfood" count="1" loot_prob_template="verylow"/>
 		<item name="foodCanChicken" count="1" loot_prob_template="verylow"/>
@@ -801,7 +801,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">
 	
-<lootgroup name="SupplyParts" count="1">
+<lootgroup name="SupplyParts" count="2">
 		<item name="gunMGT1AK47Parts" count="1,2" loot_prob_template="verylow"/>
 		<item name="gunHandgunT1PistolParts" count="1,2" loot_prob_template="verylow"/>
 		<item name="gunBowT1WoodenBowParts" count="1,2" loot_prob_template="verylow"/>
@@ -828,7 +828,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyParts']">
 	
-<lootgroup name="SupplyWeapons" count="1">
+<lootgroup name="SupplyWeapons" count="2">
 	    <item name="gunHandgunT0PipePistol" count="1" loot_prob_template="verylow"/>
 		<item name="gunShotgunT0PipeShotgun" count="1" loot_prob_template="verylow"/>
 		<item name="gunRifleT0PipeRifle" count="1" loot_prob_template="verylow"/>
@@ -839,7 +839,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyWeapons']">
 	
-<lootgroup name="SupplyMedical" count="1">
+<lootgroup name="SupplyMedical" count="2">
         <item name="medicalFirstAidKit" count="1" loot_prob_template="verylow"/>
 		<item name="toolBeaker" count="1" loot_prob_template="verylow"/>
 		<item name="drugAntibiotics" count="1,2" loot_prob_template="verylow"/>
@@ -863,7 +863,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMedical']">
 	
-<lootgroup name="SupplyAmmo" count="1">
+<lootgroup name="SupplyAmmo" count="2">
         <item name="ammo9mmBulletBall" count="15,30" loot_prob_template="verylow"/>
         <item name="ammo9mmBulletHP" count="15,30" loot_prob_template="verylow"/>
         <item name="ammo9mmBulletAP" count="15,30" loot_prob_template="verylow"/>
@@ -899,7 +899,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmo']">
 	
-<lootgroup name="SupplyAmmoBundles" count="1">
+<lootgroup name="SupplyAmmoBundles" count="2">
         <item name="ammoBundle9mmBulletBall" count="1" loot_prob_template="verylow"/>
 		<item name="ammoBundle9mmBulletHP" count="1" loot_prob_template="verylow"/>
         <item name="ammoBundle9mmBulletAP" count="1" loot_prob_template="verylow"/>
@@ -936,7 +936,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmoBundles']">
 	
-<lootgroup name="SupplyTools" count="1">
+<lootgroup name="SupplyTools" count="2">
         <item name="meleeToolSalvageT1Wrench" count="1" loot_prob_template="verylow"/>
         <item name="meleeToolRepairT1ClawHammer" count="1" loot_prob_template="verylow"/>
         <item name="meleeToolRepairT3Nailgun" count="1" loot_prob_template="verylow"/>
@@ -955,7 +955,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyTools']">
 	
-<lootgroup name="SupplyAutomotive" count="1">
+<lootgroup name="SupplyAutomotive" count="2">
         <item name="vehicleBicycleChassis" count="1" loot_prob_template="verylow"/>
 		<item name="vehicleBicycleHandlebars" count="1" loot_prob_template="verylow"/>
 		<item name="vehicleWheels" count="1" loot_prob_template="verylow"/>
@@ -976,7 +976,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAutomotive']">	
 	
-<lootgroup name="SupplyGroups" count="1,2">
+<lootgroup name="SupplyGroups" count="2">
 		<item group="SupplyMaterials" count="1" loot_prob_template="verylow"/>
         <item group="SupplyFood" count="1" loot_prob_template="verylow"/>
         <item group="SupplyWeapons" count="1" loot_prob_template="verylow"/>
