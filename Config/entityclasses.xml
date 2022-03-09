@@ -1595,7 +1595,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1635,7 +1636,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1670,7 +1672,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1695,7 +1698,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1728,7 +1732,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1753,7 +1758,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1813,7 +1819,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 	<property name="Explosion.ParticleIndex" value="8"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
@@ -1854,7 +1861,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1880,7 +1888,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
@@ -1939,7 +1948,8 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1850"/>
-		<passive_effect name="PhysicalDamageResist" operation="base_set" value="80"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 	</effect_group>
 </entity_class>
 
