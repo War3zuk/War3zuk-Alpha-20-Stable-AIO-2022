@@ -12314,4 +12314,6 @@
 
 </insertAfter>-->
 
+	<set xpath="/items/item[not (@name='gunBowT0PrimitiveBow') and not (@name='gunBowT1WoodenBow')]/property[@name='CrosshairOnAim']/@value">false</set>
+
 </configs>

@@ -2,6 +2,8 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.0 to v7.1
 
+Removed CrossHairs From Weapons
+
 Loot Re-Balance (Amount x2)
 
 Launcher Edits: (Only For Launcher Install)
