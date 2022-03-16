@@ -10,6 +10,8 @@ Loot Re-Balance (Amount x2)
 
 Launcher Edits: (Only For Launcher Install)
 Fixed drinkNukaSarsaparilla Unlock
+Updated SMXhud Rc5
+Updated SMXlib Rc7
 
 Updated v6.9 to v7.0
 
