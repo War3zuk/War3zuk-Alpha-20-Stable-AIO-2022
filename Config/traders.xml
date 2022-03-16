@@ -165,10 +165,8 @@
 			<item group="generalResources" count="90,140"/>
 			<item group="constructionSupplies" count="20,80"/>
 			<item group="decorativeBlocks" count="20,70"/>
-			<item group="tools" count="10" quality="10,30"/>
 			<item group="tools" count="10"/>
 			<item group="traderElectrical" count="10,20"/>
-			<item group="modAllT1SecretStash" count="10,20"/>
 			<item name="forge"/>
 			<item name="workbench"/>
 			<item name="cementMixer"/>
@@ -296,17 +294,7 @@
 
 	<trader_info id="15" full_reset="false" reset_interval="1" override_buy_markup="2.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
 		<trader_items count="all">
-			<item name="resourceCement" count="50,500"/>
-			<item name="resourceCobblestones" count="50,500"/>
-			<item name="resourceConcreteMix" count="100,500"/>
-			<item name="resourceNail" count="10,100"/>
-			<item name="resourceForgedIron" count="50,75"/>
-			<item name="resourceForgedSteel" count="40,45"/>
-			<item name="resourceScrapPolymers" count="50,125"/>
-			<item name="resourceElectricParts" count="50,125"/>
-			<item name="resourceElectronicParts" count="50,125"/>
-			<item name="resourceMechanicalParts" count="50,125"/>
-			<item name="resourceSpring" count="50,100"/>
+			<item name="resourceSpring" count="100,250"/>
 			<item name="ammoGasCan" count="200,1000"/>
 			<item name="resourceAcid" count="2,6" prob="0.6"/>
 			<item name="vehicleWheels"/>
@@ -317,15 +305,11 @@
 			<item name="vehicleGyroCopterChassis"/>
 			<item name="vehicleGyroCopterAccessories"/>
 			<item name="vehicleGyrocopterPlaceable"/>
-			<item name="resourceForgedIron" count="50,100"/>
-			<item name="resourceScrapPolymers" count="50,150"/>
-			<item name="resourceElectricParts" count="50,150"/>
-			<item name="resourceMechanicalParts" count="50,150"/>
-			<item name="resourceSpring" count="50,100"/>
-			<item group="tools" count="100,300" prob="0.4"/>
-			<item group="rareTools" count="100" prob="0.2"/>
-			<item name="meleeWpnSledgeT1IronSledgehammerSchematic" count="10" prob="0.15"/>
-			<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" count="10" prob="0.1"/>
+			<item name="resourceForgedIron" count="100,250"/>
+			<item name="resourceScrapPolymers" count="100,250"/>
+			<item name="resourceElectricParts" count="100,250"/>
+			<item name="resourceMechanicalParts" count="100,250"/>
+			<item name="resourceSpring" count="100,250"/>
 		</trader_items>
 	</trader_info>
 
@@ -402,14 +386,12 @@
 			<item name="resourceCobblestones" count="25,100" prob="0.15"/>
 			<item name="resourceScrapPolymers" count="20,60" prob="0.15"/>
 			<item name="resourceElectricParts" count="20,60" prob="0.15"/>
-			<item name="resourceElectronicParts" count="10,30" prob="0.15"/>
 			<item name="resourceMechanicalParts" count="20,60" prob="0.15"/>
 			<item name="resourceNail" count="10,100" prob="0.15"/>
 			<item name="resourceForgedIron" count="50,75" prob="0.15"/>
 			<item name="resourceForgedSteel" count="40,45" prob="0.15"/>
 			<item name="resourceScrapPolymers" count="50,125" prob="0.15"/>
 			<item name="resourceElectricParts" count="50,125" prob="0.15"/>
-			<item name="resourceElectronicParts" count="50,125" prob="0.15"/>
 			<item name="resourceMechanicalParts" count="50,125" prob="0.15"/>
 			<item name="resourceSpring" count="50,100" prob="0.15"/>
 		</trader_items>
