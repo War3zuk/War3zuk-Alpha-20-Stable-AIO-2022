@@ -2,6 +2,12 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.0 to v7.1
 
+Updated HD Junk Turret 9mm
+Updated HD Junk Turret 762mm
+Updated HD Junk Turret 50mm
+Edited HD Junk Turret 9mm Recipe
+Edited HD Junk Turret 762mm Recipe
+Edited HD Junk Turret 50mm Recipe
 Cleaned Un-Used Items Traders
 Removed SecretStash (BuilderVM)
 Removed CrossHairs From Weapons

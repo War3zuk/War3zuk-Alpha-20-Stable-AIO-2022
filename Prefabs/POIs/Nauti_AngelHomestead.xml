@@ -6,9 +6,8 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="AllowTopSoilDecorations" value="False" />
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
-  <property name="DifficultyTier" value="0" />
+  <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 41, 25" />
   <property name="RotationToFaceNorth" value="0" />
   <property name="SleeperVolumeStart" value="0, 0, 0" />
@@ -17,7 +16,7 @@
   <property name="SleeperVolumeGameStageAdjust" value="medium" />
   <property name="SleeperIsLootVolume" value="False" />
   <property name="SleeperIsBossVolume" value="False" />
-  <property name="Zoning" value="ResidentialOld, ResidentialNew, Residential, ResdentialOld, Downtown" />
+  <property name="Zoning" value="ResidentialOld, ResidentialNew, Residential" />
   <property name="SleeperVolumeGroupId" value="0" />
   <property name="SleeperIsQuestExclude" value="False" />
   <property name="SleeperVolumeFlags" value="0" />
