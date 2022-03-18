@@ -2,6 +2,7 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.0 to v7.1
 
+Adjusted Spawns Slightly
 Updated HD Junk Turret 9mm
 Updated HD Junk Turret 762mm
 Updated HD Junk Turret 50mm

@@ -96,95 +96,95 @@
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesHoard']">
-		<entity name="zombieBusinessManFeral" prob="0.3"/>
-		<entity name="zombieArleneFeral" prob="0.3"/>
-		<entity name="zombieDarleneFeral" prob="0.3"/>
-		<entity name="zombieMarleneFeral" prob="0.3"/>
-		<entity name="zombieNurseFeral" prob="0.3"/>
-		<entity name="zombieSteveCrawlerFeral" prob="0.3"/>
-		<entity name="zombieFemaleFatFeral" prob="0.3"/>
-		<entity name="zombieMaleHazmatFeral" prob="0.3"/>
-		<entity name="zombieFatHawaiianFeral" prob="0.3"/>
-		<entity name="zombieSoldierFeral" prob="0.3"/>
-		<entity name="zombieSpiderFeral" prob="0.3"/>
-		<entity name="zombieBoeFeral" prob="0.3"/>
-		<entity name="zombieJoeFeral" prob="0.3"/>
-		<entity name="zombieSteveFeral" prob="0.3"/>
-		<entity name="zombieTomClarkFeral" prob="0.3"/>
-		<entity name="zombieMoeFeral" prob="0.3"/>
-		<entity name="zombieYoFeral" prob="0.3"/>
-		<entity name="GiantUndeadHound" prob="0.3"/>
-		<entity name="GiantUndeadHoundFire" prob="0.3"/>
-		<entity name="GiantUndeadHoundRad" prob="0.3"/>
-		<entity name="zombiePhantasm" prob="0.3"/>
-		<entity name="zombiePhantasmFire" prob="0.3"/>
-		<entity name="zombiePhantasmRAD" prob="0.3"/>
-		<entity name="zombiePhantasmElectro" prob="0.3"/>
-		<entity name="ElectroDemolisher" prob="0.3"/>
-		<entity name="zombieDemolition" prob="0.3"/>
-		<entity name="GiantDemolisher" prob=".10" />
-		<entity name="GiantDemolisherFire" prob=".10" />
-		<entity name="GiantDemolisherRad" prob=".10" />
+		<entity name="zombieBusinessManFeral"/>
+		<entity name="zombieArleneFeral"/>
+		<entity name="zombieDarleneFeral"/>
+		<entity name="zombieMarleneFeral"/>
+		<entity name="zombieNurseFeral"/>
+		<entity name="zombieSteveCrawlerFeral"/>
+		<entity name="zombieFemaleFatFeral"/>
+		<entity name="zombieMaleHazmatFeral"/>
+		<entity name="zombieFatHawaiianFeral"/>
+		<entity name="zombieSoldierFeral"/>
+		<entity name="zombieSpiderFeral"/>
+		<entity name="zombieBoeFeral"/>
+		<entity name="zombieJoeFeral"/>
+		<entity name="zombieSteveFeral"/>
+		<entity name="zombieTomClarkFeral"/>
+		<entity name="zombieMoeFeral"/>
+		<entity name="zombieYoFeral"/>
+		<entity name="GiantUndeadHound" prob="0.5"/>
+		<entity name="GiantUndeadHoundFire" prob="0.5"/>
+		<entity name="GiantUndeadHoundRad" prob="0.5"/>
+		<entity name="zombiePhantasm" prob="0.5"/>
+		<entity name="zombiePhantasmFire" prob="0.5"/>
+		<entity name="zombiePhantasmRAD" prob="0.5"/>
+		<entity name="zombiePhantasmElectro" prob="0.5"/>
+		<entity name="ElectroDemolisher" prob="0.5"/>
+		<entity name="zombieDemolition" prob="0.5"/>
+		<entity name="GiantDemolisher" prob="0.1" />
+		<entity name="GiantDemolisherFire" prob="0.1" />
+		<entity name="GiantDemolisherRad" prob="0.1" />
 		<entity name="GiantUndeadVulture" prob="0.1"/>
 		<entity name="GiantUndeadVultureFire" prob="0.1"/>
 		<entity name="GiantUndeadVultureRad" prob="0.1"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
-		<entity name="zombieWightFeral" prob=".2"/>
-		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
-		<entity name="zombiePhantasm" prob=".20" />
-		<entity name="zombiePhantasmFire" prob=".20" />
-		<entity name="zombiePhantasmRAD" prob=".20" />
-		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieDemolition" prob=".25"/>
+		<entity name="GiantUndeadHound" prob=".25"/>
+		<entity name="GiantUndeadHoundFire" prob=".25"/>
+		<entity name="GiantUndeadHoundRad" prob=".25"/>
+		<entity name="zombiePhantasm" prob=".25"/>
+		<entity name="zombiePhantasmFire" prob=".25"/>
+		<entity name="zombiePhantasmRAD" prob=".25"/>
+		<entity name="zombiePhantasmElectro" prob=".25"/>
 		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="zombieDemolition" prob=".10" />
 		<entity name="GiantDemolisher" prob=".10" />
 		<entity name="GiantDemolisherFire" prob=".10" />
 		<entity name="GiantDemolisherRad" prob=".10" />
-		<entity name="GiantUndeadVulture" prob="0.1" />
-		<entity name="GiantUndeadVultureFire" prob="0.1" />
-		<entity name="GiantUndeadVultureRad" prob="0.1" />
+		<entity name="GiantUndeadVulture" prob=".5" />
+		<entity name="GiantUndeadVultureFire" prob=".5" />
+		<entity name="GiantUndeadVultureRad" prob=".5" />
 		<entity name="TitanMutated" prob="0.050"/>
 		<entity name="TitanBigMamma" prob="0.050"/>
 		<entity name="TitanLumberJack" prob="0.050"/>
@@ -198,160 +198,160 @@
 </append>
 	
 <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
-		<entity name="zombieWightFeral" prob=".2"/>
-		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
-		<entity name="zombiePhantasm" prob=".20" />
-		<entity name="zombiePhantasmFire" prob=".20" />
-		<entity name="zombiePhantasmRAD" prob=".20" />
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieDemolition" prob=".10"/>
+		<entity name="GiantUndeadHound" prob=".10" />
+		<entity name="GiantUndeadHoundFire" prob=".10" />
+		<entity name="GiantUndeadHoundRad" prob=".10" />
+		<entity name="zombiePhantasm" prob=".10" />
+		<entity name="zombiePhantasmFire" prob=".10" />
+		<entity name="zombiePhantasmRAD" prob=".10" />
 		<entity name="zombiePhantasmElectro" prob=".10"/>
 		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="zombieDemolition" prob=".10" />
 		<entity name="GiantDemolisher" prob=".10" />
 		<entity name="GiantDemolisherFire" prob=".05" />
 		<entity name="GiantDemolisherRad" prob=".05" />
-		<entity name="GiantUndeadVulture" prob="0.1" />
-		<entity name="GiantUndeadVultureFire" prob="0.1" />
-		<entity name="GiantUndeadVultureRad" prob="0.1" />
+		<entity name="GiantUndeadVulture" prob=".1" />
+		<entity name="GiantUndeadVultureFire" prob=".1" />
+		<entity name="GiantUndeadVultureRad" prob=".1" />
 </append>
 	
 <append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
-		<entity name="zombieSoldierFeral" prob=".5"/>
-		<entity name="zombieSpider" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoe" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoe" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteve" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClark" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoe" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYo" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessMan" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArlene" prob=".5"/>
-		<entity name="GiantUndeadHoundFire" prob=".5"/>
-		<entity name="zombiePhantasmFire" prob=".5"/>
-		<entity name="ElectroDemolisher" prob=".5"/>
-		<entity name="GiantDemolisherFire" prob=".5"/>
-		<entity name="GiantUndeadVultureFire" prob="0.1"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpider" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoe" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoe" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteve" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClark" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoe" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYo" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessMan" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArlene" prob=".25"/>
+		<entity name="GiantUndeadHoundFire" prob=".25"/>
+		<entity name="zombiePhantasmFire" prob=".25"/>
+		<entity name="ElectroDemolisher" prob=".25"/>
+		<entity name="GiantDemolisherFire" prob=".25"/>
+		<entity name="GiantUndeadVultureFire" prob=".1"/>
 		<entity name="TitanBurnt" prob="0.050"/>
 		<entity name="TitanSpider" prob="0.050"/>
 </append>
 	
 <append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
-		<entity name="zombieSpider" prob=".5"/>
-		<entity name="zombieBoe" prob=".5"/>
-		<entity name="zombieJoe" prob=".5"/>
-		<entity name="zombieSteve" prob=".5"/>
-		<entity name="zombieTomClark" prob=".5"/>
-		<entity name="zombieMoe" prob=".5"/>
-		<entity name="zombieYo" prob=".5"/>
-		<entity name="zombieBusinessMan" prob=".5"/>
-		<entity name="zombieArlene" prob=".5"/>
-		<entity name="zombieDarlene" prob=".5"/>
-		<entity name="zombieMarlene" prob=".5"/>
-		<entity name="zombieNurse" prob=".5"/>
-		<entity name="zombiePartyGirl" prob=".5"/>
-		<entity name="zombieFatHawaiian" prob=".5"/>
-		<entity name="zombieFatCop" prob=".5"/>
-		<entity name="zombieSoldier" prob=".5"/>
-		<entity name="zombieDemolition" prob=".5"/>
-		<entity name="GiantUndeadHound" prob=".5"/>
-		<entity name="zombiePhantasm" prob=".5"/>
-		<entity name="GiantDemolisher" prob=".5"/>
-		<entity name="zombiePhantasmElectro" prob=".5"/>
-		<entity name="zombieDemolition" prob=".5"/>
+		<entity name="zombieSpider" prob=".25"/>
+		<entity name="zombieBoe" prob=".25"/>
+		<entity name="zombieJoe" prob=".25"/>
+		<entity name="zombieSteve" prob=".25"/>
+		<entity name="zombieTomClark" prob=".25"/>
+		<entity name="zombieMoe" prob=".25"/>
+		<entity name="zombieYo" prob=".25"/>
+		<entity name="zombieBusinessMan" prob=".25"/>
+		<entity name="zombieArlene" prob=".25"/>
+		<entity name="zombieDarlene" prob=".25"/>
+		<entity name="zombieMarlene" prob=".25"/>
+		<entity name="zombieNurse" prob=".25"/>
+		<entity name="zombiePartyGirl" prob=".25"/>
+		<entity name="zombieFatHawaiian" prob=".25"/>
+		<entity name="zombieFatCop" prob=".25"/>
+		<entity name="zombieSoldier" prob=".25"/>
+		<entity name="zombieDemolition" prob=".25"/>
+		<entity name="GiantUndeadHound" prob=".25"/>
+		<entity name="zombiePhantasm" prob=".25"/>
+		<entity name="GiantDemolisher" prob=".25"/>
+		<entity name="zombiePhantasmElectro" prob=".25"/>
+		<entity name="zombieDemolition" prob=".25"/>
 		<entity name="TitanSpider" prob="0.050"/>
 		<entity name="TitanLumberJack" prob="0.050"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
 		<entity name="zombieWightFeral" prob=".2"/>
 		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="GiantUndeadHound" prob=".10"/>
+		<entity name="GiantUndeadHoundFire" prob=".10"/>
+		<entity name="GiantUndeadHoundRad" prob=".10"/>
 		<entity name="zombiePhantasm" prob=".20" />
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
@@ -374,48 +374,48 @@
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
 		<entity name="zombieWightFeral" prob=".2"/>
 		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="GiantUndeadHound" prob=".10"/>
+		<entity name="GiantUndeadHoundFire" prob=".10"/>
+		<entity name="GiantUndeadHoundRad" prob=".10"/>
 		<entity name="zombiePhantasm" prob=".20" />
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
@@ -438,48 +438,48 @@
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
 		<entity name="zombieWightFeral" prob=".2"/>
 		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="GiantUndeadHound" prob=".10"/>
+		<entity name="GiantUndeadHoundFire" prob=".10"/>
+		<entity name="GiantUndeadHoundRad" prob=".10"/>
 		<entity name="zombiePhantasm" prob=".20" />
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
@@ -502,26 +502,26 @@
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
 		<entity name="zombieSteve" prob="1"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
 		<entity name="zombieTomClark"/>
 		<entity name="zombieMoe" prob="1"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
 		<entity name="zombieYo" prob="1"/>
 		<entity name="zombieBusinessMan" prob="1.5"/>
 		<entity name="zombieArlene" prob="1"/>
@@ -530,13 +530,13 @@
 		<entity name="zombieNurse" prob="1"/>
 		<entity name="zombiePartyGirl"/>
 		<entity name="zombieFatHawaiian" prob="1"/>
-		<entity name="zombieFatCop" prob=".5"/>
+		<entity name="zombieFatCop" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
-		<entity name="zombieSoldier" prob=".5"/>
+		<entity name="zombieSoldier" prob=".25"/>
 		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="GiantUndeadHound" prob=".10"/>
+		<entity name="GiantUndeadHoundFire" prob=".10"/>
+		<entity name="GiantUndeadHoundRad" prob=".10"/>
 		<entity name="zombiePhantasm" prob=".20" />
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
@@ -547,48 +547,48 @@
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']">
-		<entity name="zombieMutatedFeral" prob=".5"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieYoFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".5"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
-		<entity name="zombieFemaleFatFeral" prob="2"/>
-		<entity name="zombieFatCopFeral" prob="2"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieWightFeral" prob="2"/>
-		<entity name="zombieMaleHazmatFeral" prob="2"/>
-		<entity name="zombieFatHawaiianFeral" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="2"/>
-		<entity name="zombieSpiderFeral" prob=".5"/>
-		<entity name="zombieBoeFeral" prob=".5"/>
-		<entity name="zombieJoeFeral" prob=".5"/>
-		<entity name="zombieSteveFeral" prob=".5"/>
-		<entity name="zombieTomClarkFeral" prob=".5"/>
-		<entity name="zombieMoeFeral" prob=".5"/>
-		<entity name="zombieBusinessManFeral" prob=".75"/>
-		<entity name="zombieArleneFeral" prob=".5"/>
-		<entity name="zombieDarleneFeral" prob=".5"/>
-		<entity name="zombieMarleneFeral" prob=".5"/>
-		<entity name="zombieNurseFeral" prob=".5"/>
-		<entity name="zombiePartyGirlFeral" prob=".5"/>
-		<entity name="zombieFatHawaiianFeral" prob=".5"/>
-		<entity name="zombieSteveCrawlerFeral" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieYoFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
+		<entity name="zombieFemaleFatFeral" prob=".25"/>
+		<entity name="zombieFatCopFeral" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".25"/>
+		<entity name="zombieWightFeral" prob=".25"/>
+		<entity name="zombieMaleHazmatFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSoldierFeral" prob=".25"/>
+		<entity name="zombieSpiderFeral" prob=".25"/>
+		<entity name="zombieBoeFeral" prob=".25"/>
+		<entity name="zombieJoeFeral" prob=".25"/>
+		<entity name="zombieSteveFeral" prob=".25"/>
+		<entity name="zombieTomClarkFeral" prob=".25"/>
+		<entity name="zombieMoeFeral" prob=".25"/>
+		<entity name="zombieBusinessManFeral" prob=".25"/>
+		<entity name="zombieArleneFeral" prob=".25"/>
+		<entity name="zombieDarleneFeral" prob=".25"/>
+		<entity name="zombieMarleneFeral" prob=".25"/>
+		<entity name="zombieNurseFeral" prob=".25"/>
+		<entity name="zombiePartyGirlFeral" prob=".25"/>
+		<entity name="zombieFatHawaiianFeral" prob=".25"/>
+		<entity name="zombieSteveCrawlerFeral" prob=".25"/>
 		<entity name="zombieFatCopFeral" prob=".25"/>
 		<entity name="zombieSoldierFeral" prob=".25"/>
 		<entity name="zombieWightFeral" prob=".2"/>
 		<entity name="zombieDemolition" prob=".02"/>
-		<entity name="GiantUndeadHound" prob=".30" />
-		<entity name="GiantUndeadHoundFire" prob=".30" />
-		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="GiantUndeadHound" prob=".10"/>
+		<entity name="GiantUndeadHoundFire" prob=".10"/>
+		<entity name="GiantUndeadHoundRad" prob=".10"/>
 		<entity name="zombiePhantasm" prob=".20" />
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
