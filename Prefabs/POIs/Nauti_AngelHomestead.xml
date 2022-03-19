@@ -13,7 +13,6 @@
   <property name="SleeperVolumeStart" value="0, 0, 0" />
   <property name="SleeperVolumeSize" value="25, 16, 25" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,4,6" />
-  <property name="SleeperVolumeGameStageAdjust" value="medium" />
   <property name="SleeperIsLootVolume" value="False" />
   <property name="SleeperIsBossVolume" value="False" />
   <property name="Zoning" value="ResidentialOld, ResidentialNew, Residential" />

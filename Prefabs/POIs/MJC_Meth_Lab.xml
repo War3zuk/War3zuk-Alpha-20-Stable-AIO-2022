@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <prefab>
   <property name="CopyAirBlocks" value="True" />
   <property name="AllowTopSoilDecorations" value="False" />
@@ -11,7 +11,6 @@
   <property name="SleeperVolumeSize" value="8, 1, 3#1, 10, 5#4, 1, 3#28, 1, 29#14, 7, 20#4, 3, 10#6, 4, 14#2, 6, 4#10, 13, 5#9, 16, 21#15, 9, 6#5, 1, 3#16, 2, 17" />
   <property name="SleeperVolumeStart" value="19, 29, 14#19, 20, 14#13, 29, 15#2, 28, 0#2, 3, 7#17, 2, 5#4, 10, 15#10, 17, 21#15, 1, 23#21, 6, 2#6, 14, 2#13, 14, 9#1, 19, 8" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,3,4,zombieScreamerRadiated,1,1,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,7,10,S_-_Group_Zom_Badass,6,7,S_-_Group_Biker_Bar,1,1,S_-_Group_Biker_Bar,3,3,S_-_Group_Zom_Badass_Only,5,6,S_-Group_Generic_Zombie,5,6,zombieBikerRadiated,5,7,S_-_Group_Lab_Worker,9,11,S_-Group_Generic_Zombie,5,9,S_-Group_Generic_Zombie,6,6" />
-  <property name="SleeperVolumeGameStageAdjust" value="" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="house old" />

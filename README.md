@@ -2,6 +2,27 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.0 to v7.1
 
+Renamed meleeWpnBladeT0BoneKnife
+Renamed HD Scrap Iron Shiv
+Updated Model Cute Baby Bee
+Updated Model CntDumpster
+Updated Model HD Breaching C4
+Updated Model HD Wrench
+Updated Model HD Scrap Iron Wrench
+Updated Model HD Impact Wrench
+Updated Model HD Meat Cleaver
+Updated Model HD Meat Hammer
+Updated Model HD Scrap Iron Axe
+Updated Model HD Scrap Iron Club
+Updated Model HD Scrap Iron PickAxe
+Updated Model HD Scrap Iron Shiv
+Updated Model HD Scrap Iron Shovel
+Updated Model HD Meat Hammer
+Updated Models HD Meat Hammer
+Updated Model HD Vending Coke
+Updated Models HD Class Vendors
+Updated Model CntGasPumpWorking (Paid Pbr Model)
+Updated Model CntGasPumpBroken (Paid Pbr Model)
 Adjusted Spawns Slightly
 Updated HD Junk Turret 9mm
 Updated HD Junk Turret 762mm
@@ -12,13 +33,17 @@ Edited HD Junk Turret 50mm Recipe
 Cleaned Un-Used Items Traders
 Removed SecretStash (BuilderVM)
 Removed CrossHairs From Weapons
-
+Rebuilt EntityGroups.xml
 Loot Re-Balance (Amount x2)
 
 Launcher Edits: (Only For Launcher Install)
 Fixed drinkNukaSarsaparilla Unlock
 Updated SMXhud Rc5
 Updated SMXlib Rc7
+Creature Pack Fully Updated 20.3
+Zombie Pack Fully Updated 20.3
+Removed GS Adjustments Custom POI's
+Rebuilt SCZ EntityGroups.xml
 
 Updated v6.9 to v7.0
 

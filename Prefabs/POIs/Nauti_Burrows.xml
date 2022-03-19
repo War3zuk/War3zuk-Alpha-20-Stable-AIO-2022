@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <prefab>
   <property name="CopyAirBlocks" value="True" />
   <property name="AllowTopSoilDecorations" value="True" />
@@ -17,7 +17,6 @@
   <property name="SleeperVolumeStart" value="12, 0, 13#12, 4, 13#11, 7, 12#15, 15, 12#15, 22, 11#2, 4, 3#2, 4, 29#39, 4, 13#2, 4, 13" />
   <property name="SleeperVolumeSize" value="17, 3, 16#17, 3, 16#19, 8, 19#11, 7, 19#10, 13, 20#38, 3, 10#38, 3, 10#1, 3, 16#1, 3, 16" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,0,0" />
-  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,," />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,2,2,2,2" />

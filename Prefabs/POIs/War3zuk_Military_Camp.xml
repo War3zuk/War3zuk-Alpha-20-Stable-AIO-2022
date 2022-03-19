@@ -14,7 +14,6 @@
   <property name="SleeperVolumeStart" value="76, 0, 55#76, 0, 50#78, 0, 45#74, 0, 39#16, 5, 25#16, 5, 38#16, 5, 40#18, 5, 25#60, 5, 54#45, 5, 25" />
   <property name="SleeperVolumeSize" value="5, 5, 20#7, 5, 15#6, 5, 8#10, 5, 12#28, 14, 37#25, 14, 37#51, 14, 35#59, 14, 42#24, 14, 21#39, 14, 37" />
   <property name="SleeperVolumeGroup" value="S_Zom_Utility_Worker,1,1,S_Zom_Burnt,1,1,S_Zom_Utility_Worker,1,1,S_Zom_Burnt,1,1,S_Zom_Burnt,14,38,S_-Group_Generic_Zombie,11,30,S_-_Group_Lab_Worker,21,56,S_Zom_HazMat_Only,27,74,S_Zom_Burnt,3,8,S_-_Group_Hospital,12,33" />
-  <property name="SleeperVolumeGameStageAdjust" value="0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,2,0,1,0,0,0" />

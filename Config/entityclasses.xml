@@ -2,7 +2,7 @@
 	
 	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE LOOTBAGS FROM THE MOD  -->
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackZombieLoot.Prefab</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
 	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE LOOTBAGS FROM THE MOD  -->

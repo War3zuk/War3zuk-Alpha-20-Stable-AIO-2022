@@ -506,7 +506,7 @@
 <item name="HD Meat Cleaver">
 	<property name="DescriptionKey" value="HDMeatCleaverDesc"/>
 	<property name="CustomIcon" value="HD Meat Cleaver"/>
-	<property name="Tags" value="machete,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+	<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeKnife"/>
 	<property name="HoldType" value="47"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Meat.unity3d?HD Meat Cleaver.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -1449,7 +1449,7 @@
 <item name="HDScrapIronAxe">
 	<property name="DescriptionKey" value="HDScrapIronAxeDesc"/>
 	<property name="CustomIcon" value="HD Scrap Iron Axe" />
-	<property name="Tags" value="melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
+	<property name="Tags" value="melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="63"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Tools.unity3d?HD Scrap Iron Axe.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->

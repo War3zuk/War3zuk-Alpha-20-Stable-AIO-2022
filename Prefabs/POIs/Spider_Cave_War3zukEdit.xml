@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <prefab>
   <property name="CopyAirBlocks" value="True" />
   <property name="AllowTopSoilDecorations" value="True" />
@@ -11,7 +11,6 @@
   <property name="SleeperVolumeSize" value="22, 2, 6#15, 4, 12#9, 4, 8#11, 4, 12#5, 4, 9#5, 3, 9#12, 7, 22#13, 8, 16#12, 6, 19#9, 5, 7#16, 5, 6" />
   <property name="SleeperVolumeStart" value="16, 5, 1#19, 4, 20#22, 3, 32#22, 2, 40#17, 2, 36#12, 3, 40#5, 3, 49#29, 2, 60#17, 3, 57#33, 3, 53#1, 5, 71" />
   <property name="SleeperVolumeGroup" value="SleeperSpidersA,4,5,SleeperSpidersB,3,5,SleeperSpidersC,1,2,SleeperSpidersB,6,7,SleeperSpidersB,1,3,SleeperSpidersB,1,3,SleeperSpidersB,3,7,SleeperSpidersC,1,2,SleeperSpidersA,1,2,SleeperSpidersB,6,10,SleeperSpidersC,2,5" />
-  <property name="SleeperVolumeGameStageAdjust" value="50" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Wilderness" />

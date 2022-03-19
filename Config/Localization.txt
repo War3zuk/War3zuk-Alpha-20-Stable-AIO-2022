@@ -995,3 +995,6 @@ SpawnTraderRektDesc,Block,,,This Spawns Trader Rekt.\n\nAvatar Enabled For Easie
 SpawnTraderHughDesc,Block,,,This Spawns Trader Hugh.\n\nAvatar Enabled For Easier Manipulation.,,
 SpawnTraderBobDesc,Block,,,This Spawns Trader Bob.\n\nAvatar Enabled For Easier Manipulation.,,
 SpawnTraderJenDesc,Block,,,This Spawns Trader Jen.\n\nAvatar Enabled For Easier Manipulation.,,
+
+meleeWpnBladeT0BoneKnife,items,Item,KgNone,Bone Knife
+HDScrapIronShiv,items,Item,KgNone,HD Scrap Iron Knife
