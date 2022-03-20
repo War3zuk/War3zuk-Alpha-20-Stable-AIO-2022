@@ -32,7 +32,6 @@ Edited HD Junk Turret 762mm Recipe
 Edited HD Junk Turret 50mm Recipe
 Cleaned Un-Used Items Traders
 Removed SecretStash (BuilderVM)
-Removed CrossHairs From Weapons
 Rebuilt EntityGroups.xml
 Loot Re-Balance (Amount x2)
 

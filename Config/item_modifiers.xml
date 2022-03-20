@@ -6,31 +6,31 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		
 		<item_property_overrides name="HD Colt M1911">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="M1911FireS"/>
 			<property name="ScopeCameraOffset" value="-0.0002,0.010,-0.000"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Colt M1911A">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="M1911FireS"/>
 			<property name="ScopeCameraOffset" value="-0.000,0.010,-0.000"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HDGlock18Auto">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="HDGlockAutoFireS"/>
 			<property name="Sound_loop" value="HDGlockAutoFireS"/>
 		</item_property_overrides>
 
 		<item_property_overrides name="HD Desert Eagle Punisher">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="DEFireS"/>
 			<property name="ScopeCameraOffset" value="-0.0002,-0.003,-0.000"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Desert Eagle">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="DEFireS"/>
 			<property name="ScopeCameraOffset" value="0.000,0.000,-0.000"/>
 		</item_property_overrides>
@@ -66,13 +66,13 @@
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Spas 12">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="MossBerg500S"/>
 			<property name="Sound_loop" value="MossBerg500S"/>
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Mossberg 500">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="Sound_start" value="MossBerg500S"/>
 			<property name="Sound_loop" value="MossBerg500S"/>
 		</item_property_overrides>
@@ -506,7 +506,7 @@
 		<item_property_overrides name="HDGlock18Auto">
 			<property name="Sound_start" value="HDGlockAutoFireS"/>
 			<property name="Sound_loop" value="HDGlockAutoFireS"/>
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
 
@@ -537,7 +537,7 @@
 		<item_property_overrides name="HD Tactical AR">
 			<property name="Sound_start" value="ARS"/>
 			<property name="Sound_loop" value="ARS"/>
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 			<property name="BarrelScale" value="1,1,1"/>
 			<property name="ScopeCameraOffset" value="-.0007,.0185,.25"/>
 		</item_property_overrides>
@@ -1387,10 +1387,4 @@
 	</item_modifier>
 	
 </append>
-
-	<set xpath="/item_modifiers/item_modifier[(@name='modGunLaserSight')]/item_property_overrides[@name='*']/property[@name='CrosshairOnAim']/@value">false</set>
-	<set xpath="/item_modifiers/item_modifier[(@name='modGunScopeSmall')]/item_property_overrides[@name='*']/property[@name='CrosshairOnAim']/@value">false</set>
-	<set xpath="/item_modifiers/item_modifier[(@name='modGunScopeMedium')]/item_property_overrides[@name='*']/property[@name='CrosshairOnAim']/@value">false</set>
-	<set xpath="/item_modifiers/item_modifier[(@name='modGunScopeLarge')]/item_property_overrides[@name='*']/property[@name='CrosshairOnAim']/@value">false</set>
-	
 </configs>

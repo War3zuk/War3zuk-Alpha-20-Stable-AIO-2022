@@ -3049,7 +3049,7 @@
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HD M4A1 Carbine.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -3373,7 +3373,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3457,7 +3457,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3541,7 +3541,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3625,7 +3625,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3709,7 +3709,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -12319,7 +12319,5 @@
 </item>
 
 </insertAfter>-->
-
-	<set xpath="/items/item[not (@name='gunBowT0PrimitiveBow') and not (@name='gunBowT1WoodenBow')]/property[@name='CrosshairOnAim']/@value">false</set>
 
 </configs>
