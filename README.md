@@ -1,5 +1,16 @@
 War3zuk-Alpha-20.3 B3 - AIO STABLE
 
+Updated v7.1 to v7.2
+
+Fixed 20 Broken Icon Names
+Updated Model HD Brinxs Booper
+Updated Model HD Scrap Iron Club
+
+Launcher Edits: (Only For Launcher Install)
+Updated GameStages.xml (CreaturePackAnimals)
+Edited KheldonScreamerBears xml
+Edited SpiderSleeper xml
+
 Updated v7.0 to v7.1
 
 Renamed meleeWpnBladeT0BoneKnife

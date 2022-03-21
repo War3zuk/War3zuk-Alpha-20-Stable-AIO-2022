@@ -1,7 +1,18 @@
 <configs>
 	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+		
+		<item_property_overrides name="HD BR1NXlS Booper">
+			<property name="FlameEffect" value="ItemModEffects/mod_hammer_firePrefab"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HDScrapIronClub">
+			<property name="FlameEffect" value="ItemModEffects/mod_club_flamePrefab"/>
+		</item_property_overrides>
+		
+	</append>
+	
 <!--###############################SuppressorSilencer#######################################-->
-<!--#############Tags=Gun Unity tag Parent: CustomAttachments Child: CustomBarrel###########-->
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		
