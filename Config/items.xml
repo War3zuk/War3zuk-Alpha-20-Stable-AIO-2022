@@ -6009,6 +6009,7 @@
 	<property name="EquipSlot" value="Head"/>
 	<property name="CustomIcon" value="HD Military Helmet"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
+	<property name="Group" value="Clothing"/>
 	<property name="UnlockedBy" value="HD Military Helmet Schematic"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
@@ -6041,6 +6042,7 @@
 	<property name="EquipSlot" value="Chest"/>
 	<property name="CustomIcon" value="HD Military Vest"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
+	<property name="Group" value="Clothing"/>
 	<property name="UnlockedBy" value="HD Military Vest Schematic"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
@@ -6072,6 +6074,7 @@
 	<property name="EquipSlot" value="Hands"/>
 	<property name="CustomIcon" value="HD Military Gloves"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
+	<property name="Group" value="Clothing"/>
 	<property name="UnlockedBy" value="HD Military Gloves Schematic"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
@@ -6103,6 +6106,7 @@
 	<property name="EquipSlot" value="Legs"/>
 	<property name="CustomIcon" value="HD Military Legs"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
+	<property name="Group" value="Clothing"/>
 	<property name="UnlockedBy" value="HD Military Legs Schematic"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
@@ -6134,6 +6138,7 @@
 	<property name="EquipSlot" value="Feet"/>
 	<property name="CustomIcon" value="HD Military Boots"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
+	<property name="Group" value="Clothing"/>
 	<property name="UnlockedBy" value="HD Military Boots Schematic"/>
 	<effect_group name="military without penalties">
 		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
