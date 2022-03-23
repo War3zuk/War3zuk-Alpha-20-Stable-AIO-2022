@@ -2,6 +2,18 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.1 to v7.2
 
+Fixed Localization Names For
+HD GunBench
+HD WorkBench
+HD AmmoBench
+HD PicsBench
+HD GunBench Schematic
+HD WorkBench Schematic
+HD AmmoBench Schematic
+HD PicsBench Schematic
+
+Replaced Old Icons (Benches)
+Replaced Old Icons (Bench Schematics)
 Fixed 20 Broken Icon Names
 Updated Model HD Brinxs Booper
 Updated Model HD Scrap Iron Club

@@ -998,3 +998,12 @@ SpawnTraderJenDesc,Block,,,This Spawns Trader Jen.\n\nAvatar Enabled For Easier 
 
 meleeWpnBladeT0BoneKnife,items,Item,KgNone,Bone Knife
 HDScrapIronShiv,items,Item,KgNone,HD Scrap Iron Knife
+
+HD WorkBench,blocks,Block,KgNone,HD Work Bench
+HD GunBench,blocks,Block,KgNone,HD Gun Bench
+HD AmmoBench,blocks,Block,KgNone,HD Ammo Bench
+HD PicsBench,blocks,Block,KgNone,HD Pics Bench
+HD WorkBench Schematic,items,Item,KgNone,HD Work Bench Schematic
+HD GunBench Schematic,items,Item,KgNone,HD Gun Bench Schematic
+HD PicsBench Schematic,items,Item,KgNone,HD Pics Bench Schematic
+HD AmmoBench Schematic,items,Item,KgNone,HD Ammo Bench Schematic

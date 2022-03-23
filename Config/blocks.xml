@@ -691,7 +691,7 @@
 </block>
 
 <block name="HD PicsBench">
-	<property name="CustomIcon" value="HD WorkBench" />
+	<property name="CustomIcon" value="HD PicsBench" />
 	<property name="DescriptionKey" value="HDPicsBenchDesc"/>
 	<property name="Class" value="Workstation"/>
 	<property name="Material" value="Mmetal"/>
@@ -740,7 +740,7 @@
 </block>
 
 <block name="HD AmmoBench">
-	<property name="CustomIcon" value="HD WorkBench" />
+	<property name="CustomIcon" value="HD AmmoBench" />
 	<property name="DescriptionKey" value="HDAmmoBenchDesc"/>
 	<property name="Class" value="Workstation"/>
 	<property name="Material" value="Mmetal"/>
