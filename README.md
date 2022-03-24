@@ -2,6 +2,8 @@ War3zuk-Alpha-20.3 B3 - AIO STABLE
 
 Updated v7.1 to v7.2
 
+HD Military Gear (Fixed Tags)
+
 Fixed Localization Names For
 HD GunBench
 HD WorkBench
@@ -23,6 +25,7 @@ Updated GameStages.xml (CreaturePackAnimals)
 Edited KheldonScreamerBears xml
 Edited SpiderSleeper xml
 Updated ZTwitch Int Mod (Delete Old)
+Updated War3zuk_Bike_Repair_Shop POI
 
 Updated v7.0 to v7.1
 
