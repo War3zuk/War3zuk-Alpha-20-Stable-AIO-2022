@@ -1,5 +1,37 @@
 War3zuk-Alpha-20.3 B3 - AIO STABLE
 
+Updated v7.2 to v7.3
+
+Fixed HD Military Helmet Icon
+Fixed HD Military Vest Icon
+Fixed HD Military Legs Icon
+Fixed HD Military Boots Icon
+Fixed HD Military Gloves Icon
+
+Replaced CasinoCoin Icon
+Replaced AmmoGasCan Icon
+
+Replaced HD Storage Building
+Replaced HD Storage Coins
+Replaced HD Storage Forge
+Replaced HD Storage Fuel
+Replaced HD Storage Junk
+Replaced HD Storage Medical
+Replaced HD Storage Ammo
+Fixed HD Storage Food Icon
+
+Added HD Storage Armor
+Added HD Storage Armor (Broken)
+Added HD Storage Vehicle Parts
+Added HD Storage Vehicle Parts (Broken)
+Added HD Storage Weapon Parts
+Added HD Storage Weapon Parts (Broken)
+Added HD Storage Parts
+Added HD Storage Parts (Broken)
+
+HD Duke Coins Supplies Renamed
+HD Groceries Supplies Renamed
+
 Updated v7.1 to v7.2
 
 HD Military Gear (Fixed Tags)

@@ -1007,3 +1007,8 @@ HD WorkBench Schematic,items,Item,KgNone,HD Work Bench Schematic
 HD GunBench Schematic,items,Item,KgNone,HD Gun Bench Schematic
 HD PicsBench Schematic,items,Item,KgNone,HD Pics Bench Schematic
 HD AmmoBench Schematic,items,Item,KgNone,HD Ammo Bench Schematic
+
+HD Grocery Supplies,blocks,Block,KgNone,HD Food Supplies,
+HD Grocery Supplies Unlocked,blocks,Block,KgNone,HD Food Supplies Unlocked,
+HD Duke Coin Supplies,Block,KgNone,HD Coin Supplies,
+HD Duke Coin Supplies Unlocked,Block,KgNone,HD Coin Supplies Unlocked,

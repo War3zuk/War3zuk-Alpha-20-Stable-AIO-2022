@@ -2294,6 +2294,174 @@
 	<property name="FilterTags" value="floot"/>
 </block>
 
+<block name="HD Armor Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="LPHardnessScale" value="8"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Storage Armor"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Armor.Prefab"/>
+	<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<property name="DowngradeBlock" value="HD Armor Supplies Unlocked"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Armor Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="cntStorageHealth"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Armor U.Prefab"/>
+	<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Vehicle Parts Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="LPHardnessScale" value="8"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Storage Vehicle Parts"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Vehicle Parts.Prefab"/>
+	<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<property name="DowngradeBlock" value="HD Vehicle Parts Supplies Unlocked"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Vehicle Parts Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="cntStorageHealth"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Vehicle Parts U.Prefab"/>
+	<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Weapon Parts Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="LPHardnessScale" value="8"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Storage Weapon Parts"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Weapon Parts.Prefab"/>
+	<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<property name="DowngradeBlock" value="HD Weapon Parts Supplies Unlocked"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Weapon Parts Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="cntStorageHealth"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Weapon Parts U.Prefab"/>
+	<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Parts Supplies">
+	<property name="StabilitySupport" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="LPHardnessScale" value="8"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Storage Parts"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Parts.Prefab"/>
+	<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="Msteel"/>
+	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<property name="DowngradeBlock" value="HD Parts Supplies Unlocked"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="HD Parts Supplies Unlocked">
+	<property name="StabilitySupport" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="cntStorageHealth"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="playerStorage"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Shape" value="ModelEntity" />
+    <property name="Model" value="#@modfolder:Resources/HD Storage.unity3d?HD Storage Parts U.Prefab"/>
+	<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Basics,Building"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
 <block name="HD Gas Generator">
 	<property name="CustomIcon" value="HD Gas Generator"/>
 	<property name="DescriptionKey" value="HDGasGeneratorDesc"/>

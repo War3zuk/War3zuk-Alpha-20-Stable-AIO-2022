@@ -2256,6 +2256,30 @@
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
+
+<recipe name="HD Armor Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+
+<recipe name="HD Vehicle Parts Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+
+<recipe name="HD Weapon Parts Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+
+<recipe name="HD Parts Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
 		
 <recipe name="HD Penthrox Injection" craft_time="60" craft_area="HD WorkBench" count="1">
 	<ingredient name="HD Poison Vile" count="1"/>
