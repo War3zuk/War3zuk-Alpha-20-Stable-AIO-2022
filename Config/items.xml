@@ -10797,7 +10797,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnClubT1BaseballBat,gunBowT3CompoundBow,ammoArrowIron,meleeWpnKnucklesT0LeatherKnuckles,meleeWpnSledgeT1IronSledgehammer,armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots,meleeWpnBladeT3MacheteSchematic,meleeWpnSledgeT1IronSledgehammerSchematic"/>
-		<property name="Create_item_count" value="5,5,5,5,1-3,1-3,200,1,1,1,1,1,1,1,1,1"/>
+		<property name="Create_item_count" value="5,5,5,5,1-1,1-1,200,1,1,1,1,1,1,1,1,1"/>
 	</property>
 </item>
 
@@ -10818,7 +10818,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,gunHandgunT1Pistol,ammo9mmBulletBall"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,1,1,1,100,1-3,300"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,1,1,1,100,1-1,300"/>
 	</property>
 </item>
 
@@ -10839,7 +10839,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHandgunT1Pistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,1-3,300,100,1-3,1000,25,1,1"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,1-1,300,100,1-1,1000,25,1,1"/>
 	</property>
 </item>
 
@@ -10860,7 +10860,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitShotGuns,gunShotgunT2PumpShotgun,ammoShotgunShell,ammoCrossbowBoltIron,gunBowT1IronCrossbow,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolPickT3AugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="5,1-3,1,1-3,200,200,1-3,5,5,2,2,1,10,1,1,1,1"/>
+		<property name="Create_item_count" value="5,1-1,1,1-1,200,200,1-1,5,5,2,2,1,10,1,1,1,1"/>
 	</property>
 </item>
 
@@ -10881,7 +10881,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitAutomaticRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHandgunT3SMG5,ammo9mmBulletBall,gunHandgunT3SMG5Schematic,HDCncHandGuns,HDCncAutomatics,HDCncRifles"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,5,1-3,350,1,1,1,1"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,5,1-1,350,1,1,1,1"/>
 	</property>
 </item>
 
@@ -10902,7 +10902,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,10,1,1-3,200,1,1"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,10,1,1-1,200,1,1"/>
 	</property>
 </item>
 
@@ -10923,7 +10923,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnBladeT3MacheteSchematic,meleeToolSalvageT1WrenchSchematic,drinkJarCoffee,gunHandgunT2Magnum44,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,meleeToolSalvageT2Ratchet"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,1,1,20,1-3,200,1,1,1-2"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,1,1,20,1-1,200,1,1,1-1"/>
 	</property>
 </item>
 
@@ -10944,7 +10944,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalPlasterCastSchematic,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
-		<property name="Create_item_count" value="5,1-3,1,5,5,5,1,5,5,5,1,1-3,1,200,5,5,1"/>
+		<property name="Create_item_count" value="5,1-1,1,5,5,5,1,5,5,5,1,1-1,1,200,5,5,1"/>
 	</property>
 </item>
 
@@ -10965,7 +10965,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitShotGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,resourceForgedIron,resourceForgedSteel,forgeSchematic,gunShotgunT2PumpShotgunSchematic,gunShotgunT2PumpShotgun,ammoShotgunShell,modArmorHelmetLight"/>
-		<property name="Create_item_count" value="1-3,1,5,5,5,5,1,1,1,1,25,25,1,1,1-3,200,1"/>
+		<property name="Create_item_count" value="1-1,1,5,5,5,5,1,1,1,1,25,25,1,1,1-1,200,1"/>
 	</property>
 </item>
 
@@ -10986,7 +10986,7 @@
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
 		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletBall,gunHandgunT2Magnum44Schematic,gunHandgunT2Magnum44,ammo44MagnumBulletBall"/>
-		<property name="Create_item_count" value="1-3,1,1,5,5,5,5,1,1-3,150,1,1-3,150"/>
+		<property name="Create_item_count" value="1-1,1,1,5,5,5,5,1,1-1,150,1,1-1,150"/>
 	</property>
 </item>
 

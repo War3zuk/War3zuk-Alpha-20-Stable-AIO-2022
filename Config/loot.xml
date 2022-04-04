@@ -15,22 +15,22 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
 	
 <lootgroup name="War3zukHDWeaponParts01" count="2">
-		<item group="booksAllScaled" loot_prob_template="med"/>
-		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
-		<item group="groupValuablesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+	<item group="booksAllScaled" loot_prob_template="med"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item group="groupValuablesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 	
 <lootgroup name="War3zukHDWeaponParts02" count="2">
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 9mm Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 9mm Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 9mm Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 7.62mm Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 7.62mm Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 50Bmg Parts Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Vulcan 50Bmg Motor Schematic" count="1" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 	
 <lootgroup name="War3zukHDWeaponParts" count="1">
@@ -39,34 +39,34 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons01" count="2">
-		<item group="booksAllScaled" loot_prob_template="med"/>
-		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
-		<item group="groupValuablesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+	<item group="booksAllScaled" loot_prob_template="med"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item group="groupValuablesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons02" count="2">
-		<item name="HD BR1NXlS Booper Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Flame Thrower Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Desert Eagle Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Double Barrel Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Spas 12 Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Mossberg 500 Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Mac10 Auto Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD M3 Auto Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD M4A1 Carbine Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Tactical AR Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Winchester 1866 Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Royal Enfield Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD M1 Garand Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Karabiner 98k Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Dragunov SVD Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD CheyTac M300 Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Arctic Warfare Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Rocket Launcher Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD Mods Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD BR1NXlS Booper Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Flame Thrower Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Desert Eagle Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Double Barrel Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Spas 12 Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Mossberg 500 Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Mac10 Auto Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD M3 Auto Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD AK Hybrid ACP Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD HK33 Hybrid Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD M4A1 Carbine Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Tactical AR Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Winchester 1866 Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Royal Enfield Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD M1 Garand Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Karabiner 98k Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Dragunov SVD Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD CheyTac M300 Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Arctic Warfare Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Rocket Launcher Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD Mods Schematic" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons" count="1">
@@ -75,17 +75,17 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches01" count="2">
-		<item group="booksAllScaled" loot_prob_template="med"/>
-		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
-		<item group="groupValuablesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+	<item group="booksAllScaled" loot_prob_template="med"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item group="groupValuablesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches02" count="2">
-		<item name="HD GunBench Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD WorkBench Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD AmmoBench Schematic" count="1" loot_prob_template="low"/>
-		<item name="HD PicsBench Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD GunBench Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD WorkBench Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD AmmoBench Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD PicsBench Schematic" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches" count="1">
@@ -94,22 +94,22 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons01" count="2">
-		<item group="booksAllScaled" loot_prob_template="med"/>
-		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
-		<item group="groupValuablesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+	<item group="booksAllScaled" loot_prob_template="med"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item group="groupValuablesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons02" count="2">
-		<item name="HD Tool And Die Set Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Grinder Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Bullet Press Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Welder Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Cnc Automatics Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Cnc Rifles Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Tool And Die Set Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Carbon Sewing Kit Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Grinder Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Bullet Tumbler Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Bullet Press Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Welder Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Cnc HandGuns Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Cnc Automatics Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Cnc Rifles Schematic" count="1" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons" count="1">
@@ -118,23 +118,23 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDTools01" count="2">
-		<item group="booksAllScaled" loot_prob_template="med"/>
-		<item group="schematicsToolsCommon" loot_prob_template="med"/>
-		<item group="groupValuablesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="med"/>
+	<item group="booksAllScaled" loot_prob_template="med"/>
+	<item group="schematicsToolsCommon" loot_prob_template="med"/>
+	<item group="groupValuablesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools02" count="2">
-		<item name="HDPumpJackE Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Wrench Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Junk Turret Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Forge Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Cement Mixer Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Generator Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Gas Generator Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Auger Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Chainsaw Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Impact Wrench Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HDPumpJackE Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Wrench Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Junk Turret Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Forge Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Cement Mixer Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Generator Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Gas Generator Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Auger Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Chainsaw Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Impact Wrench Schematic" count="1" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools" count="1">
@@ -143,40 +143,40 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo01" count="2">
-		<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1" loot_prob_template="low"/>
-		<item name="Ammo Supply Shredder" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 9mm" count="1" loot_prob_template="low"/>
+	<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1" loot_prob_template="low"/>
+	<item name="Ammo Supply Shredder" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 9mm" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo02" count="2">
-		<item name="Ammo Supply 44Mag" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 45 ACP" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply DE50" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply Shotgun" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply ShotgunSlug" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply Breach Slug" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 500 Auto Max" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 762mm" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 408 Round" count="1" loot_prob_template="med"/>
-		<item name="Ammo Supply 50 BMG Round" count="1" loot_prob_template="med"/>
-		<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle408Round" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="low"/>
-		<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="low"/>
+	<item name="Ammo Supply 44Mag" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 45 ACP" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply DE50" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply Shotgun" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply ShotgunSlug" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply Breach Slug" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 500 Auto Max" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 762mm" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 408 Round" count="1" loot_prob_template="med"/>
+	<item name="Ammo Supply 50 BMG Round" count="1" loot_prob_template="med"/>
+	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle408Round" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="low"/>
+	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo" count="1">
@@ -185,27 +185,27 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary01" count="2">
-		<item name="Military Purify Tablets" count="1,2" loot_prob_template="med"/>
-		<item name="MREMilitaryRation" count="1" loot_prob_template="med"/>
-		<item group="booksRareOnlyScaled" loot_prob_template="med"/>
-		<item name="resourceLockPick" count="1,4" loot_prob_template="med"/>
-		<item name="HD Blunderbuss" count="1" loot_prob_template="low"/>
+	<item name="Military Purify Tablets" count="1,2" loot_prob_template="med"/>
+	<item name="MREMilitaryRation" count="1" loot_prob_template="med"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="1,4" loot_prob_template="med"/>
+	<item name="HD Blunderbuss" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary02" count="2">
-		<item name="HD Military Gloves Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Military Boots Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Military Legs Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Military Vest Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HD Military Helmet Schematic" count="1" loot_prob_template="low" force_prob="true"/>
-		<item name="HDArmorReinforcedPadding" count="1" loot_prob_template="low"/>
-		<item name="HDArmorPlasticPlating" count="1" loot_prob_template="low"/>
-		<item name="HDArmorMilitaryPlating" count="1" loot_prob_template="low"/>
-		<item name="HDArmorScrapPlating" count="1" loot_prob_template="low"/>
-		<item name="HDArmorIronPlating" count="1" loot_prob_template="low"/>
-		<item name="HDArmorSteelPlating" count="1" loot_prob_template="low"/>
-		<item name="HD Hazmat Fiber Schematic" count="1" loot_prob_template="low"/>
-		<item name="MREMilitaryRation" count="1,2" loot_prob_template="low"/>
+	<item name="HD Military Gloves Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Military Boots Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Military Legs Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Military Vest Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HD Military Helmet Schematic" count="1" loot_prob_template="low" force_prob="true"/>
+	<item name="HDArmorReinforcedPadding" count="1" loot_prob_template="low"/>
+	<item name="HDArmorPlasticPlating" count="1" loot_prob_template="low"/>
+	<item name="HDArmorMilitaryPlating" count="1" loot_prob_template="low"/>
+	<item name="HDArmorScrapPlating" count="1" loot_prob_template="low"/>
+	<item name="HDArmorIronPlating" count="1" loot_prob_template="low"/>
+	<item name="HDArmorSteelPlating" count="1" loot_prob_template="low"/>
+	<item name="HD Hazmat Fiber Schematic" count="1" loot_prob_template="low"/>
+	<item name="MREMilitaryRation" count="1,2" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary" count="1">
@@ -219,7 +219,7 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical02" count="1">
-		<item name="HD First Aid Kit Schematic" count="1" loot_prob_template="low"/>
+	<item name="HD First Aid Kit Schematic" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical" count="1">
@@ -233,10 +233,10 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares02" count="2">
-		<item name="Food Supply Flare" count="1" loot_prob_template="low"/>
-		<item name="Ammo Supply Flare" count="1" loot_prob_template="low"/>
-		<item name="Building Supply Flare" count="1" loot_prob_template="low"/>
-		<item name="Health Supply Flare" count="1" loot_prob_template="low"/>
+	<item name="Food Supply Flare" count="1" loot_prob_template="low"/>
+	<item name="Ammo Supply Flare" count="1" loot_prob_template="low"/>
+	<item name="Building Supply Flare" count="1" loot_prob_template="low"/>
+	<item name="Health Supply Flare" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares" count="1">
@@ -250,11 +250,11 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages02" count="2">
-		<item name="HD Care Package" count="1" loot_prob_template="med"/>
-		<item name="HD Food Care Package" count="1" loot_prob_template="med"/>
-		<item name="HD Ammo Care Package" count="1" loot_prob_template="med"/>
-		<item name="HD Resource Care Package" count="1" loot_prob_template="med"/>
-		<item name="HD Medicine Care Package" count="1" loot_prob_template="med"/>
+	<item name="HD Care Package" count="1" loot_prob_template="med"/>
+	<item name="HD Food Care Package" count="1" loot_prob_template="med"/>
+	<item name="HD Ammo Care Package" count="1" loot_prob_template="med"/>
+	<item name="HD Resource Care Package" count="1" loot_prob_template="med"/>
+	<item name="HD Medicine Care Package" count="1" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages" count="1">
@@ -269,24 +269,24 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods02" count="2">
-		<item name="HDBowl" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Honey" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Beef" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Chicken" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Lamb" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Surprise" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Chili" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Pasta" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Salmon" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Sirloin" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Vegetable Stew" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Meat Stew" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Sham Chowder" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Hobo Stew" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Steak And Potato" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky ChiliDog" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Fish Taco" count="1" loot_prob_template="low"/>
-		<item name="Warm Chunky Meat And Mash" count="1" loot_prob_template="low"/>
+	<item name="HDBowl" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Honey" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Beef" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Chicken" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Lamb" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Surprise" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Chili" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Pasta" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Salmon" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Sirloin" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Vegetable Stew" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Meat Stew" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Sham Chowder" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Hobo Stew" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Steak And Potato" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky ChiliDog" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Fish Taco" count="1" loot_prob_template="low"/>
+	<item name="Warm Chunky Meat And Mash" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods" count="1">
@@ -295,12 +295,12 @@
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems01" count="2">
-		<item name="resourceLockPick" count="1,4" loot_prob_template="high"/>
-		<item group="groupScrapCommon" loot_prob_template="high"/>
+	<item name="resourceLockPick" count="1,4" loot_prob_template="high"/>
+	<item group="groupScrapCommon" loot_prob_template="high"/>
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems02" count="1">
-		<item name="HDRuckSackUpgrade" count="1" loot_prob_template="low"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems" count="1">
