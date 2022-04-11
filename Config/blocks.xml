@@ -4603,8 +4603,9 @@
 	<property name="MultiBlockDim" value="3,1,1"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
-	<property name="SortOrder1" value="7060"/>
-	<property name="SortOrder2" value="0051"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="100"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="HD Modular Wall">
@@ -4618,8 +4619,9 @@
 	<property name="MultiBlockDim" value="2,4,1"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
-	<property name="SortOrder1" value="7060"/>
-	<property name="SortOrder2" value="0051"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="100"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="HD wood Bars Centered">
