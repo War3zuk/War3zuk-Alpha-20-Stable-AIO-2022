@@ -2375,7 +2375,7 @@
 	<ingredient name="resourceSpring" count="30"/>
 </recipe>
 
-<recipe name="HD Forge" count="1" craft_time="60" tags="learnable">
+<recipe name="HD Forge" count="1" craft_time="60" craft_tool="HDWelder" craft_area="HD WorkBench" tags="learnable">
 	<ingredient name="resourceRockSmall" count="100"/>
 	<ingredient name="resourceClayLump" count="100"/>
 	<ingredient name="resourceForgedIron" count="20"/>

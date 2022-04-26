@@ -1,4 +1,25 @@
-War3zuk-Alpha-20.3 B3 - AIO STABLE
+War3zuk-Alpha-20.4 - AIO STABLE
+
+Updated v7.3 to v7.4
+
+Added Localization Missing Blocks
+Added Localization Missing Items
+Added Localization Ammo Supply Boxes
+Fixed Localization Weapons
+Complete Rebuild War3zuk Localization
+Fixed Windows Code
+Fixed XUI Code
+Fixed MedicalBandage Tags
+Edited HD Forge Recipe (Crafted HD WorkBench)
+
+Launcher Edits: (Only For Launcher Install)
+Updated BDubs Nuka Colas (Localization 20.4B38) NRE
+Updated Bdubs Vehicles (Localization 20.4B38) NRE
+Updated Hitmarkers (Localization 20.4B38) NRE
+Updated Khelldon Screamer Bears (Localization 20.4B38) NRE
+Updated Telrics Iron Gates (Localization 20.4B38) NRE
+Updated TFP Behemoths (Localization 20.4B38) NRE
+Updated ZTwitch Int Mod (Localization 20.4B38) NRE
 
 Updated v7.2 to v7.3
 

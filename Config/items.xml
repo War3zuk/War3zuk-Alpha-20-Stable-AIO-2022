@@ -42,11 +42,6 @@
 	
 	<set xpath="/items/item[@name='drugSteroids']/effect_group/display_value[@name='dCarryCapacity' and @value]/@value">105</set>
 	
-<!--<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">50000</set>
-	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">50000</set>
-	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">50000</set>
-	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">50000</set>-->
-	
 	<remove xpath="/items/item/effect_group/passive_effect[@name='Mobility' and @operation='perc_add']"/>
 	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
 	<remove xpath="/items/item[@name='resourceIronFragment']"/>
@@ -57,6 +52,7 @@
 	<set xpath="/items/item/effect_group/passive_effect[@name='ModSlots' and (@value='1,1,2,2,3,4')]/@value">1,2,3,4,5,6</set>
 	
 <append xpath="/items">
+	
 <item name="Golden Coin">
 		<property name="DescriptionKey" value="GoldenCoinDesc"/>
 		<property name="CustomIcon" value="Spartan Coin" />
@@ -70,6 +66,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="0.001"/>
 	</item>
+	
 </append>
 	
 <append xpath="/items/item[@name='casinoCoin']">
@@ -77,6 +74,7 @@
 </append>
 	
 <append xpath="/items">
+	
 <item name="Generic Ammo Supply">
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="Generic Orig" />
@@ -98,7 +96,7 @@
 		<property name="CustomIcon" value="ammosupplyshredder"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupplyShredderDesc"/>
 	</item>
 </append>
 
@@ -108,7 +106,7 @@
 		<property name="CustomIcon" value="ammoSupply9mm"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply9mmDesc"/>
 	</item>
 </append>
 
@@ -118,7 +116,7 @@
 		<property name="CustomIcon" value="ammosupply45acp"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply45ACPDesc"/>
 </item>
 </append>
 
@@ -128,7 +126,7 @@
 		<property name="CustomIcon" value="ammoSupply44Mag"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply44MagDesc"/>
 	</item>
 </append>
 
@@ -138,7 +136,7 @@
 		<property name="CustomIcon" value="ammoSupply50Mag"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupplyDE50Desc"/>
 </item>
 </append>
 
@@ -148,7 +146,7 @@
 		<property name="CustomIcon" value="ammosupply408Round"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply408RoundDesc"/>
 </item>
 </append>
 
@@ -158,7 +156,7 @@
 		<property name="CustomIcon" value="ammoSupply500Mag"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="Ammo Supply 500 AMDesc"/>
+		<property name="DescriptionKey" value="AmmoSupply500AMDesc"/>
 </item>
 </append>
 
@@ -168,7 +166,7 @@
 		<property name="CustomIcon" value="ammoSupply762mm"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply762mmDesc"/>
 	</item>
 </append>
 	
@@ -178,7 +176,7 @@
 		<property name="CustomIcon" value="ammoSupplyShotgun"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupplyShotgunDesc"/>
 	</item>
 </append>
 
@@ -188,7 +186,7 @@
 		<property name="CustomIcon" value="ammoSupplyShotgunSlug"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupplyShotgunSlugDesc"/>
 		</item>
 </append>
 	
@@ -198,7 +196,7 @@
 		<property name="CustomIcon" value="ammosupplybreach"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupplyBreachSlugDesc"/>
 		</item>
 </append>
 
@@ -208,11 +206,12 @@
 		<property name="CustomIcon" value="ammosupply50BMG"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab"/>
-		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property name="DescriptionKey" value="ammoSupply50BMGRoundDesc"/>
 		</item>
 </append>
 
 <append xpath="/items">
+	
 <item name="resourceTestosteroneExtract">
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -225,6 +224,7 @@
 	<property name="CraftingIngredientTime" value="2"/>
 	<property name="SellableToTrader" value="true"/>
 </item>
+
 </append>
 	
 <append xpath="/items">
@@ -490,17 +490,6 @@
 			</triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
 	</effect_group>
-</item>
-	
-<item name="Find The Trader"> 
-	<property name="CustomIcon" value="Find The Trader"/>
-	<property name="Extends" value="questMaster"/>
-	<property class="Action0">
-	<property name="Class" value="Quest"/>
-	<property name="QuestGiven" value="Find The Trader"/>
-	<property name="Delay" value="0"/>
-	</property>			
-	<property name="Group" value="Special Items"/>			
 </item>
 	
 <item name="HD Meat Cleaver">
@@ -1823,6 +1812,7 @@
 		<property name="Create_item_count" value="1000"/>
 	</property>
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	<property name="DescriptionKey" value="HDGunPowderBundleDesc"/>
 </item>
 
 <item name="HDammoGasCanBundle">
@@ -1833,6 +1823,7 @@
 		<property name="Create_item_count" value="10000"/>
 	</property>
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	<property name="DescriptionKey" value="HDammoGasCanBundleDesc"/>
 </item>
 	
 <item name="MREMilitaryRation">
@@ -2009,8 +2000,20 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
 	</effect_group>
 </item>
+
+<item name="Find The Trader"> 
+	<property name="CustomIcon" value="Find The Trader"/>
+	<property name="Extends" value="questMaster"/>
+	<property class="Action0">
+	<property name="Class" value="Quest"/>
+	<property name="QuestGiven" value="Find The Trader"/>
+	<property name="Delay" value="0"/>
+	</property>			
+	<property name="Group" value="Special Items"/>	
+	<property name="DescriptionKey" value="FindTheTraderDesc"/>
+</item>
 	
-<item name="HD Class PreReq"> 
+<!--<item name="HD Class PreReq"> 
 	<property name="CustomIcon" value="HD Class PreReq"/>
 	<property name="Extends" value="questMaster"/>
 	<property class="Action0">
@@ -2018,8 +2021,9 @@
 	<property name="QuestGiven" value="HD Class PreReq"/>
 	<property name="Delay" value="0"/>
 	</property>			
-	<property name="Group" value="Special Items"/>			
-</item>
+	<property name="Group" value="Special Items"/>
+	<property name="DescriptionKey" value="HDClassPreReqDesc"/>
+</item>-->
 
 <item name="schematicMaster">
 	<property name="DescriptionKey" value="schematicGeneralGroupDesc"/>
@@ -5393,6 +5397,7 @@
 </item>
 
 <item name="500AutoMax">
+	<property name="DescriptionKey" value="BB500AutoMaxDesc"/>
 	<property name="Extends" value="ammo762mmBulletBall"/>
 	<property name="CustomIcon" value="500 AM"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -6566,6 +6571,7 @@
 	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="IgnoreKeystoneSound" value="true"/>
+	<property name="DescriptionKey" value="HDJunkTurret9mmDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
@@ -6649,6 +6655,7 @@
 	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="IgnoreKeystoneSound" value="true"/>
+	<property name="DescriptionKey" value="HDJunkTurret762mmDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
@@ -6732,6 +6739,7 @@
 	<property name="UnlockedBy" value="perkTurrets,HD Junk Turret Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="IgnoreKeystoneSound" value="true"/>
+	<property name="DescriptionKey" value="HDJunkTurret50mmDesc"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
@@ -7334,6 +7342,7 @@
 	<property name="RepairAmount" value="100"/>
 	<property name="LootExpValue" value="1"/>
 	<property name="CraftingIngredientTime" value=".5"/>
+	<property name="DescriptionKey" value="FatSoakedLogBundleDesc"/>
 </item>
 
 <item name="toolBellows">
@@ -9326,6 +9335,7 @@
 	<property name="Material" value="Mbrass"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Group" value="Ammo/Weapons"/>
+	<property name="DescriptionKey" value="BulletSHDesc"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="70" tags="perkGunslinger,revolver"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="12" tags="perkGunslinger"/>
@@ -9508,6 +9518,7 @@
 	<property name="Material" value="Mbrass"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Group" value="Ammo/Weapons"/>
+	<property name="DescriptionKey" value="BulletINCDesc"/>
 	<effect_group name="ammo44MagnumBulletBall" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="45" tags="perkGunslinger,revolver"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="20" tags="perkGunslinger"/>
@@ -11457,7 +11468,7 @@
 <append xpath="/items">
 	
 <item name="medicalBandage">
-	<property name="Tags" value="medical"/>
+	<property name="Tags" value="medical,stopsBleeding"/>
 	<property name="DisplayType" value="medical"/>
 	<property name="HoldType" value="64"/>
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
