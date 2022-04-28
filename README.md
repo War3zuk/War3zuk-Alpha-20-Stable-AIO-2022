@@ -1,5 +1,26 @@
 War3zuk-Alpha-20.4 - AIO STABLE
 
+Updated v7.4 to v7.5
+
+Edited Crafted Scrapped Schematics 20 From 25
+
+Launcher Edits: (Only For Launcher Install)
+Updated Bdubs Vehicle Overhaul
+Updated BDubs Nuka Colas Localization
+Updated HD Mumpfy Skins Locaization
+Updated 0-CreaturePackAnimals Localization
+Updated 0-CreaturePackZombies Localization
+Updated Khelldon Screamer Bears Localization
+Updated Manux Quad 20 Localization
+Updated Telrics Iron Gates Localization
+Updated TFP Behemoths Localization
+Updated The TFP Raft Localization
+Updated Snuffkins Custom Zombies Localization
+Updated War3zuk Alpha 20 AIO 45 BB Patch 10CQ Localization
+Updated War3zuk Alpha 20 AIO 45 BB Patch Localization
+Updated ZWar3zuk Alpha 20 AIO 160 BBM Addon 10 CQ Localization
+Updated ZWar3zuk Alpha 20 AIO 160 BBM Addon 15 CQ Localixation
+
 Updated v7.3 to v7.4
 
 Added Localization Missing Blocks
