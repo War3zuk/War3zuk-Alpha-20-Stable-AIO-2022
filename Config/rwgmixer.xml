@@ -1,22 +1,6 @@
 <rwgmixer>
 	
-	<remove xpath="/rwgmixer/world[@name='small']"/>
-	<remove xpath="/rwgmixer/world[@name='medium']"/>
-	<remove xpath="/rwgmixer/world[@name='large']"/>
-	
-	<remove xpath="/rwgmixer/township[@name='oldwest']"/>
-	
-	<remove xpath="/rwgmixer/district[@name='commercial']"/>
-	<remove xpath="/rwgmixer/district[@name='downtown']"/>
-	<remove xpath="/rwgmixer/district[@name='industrial']"/>
-	<remove xpath="/rwgmixer/district[@name='residential']"/>
-	<remove xpath="/rwgmixer/district[@name='countrytown']"/>
-	
-	<insertBefore xpath="/rwgmixer/township[@name='countrytown']" >
-        
-	<world name="small">
-		<property name="world_size" value="0,7000" />
-		<property name="border_step_distance" value="256" />
+<append xpath="/rwgmixer/world[@name='small']">
 
 		<property class="mountains">
 			<property name="scale" value="1,2" />
@@ -75,56 +59,9 @@
 			<property name="many" value="3" />
 		</property>
 		
-		<property class="border">
-			<property name="scale" value="1,2" />
-		</property>
-		
-		<property class="oldwest">
-			<property name="few" value="2"/>
-			<property name="default" value="4"/>
-			<property name="many" value="4"/>
-			
-			<property name="mintiles" value="4"/>
-			<property name="maxtiles" value="6"/>
-		</property>
-		
-		<property class="countrytown">
-			<property name="few" value="4"/>
-			<property name="default" value="4"/>
-			<property name="many" value="6"/>
-			
-			<property name="mintiles" value="10"/>
-			<property name="maxtiles" value="12"/>
-		</property>
-		
-		<property class="town">
-			<property name="few" value="1"/>
-			<property name="default" value="5"/>
-			<property name="many" value="5"/>
-			
-			<property name="mintiles" value="10"/>
-			<property name="maxtiles" value="12"/>
-		</property>
-		
-		<property class="city">
-			<property name="few" value="1"/>
-			<property name="default" value="9"/>
-			<property name="many" value="9"/>
-			<property name="mintiles" value="20"/>
-			<property name="maxtiles" value="26"/>
-		</property>
-		
-		<property class="wilderness">
-			<property name="few" value="200" />
-			<property name="default" value="250" />
-			<property name="many" value="300" />
-		</property>
-		
-	</world>
-		
-	<world name="medium">
-		<property name="world_size" value="7000,10000" />
-		<property name="border_step_distance" value="256" />
+</append>
+
+<append xpath="/rwgmixer/world[@name='medium']">
 	
 		<property class="mountains">
 			<property name="scale" value="1,2.5" />
@@ -183,57 +120,9 @@
 			<property name="many" value="5" />
 		</property>
 		
-		<property class="border">
-			<property name="scale" value="1.5,3.5" />
-		</property>
-		
-		<property class="oldwest">
-			<property name="few" value="2"/>
-			<property name="default" value="4"/>
-			<property name="many" value="4"/>
-			
-			<property name="mintiles" value="2"/>
-			<property name="maxtiles" value="4"/>
-		</property>
-		
-		<property class="countrytown">
-			<property name="few" value="4"/>
-			<property name="default" value="6"/>
-			<property name="many" value="8"/>
-			
-			<property name="mintiles" value="8"/>
-			<property name="maxtiles" value="10"/>
-		</property>
-		
-		<property class="town">
-			<property name="few" value="4"/>
-			<property name="default" value="6"/>
-			<property name="many" value="8"/>
-			
-			<property name="mintiles" value="10"/>
-			<property name="maxtiles" value="12"/>
-		</property>
-		
-		<property class="city">
-			<property name="few" value="4"/>
-			<property name="default" value="8"/>
-			<property name="many" value="10"/>
-			
-			<property name="mintiles" value="12"/>
-			<property name="maxtiles" value="16"/>
-		</property>
-		
-		<property class="wilderness">
-			<property name="few" value="300" />
-			<property name="default" value="350" />
-			<property name="many" value="400" />
-		</property>
-		
-	</world>
-        
-	<world name="large">
-		<property name="world_size" value="10000,16000" />
-		<property name="border_step_distance" value="256" />
+</append>
+
+<append xpath="/rwgmixer/world[@name='large']">
 	
 		<property class="mountains">
 			<property name="scale" value="1,2.5" />
@@ -292,105 +181,5 @@
 			<property name="many" value="5" />
 		</property>
 		
-		<property class="water_border">
-			<property name="scale" value="1.5,3.5" />
-		</property>
-		
-		<property class="oldwest">
-			<property name="few" value="4"/>
-			<property name="default" value="6"/>
-			<property name="many" value="8"/>
-			
-			<property name="mintiles" value="6"/>
-			<property name="maxtiles" value="8"/>
-		</property>
-		
-		<property class="countrytown">
-			<property name="few" value="6"/>
-			<property name="default" value="8"/>
-			<property name="many" value="10"/>
-			
-			<property name="mintiles" value="16"/>
-			<property name="maxtiles" value="18"/>
-		</property>
-		
-		<property class="town">
-			<property name="few" value="6"/>
-			<property name="default" value="8"/>
-			<property name="many" value="10"/>
-			
-			<property name="mintiles" value="16"/>
-			<property name="maxtiles" value="18"/>
-		</property>
-		
-		<property class="city">
-			<property name="few" value="8"/>
-			<property name="default" value="10"/>
-			<property name="many" value="12"/>
-			
-			<property name="mintiles" value="18"/>
-			<property name="maxtiles" value="22"/>
-		</property>
-		
-		<property class="wilderness">
-			<property name="few" value="350" />
-			<property name="default" value="400" />
-			<property name="many" value="450" />
-		</property>
-	</world>
-			
-    </insertBefore>
-	
-	<insertAfter xpath="/rwgmixer/district[@name='wilderness']" >
-		
-	<district name="commercial">
-		<property name="district_spawn_weight" value="0.6"/>
-		<property name="district_required_township" value="city,town"/>
-		<property name="district_preview_color" value="0.25,0.25,1"/>
-		
-		<property name="poi_required_tags_all" value="commercial"/>
-	</district>
-	
-	<district name="downtown">
-		<property name="district_spawn_weight" value="0.6"/>
-		<property name="district_required_township" value="city"/>
-		<property name="district_preview_color" value="0.5,0.5,0.5"/>
-		
-		<property name="poi_required_tags_all" value="downtown"/>
-	</district>
-	
-	<district name="industrial">
-		<property name="district_spawn_weight" value="0.6"/>
-		<property name="district_required_township" value="city,town"/>
-		<property name="district_preview_color" value="0.5,0.5,0.1"/>
-		
-		<property name="poi_required_tags_all" value="industrial"/>
-	</district>
-	
-	<district name="residential">
-		<property name="district_spawn_weight" value="0.6"/>
-		<property name="district_required_township" value="city,town"/>
-		<property name="district_preview_color" value="0.1,0.5,0.1"/>
-		
-		<property name="poi_required_tags_all" value="residential"/>
-	</district>
-	
-	<district name="countrytown">
-		<property name="district_spawn_weight" value="0.6"/>
-		<property name="district_required_township" value="countrytown"/>
-		<property name="district_preview_color" value="0,0.5,0"/>
-		
-		<property name="poi_required_tags_all" value="countrytown"/>
-	</district>
-	
-	</insertAfter>
-	
-	<insertBefore xpath="/rwgmixer/township[@name='countrytown']" >
-		
-        <township name="oldwest">
-            <property name="spawn_trader" value="true"/>
-        </township>
-		
-	</insertBefore>
-	
+</append>
 </rwgmixer>

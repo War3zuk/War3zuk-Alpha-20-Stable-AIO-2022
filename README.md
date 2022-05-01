@@ -2,9 +2,12 @@ War3zuk-Alpha-20.4 - AIO STABLE
 
 Updated v7.4 to v7.5
 
+Rebuild DumpsterLoot Groups (Alpha 20.4 B42)
+Fixed Spikes Being Sellable
 Edited Crafted Scrapped Schematics 20 From 25
 
 Launcher Edits: (Only For Launcher Install)
+Added CP48 Complete
 Updated Bdubs Vehicle Overhaul
 Updated BDubs Nuka Colas Localization
 Updated HD Mumpfy Skins Locaization

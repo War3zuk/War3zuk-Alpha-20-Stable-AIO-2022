@@ -4366,6 +4366,7 @@
 	<property name="CustomUpgradeSound" value="place_block_wood"/>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="ScrapIronLogSpike">
@@ -4395,6 +4396,7 @@
 	</property>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="ForgedIronLogSpike">
@@ -4424,6 +4426,7 @@
 	</property>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="SteelLogSpike">
@@ -4453,6 +4456,7 @@
 	</property>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="StainlessSteelLogSpike">
@@ -4482,6 +4486,7 @@
 	</property>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="TitaniumLogSpike">
@@ -4505,6 +4510,7 @@
 	</property>
 	<drop event="Destroy" name="resourceWood" count="2,6"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 </append>

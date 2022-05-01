@@ -308,27 +308,6 @@
 	<item group="War3zukSpecialItems02" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukDumpsterLoot01" count="2">
-	<item name="HDAeroDynamicsUpgrade" count="1" loot_prob_template="low"/>
-	<item name="HDFuelSaverUpgrade" count="1" loot_prob_template="low"/>
-	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="low"/>
-	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="low"/>
-	<item name="HDTurboUpgrade" count="1" loot_prob_template="low"/>
-	<item name="HDTurboUpgrade" count="1" loot_prob_template="low"/>
-	<item name="resourceLockPick" count="1,2" loot_prob_template="med"/>
-	<item group="groupScrapCommon" loot_prob_template="high"/>
-</lootgroup>
-
-<lootgroup name="War3zukDumpsterLoot02" count="1">
-	<item group="groupScrapCommon" loot_prob_template="med"/>
-	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="veryLow"/>
-</lootgroup>	
-
-<lootgroup name="War3zukDumpsterLoot" count="1">
-	<item group="War3zukDumpsterLoot01" loot_prob_template="high"/>
-	<item group="War3zukDumpsterLoot02" loot_prob_template="veryLow"/>
-</lootgroup>
-
 <lootgroup name="groupBuriedLootStashTreasureWART1" count="all">
 	<item group="War3zukHDMilitary" count="1" prob="0.01"/>
 	<item group="groupArmorT2" prob="0.5"/>
@@ -417,6 +396,47 @@
 	<item group="groupBuriedLootStashTreasureWART6"/>
 	<item name="casinoCoin" count="10000,12000"/>
 	<item group="treasureAmmo"/>
+</lootgroup>
+
+</insertAfter>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunk01']"></remove>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunk02']"></remove>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunk03']"></remove>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunk']"></remove>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSinks']">
+
+<lootgroup name="groupJunk01" count="3">
+	<item group="groupFoodTrash" loot_prob_template="med"/>
+	<item group="groupScrapCommon" loot_prob_template="med"/>
+	<item group="groupBuildingCommon" loot_prob_template="med"/>
+	<item group="groupCraftingCommon" loot_prob_template="med"/>
+	<item group="groupScrapUncommon" loot_prob_template="med"/>
+	<item group="groupCraftingUncommon" loot_prob_template="med"/>
+	<item group="groupBuildingUncommon" loot_prob_template="med"/>
+	<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
+	<item name="resourceLockPick" count="2,4" loot_prob_template="low"/>
+	<item group="seeds" count="2" loot_prob_template="low"/>
+</lootgroup>
+
+<lootgroup name="groupJunk02" count="2">
+	<item group="groupScrapRare" loot_prob_template="low"/>
+	<item group="booksAllScaled" loot_prob_template="low"/>
+	<item group="booksRareOnlyScaled" loot_prob_template="low"/>
+	<item group="groupValuablesSmall" loot_prob_template="low"/>
+	<item name="HDAeroDynamicsUpgrade" loot_prob_template="low"/>
+	<item name="HDFuelSaverUpgrade" loot_prob_template="low"/>
+	<item name="HDHeadlightsUpgrade" loot_prob_template="low"/>
+	<item name="HDHeadlightsUpgrade" loot_prob_template="low"/>
+	<item name="HDTurboUpgrade" loot_prob_template="low"/>
+	<item name="HDTurboUpgrade" loot_prob_template="low"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="veryLow"/>
+</lootgroup>
+
+<lootgroup name="groupJunk" count="all">
+	<item group="groupJunk01" loot_prob_template="veryLow"/>
+	<item group="groupJunk02" loot_prob_template="low"/>
 </lootgroup>
 
 </insertAfter>
@@ -1096,9 +1116,9 @@
 	<item name="HD Flame Fuel" count="10,50" prob="0.01"/>
 </append>
 
-<append xpath="/lootcontainers/lootcontainer[@id='66']">
+<!--<append xpath="/lootcontainers/lootcontainer[@id='66']">
 	<item group="War3zukDumpsterLoot"/>
-</append>
+</append>-->
 
 <append xpath="/lootcontainers/lootcontainer[@id='83']">	
 	<item group="War3zukHDMedical"/>
