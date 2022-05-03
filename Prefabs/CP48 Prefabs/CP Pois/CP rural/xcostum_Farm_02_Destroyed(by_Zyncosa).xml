@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="DifficultyTier" value="2" />
+  <property name="RotationToFaceNorth" value="1" />
+  <property name="YOffset" value="-11" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="burnt_forest,wasteland" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="EditorGroups" value="Destroyed" />
+  <property name="SleeperVolumeStart" value="29, 11, 21#32, 2, 36#29, 11, 0#31, 12, 5#50, 2, 16" />
+  <property name="SleeperVolumeSize" value="30, 2, 38#20, 9, 22#29, 1, 21#18, 6, 15#9, 9, 11" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,5,7,S_-Group_Generic_Zombie,4,4,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,5,6,S_Zom_Utility_Worker,1,1" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property name="Zoning" value="none" />
+  <property name="POIMarkerSize" value="3, 13, 9#27, 2, 18#27, 2, 18#27, 2, 18#27, 2, 18#27, 2, 18#27, 2, 18" />
+  <property name="POIMarkerStart" value="60, 10, 12#1, 10, 1#1, 10, 21#1, 10, 41#1, 10, 41#1, 10, 21#1, 10, 1" />
+  <property name="POIMarkerGroup" value="1,Field3,Field2,Field1,Field1,Field2,Field3" />
+  <property name="POIMarkerTags" value="######" />
+  <property name="POIMarkerType" value="PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_10,part_xcostum_grass_27x18,part_xcostum_grass_27x18,part_xcostum_grass_27x18,part_xcostum_goldenrod_27x18,part_xcostum_goldenrod_27x18,part_xcostum_goldenrod_27x18" />
+  <property name="POIMarkerPartRotations" value="1,1,1,1,1,1,1" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,0.6,1,0.4,1,0.4" />
+  <property name="Tags" value="wasteland,rural" />
+  <property name="PrefabSize" value="60, 21, 60" />
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="51, 12, 53" />
+      <property name="1" value="48, 4, 54" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="51, 12, 55" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="58, 11, 20" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="776040" />
+    <property name="TotalTriangles" value="758848" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="662182" />
+      <property name="Triangles" value="671902" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="71599" />
+      <property name="Triangles" value="46409" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="9616" />
+      <property name="Triangles" value="4808" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="360" />
+      <property name="Triangles" value="300" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="318" />
+      <property name="Triangles" value="172" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="4367" />
+      <property name="Triangles" value="3557" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="11448" />
+      <property name="Triangles" value="5724" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="14030" />
+      <property name="Triangles" value="24100" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="1824" />
+      <property name="Triangles" value="1728" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="296" />
+      <property name="Triangles" value="148" />
+    </property>
+  </property>
+</prefab>

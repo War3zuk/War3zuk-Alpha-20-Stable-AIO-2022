@@ -407,7 +407,7 @@
 
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupSinks']">
 
-<lootgroup name="groupJunk01" count="3">
+<lootgroup name="groupJunk01" count="1">
 	<item group="groupFoodTrash" loot_prob_template="med"/>
 	<item group="groupScrapCommon" loot_prob_template="med"/>
 	<item group="groupBuildingCommon" loot_prob_template="med"/>
@@ -420,7 +420,7 @@
 	<item group="seeds" count="2" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="groupJunk02" count="2">
+<lootgroup name="groupJunk02" count="1">
 	<item group="groupScrapRare" loot_prob_template="low"/>
 	<item group="booksAllScaled" loot_prob_template="low"/>
 	<item group="booksRareOnlyScaled" loot_prob_template="low"/>

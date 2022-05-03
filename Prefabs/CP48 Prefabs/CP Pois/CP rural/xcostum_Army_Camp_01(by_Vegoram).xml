@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="2" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="52, 21, 32" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="SleeperVolumeSize" value="38, 14, 22#8, 4, 6#8, 3, 12" />
+  <property name="SleeperVolumeStart" value="9, 7, 5#10, 2, 19#18, 2, 9" />
+  <property name="SleeperVolumeGroupId" value="0,0,0" />
+  <property name="SleeperVolumeGroup" value="zombieMaleHazmat,15,20,zombieSoldier,2,2,zombieSoldier,5,8" />
+  <property name="SleeperIsLootVolume" value="False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0" />
+  <property name="YOffset" value="-7" />
+  <property name="Tags" value="desert,rural" />
+  <property name="POIMarkerSize" value="5, 13, 3" />
+  <property name="POIMarkerStart" value="25, 6, -3" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_02" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="EditorGroups" value="Bunker_Mine" />
+  <property class="Stats">
+    <property name="TotalVertices" value="289895" />
+    <property name="TotalTriangles" value="291817" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="257260" />
+      <property name="Triangles" value="263049" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="25839" />
+      <property name="Triangles" value="17732" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="6612" />
+      <property name="Triangles" value="10944" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="184" />
+      <property name="Triangles" value="92" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="1, 7, 10" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="14, 4, 19" />
+      <property name="1" value="21, 4, 20" />
+      <property name="2" value="10, 4, 23" />
+      <property name="3" value="14, 6, 23" />
+      <property name="4" value="14, 6, 24" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="27, 7, 4" />
+    </property>
+  </property>
+</prefab>
