@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="YOffset" value="-2" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="PrefabSize" value="150, 3, 150" />
+  <property name="Tags" value="medievalvillage" />
+  <property name="POIMarkerSize" value="60, 0, 60#60, 0, 60#60, 0, 60#60, 0, 60" />
+  <property name="POIMarkerStart" value="6, 2, 84#84, 2, 84#84, 2, 6#6, 2, 6" />
+  <property name="POIMarkerGroup" value="1,2,3,4" />
+  <property name="POIMarkerTags" value="medieval60x60#medieval60x60#medieval60x60#medieval60x60" />
+  <property name="POIMarkerType" value="POISpawn,POISpawn,POISpawn,POISpawn" />
+  <property name="POIMarkerPartToSpawn" value=",,," />
+  <property name="POIMarkerPartRotations" value="2,2,0,0" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1" />
+  <property class="Stats">
+    <property name="TotalVertices" value="81918" />
+    <property name="TotalTriangles" value="105908" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="24272" />
+      <property name="Triangles" value="12328" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="57646" />
+      <property name="Triangles" value="93580" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

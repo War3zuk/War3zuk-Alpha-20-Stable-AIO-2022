@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="YOffset" value="-3" />
+  <property name="Zoning" value="Commercial" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="AllowedBiomes" value="pine_forest" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="DifficultyTier" value="5" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="EditorGroups" value="commercial" />
+  <property name="SleeperVolumeSize" value="" />
+  <property name="SleeperVolumeStart" value="" />
+  <property name="SleeperVolumeGroupId" value="" />
+  <property name="SleeperVolumeGroup" value="" />
+  <property name="SleeperIsLootVolume" value="" />
+  <property name="SleeperIsQuestExclude" value="" />
+  <property name="SleeperVolumeFlags" value="" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="POIMarkerSize" value="123, 0, 130" />
+  <property name="POIMarkerStart" value="17, 3, 10" />
+  <property name="POIMarkerGroup" value="" />
+  <property name="POIMarkerTags" value="megacitybasketball" />
+  <property name="POIMarkerType" value="POISpawn" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="150, 14, 150" />
+  <property name="Tags" value="megacity,cpmegadowntown,megacitydowntown,megacitybasketball" />
+  <property class="Stats">
+    <property name="TotalVertices" value="162236" />
+    <property name="TotalTriangles" value="175895" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="30010" />
+      <property name="Triangles" value="33722" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="72642" />
+      <property name="Triangles" value="46857" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="1152" />
+      <property name="Triangles" value="576" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="58432" />
+      <property name="Triangles" value="94740" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="147, 13, 139" />
+      <property name="1" value="149, 13, 139" />
+      <property name="2" value="147, 13, 141" />
+      <property name="3" value="149, 13, 141" />
+      <property name="4" value="147, 13, 143" />
+      <property name="5" value="149, 13, 143" />
+      <property name="6" value="147, 13, 145" />
+      <property name="7" value="149, 13, 145" />
+      <property name="8" value="147, 13, 146" />
+      <property name="9" value="149, 13, 146" />
+      <property name="10" value="139, 13, 147" />
+      <property name="11" value="141, 13, 147" />
+      <property name="12" value="143, 13, 147" />
+      <property name="13" value="145, 13, 147" />
+      <property name="14" value="146, 13, 147" />
+      <property name="15" value="139, 13, 149" />
+      <property name="16" value="141, 13, 149" />
+      <property name="17" value="143, 13, 149" />
+      <property name="18" value="145, 13, 149" />
+      <property name="19" value="146, 13, 149" />
+    </property>
+  </property>
+</prefab>

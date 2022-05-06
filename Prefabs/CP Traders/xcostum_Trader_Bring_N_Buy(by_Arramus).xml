@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="AllowedBiomes" value="wasteland" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="DifficultyTier" value="1" />
+  <property name="QuestTags" value="trader" />
+  <property name="TraderArea" value="True" />
+  <property name="TraderAreaProtect" value="20,0,20" />
+  <property name="TraderAreaTeleportSize" value="40, 20, 40" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="ResidentialOld, Rural" />
+  <property name="YOffset" value="-1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="EditorGroups" value="Multi_Trader" />
+  <property name="Tags" value="wasteland,wilderness,trader,biomeonly" />
+  <property name="POIMarkerSize" value="1, 1, 1" />
+  <property name="POIMarkerStart" value="17, 0, -1" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="42, 21, 42" />
+  <property class="Stats">
+    <property name="TotalVertices" value="759767" />
+    <property name="TotalTriangles" value="775525" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="723614" />
+      <property name="Triangles" value="749414" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="24337" />
+      <property name="Triangles" value="13706" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="122" />
+      <property name="Triangles" value="64" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="196" />
+      <property name="Triangles" value="98" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="7022" />
+      <property name="Triangles" value="5323" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="4388" />
+      <property name="Triangles" value="6876" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="88" />
+      <property name="Triangles" value="44" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="26, 4, 35" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="34, 2, 23" />
+      <property name="1" value="27, 4, 24" />
+      <property name="2" value="28, 5, 25" />
+      <property name="3" value="22, 4, 27" />
+      <property name="4" value="22, 3, 34" />
+      <property name="5" value="25, 4, 34" />
+      <property name="6" value="25, 4, 36" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="29, 1, 21" />
+    </property>
+    <property class="quest_feather">
+      <property name="0" value="30, 3, 5" />
+      <property name="1" value="21, 2, 14" />
+    </property>
+  </property>
+</prefab>

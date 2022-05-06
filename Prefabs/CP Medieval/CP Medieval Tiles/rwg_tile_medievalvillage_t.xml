@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="YOffset" value="-2" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="PrefabSize" value="150, 7, 150" />
+  <property name="Tags" value="medievalvillage" />
+  <property name="POIMarkerSize" value="7, 5, 7#42, 0, 42#7, 4, 7#7, 6, 7#33, 3, 33#33, 3, 33#33, 3, 33#7, 4, 9#33, 3, 33#9, 4, 10#9, 4, 10#33, 3, 33#7, 4, 9#42, 0, 42" />
+  <property name="POIMarkerStart" value="37, 1, 88#54, 2, 76#37, 1, 88#37, 1, 76#3, 1, 114#114, 1, 114#114, 1, 3#104, 2, 82#2, 1, 2#104, 2, 63#104, 2, 82#2, 1, 2#104, 2, 63#54, 2, 29" />
+  <property name="POIMarkerGroup" value="3,2,3,4,Farm,Farm,Farm,1,new,2,1,new,2,new" />
+  <property name="POIMarkerTags" value="#medieval42x42############medieval42x42" />
+  <property name="POIMarkerType" value="PartSpawn,POISpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,POISpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_chicken_coup_03,,part_chicken_coup_04,part_farm60_corncrib_02,part_farm60_field_01,part_farm60_field_02,part_farm60_field_03,part_roadside_fruit_stand_02,part_farm60_field_04,part_roadside_fruit_stand_01,part_roadside_fruit_stand_01,part_farm60_field_04,part_roadside_fruit_stand_02," />
+  <property name="POIMarkerPartRotations" value="1,0,1,1,2,2,0,3,0,3,3,0,3,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,0.6,1,1,1,1,1,1,0.6,0.6,1,1,1" />
+  <property class="Stats">
+    <property name="TotalVertices" value="241319" />
+    <property name="TotalTriangles" value="256427" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="140513" />
+      <property name="Triangles" value="138573" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="33422" />
+      <property name="Triangles" value="16586" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="7488" />
+      <property name="Triangles" value="3744" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="59872" />
+      <property name="Triangles" value="97512" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="24" />
+      <property name="Triangles" value="12" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="quest_feather">
+      <property name="0" value="74, 4, 17" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="105, 5, 76" />
+    </property>
+  </property>
+</prefab>

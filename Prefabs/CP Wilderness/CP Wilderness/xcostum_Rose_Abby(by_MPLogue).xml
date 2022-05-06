@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="fetch" />
+  <property name="DifficultyTier" value="5" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="YOffset" value="-7" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="EditorGroups" value="rural" />
+  <property name="SleeperVolumeStart" value="56, 7, 146#45, 7, 146#49, 7, 129#103, 7, 83#11, 6, 43#9, 7, 1#103, 7, 129#107, 7, 141#77, 11, 133#76, 7, 133#7, 12, 2#1, 7, 73#82, 5, 111#65, 6, 100#53, 13, 66#54, 17, 67#65, 18, 61#76, 7, 132#75, 7, 149#42, 7, 2#73, 13, 26#66, 13, 16#15, 7, 37#17, 8, 31#9, 7, 117#55, 12, 26#80, 14, 17#75, 13, 58#90, 13, 51#71, 13, 51#83, 15, 54#83, 13, 49#80, 19, 53#83, 27, 53#90, 27, 58#77, 35, 56#83, 18, 66#74, 37, 45#85, 33, 51#72, 20, 48#66, 17, 55#75, 18, 64#77, 18, 61#73, 14, 45#84, 19, 32#76, 23, 35#76, 26, 36#89, 17, 43#93, 22, 47#92, 25, 46#91, 32, 46#92, 36, 46#90, 26, 61#85, 32, 62#85, 38, 65#83, 28, 67#76, 23, 67#71, 28, 61#75, 34, 64#65, 31, 54#65, 37, 51#76, 33, 42#84, 34, 37#82, 37, 37#100, 22, 55#98, 18, 56#96, 25, 55#97, 29, 56#67, 43, 45#34, 2, 33#2, 7, 86#86, 13, 60#83, 42, 38#94, 7, 134#22, 6, 70" />
+  <property name="SleeperVolumeSize" value="15, 5, 8#10, 3, 8#19, 3, 13#24, 3, 28#14, 10, 16#27, 5, 30#15, 6, 12#8, 5, 5#11, 3, 15#13, 3, 16#28, 6, 29#7, 20, 8#7, 5, 10#17, 4, 14#21, 3, 12#20, 4, 10#7, 3, 5#13, 3, 1#14, 3, 1#26, 4, 9#16, 4, 15#14, 4, 9#16, 3, 6#5, 6, 5#14, 6, 17#17, 5, 19#5, 3, 7#8, 2, 11#14, 2, 12#9, 2, 7#9, 4, 8#6, 2, 5#10, 8, 10#7, 6, 9#5, 4, 3#14, 6, 6#15, 8, 13#6, 4, 11#3, 3, 4#3, 3, 16#5, 6, 6#5, 4, 4#3, 3, 3#11, 6, 4#5, 3, 14#13, 3, 18#12, 6, 16#9, 2, 11#6, 3, 6#10, 6, 8#7, 3, 9#14, 3, 14#14, 5, 9#13, 5, 16#15, 3, 13#5, 3, 10#4, 5, 6#12, 6, 6#4, 6, 6#11, 4, 6#9, 3, 10#5, 1, 12#4, 3, 9#7, 4, 14#7, 3, 5#9, 3, 3#12, 4, 5#14, 5, 3#16, 2, 18#42, 3, 15#20, 8, 12#4, 3, 8#23, 3, 39#8, 6, 18#17, 12, 19" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,6,7,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,3,4,S_-_Group_Biker_Bar,6,7,S_-Group_Generic_Zombie,9,10,S_-Group_Generic_Zombie,3,4,S_-_Group_Zom_Soldier,1,2,S_-_Group_Ghost_Town,3,4,S_-_Group_Ghost_Town,6,7,S_-Group_Generic_Zombie,7,8,S_-_Group_Zom_Soldier,5,6,S_Zom_Lumber_Jack,1,1,S_-Group_Generic_Zombie,5,6,S_-_Group_Zom_Badass,4,5,S_-_Group_Ghost_Town,4,5,S_Zom_FatCops,3,4,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,5,6,S_-_Group_Biker_Bar,3,4,S_Zom_FatCops,2,3,S_-Group_Generic_Zombie,2,3,S_-_Group_Biker_Bar,3,4,S_Zom_Burnt,2,3,S_-_Group_Hospital,3,4,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,6,7,S_-_Group_Ghost_Town,4,5,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,4,5,S_Zom_FatCops,3,4,S_-Group_Generic_Zombie,0,0,S_-_Group_Zom_Badass,3,4,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,3,4,S_Zom_Spider_Only,1,2,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_Zom_Lumber_Jack,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-_Group_Zom_Badass,1,2,S_Zom_Spider_Only,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,4,5,S_Zom_Businessman,4,5,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,9,10,S_-Group_Generic_Zombie,3,3,S_-Group_Generic_Zombie,3,4" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,5,5,0,0,0,8,8,0,0,0,0,0,0,20,20,0,21,21,22,0,0,22,0,0,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,42,0,0" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="Zoning" value="ResidentialOld, Rural" />
+  <property name="AllowedBiomes" value="burnt_forest,wasteland" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="Tags" value="wilderness,pine_forest" />
+  <property name="POIMarkerSize" value="1, 1, 1#1, 1, 1" />
+  <property name="POIMarkerStart" value="31, 6, 158#130, 6, 3" />
+  <property name="POIMarkerGroup" value="1,2" />
+  <property name="POIMarkerTags" value="#" />
+  <property name="POIMarkerType" value="RoadExit,RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="," />
+  <property name="POIMarkerPartRotations" value="0,3" />
+  <property name="POIMarkerPartSpawnChance" value="1,1" />
+  <property name="PrefabSize" value="130, 46, 158" />
+  <property class="IndexedBlockOffsets">
+    <property class="quest_feather">
+      <property name="0" value="88, 43, 74" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="76, 9, 109" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="82, 7, 134" />
+      <property name="1" value="86, 7, 134" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="120, 12, 43" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="39, 7, 156" />
+    </property>
+    <property class="quest_stone">
+      <property name="0" value="115, 14, 55" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="103, 42, 55" />
+      <property name="1" value="102, 33, 56" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="3482340" />
+    <property name="TotalTriangles" value="3557212" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="2748899" />
+      <property name="Triangles" value="3097209" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="562128" />
+      <property name="Triangles" value="296599" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="1592" />
+      <property name="Triangles" value="1068" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="796" />
+      <property name="Triangles" value="398" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="20519" />
+      <property name="Triangles" value="13774" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="80592" />
+      <property name="Triangles" value="40296" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="63254" />
+      <property name="Triangles" value="103044" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="4560" />
+      <property name="Triangles" value="4824" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

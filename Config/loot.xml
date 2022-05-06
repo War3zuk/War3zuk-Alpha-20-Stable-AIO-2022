@@ -412,14 +412,12 @@
 	<item group="groupScrapCommon" loot_prob_template="med"/>
 	<item group="groupBuildingCommon" loot_prob_template="med"/>
 	<item name="resourceLockPick" count="2,4" loot_prob_template="med"/>
-	<item group="seeds" count="2" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="groupJunk02" count="2">
 	<item group="groupFoodTrash" loot_prob_template="low"/>
 	<item group="groupScrapCommon" loot_prob_template="low"/>
 	<item group="groupBuildingCommon" loot_prob_template="low"/>
-	<item name="resourceLockPick" count="2,4" loot_prob_template="low"/>
 	<item group="seeds" count="2" loot_prob_template="low"/>
 	<item group="groupScrapRare" loot_prob_template="low"/>
 	<item group="booksAllScaled" loot_prob_template="low"/>
@@ -428,19 +426,19 @@
 </lootgroup>
 
 <lootgroup name="groupJunk03" count="2">
-	<item name="HDAeroDynamicsUpgrade" loot_prob_template="veryLow"/>
-	<item name="HDFuelSaverUpgrade" loot_prob_template="veryLow"/>
-	<item name="HDHeadlightsUpgrade" loot_prob_template="veryLow"/>
-	<item name="HDHeadlightsUpgrade" loot_prob_template="veryLow"/>
-	<item name="HDTurboUpgrade" loot_prob_template="veryLow"/>
-	<item name="HDTurboUpgrade" loot_prob_template="veryLow"/>
+	<item name="HDAeroDynamicsUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDFuelSaverUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDTurboUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDTurboUpgrade" count="1" loot_prob_template="veryLow"/>
 	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="veryLow"/>
 </lootgroup>
 
 <lootgroup name="groupJunk" count="2">
-	<item group="groupJunk01" loot_prob_template="med"/>
-	<item group="groupJunk02" loot_prob_template="low"/>
-	<item group="groupJunk03" loot_prob_template="veryLow"/>
+	<item group="groupJunk01" loot_prob_template="high"/>
+	<item group="groupJunk02" loot_prob_template="med"/>
+	<item group="groupJunk03" loot_prob_template="low"/>
 </lootgroup>
 
 </insertAfter>

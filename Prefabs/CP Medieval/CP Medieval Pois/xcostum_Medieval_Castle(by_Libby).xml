@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="5" />
+  <property name="TraderArea" value="False" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="wildernes, ResidentialOld" />
+  <property name="AllowedBiomes" value="snow" />
+  <property name="AllowedTownships" value="wilderness" />
+  <property name="YOffset" value="-1" />
+  <property name="EditorGroups" value="Wilderness" />
+  <property name="SleeperVolumeSize" value="6, 3, 7#10, 3, 8#46, 25, 13#43, 4, 62#26, 3, 22#30, 4, 51#30, 7, 51#30, 3, 54#9, 5, 8#19, 4, 36#19, 4, 36#19, 4, 36#19, 4, 36#10, 4, 6#3, 5, 4" />
+  <property name="SleeperVolumeStart" value="84, 5, 51#74, 5, 51#52, 1, 21#54, 0, 34#53, 5, 38#60, 12, 44#60, 5, 44#60, 16, 44#75, 19, 51#60, 24, 59#60, 28, 59#60, 32, 59#60, 37, 59#79, 19, 44#75, 20, 67" />
+  <property name="SleeperVolumeGroupId" value="1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,15,20,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,12,15,S_-Group_Generic_Zombie,8,10,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,3,5,S_-Group_Generic_Zombie,10,10,S_-Group_Generic_Zombie,10,10,S_-Group_Generic_Zombie,10,15,S_-Group_Generic_Zombie,5,8,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,8,10,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1" />
+  <property name="SleeperIsLootVolume" value="True,True,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,2,0,0,0,0,0,0,2,0,0,0,0,0,0" />
+  <property name="PrefabSize" value="100, 66, 100" />
+  <property name="Tags" value="medieval,medieval100x100" />
+  <property class="Stats">
+    <property name="TotalVertices" value="975396" />
+    <property name="TotalTriangles" value="954296" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="670861" />
+      <property name="Triangles" value="768822" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="264751" />
+      <property name="Triangles" value="141683" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="3352" />
+      <property name="Triangles" value="1676" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="100" />
+      <property name="Triangles" value="50" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="17474" />
+      <property name="Triangles" value="13381" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="672" />
+      <property name="Triangles" value="336" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="18138" />
+      <property name="Triangles" value="28324" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="48" />
+      <property name="Triangles" value="24" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="44, 38, 65" />
+      <property name="1" value="48, 15, 65" />
+    </property>
+  </property>
+</prefab>

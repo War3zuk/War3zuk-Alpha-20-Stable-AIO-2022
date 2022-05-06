@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="True" />
+  <property name="TraderAreaTeleportSize" value="12, 10, 15" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="Zoning" value="Rural" />
+  <property name="RotationToFaceNorth" value="3" />
+  <property name="YOffset" value="-8" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="snow" />
+  <property name="AllowedTownships" value="wilderness" />
+  <property name="EditorGroups" value="Traders" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderAreaProtect" value="20, 20, 20" />
+  <property name="Tags" value="snow,wilderness,trader,biomeonly" />
+  <property name="POIMarkerSize" value="1, 1, 1" />
+  <property name="POIMarkerStart" value="-1, 7, 9" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="1" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="25, 28, 25" />
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="6, 10, 6" />
+      <property name="1" value="6, 11, 6" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="15, 8, 16" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="11, 3, 12" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="13, 5, 14" />
+      <property name="1" value="12, 5, 15" />
+      <property name="2" value="14, 5, 15" />
+      <property name="3" value="13, 5, 16" />
+      <property name="4" value="15, 5, 16" />
+      <property name="5" value="12, 5, 17" />
+      <property name="6" value="14, 5, 17" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="128349" />
+    <property name="TotalTriangles" value="170695" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="121321" />
+      <property name="Triangles" value="163463" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="3840" />
+      <property name="Triangles" value="2012" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="240" />
+      <property name="Triangles" value="120" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="2948" />
+      <property name="Triangles" value="5100" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

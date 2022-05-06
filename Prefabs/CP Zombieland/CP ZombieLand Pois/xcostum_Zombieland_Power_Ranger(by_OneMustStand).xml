@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="2" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="Zoning" value="Rural, ResidentialOld" />
+  <property name="AllowedBiomes" value="pine_forest" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="SleeperVolumeSize" value="10, 3, 22#10, 3, 22#7, 12, 8#7, 12, 8#14, 5, 8#9, 4, 6#11, 9, 7" />
+  <property name="SleeperVolumeStart" value="5, 1, 4#15, 1, 4#16, 12, 8#8, 12, 8#9, 37, 8#11, 33, 8#10, 24, 8" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,3,4" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,2,0,0" />
+  <property name="EditorGroups" value="rural" />
+  <property name="Tags" value="zombie,zombie30x30" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="YOffset" value="-2" />
+  <property name="PrefabSize" value="30, 55, 30" />
+  <property class="Stats">
+    <property name="TotalVertices" value="142077" />
+    <property name="TotalTriangles" value="109118" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="53608" />
+      <property name="Triangles" value="57443" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="87735" />
+      <property name="Triangles" value="50949" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="460" />
+      <property name="Triangles" value="230" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="274" />
+      <property name="Triangles" value="496" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="FetchContainer">
+      <property name="0" value="18, 39, 9" />
+      <property name="1" value="26, 45, 12" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="19, 28, 10" />
+      <property name="1" value="15, 42, 11" />
+      <property name="2" value="15, 33, 12" />
+      <property name="3" value="15, 37, 12" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="21, 1, 29" />
+    </property>
+  </property>
+</prefab>

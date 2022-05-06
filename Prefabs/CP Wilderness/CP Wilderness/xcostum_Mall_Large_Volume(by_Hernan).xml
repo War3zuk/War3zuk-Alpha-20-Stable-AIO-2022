@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="Zoning" value="none" />
+  <property name="AllowedBiomes" value="desert" />
+  <property name="AllowedTownships" value="city" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-7" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="EditorGroups" value="Mall, Mega_structures, Extreme, TV_Movie_Game" />
+  <property name="SleeperVolumeStart" value="135, 8, 46#34, 20, 47#46, 14, 82#34, 8, 80#34, 8, 47#151, 1, 74#33, 7, -1#126, 8, 45#139, 33, 50#77, 26, 92#33, 26, 44#69, 0, 27#29, 0, 13#184, 0, 32#172, 8, 60#182, 26, 42#77, 8, 107#144, 20, 75#152, 20, 75#34, 2, 46#80, 2, 96#147, 1, 13#79, 3, 106#33, 7, 90#0, 7, -1#148, 8, 90#113, 2, 96#117, 7, 128#191, 7, -1#161, 7, 94#125, 7, 97#77, 7, 130#117, 7, 90#143, 26, 84#77, 26, 45#139, 26, 50#165, 20, 75#175, 20, 82#171, 20, 90#185, 20, 83#175, 20, 72#175, 20, 61#175, 20, 44#163, 20, 46#154, 20, 46#143, 20, 46#143, 20, 61#107, 20, 57#51, 20, 57#87, 20, 49#87, 14, 47#50, 8, 58#78, 8, 46#80, 8, 77#50, 14, 57#107, 14, 57" />
+  <property name="SleeperVolumeSize" value="8, 3, 11#16, 4, 42#4, 3, 10#5, 3, 9#15, 4, 32#8, 4, 13#158, 22, 45#8, 3, 11#43, 3, 34#40, 6, 40#44, 6, 48#131, 6, 6#6, 6, 19#6, 6, 36#18, 9, 16#9, 3, 52#40, 5, 23#8, 3, 15#13, 3, 15#125, 3, 43#28, 3, 9#7, 4, 13#14, 3, 8#44, 17, 57#33, 17, 148#13, 3, 7#3, 3, 9#8, 1, 2#14, 19, 148#30, 19, 53#36, 19, 50#48, 17, 17#26, 3, 7#39, 3, 10#57, 6, 47#43, 5, 34#10, 3, 13#10, 3, 12#4, 3, 4#5, 3, 10#16, 5, 10#16, 3, 11#16, 3, 17#12, 3, 15#9, 3, 15#11, 3, 15#32, 3, 14#36, 3, 20#36, 3, 20#20, 3, 70#20, 3, 71#98, 3, 19#38, 3, 12#36, 3, 30#37, 3, 20#36, 3, 20" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,2,S_Zom_Burnt,5,9,S_Zom_Businessman,1,2,S_-_Group_Hospital,1,2,S_Zom_Utility_Worker,6,8,S_Zom_Businessman,1,1,S_-Group_Generic_Zombie,60,65,S_-_Group_Lab_Worker,1,1,S_-Group_Generic_Zombie,17,19,S_-Group_Generic_Zombie,35,40,S_-Group_Generic_Zombie,28,30,S_-Group_Generic_Zombie,5,6,S_-_Group_Biker_Bar,6,8,S_-Group_Generic_Zombie,1,3,S_-Group_Generic_Zombie,11,13,S_-_Group_Zom_Soldier,6,7,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,6,S_-_Group_Zom_Badass_Only,18,20,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,3,S_-Group_Generic_Zombie,1,2,S_-_Group_Zom_Badass,25,27,S_-_Group_Zom_Badass_Only,65,70,S_-Group_Generic_Zombie,7,8,S_-_Group_Zom_Badass_Only,15,17,S_-_Group_Zom_Badass_Only,0,0,S_Zom_Utility_Worker,25,26,S_Zom_Janitor_Only,18,20,S_-Group_Generic_Zombie,14,16,S_-Group_Generic_Zombie,8,10,S_-Group_Generic_Zombie,4,5,S_Zom_Janitor_Only,2,4,S_-Group_Generic_Zombie,32,35,S_Zom_Businessman,20,22,S_Zom_HazMat_Only,5,7,S_-Group_Generic_Zombie,6,7,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,4,S_-_Group_Biker_Bar,5,6,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,12,13,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,5,6,S_Zom_Businessman,8,9,S_-Group_Generic_Zombie,16,19,S_-Group_Generic_Zombie,18,20,S_-Group_Generic_Zombie,13,14,S_-_Group_Zom_Badass,20,22,S_-Group_Generic_Zombie,22,25,S_-Group_Generic_Zombie,30,33,S_-Group_Generic_Zombie,8,9,S_-Group_Generic_Zombie,16,18,S_-Group_Generic_Zombie,15,16,S_-Group_Generic_Zombie,18,20" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,0,2,0,2,2,2,0,2,2,2,0,2,2,2,0,0,0,0,2,2,0,0,0,0,0,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,2,2,2,2,2" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="Tags" value="desert,wilderness" />
+  <property name="POIMarkerSize" value="8, 1, 1#8, 1, 1" />
+  <property name="POIMarkerStart" value="88, 6, -1#98, 6, -1" />
+  <property name="POIMarkerGroup" value="1,2" />
+  <property name="POIMarkerTags" value="#" />
+  <property name="POIMarkerType" value="RoadExit,RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="," />
+  <property name="POIMarkerPartRotations" value="2,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1" />
+  <property name="PrefabSize" value="205, 50, 148" />
+  <property class="IndexedBlockOffsets">
+    <property class="quest_wood">
+      <property name="0" value="204, 8, 1" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="203, 21, 131" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="167, 30, 62" />
+      <property name="1" value="167, 30, 71" />
+    </property>
+    <property class="quest_feather">
+      <property name="0" value="168, 33, 74" />
+    </property>
+    <property class="quest_stone">
+      <property name="0" value="185, 8, 60" />
+      <property name="1" value="187, 8, 61" />
+      <property name="2" value="186, 8, 62" />
+      <property name="3" value="188, 9, 64" />
+      <property name="4" value="186, 8, 65" />
+      <property name="5" value="189, 9, 65" />
+      <property name="6" value="185, 8, 66" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="10127964" />
+    <property name="TotalTriangles" value="9632789" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="7301304" />
+      <property name="Triangles" value="7926450" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="2512133" />
+      <property name="Triangles" value="1416299" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="3264" />
+      <property name="Triangles" value="2260" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="47443" />
+      <property name="Triangles" value="23949" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="187321" />
+      <property name="Triangles" value="141299" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="1296" />
+      <property name="Triangles" value="648" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="71546" />
+      <property name="Triangles" value="116872" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="3565" />
+      <property name="Triangles" value="4966" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="92" />
+      <property name="Triangles" value="46" />
+    </property>
+  </property>
+</prefab>

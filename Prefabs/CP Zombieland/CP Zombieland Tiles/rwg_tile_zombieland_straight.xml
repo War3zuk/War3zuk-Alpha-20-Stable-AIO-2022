@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-4" />
+  <property name="Zoning" value="none" />
+  <property name="PrefabSize" value="150, 5, 150" />
+  <property name="Tags" value="zombieland" />
+  <property name="POIMarkerSize" value="60, 0, 60#60, 0, 60#60, 0, 60#60, 0, 60#25, 0, 25#5, 4, 6#5, 4, 6#5, 4, 6#5, 4, 6" />
+  <property name="POIMarkerStart" value="89, 4, 1#1, 4, 1#1, 4, 89#89, 4, 89#62, 4, 62#142, 4, 81#142, 4, 63#3, 4, 63#2, 4, 81" />
+  <property name="POIMarkerGroup" value="1,2,3,4,5,6,7,8,9" />
+  <property name="POIMarkerTags" value="zombie60x60##zombie60x60#zombie60x60#zombie25x25####" />
+  <property name="POIMarkerType" value="POISpawn,POISpawn,POISpawn,POISpawn,POISpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value=",,,,,part_kiosk_01,part_kiosk_02,part_kiosk_01,part_kiosk_02" />
+  <property name="POIMarkerPartRotations" value="0,0,2,2,2,3,3,1,1" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1,1,1,1,1" />
+  <property class="Stats">
+    <property name="TotalVertices" value="486076" />
+    <property name="TotalTriangles" value="552884" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="10064" />
+      <property name="Triangles" value="9520" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="400552" />
+      <property name="Triangles" value="438236" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="15744" />
+      <property name="Triangles" value="7872" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="59716" />
+      <property name="Triangles" value="97256" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

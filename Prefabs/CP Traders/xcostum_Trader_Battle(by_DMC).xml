@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="4" />
+  <property name="TraderArea" value="False" />
+  <property name="YOffset" value="-3" />
+  <property name="SleeperVolumeSize" value="22, 3, 33#20, 3, 37#21, 9, 21" />
+  <property name="SleeperVolumeStart" value="0, 3, 5#22, 3, 4#11, 6, 17" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Soldier,22,25,S_-_Group_Zom_Soldier,17,20,S_-_Group_Zom_Badass_Only,7,8" />
+  <property name="SleeperIsLootVolume" value="False,False,False" />
+  <property name="SleeperIsBossVolume" value="False,False,False" />
+  <property name="EditorGroups" value="Fake_Trader, Destroyed" />
+  <property name="ShowQuestClearCount" value="2" />
+  <property name="SleeperVolumeGroupId" value="0,0,0" />
+  <property name="SleeperIsQuestExclude" value="False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="any, ResidentialOld, wilderness" />
+  <property name="AllowedBiomes" value="pine_forest" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="Tags" value="wilderness,pine_forest,biomeonly" />
+  <property name="POIMarkerSize" value="1, 1, 1" />
+  <property name="POIMarkerStart" value="24, 2, -1" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="42, 34, 42" />
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="24, 22, 29" />
+      <property name="1" value="24, 27, 29" />
+      <property name="2" value="24, 30, 31" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="22, 10, 27" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="741380" />
+    <property name="TotalTriangles" value="895999" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="592079" />
+      <property name="Triangles" value="805219" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="131655" />
+      <property name="Triangles" value="76060" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="12200" />
+      <property name="Triangles" value="6400" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="116" />
+      <property name="Triangles" value="76" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="144" />
+      <property name="Triangles" value="72" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="5138" />
+      <property name="Triangles" value="8148" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="48" />
+      <property name="Triangles" value="24" />
+    </property>
+  </property>
+</prefab>

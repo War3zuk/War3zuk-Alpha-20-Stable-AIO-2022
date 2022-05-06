@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-25" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="Zoning" value="Commercial" />
+  <property name="AllowedBiomes" value="desert" />
+  <property name="AllowedTownships" value="city" />
+  <property name="EditorGroups" value="commercial, Cityblocks" />
+  <property name="SleeperVolumeStart" value="" />
+  <property name="SleeperVolumeSize" value="" />
+  <property name="SleeperVolumeGroup" value="" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="" />
+  <property name="SleeperIsQuestExclude" value="" />
+  <property name="SleeperVolumeFlags" value="" />
+  <property name="SleeperVolumeGroupId" value="" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="POIMarkerSize" value="3, 4, 3#3, 4, 3#3, 4, 3#3, 4, 3#130, 0, 132" />
+  <property name="POIMarkerStart" value="2, 25, 3#145, 25, 3#143, 25, 143#4, 25, 143#10, 25, 7" />
+  <property name="POIMarkerGroup" value="2,1,3,4,casino" />
+  <property name="POIMarkerTags" value="####casino" />
+  <property name="POIMarkerType" value="PartSpawn,PartSpawn,PartSpawn,PartSpawn,POISpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_sculpture_02,part_sculpture_02,part_sculpture_02,part_sculpture_02," />
+  <property name="POIMarkerPartRotations" value="2,2,0,0,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1" />
+  <property name="PrefabSize" value="150, 27, 150" />
+  <property name="Tags" value="casino" />
+  <property class="Stats">
+    <property name="TotalVertices" value="318503" />
+    <property name="TotalTriangles" value="396640" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="150183" />
+      <property name="Triangles" value="220308" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="84528" />
+      <property name="Triangles" value="42124" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="2128" />
+      <property name="Triangles" value="1064" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="81664" />
+      <property name="Triangles" value="133144" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

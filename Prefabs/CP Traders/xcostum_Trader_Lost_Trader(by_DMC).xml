@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="4" />
+  <property name="TraderArea" value="False" />
+  <property name="EditorGroups" value="Fake_Trader, Destroyed" />
+  <property name="SleeperVolumeSize" value="32, 11, 22#7, 16, 12#39, 8, 20#7, 6, 8" />
+  <property name="SleeperVolumeStart" value="1, 1, 3#33, 1, 5#1, 1, 25#33, 2, 17" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Biker_Bar,18,19,S_-_Group_Zom_Badass,8,10,S_-Group_Generic_Zombie,10,15,S_-_Group_Zom_Soldier,1,1" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False" />
+  <property name="SleeperIsBossVolume" value="False,False,False,False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0" />
+  <property name="YOffset" value="-2" />
+  <property name="ShowQuestClearCount" value="2" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False" />
+  <property name="Zoning" value="Rural, ResidentialOld" />
+  <property name="AllowedBiomes" value="desert" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="Tags" value="desert,wilderness,biomeonly" />
+  <property name="POIMarkerSize" value="1, 1, 1" />
+  <property name="POIMarkerStart" value="20, 1, -1" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="41, 25, 46" />
+  <property class="Stats">
+    <property name="TotalVertices" value="464680" />
+    <property name="TotalTriangles" value="577493" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="412208" />
+      <property name="Triangles" value="540227" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="42950" />
+      <property name="Triangles" value="25862" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="1104" />
+      <property name="Triangles" value="552" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="3084" />
+      <property name="Triangles" value="2482" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="5258" />
+      <property name="Triangles" value="8332" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="76" />
+      <property name="Triangles" value="38" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="37, 5, 13" />
+      <property name="1" value="39, 3, 18" />
+      <property name="2" value="36, 4, 22" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="26, 2, 42" />
+      <property name="1" value="34, 2, 42" />
+    </property>
+  </property>
+</prefab>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="YOffset" value="-2" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="PrefabSize" value="150, 4, 150" />
+  <property name="Tags" value="medievalvillage" />
+  <property name="POIMarkerSize" value="70, 0, 70#25, 0, 25#25, 0, 25#10, 4, 9#9, 4, 7#10, 4, 9#9, 4, 7#33, 4, 16#33, 3, 33#33, 3, 33#33, 3, 16" />
+  <property name="POIMarkerStart" value="32, 2, 36#45, 2, 2#10, 2, 2#123, 2, 3#139, 2, 5#138, 2, 19#123, 2, 19#116, 0, 127#116, 1, 87#116, 1, 87#116, 1, 127" />
+  <property name="POIMarkerGroup" value="1,2,3,4,5,6,7,8,9,10,11" />
+  <property name="POIMarkerTags" value="medieval70x70#medieval25x25#medieval25x25########medieval110x110" />
+  <property name="POIMarkerType" value="POISpawn,POISpawn,POISpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value=",,,part_roadside_fruit_stand_01,part_roadside_fruit_stand_02,part_roadside_fruit_stand_01,part_roadside_fruit_stand_02,part_farm60_yard_02,part_farm60_field_01,part_farm60_field_03,part_farm60_yard_03" />
+  <property name="POIMarkerPartRotations" value="2,0,0,0,0,2,2,3,3,3,3" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1,1,1,0.4,0.6,1,1" />
+  <property name="SleeperVolumeSize" value="29, 3, 94#52, 3, 26" />
+  <property name="SleeperVolumeStart" value="120, 2, 28#71, 2, 2" />
+  <property name="SleeperVolumeGroupId" value="0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,2,6,S_-Group_Generic_Zombie,2,6" />
+  <property name="SleeperIsLootVolume" value="False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False" />
+  <property name="SleeperVolumeFlags" value="0,0" />
+  <property class="Stats">
+    <property name="TotalVertices" value="453860" />
+    <property name="TotalTriangles" value="415100" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="303946" />
+      <property name="Triangles" value="271960" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="91588" />
+      <property name="Triangles" value="48384" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="58326" />
+      <property name="Triangles" value="94756" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

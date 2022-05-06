@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="5" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="105, 23, 147" />
+  <property name="RotationToFaceNorth" value="1" />
+  <property name="Zoning" value="none" />
+  <property name="SleeperVolumeSize" value="16, 6, 25#35, 3, 23#24, 5, 25#34, 6, 25" />
+  <property name="SleeperVolumeStart" value="17, 4, 11#45, 4, 52#55, 13, 51#45, 7, 51" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,20,40,S_-_Group_Zom_Badass,20,20,S_-_Group_Zom_Badass_Only,15,26,S_-_Group_Zom_Badass_Only,20,32" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,0,2,0" />
+  <property name="POIMarkerSize" value="5, 1, 4" />
+  <property name="POIMarkerStart" value="105, 3, 67" />
+  <property name="POIMarkerGroup" value="1" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="3" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="Tags" value="wilderness,pine_forest" />
+  <property name="YOffset" value="-4" />
+  <property name="EditorGroups" value="TV_Movie_Game" />
+  <property class="Stats">
+    <property name="TotalVertices" value="2087179" />
+    <property name="TotalTriangles" value="2019227" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1904075" />
+      <property name="Triangles" value="1878131" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="137696" />
+      <property name="Triangles" value="71212" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="688" />
+      <property name="Triangles" value="344" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="3688" />
+      <property name="Triangles" value="3662" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="40956" />
+      <property name="Triangles" value="65840" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="76" />
+      <property name="Triangles" value="38" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="70, 6, 59" />
+      <property name="1" value="70, 8, 59" />
+      <property name="2" value="70, 10, 61" />
+      <property name="3" value="76, 12, 63" />
+      <property name="4" value="77, 16, 63" />
+      <property name="5" value="79, 7, 63" />
+      <property name="6" value="75, 6, 66" />
+      <property name="7" value="70, 5, 67" />
+      <property name="8" value="70, 8, 67" />
+      <property name="9" value="71, 10, 67" />
+      <property name="10" value="71, 11, 69" />
+      <property name="11" value="74, 5, 72" />
+    </property>
+  </property>
+</prefab>

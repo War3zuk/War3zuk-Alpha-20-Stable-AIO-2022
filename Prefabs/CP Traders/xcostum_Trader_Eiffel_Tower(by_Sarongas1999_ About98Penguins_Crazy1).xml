@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="3" />
+  <property name="ShowQuestClearCount" value="2" />
+  <property name="TraderArea" value="True" />
+  <property name="PrefabSize" value="144, 181, 119" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="TraderAreaProtect" value="20,0,20" />
+  <property name="TraderAreaTeleportSize" value="16, 5, 16" />
+  <property name="TraderAreaTeleportCenter" value="64, 69, 38" />
+  <property name="YOffset" value="-2" />
+  <property name="Tags" value="wasteland,wilderness,trader,biomeonly" />
+  <property name="SleeperVolumeSize" value="12, 3, 14#11, 3, 9#10, 3, 14#36, 5, 36#48, 5, 53" />
+  <property name="SleeperVolumeStart" value="55, 28, 39#66, 28, 53#77, 28, 39#54, 28, 28#48, 2, 20" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="animalChicken,6,8,S_-_Group_Night_Club,2,3,S_-_Group_Lab_Worker,2,4,S_-Group_Generic_Zombie,6,12,S_-Group_Generic_Zombie,15,15" />
+  <property name="SleeperIsLootVolume" value="True,True,True,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="1,0,0,0,0" />
+  <property name="POIMarkerSize" value="3, 1, 4#3, 1, 4" />
+  <property name="POIMarkerStart" value="66, 1, -4#75, 1, -4" />
+  <property name="POIMarkerGroup" value="1,2" />
+  <property name="POIMarkerTags" value="#" />
+  <property name="POIMarkerType" value="RoadExit,RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="," />
+  <property name="POIMarkerPartRotations" value="2,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1" />
+  <property name="QuestTags" value="trader" />
+  <property name="EditorGroups" value="Multi_Trader" />
+  <property class="Stats">
+    <property name="TotalVertices" value="1941203" />
+    <property name="TotalTriangles" value="1827957" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1171035" />
+      <property name="Triangles" value="1180959" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="540144" />
+      <property name="Triangles" value="476994" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="172288" />
+      <property name="Triangles" value="86144" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="9256" />
+      <property name="Triangles" value="4668" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="48464" />
+      <property name="Triangles" value="79184" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="16" />
+      <property name="Triangles" value="8" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="99, 4, 73" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="72, 70, 49" />
+      <property name="1" value="75, 70, 49" />
+    </property>
+  </property>
+</prefab>

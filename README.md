@@ -14,6 +14,7 @@ Updated SMXhud
 Updated SMXmenu
 Updated ZMXhudCP
 Added Compo Pack 48 (Edited)
+Updated Compo Pack 48.1 (Edited)
 Updated Bdubs Vehicle Overhaul
 Updated BDubs Nuka Colas Localization
 Updated HD Mumpfy Skins Locaization
