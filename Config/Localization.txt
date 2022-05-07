@@ -765,12 +765,12 @@ HDJukeBox5FingerDesc,,item,Tools,newKey,Punch Me To Turn On And Off 5 Tracks Joi
 
 HDJukeBoxASevenfoldDesc,,item,Tools,newKey,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Bat Country.\n\nTrack 002 Hail To The King.\n\nTrack 003 Nightmare.\n\nTrack 004 Not Ready To Die.\n\nTrack 005 This Means War.
 
-HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
-HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
+HDWorkingFireDesc,blocks,Container,,,A Fully Working Fireplace Stove that uses NO Fuel.
+HDWODesc,blocks,Container,,,A Fully Working oven that uses NO Fuel.
 
-HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the HD Water Dispencer And Use Left Mouse Button.,
+HDWDDesc,blocks,Container,,,Place Empty Glass Jars in your Toolbelt. Face the HD Water Dispencer And Use Left Mouse Button.,
 
-HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
+HDWorkingFridgeDesc,blocks,Container,,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
 
 PenthroxDesc,,item,Tools,newKey,This will Render you Almost invisible to ALL Zombies unless you Engage them.
 

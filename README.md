@@ -2,6 +2,7 @@ War3zuk-Alpha-20.4 - AIO STABLE
 
 Updated v7.4 to v7.5
 
+Fixed 4 Localization Infos
 Adjusted Dumpster LootGroup 1
 Adjusted Dumpster LootGroup 2
 Rebuild DumpsterLoot Groups (Alpha 20.4 B42)
@@ -9,10 +10,6 @@ Fixed Spikes Being Sellable
 Edited Crafted Scrapped Schematics 20 From 25
 
 Launcher Edits: (Only For Launcher Install)
-Updated SMXcore
-Updated SMXhud
-Updated SMXmenu
-Updated ZMXhudCP
 Added Compo Pack 48 (Edited)
 Updated Compo Pack 48.1 (Edited)
 Updated Bdubs Vehicle Overhaul
