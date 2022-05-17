@@ -24,8 +24,8 @@
   <property name="QuestTags" value="clear" />
   <property name="EditorGroups" value="Extreme, Mall, TV_Movie_Game" />
   <property class="Stats">
-    <property name="TotalVertices" value="13007707" />
-    <property name="TotalTriangles" value="13268055" />
+    <property name="TotalVertices" value="13007451" />
+    <property name="TotalTriangles" value="13267927" />
     <property class="BlockEntities">
       <property name="Vertices" value="10871214" />
       <property name="Triangles" value="11916889" />
@@ -35,8 +35,8 @@
       <property name="Triangles" value="1123361" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="88796" />
-      <property name="Triangles" value="44398" />
+      <property name="Vertices" value="88540" />
+      <property name="Triangles" value="44270" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="7438" />

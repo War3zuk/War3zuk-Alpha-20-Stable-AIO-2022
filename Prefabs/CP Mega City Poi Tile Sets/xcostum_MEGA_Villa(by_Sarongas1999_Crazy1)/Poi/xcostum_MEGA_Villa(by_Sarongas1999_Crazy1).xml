@@ -25,7 +25,7 @@
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="3" />
   <property name="Tags" value="megacity,cpmegadowntown,megacitydowntown,megacityvilla" />
-  <property name="PrefabSize" value="112, 35, 112" />
+  <property name="PrefabSize" value="112, 19, 112" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="81, 17, 73" />
@@ -54,11 +54,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="7238515" />
-    <property name="TotalTriangles" value="7012354" />
+    <property name="TotalVertices" value="7232065" />
+    <property name="TotalTriangles" value="7006948" />
     <property class="BlockEntities">
-      <property name="Vertices" value="6530194" />
-      <property name="Triangles" value="6635303" />
+      <property name="Vertices" value="6523744" />
+      <property name="Triangles" value="6629897" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="655296" />

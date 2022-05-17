@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,2,0,2,0,0,2,0,0,0,0,0,0" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="TV_Movie_Game" />
-  <property name="Tags" value="snow,desert,countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="snow,desert,countrytown,diagonal,pine_forest" />
   <property name="POIMarkerSize" value="10, 13, 2" />
   <property name="POIMarkerStart" value="20, 5, -2" />
   <property name="POIMarkerGroup" value="1" />

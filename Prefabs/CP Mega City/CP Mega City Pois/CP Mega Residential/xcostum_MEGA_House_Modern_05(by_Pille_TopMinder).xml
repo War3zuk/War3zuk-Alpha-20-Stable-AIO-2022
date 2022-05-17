@@ -14,14 +14,14 @@
   <property name="YOffset" value="-1" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="house new" />
-  <property name="SleeperVolumeStart" value="15, 2, 20" />
-  <property name="SleeperVolumeSize" value="32, 14, 22" />
-  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,150,170" />
+  <property name="SleeperVolumeStart" value="14, 2, 19#14, 5, 19#14, 9, 19" />
+  <property name="SleeperVolumeSize" value="34, 2, 24#34, 4, 24#34, 4, 24" />
+  <property name="SleeperVolumeGroup" value="animalSnake,75,128,S_-_Group_Zom_Badass,4,8,S_-_Group_Zom_Badass_Only,25,46" />
   <property name="SleeperVolumeGameStageAdjust" value="" />
-  <property name="SleeperIsLootVolume" value="False" />
-  <property name="SleeperIsQuestExclude" value="False" />
-  <property name="SleeperVolumeFlags" value="2" />
-  <property name="SleeperVolumeGroupId" value="2" />
+  <property name="SleeperIsLootVolume" value="False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,0,0" />
+  <property name="SleeperVolumeGroupId" value="2,2,2" />
   <property name="ShowQuestClearCount" value="3" />
   <property name="Tags" value="megacity,cpmegaresidential" />
   <property name="POIMarkerSize" value="9, 13, 5" />

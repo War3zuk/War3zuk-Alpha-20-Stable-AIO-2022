@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="YOffset" value="-2" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="POIMarkerSize" value="60, 0, 60#60, 0, 60#42, 0, 42#42, 0, 42#7, 5, 11#8, 2, 13#1, 1, 1#1, 1, 1#1, 1, 1" />
+  <property name="POIMarkerStart" value="89, 2, 0#1, 2, 0#97, 2, 94#23, 2, 90#1, 2, 116#72, 1, 74#84, 11, 69#77, 8, 88#66, 4, 69" />
+  <property name="POIMarkerGroup" value="1,2,3,4,foodtruck,caracciden,light1,light2,light3" />
+  <property name="POIMarkerTags" value="cpmegacommercial#cpmegacommercial#cpmegacommercial#cpmegacommercial#####" />
+  <property name="POIMarkerType" value="POISpawn,POISpawn,POISpawn,POISpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value=",,,,part_kiosk_foodtrailer_01,part_car_accident_01,part_streetlight_single_diagonal,part_trafficlight_single,part_crosswalk" />
+  <property name="POIMarkerPartRotations" value="0,0,1,1,1,0,2,0,3" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1,0.4,0.2,0.2,0.2,0.2" />
+  <property name="PrefabSize" value="150, 12, 150" />
+  <property name="Tags" value="megacitycommercial,megacity" />
+  <property class="Stats">
+    <property name="TotalVertices" value="445295" />
+    <property name="TotalTriangles" value="462047" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="298725" />
+      <property name="Triangles" value="315958" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="89470" />
+      <property name="Triangles" value="53585" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="80" />
+      <property name="Triangles" value="40" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="57020" />
+      <property name="Triangles" value="92464" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="125, 11, 68" />
+    </property>
+  </property>
+</prefab>

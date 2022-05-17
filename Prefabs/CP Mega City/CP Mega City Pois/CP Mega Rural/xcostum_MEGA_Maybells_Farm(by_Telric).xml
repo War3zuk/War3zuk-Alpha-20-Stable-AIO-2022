@@ -31,21 +31,21 @@
   <property name="POIMarkerPartToSpawn" value="part_driveway_rural_06,part_xcostum_supercorn_6x39,part_xcostum_pumpkin_6x39" />
   <property name="POIMarkerPartRotations" value="0,0,0" />
   <property name="POIMarkerPartSpawnChance" value="1,0.4,1" />
-  <property name="PrefabSize" value="80, 47, 80" />
+  <property name="PrefabSize" value="80, 27, 80" />
   <property class="Stats">
-    <property name="TotalVertices" value="509466" />
-    <property name="TotalTriangles" value="465509" />
+    <property name="TotalVertices" value="508070" />
+    <property name="TotalTriangles" value="464105" />
     <property class="BlockEntities">
-      <property name="Vertices" value="285214" />
-      <property name="Triangles" value="325172" />
+      <property name="Vertices" value="283878" />
+      <property name="Triangles" value="323798" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="136084" />
       <property name="Triangles" value="73533" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="39236" />
-      <property name="Triangles" value="19618" />
+      <property name="Vertices" value="39176" />
+      <property name="Triangles" value="19588" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="304" />

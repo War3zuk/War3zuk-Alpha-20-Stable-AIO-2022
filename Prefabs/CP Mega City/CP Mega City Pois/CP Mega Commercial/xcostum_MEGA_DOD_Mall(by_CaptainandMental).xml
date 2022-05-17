@@ -19,15 +19,15 @@
   <property name="ShowQuestClearCount" value="3" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="PrefabSize" value="100, 96, 100" />
-  <property name="Tags" value="cpmegacommercial,megacity" />
+  <property name="Tags" value="megacity,cpmegacommercial" />
   <property name="Zoning" value="none" />
   <property name="QuestTags" value="clear" />
   <property class="Stats">
-    <property name="TotalVertices" value="13029267" />
-    <property name="TotalTriangles" value="13293724" />
+    <property name="TotalVertices" value="13007707" />
+    <property name="TotalTriangles" value="13268055" />
     <property class="BlockEntities">
-      <property name="Vertices" value="10894430" />
-      <property name="Triangles" value="11943386" />
+      <property name="Vertices" value="10871214" />
+      <property name="Triangles" value="11916889" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="1873331" />
@@ -50,8 +50,8 @@
       <property name="Triangles" value="72043" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="3096" />
-      <property name="Triangles" value="1548" />
+      <property name="Vertices" value="4752" />
+      <property name="Triangles" value="2376" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -80,12 +80,12 @@
       <property name="5" value="85, 38, 89" />
       <property name="6" value="90, 76, 89" />
     </property>
-    <property class="brBlock">
-      <property name="0" value="91, 67, 30" />
-    </property>
     <property class="quest_feather">
       <property name="0" value="91, 76, 55" />
       <property name="1" value="96, 77, 59" />
+    </property>
+    <property class="brBlock">
+      <property name="0" value="91, 67, 30" />
     </property>
     <property class="quest_wood">
       <property name="0" value="96, 22, 11" />

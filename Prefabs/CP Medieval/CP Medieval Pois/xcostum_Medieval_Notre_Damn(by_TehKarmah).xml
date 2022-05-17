@@ -23,19 +23,19 @@
   <property name="PrefabSize" value="110, 55, 110" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="1862698" />
-    <property name="TotalTriangles" value="1920011" />
+    <property name="TotalVertices" value="1862846" />
+    <property name="TotalTriangles" value="1920375" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1402022" />
-      <property name="Triangles" value="1601895" />
+      <property name="Vertices" value="1402814" />
+      <property name="Triangles" value="1602581" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="382183" />
-      <property name="Triangles" value="228161" />
+      <property name="Vertices" value="382179" />
+      <property name="Triangles" value="228159" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="7488" />
-      <property name="Triangles" value="3744" />
+      <property name="Vertices" value="6848" />
+      <property name="Triangles" value="3424" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="5420" />
@@ -71,6 +71,9 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="36, 10, 1" />
+    </property>
     <property class="POILight">
       <property name="0" value="96, 12, 67" />
       <property name="1" value="96, 12, 70" />

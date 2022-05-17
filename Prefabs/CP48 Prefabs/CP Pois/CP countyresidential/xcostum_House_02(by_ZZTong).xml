@@ -34,6 +34,9 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 15, 42" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="0, 4, 40" />
+    </property>
     <property class="POILight">
       <property name="0" value="21, 8, 21" />
       <property name="1" value="34, 8, 21" />
@@ -47,9 +50,6 @@
       <property name="2" value="28, 7, 23" />
       <property name="3" value="24, 6, 28" />
       <property name="4" value="32, 6, 28" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="7, 4, 39" />
     </property>
   </property>
   <property class="Stats">

@@ -48,8 +48,7 @@
       <property name="2" value="38, 3, 36" />
     </property>
     <property class="TraderOnOff">
-      <property name="0" value="31, 2, 24" />
-      <property name="1" value="32, 2, 24" />
+      <property name="0" value="33, 2, 34" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="37, 3, 34" />

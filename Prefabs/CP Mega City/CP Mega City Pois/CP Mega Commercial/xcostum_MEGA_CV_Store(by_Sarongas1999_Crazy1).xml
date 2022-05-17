@@ -18,14 +18,14 @@
   <property name="SleeperIsLootVolume" value="False,False,False,True,True,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,2,2,2" />
-  <property name="Tags" value="cpmegacommercial,megacity" />
+  <property name="Tags" value="megacity,cpmegacommercial" />
   <property name="QuestTags" value="clear,fetch,restore_power" />
   <property class="Stats">
-    <property name="TotalVertices" value="3564768" />
-    <property name="TotalTriangles" value="3199766" />
+    <property name="TotalVertices" value="3557968" />
+    <property name="TotalTriangles" value="3193158" />
     <property class="BlockEntities">
-      <property name="Vertices" value="3275004" />
-      <property name="Triangles" value="3022506" />
+      <property name="Vertices" value="3268204" />
+      <property name="Triangles" value="3015898" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="260909" />

@@ -23,7 +23,7 @@
   <property name="EditorGroups" value="downtown" />
   <property name="Tags" value="snow,desert,rural,pine_forest" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="PrefabSize" value="70, 42, 70" />
+  <property name="PrefabSize" value="70, 18, 70" />
   <property name="POIMarkerSize" value="3, 13, 19" />
   <property name="POIMarkerStart" value="-3, 1, 28" />
   <property name="POIMarkerGroup" value="1" />
@@ -33,15 +33,15 @@
   <property name="POIMarkerPartRotations" value="3" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="Stats">
-    <property name="TotalVertices" value="714312" />
-    <property name="TotalTriangles" value="742995" />
+    <property name="TotalVertices" value="684623" />
+    <property name="TotalTriangles" value="714699" />
     <property class="BlockEntities">
-      <property name="Vertices" value="617136" />
-      <property name="Triangles" value="659225" />
+      <property name="Vertices" value="587527" />
+      <property name="Triangles" value="630969" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="73765" />
-      <property name="Triangles" value="55125" />
+      <property name="Vertices" value="73701" />
+      <property name="Triangles" value="55093" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -76,16 +76,16 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="48" />
-      <property name="Triangles" value="24" />
+      <property name="Vertices" value="32" />
+      <property name="Triangles" value="16" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="8, 2, 38" />
-    </property>
     <property class="POILight">
       <property name="0" value="54, 2, 12" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="8, 2, 45" />
     </property>
     <property class="quest_feather">
       <property name="0" value="54, 7, 51" />

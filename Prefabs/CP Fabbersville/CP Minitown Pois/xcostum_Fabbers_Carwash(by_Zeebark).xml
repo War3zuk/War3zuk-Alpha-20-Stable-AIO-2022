@@ -56,11 +56,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="254484" />
-    <property name="TotalTriangles" value="281466" />
+    <property name="TotalVertices" value="257693" />
+    <property name="TotalTriangles" value="284992" />
     <property class="BlockEntities">
-      <property name="Vertices" value="217067" />
-      <property name="Triangles" value="250907" />
+      <property name="Vertices" value="220276" />
+      <property name="Triangles" value="254433" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="25860" />

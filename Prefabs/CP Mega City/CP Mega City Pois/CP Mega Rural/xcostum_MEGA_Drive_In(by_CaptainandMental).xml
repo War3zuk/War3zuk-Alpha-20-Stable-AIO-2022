@@ -31,13 +31,13 @@
   <property name="POIMarkerPartToSpawn" value="part_driveway_rural_13" />
   <property name="POIMarkerPartRotations" value="0" />
   <property name="POIMarkerPartSpawnChance" value="1" />
-  <property name="PrefabSize" value="108, 33, 76" />
+  <property name="PrefabSize" value="108, 17, 76" />
   <property class="Stats">
-    <property name="TotalVertices" value="1262234" />
-    <property name="TotalTriangles" value="1493510" />
+    <property name="TotalVertices" value="1257911" />
+    <property name="TotalTriangles" value="1485344" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1142112" />
-      <property name="Triangles" value="1399239" />
+      <property name="Vertices" value="1136181" />
+      <property name="Triangles" value="1390269" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="79073" />
@@ -60,8 +60,8 @@
       <property name="Triangles" value="9195" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="3216" />
-      <property name="Triangles" value="1608" />
+      <property name="Vertices" value="4824" />
+      <property name="Triangles" value="2412" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -93,9 +93,6 @@
     </property>
     <property class="Rally">
       <property name="0" value="25, 2, 74" />
-    </property>
-    <property class="brBlock">
-      <property name="0" value="46, 2, 48" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="86, 3, 39" />

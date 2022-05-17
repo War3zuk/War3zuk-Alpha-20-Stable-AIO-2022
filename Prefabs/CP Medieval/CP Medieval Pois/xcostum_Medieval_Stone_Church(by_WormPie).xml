@@ -25,15 +25,15 @@
   <property name="Tags" value="medieval,medieval60x60" />
   <property name="PrefabSize" value="60, 36, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="374114" />
-    <property name="TotalTriangles" value="418731" />
+    <property name="TotalVertices" value="380786" />
+    <property name="TotalTriangles" value="429131" />
     <property class="BlockEntities">
-      <property name="Vertices" value="236411" />
-      <property name="Triangles" value="327541" />
+      <property name="Vertices" value="246797" />
+      <property name="Triangles" value="339939" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="116089" />
-      <property name="Triangles" value="63962" />
+      <property name="Vertices" value="112375" />
+      <property name="Triangles" value="61964" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -78,6 +78,9 @@
     </property>
     <property class="FetchContainer">
       <property name="0" value="48, 11, 30" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="45, 14, 32" />
     </property>
   </property>
 </prefab>

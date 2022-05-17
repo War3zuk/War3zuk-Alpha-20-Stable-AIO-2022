@@ -29,7 +29,7 @@
   <property name="POIMarkerGroup" value="floor4,floor4,floor4,floor4,floor4,floor5,floor5,floor5,floor5,floor5,floor6,floor6,floor6,floor6,floor6,floor7,floor7,floor7,floor7,floor7,floor8,floor8,floor8,floor8,floor8,floor9,floor9,floor9,floor9,floor9,floor10,floor10,floor10,floor10,floor10,floor11,floor11,floor11,floor11,floor11,floor12,floor12,floor12,floor12,floor12,floor13,floor13,floor13,floor13,floor13,floor14,floor14,floor14,floor14,floor14,floor15,floor15,floor15,floor15,floor15,floor16,floor16,floor16,floor16,floor16,floor17,floor17,floor17,floor17,floor17,floor18,floor18,floor18,floor18,floor18,floor19,floor19,floor19,floor19,floor19,floor20,floor20,floor20,floor20,floor20,floor21,floor21,floor21,floor21,floor21,floor22,floor22,floor22,floor22,floor22,casino,casino,casino,casino" />
   <property name="POIMarkerTags" value="##################################################################################################" />
   <property name="POIMarkerType" value="PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
-  <property name="POIMarkerPartToSpawn" value="part_xcostum_casino_floor_1-5_a,part_xcostum_casino_floor_1-5_b,part_xcostum_casino_floor_1-5_c,part_xcostum_casino_floor_1-5_d,part_xcostum_casino_floor_1-5_e,part_xcostum_casino_floor_1-5_a,part_xcostum_casino_floor_1-5_b,part_xcostum_casino_floor_1-5_c,part_xcostum_casino_floor_1-5_d,part_xcostum_casino_floor_1-5_e,part_xcostum_casino_floor_1-5_a,part_xcostum_casino_floor_1-5_b,part_xcostum_casino_floor_1-5_c,part_xcostum_casino_floor_1-5_d,part_xcostum_casino_floor_1-5_e,part_xcostum_casino_floor_1-5_a,part_xcostum_casino_floor_1-5_b,part_xcostum_casino_floor_1-5_c,part_xcostum_casino_floor_1-5_d,part_xcostum_casino_floor_1-5_e,part_xcostum_casino_floor_1-5_a,part_xcostum_casino_floor_1-5_b,part_xcostum_casino_floor_1-5_c,part_xcostum_casino_floor_1-5_d,part_xcostum_casino_floor_1-5_e,part_xcostum_casino_floor_6_a,part_xcostum_casino_floor_6_b,part_xcostum_casino_floor_6_c,part_xcostum_casino_floor_6_d,part_xcostum_casino_floor_6_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_xcostum_casino_floor_7-19_a,part_xcostum_casino_floor_7-19_b,part_xcostum_casino_floor_7-19_c,part_xcostum_casino_floor_7-19_d,part_xcostum_casino_floor_7-19_e,part_loot_t5,part_loot_t5,part_loot_t5,part_loot_t5" />
+  <property name="POIMarkerPartToSpawn" value="part_casino_floor_1-5_a,part_casino_floor_1-5_b,part_casino_floor_1-5_c,part_casino_floor_1-5_d,part_casino_floor_1-5_e,part_casino_floor_1-5_a,part_casino_floor_1-5_b,part_casino_floor_1-5_c,part_casino_floor_1-5_d,part_casino_floor_1-5_e,part_casino_floor_1-5_a,part_casino_floor_1-5_b,part_casino_floor_1-5_c,part_casino_floor_1-5_d,part_casino_floor_1-5_e,part_casino_floor_1-5_a,part_casino_floor_1-5_b,part_casino_floor_1-5_c,part_casino_floor_1-5_d,part_casino_floor_1-5_e,part_casino_floor_1-5_a,part_casino_floor_1-5_b,part_casino_floor_1-5_c,part_casino_floor_1-5_d,part_casino_floor_1-5_e,part_casino_floor_6_a,part_casino_floor_6_b,part_casino_floor_6_c,part_casino_floor_6_d,part_casino_floor_6_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_d,part_casino_floor_7-19_c,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_d,part_casino_floor_7-19_c,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_casino_floor_7-19_a,part_casino_floor_7-19_b,part_casino_floor_7-19_c,part_casino_floor_7-19_d,part_casino_floor_7-19_e,part_loot_t5,part_loot_t5,part_loot_t5,part_loot_t5" />
   <property name="POIMarkerPartRotations" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0" />
   <property name="POIMarkerPartSpawnChance" value="0.6,0.6,0.6,1,0.6,0.6,0.6,0.6,0.6,1,0.6,0.6,0.6,1,0.6,0.6,0.6,1,0.6,0.6,1,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,1,1,0.6,0.6,0.6,0.6,0.6,0.6,1,0.6,0.6,0.6,0.6,0.6,1,0.6,0.6,0.6,0.6,1,0.6,1,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,1,0.6,1,0.6,0.6,0.6,0.6,0.6,1,0.6,0.6,0.6,1,0.6,0.6,0.6,0.6,0.6,0.6,0.6,1,1,0.6,0.6,0.6,0.6,0.6,1,0.6,0.6,0.6,1,0.6,0.6,0.6,0.6,1,0.2,0.2,0.2" />
   <property class="IndexedBlockOffsets">
@@ -39,24 +39,21 @@
       <property name="2" value="106, 45, 85" />
       <property name="3" value="111, 51, 88" />
     </property>
-    <property class="brBlock">
-      <property name="0" value="98, 1, 5" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="11305003" />
-    <property name="TotalTriangles" value="10720869" />
+    <property name="TotalVertices" value="11203843" />
+    <property name="TotalTriangles" value="10622971" />
     <property class="BlockEntities">
-      <property name="Vertices" value="8150639" />
-      <property name="Triangles" value="8993205" />
+      <property name="Vertices" value="8050339" />
+      <property name="Triangles" value="8895737" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="2813237" />
       <property name="Triangles" value="1500014" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="45952" />
-      <property name="Triangles" value="22976" />
+      <property name="Vertices" value="45956" />
+      <property name="Triangles" value="22978" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="3408" />
@@ -71,8 +68,8 @@
       <property name="Triangles" value="82346" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="2592" />
-      <property name="Triangles" value="1296" />
+      <property name="Vertices" value="1728" />
+      <property name="Triangles" value="864" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />

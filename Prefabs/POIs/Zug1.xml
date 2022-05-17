@@ -5,7 +5,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="AllowTopSoilDecorations" value="False" />
   <property name="DifficultyTier" value="4" />
-  <property name="QuestTags" value="fetch,hidden_cache" />
+  <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="YOffset" value="-18" />

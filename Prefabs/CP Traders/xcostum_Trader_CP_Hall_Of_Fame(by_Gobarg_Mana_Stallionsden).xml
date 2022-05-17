@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="True" />
+  <property name="TraderAreaProtect" value="20, 20, 20" />
+  <property name="TraderAreaTeleportSize" value="133, 52, 178" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="QuestTags" value="trader" />
+  <property name="RotationToFaceNorth" value="3" />
+  <property name="Zoning" value="ResidentialOld, Rural" />
+  <property name="AllowedBiomes" value="snow" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="YOffset" value="-3" />
+  <property name="EditorGroups" value="Traders" />
+  <property name="Tags" value="snow,wilderness,trader,biomeonly" />
+  <property name="POIMarkerSize" value="1, 1, 6#1, 1, 6#4, 3, 6" />
+  <property name="POIMarkerStart" value="133, 2, 150#133, 2, 21#103, 3, 141" />
+  <property name="POIMarkerGroup" value="1,2,3" />
+  <property name="POIMarkerTags" value="##" />
+  <property name="POIMarkerType" value="RoadExit,RoadExit,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_01,part_driveway_rural_01,part_generator_01" />
+  <property name="POIMarkerPartRotations" value="3,3,3" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,0.6" />
+  <property name="PrefabSize" value="133, 52, 177" />
+  <property class="Stats">
+    <property name="TotalVertices" value="3960404" />
+    <property name="TotalTriangles" value="4867387" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="2537998" />
+      <property name="Triangles" value="3924136" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="1073048" />
+      <property name="Triangles" value="670687" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="288150" />
+      <property name="Triangles" value="174684" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="61208" />
+      <property name="Triangles" value="97880" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="131, 3, 154" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="82, 7, 121" />
+      <property name="1" value="82, 19, 121" />
+      <property name="2" value="82, 7, 126" />
+      <property name="3" value="82, 19, 126" />
+      <property name="4" value="82, 7, 131" />
+      <property name="5" value="82, 19, 131" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="60, 4, 90" />
+    </property>
+  </property>
+</prefab>

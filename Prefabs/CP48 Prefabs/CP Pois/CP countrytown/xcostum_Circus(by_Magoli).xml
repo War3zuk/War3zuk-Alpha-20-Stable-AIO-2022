@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="Tags" value="desert,countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="desert,countrytown,diagonal,pine_forest" />
   <property name="POIMarkerSize" value="7, 13, 2" />
   <property name="POIMarkerStart" value="24, 0, 60" />
   <property name="POIMarkerGroup" value="1" />

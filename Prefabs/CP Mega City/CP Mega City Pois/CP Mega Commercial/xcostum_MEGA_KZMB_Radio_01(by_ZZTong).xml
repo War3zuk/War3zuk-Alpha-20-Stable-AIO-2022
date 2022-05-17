@@ -26,6 +26,9 @@
   <property name="Tags" value="megacity,cpmegacommercial" />
   <property name="PrefabSize" value="42, 60, 42" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="13, 3, 3" />
+    </property>
     <property class="POILight">
       <property name="0" value="37, 3, 6" />
     </property>
@@ -35,9 +38,6 @@
     </property>
     <property class="quest_feather">
       <property name="0" value="28, 18, 33" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="37, 3, 3" />
     </property>
   </property>
   <property class="Stats">

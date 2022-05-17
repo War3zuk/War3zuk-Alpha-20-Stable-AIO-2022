@@ -1,4 +1,15 @@
-War3zuk-Alpha-20.4 - AIO STABLE
+War3zuk-Alpha-20.5 - AIO STABLE
+
+Updated v7.5 to v7.6
+
+Improved LootGroups 20.5 Stable
+
+Launcher Edits: (Only For Launcher Install)
+Updated SMXcore
+Updated SMXhud
+Updated SMXmenu
+Updated ZMXhudCP
+Updated Compo Pack 48.1 (Edited)
 
 Updated v7.4 to v7.5
 

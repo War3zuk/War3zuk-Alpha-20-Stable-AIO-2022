@@ -21,7 +21,7 @@
   <property name="Zoning" value="ResidentialOld" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="house old" />
-  <property name="Tags" value="fabbersville,fabberres" />
+  <property name="Tags" value="snow,desert,countryresidential,pine_forest" />
   <property name="POIMarkerSize" value="6, 13, 1" />
   <property name="POIMarkerStart" value="28, 2, -1" />
   <property name="POIMarkerGroup" value="1" />

@@ -6,7 +6,7 @@
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="TraderArea" value="False" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="DifficultyTier" value="2" />
+  <property name="DifficultyTier" value="1" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="Zoning" value="none" />
@@ -15,26 +15,26 @@
   <property name="SleeperVolumeSize" value="23, 3, 10#22, 5, 9#20, 5, 6#20, 9, 5" />
   <property name="SleeperVolumeStart" value="1, 2, 2#1, 20, 12#2, 3, 12#2, 9, 13" />
   <property name="SleeperVolumeGroupId" value="1,1,0,0" />
-  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,5,6,animalZombieVulture,2,4,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,7" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,4,4,animalZombieVulture,2,2,S_-Group_Generic_Zombie,4,4,S_-Group_Generic_Zombie,5,5" />
   <property name="SleeperIsLootVolume" value="False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,0" />
+  <property name="SleeperVolumeFlags" value="0,2,0,0" />
   <property name="Tags" value="megacity,cpmegadowntown" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="144558" />
-    <property name="TotalTriangles" value="135099" />
+    <property name="TotalVertices" value="143246" />
+    <property name="TotalTriangles" value="134431" />
     <property class="BlockEntities">
       <property name="Vertices" value="86884" />
       <property name="Triangles" value="91522" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="52466" />
-      <property name="Triangles" value="40809" />
+      <property name="Vertices" value="52018" />
+      <property name="Triangles" value="40573" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="768" />
-      <property name="Triangles" value="384" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="0" />
@@ -49,8 +49,8 @@
       <property name="Triangles" value="412" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="288" />
-      <property name="Triangles" value="144" />
+      <property name="Vertices" value="192" />
+      <property name="Triangles" value="96" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />

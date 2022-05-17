@@ -35,7 +35,7 @@
   <property name="PrefabSize" value="25, 15, 25" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="11, 2, 0" />
+      <property name="0" value="0, 2, 1" />
     </property>
     <property class="POILight">
       <property name="0" value="12, 4, 17" />

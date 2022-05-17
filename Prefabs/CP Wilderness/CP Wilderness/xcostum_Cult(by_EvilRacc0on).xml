@@ -31,6 +31,7 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="35, 37, 46" />
+  <property name="Zoning" value="none" />
   <property class="Stats">
     <property name="TotalVertices" value="1581967" />
     <property name="TotalTriangles" value="1682387" />

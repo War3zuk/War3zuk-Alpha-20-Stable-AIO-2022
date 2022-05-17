@@ -40,9 +40,6 @@
     <property class="POILight">
       <property name="0" value="37, 16, 38" />
     </property>
-    <property class="brBlock">
-      <property name="0" value="3, 5, 38" />
-    </property>
   </property>
   <property class="Stats">
     <property name="TotalVertices" value="708715" />

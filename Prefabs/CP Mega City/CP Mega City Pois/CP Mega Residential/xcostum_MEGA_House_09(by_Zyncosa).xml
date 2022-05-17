@@ -32,7 +32,7 @@
   <property name="POIMarkerPartToSpawn" value="part_driveway_residential_06,part_driveway_residential_06,part_driveway_residential_06" />
   <property name="POIMarkerPartRotations" value="3,3,3" />
   <property name="POIMarkerPartSpawnChance" value="1,1,1" />
-  <property name="PrefabSize" value="42, 56, 42" />
+  <property name="PrefabSize" value="42, 21, 42" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="22, 18, 22" />
@@ -54,11 +54,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="654764" />
-    <property name="TotalTriangles" value="604898" />
+    <property name="TotalVertices" value="536484" />
+    <property name="TotalTriangles" value="565624" />
     <property class="BlockEntities">
-      <property name="Vertices" value="616636" />
-      <property name="Triangles" value="577710" />
+      <property name="Vertices" value="497012" />
+      <property name="Triangles" value="537764" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="26831" />
@@ -81,8 +81,8 @@
       <property name="Triangles" value="708" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="2688" />
-      <property name="Triangles" value="1344" />
+      <property name="Vertices" value="4032" />
+      <property name="Triangles" value="2016" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />

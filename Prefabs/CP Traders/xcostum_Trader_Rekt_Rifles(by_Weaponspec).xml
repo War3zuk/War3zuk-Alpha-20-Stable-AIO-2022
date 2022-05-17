@@ -18,6 +18,7 @@
   <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
   <property name="EditorGroups" value="Traders" />
   <property name="Tags" value="gateway,trader" />
+  <property name="QuestTags" value="trader" />
   <property name="PrefabSize" value="35, 21, 35" />
   <property class="Stats">
     <property name="TotalVertices" value="269247" />
