@@ -1,5 +1,9 @@
 War3zuk-Alpha-20.5 - AIO STABLE
 
+Updated v7.6 to v7.7
+
+Updated War3zukQuad Xml
+
 Updated v7.5 to v7.6
 
 Improved LootGroups 20.5 Stable

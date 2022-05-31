@@ -160,7 +160,7 @@
 			<property name="motorTorqueMinQ" value="5000"/>
 			<property name="motorTorqueMaxQ" value="7000"/>
 			<property name="brakeTorque" value="4000"/>
-			<property name="upAngleMax" value="90"/>
+			<property name="upAngleMax" value="70"/>
 			<property name="upForce" value="1"/>
 			<property name="steerRate" value="190"/>
 			<property name="steerCenteringRate" value="100"/>
@@ -171,7 +171,7 @@
 			<property name="tiltUpForce" value="0"/>
 			<property name="hopForce" value="1"/>
 			<property name="unstickForce" value="1"/>
-			<property name="velocityMax" value="16, 22"/>
+			<property name="velocityMax" value="20, 22"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
 			<property name="hornSound" value="horn_loud"/>
@@ -192,7 +192,7 @@
 				<property name="transform" value="Origin"/>
 		</property>
 
-		<property class="engine">
+			<property class="engine">
 				<property name="class" value="Engine"/>
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
@@ -228,7 +228,7 @@
 				<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
 				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
 				<property name="parent_part" value="chassis"/>
-		</property>
+			</property>
 
 		<property class="fuelTank">
 				<property name="class" value="FuelTank"/>
