@@ -96,8 +96,8 @@
 </insertAfter>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombieAnimalsGroup']/entity[@name='animalZombieDog']" >	
-		<entity name="GiantUndeadHoundFire" prob="1"/>
-		<entity name="GiantUndeadHoundRad" prob="1"/>
+		<entity name="GiantUndeadHoundFire" prob="2"/>
+		<entity name="GiantUndeadHoundRad" prob="2"/>
 </insertAfter>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='VultureGroup']/entity[@name='animalZombieVulture']" >	

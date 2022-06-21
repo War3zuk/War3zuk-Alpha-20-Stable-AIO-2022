@@ -3,6 +3,10 @@ War3zuk-Alpha-20.5 - AIO STABLE
 Updated v7.6 to v7.7
 
 Updated War3zukQuad Xml
+Updated AnimalsZombieGroup
+
+Launcher Edits: (Only For Launcher Install)
+Updated Bdubs Vehicles 4.25
 
 Updated v7.5 to v7.6
 
