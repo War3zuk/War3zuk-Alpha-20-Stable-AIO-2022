@@ -94,7 +94,6 @@
 			<item name="resourceForgedSteel" count="40,45"/>
 			<item name="resourceScrapPolymers" count="50,125"/>
 			<item name="resourceElectricParts" count="50,125"/>
-			<item name="resourceElectronicParts" count="50,125"/>
 			<item name="resourceMechanicalParts" count="50,125"/>
 			<item group="weaponsMeleeT0-1" count="10,2" prob="0.3"/>
 			<item group="weaponsMeleeT2" count="10,2" prob="0.3"/>
@@ -160,7 +159,6 @@
 			<item name="resourceCobblestones" count="25,100"/>
 			<item name="resourceScrapPolymers" count="20,60"/>
 			<item name="resourceElectricParts" count="20,60"/>
-			<item name="resourceElectronicParts" count="10,30"/>
 			<item name="resourceMechanicalParts" count="20,60"/>
 			<item group="generalResources" count="90,140"/>
 			<item group="constructionSupplies" count="20,80"/>
