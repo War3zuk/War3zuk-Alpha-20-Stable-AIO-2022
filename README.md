@@ -2,6 +2,7 @@ War3zuk-Alpha-20.5 - AIO STABLE
 
 Updated v7.6 to v7.7
 
+Removed resourceElectronicParts
 Updated War3zukQuad Xml
 Updated AnimalsZombieGroup
 
