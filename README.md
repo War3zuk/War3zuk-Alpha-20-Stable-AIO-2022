@@ -1,4 +1,11 @@
-War3zuk-Alpha-20.5 - AIO STABLE
+War3zuk-Alpha-20.6 - AIO STABLE
+
+Updated v7.7 to v7.8
+
+Updated RWGMixer.xml (20.6 B9)
+
+Launcher Edits: (Only For Launcher Install)
+Updated ZSCZA20 (20.6 B9)
 
 Updated v7.6 to v7.7
 
