@@ -135,12 +135,8 @@
 					</rect>
 					
 					<rect>
-						<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Pine Forest" text_key="xuiPineForest" font_size="28" color="[white]" justify="right" pivot="topleft" />
+						<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Forest" text_key="xuiPineForest" font_size="28" color="[white]" justify="right" pivot="topleft" />
 						<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="0,64,0" type="sliced" fillcenter="true" globalopacity="false" />
-					</rect>
-					<rect>
-						<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Burnt Forest" text_key="xuiBurntForest" font_size="28" color="[white]" justify="right" pivot="topleft" />
-						<sprite depth="10" pos="218,-6" name="border" width="16" height="16" sprite="menu_empty3px" color="186,0,255" type="sliced" fillcenter="true" globalopacity="false" />
 					</rect>
 					<rect>
 						<label depth="11" pos="9,0" width="199" height="30" style="hover" text="Desert" text_key="xuiDesert" font_size="28" color="[white]" justify="right" pivot="topleft" />
