@@ -24,12 +24,13 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="Tags" value="commercial,pine_forest" />
   <property name="PrefabSize" value="60, 20, 60" />
+  <property name="Zoning" value="none" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="49, 12, 48" />
     </property>
     <property class="Rally">
-      <property name="0" value="29, 12, 3" />
+      <property name="0" value="28, 12, 1" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="37, 14, 20" />
@@ -40,15 +41,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="738412" />
-    <property name="TotalTriangles" value="799920" />
+    <property name="TotalVertices" value="738436" />
+    <property name="TotalTriangles" value="799932" />
     <property class="BlockEntities">
       <property name="Vertices" value="629128" />
       <property name="Triangles" value="719522" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="85486" />
-      <property name="Triangles" value="51378" />
+      <property name="Vertices" value="85510" />
+      <property name="Triangles" value="51390" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

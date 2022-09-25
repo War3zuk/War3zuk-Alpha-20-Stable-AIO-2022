@@ -22,7 +22,7 @@
   <property name="SleeperIsLootVolume" value="False" />
   <property name="SleeperIsQuestExclude" value="False" />
   <property name="SleeperVolumeFlags" value="0" />
-  <property name="Tags" value="snow,desert,countrytown,pine_forest,nodiagonal" />
+  <property name="Tags" value="snow,desert,countrytown,nodiagonal,pine_forest" />
   <property name="POIMarkerSize" value="7, 13, 2" />
   <property name="POIMarkerStart" value="0, 2, -2" />
   <property name="POIMarkerGroup" value="driveway" />
@@ -84,15 +84,15 @@
     <property class="TraderOnOff">
       <property name="0" value="10, 4, 7" />
     </property>
-    <property class="Rally">
-      <property name="0" value="4, 3, 11" />
-    </property>
     <property class="POILight">
       <property name="0" value="13, 5, 16" />
       <property name="1" value="20, 5, 16" />
       <property name="2" value="12, 5, 20" />
       <property name="3" value="16, 5, 20" />
       <property name="4" value="20, 5, 20" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="3, 4, 15" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="17, 4, 15" />

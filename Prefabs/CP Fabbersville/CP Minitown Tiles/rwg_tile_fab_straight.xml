@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="DifficultyTier" value="1" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-11" />
+  <property name="Zoning" value="none" />
+  <property name="POIMarkerSize" value="42, 0, 42#42, 0, 42#42, 0, 42#42, 0, 42#42, 0, 42#25, 0, 25#25, 0, 25#1, 1, 1#1, 1, 1" />
+  <property name="POIMarkerStart" value="23, 11, 104#23, 11, 43#23, 11, 1#85, 11, 1#85, 11, 52#85, 11, 110#118, 11, 110#65, 20, 85#84, 20, 132" />
+  <property name="POIMarkerGroup" value="1,2,3,4,5,6,7,light1,light2" />
+  <property name="POIMarkerTags" value="fabber,nodiagonal#fabber,nodiagonal#diagonal,fabber#diagonal,fabber#fabber,nodiagonal#fabber,nodiagonal#fabber,nodiagonal##" />
+  <property name="POIMarkerType" value="POISpawn,POISpawn,POISpawn,POISpawn,POISpawn,POISpawn,POISpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value=",,,,,,,part_streetlight_single,part_streetlight_single" />
+  <property name="POIMarkerPartRotations" value="3,3,3,1,1,1,0,0,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1,1,1,0.2,0.2" />
+  <property name="PrefabSize" value="150, 21, 150" />
+  <property name="Tags" value="fabber,fabbersville" />
+  <property class="Stats">
+    <property name="TotalVertices" value="479004" />
+    <property name="TotalTriangles" value="506834" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="352304" />
+      <property name="Triangles" value="366161" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="41776" />
+      <property name="Triangles" value="24903" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="20096" />
+      <property name="Triangles" value="10048" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="658" />
+      <property name="Triangles" value="514" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="64170" />
+      <property name="Triangles" value="105208" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="110, 19, 104" />
+    </property>
+  </property>
+</prefab>

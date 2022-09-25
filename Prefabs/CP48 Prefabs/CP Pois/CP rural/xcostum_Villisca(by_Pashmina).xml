@@ -30,11 +30,11 @@
   <property name="Tags" value="snow,rural,pine_forest" />
   <property name="PrefabSize" value="37, 15, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="534465" />
-    <property name="TotalTriangles" value="577579" />
+    <property name="TotalVertices" value="534586" />
+    <property name="TotalTriangles" value="577779" />
     <property class="BlockEntities">
-      <property name="Vertices" value="480133" />
-      <property name="Triangles" value="541009" />
+      <property name="Vertices" value="480254" />
+      <property name="Triangles" value="541209" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="45322" />
@@ -88,7 +88,7 @@
       <property name="2" value="7, 3, 56" />
     </property>
     <property class="Rally">
-      <property name="0" value="22, 2, 0" />
+      <property name="0" value="26, 3, 0" />
     </property>
   </property>
 </prefab>

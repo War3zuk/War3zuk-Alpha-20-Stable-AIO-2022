@@ -34,15 +34,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 9, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="149206" />
-    <property name="TotalTriangles" value="153196" />
+    <property name="TotalVertices" value="150158" />
+    <property name="TotalTriangles" value="154112" />
     <property class="BlockEntities">
-      <property name="Vertices" value="139844" />
-      <property name="Triangles" value="145742" />
+      <property name="Vertices" value="140742" />
+      <property name="Triangles" value="146622" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="7232" />
-      <property name="Triangles" value="4082" />
+      <property name="Vertices" value="7280" />
+      <property name="Triangles" value="4106" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -69,8 +69,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="1890" />
-      <property name="Triangles" value="3252" />
+      <property name="Vertices" value="1896" />
+      <property name="Triangles" value="3264" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
@@ -90,6 +90,9 @@
     </property>
     <property class="quest_feather">
       <property name="0" value="15, 6, 14" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="19, 2, 24" />
     </property>
   </property>
 </prefab>

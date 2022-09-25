@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="downtown" />
-  <property name="Tags" value="nodiagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,nodiagonal" />
   <property name="POIMarkerSize" value="23, 13, 2" />
   <property name="POIMarkerStart" value="1, 1, -2" />
   <property name="POIMarkerGroup" value="1" />
@@ -33,15 +33,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 15, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="124901" />
-    <property name="TotalTriangles" value="132551" />
+    <property name="TotalVertices" value="124925" />
+    <property name="TotalTriangles" value="132563" />
     <property class="BlockEntities">
       <property name="Vertices" value="113914" />
       <property name="Triangles" value="123350" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="5234" />
-      <property name="Triangles" value="2940" />
+      <property name="Vertices" value="5258" />
+      <property name="Triangles" value="2952" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

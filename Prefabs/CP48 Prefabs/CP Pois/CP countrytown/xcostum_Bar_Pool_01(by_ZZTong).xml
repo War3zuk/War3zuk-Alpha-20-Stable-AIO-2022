@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0" />
   <property name="SleeperVolumeGroupId" value="0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="snow,desert,countrytown,pine_forest,nodiagonal" />
+  <property name="Tags" value="snow,desert,countrytown,nodiagonal,pine_forest" />
   <property name="POIMarkerStart" value="33, 1, 42#1, 1, 42" />
   <property name="POIMarkerGroup" value="driveway2,driveway1" />
   <property name="POIMarkerTags" value="countrytown#countrytown" />
@@ -44,7 +44,7 @@
       <property name="0" value="19, 9, 16" />
     </property>
     <property class="Rally">
-      <property name="0" value="27, 2, 35" />
+      <property name="0" value="37, 3, 38" />
     </property>
   </property>
   <property class="Stats">

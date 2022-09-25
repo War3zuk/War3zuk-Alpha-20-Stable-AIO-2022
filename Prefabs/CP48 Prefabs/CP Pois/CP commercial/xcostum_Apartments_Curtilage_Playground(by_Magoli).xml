@@ -62,15 +62,15 @@
       <property name="0" value="46, 7, 46" />
     </property>
     <property class="Rally">
-      <property name="0" value="29, 1, 0" />
+      <property name="0" value="27, 2, 0" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1954416" />
-    <property name="TotalTriangles" value="2164005" />
+    <property name="TotalVertices" value="1954537" />
+    <property name="TotalTriangles" value="2164205" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1572790" />
-      <property name="Triangles" value="1931679" />
+      <property name="Vertices" value="1572911" />
+      <property name="Triangles" value="1931879" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="329982" />

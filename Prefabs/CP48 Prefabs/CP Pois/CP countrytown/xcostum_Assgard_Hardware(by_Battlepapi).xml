@@ -22,7 +22,7 @@
   <property name="YOffset" value="-1" />
   <property name="SleeperVolumeGameStageAdjust" value="" />
   <property name="EditorGroups" value="commercial" />
-  <property name="Tags" value="wasteland,countrytown,wastelandcountrytown,nodiagonal" />
+  <property name="Tags" value="wasteland,countrytown,nodiagonal,wastelandcountrytown" />
   <property name="POIMarkerSize" value="2, 13, 23" />
   <property name="POIMarkerStart" value="25, 0, 1" />
   <property name="POIMarkerGroup" value="1" />
@@ -33,11 +33,11 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 22, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="618893" />
-    <property name="TotalTriangles" value="569564" />
+    <property name="TotalVertices" value="609763" />
+    <property name="TotalTriangles" value="564060" />
     <property class="BlockEntities">
-      <property name="Vertices" value="590507" />
-      <property name="Triangles" value="551178" />
+      <property name="Vertices" value="581377" />
+      <property name="Triangles" value="545674" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="23373" />
@@ -98,10 +98,7 @@
       <property name="0" value="7, 1, 12" />
     </property>
     <property class="Rally">
-      <property name="0" value="23, 1, 1" />
-    </property>
-    <property class="brBlock">
-      <property name="0" value="13, 15, 10" />
+      <property name="0" value="23, 2, 1" />
     </property>
   </property>
 </prefab>

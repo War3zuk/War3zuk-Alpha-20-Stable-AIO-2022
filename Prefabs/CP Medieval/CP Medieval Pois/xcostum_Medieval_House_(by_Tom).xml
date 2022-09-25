@@ -28,15 +28,15 @@
   <property name="Tags" value="medieval,medieval42x42" />
   <property name="PrefabSize" value="42, 20, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="385071" />
-    <property name="TotalTriangles" value="352433" />
+    <property name="TotalVertices" value="393681" />
+    <property name="TotalTriangles" value="357945" />
     <property class="BlockEntities">
-      <property name="Vertices" value="327698" />
-      <property name="Triangles" value="317227" />
+      <property name="Vertices" value="333836" />
+      <property name="Triangles" value="321503" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="46402" />
-      <property name="Triangles" value="23945" />
+      <property name="Vertices" value="46426" />
+      <property name="Triangles" value="23957" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -55,8 +55,8 @@
       <property name="Triangles" value="633" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="4896" />
-      <property name="Triangles" value="2448" />
+      <property name="Vertices" value="7344" />
+      <property name="Triangles" value="3672" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -88,7 +88,7 @@
       <property name="0" value="31, 10, 17" />
     </property>
     <property class="Rally">
-      <property name="0" value="10, 2, 37" />
+      <property name="0" value="10, 2, 40" />
     </property>
   </property>
 </prefab>

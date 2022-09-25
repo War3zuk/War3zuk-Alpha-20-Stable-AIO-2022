@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="diagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,diagonal" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="POIMarkerSize" value="6, 13, 2" />
   <property name="POIMarkerStart" value="10, 0, -2" />
@@ -34,6 +34,9 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 14, 25" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="10, 1, 0" />
+    </property>
     <property class="POILight">
       <property name="0" value="16, 8, 12" />
       <property name="1" value="16, 3, 15" />
@@ -46,23 +49,17 @@
     <property class="FetchContainer">
       <property name="0" value="17, 2, 18" />
     </property>
-    <property class="Rally">
-      <property name="0" value="12, 1, 1" />
-    </property>
-    <property class="brBlock">
-      <property name="0" value="20, 12, 19" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="243620" />
-    <property name="TotalTriangles" value="253357" />
+    <property name="TotalVertices" value="243538" />
+    <property name="TotalTriangles" value="253175" />
     <property class="BlockEntities">
-      <property name="Vertices" value="208813" />
-      <property name="Triangles" value="231195" />
+      <property name="Vertices" value="208707" />
+      <property name="Triangles" value="231001" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="27202" />
-      <property name="Triangles" value="14290" />
+      <property name="Vertices" value="27226" />
+      <property name="Triangles" value="14302" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

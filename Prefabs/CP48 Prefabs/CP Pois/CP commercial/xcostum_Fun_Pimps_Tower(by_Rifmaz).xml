@@ -8,7 +8,7 @@
   <property name="DifficultyTier" value="5" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
-  <property name="PrefabSize" value="100, 50, 100" />
+  <property name="PrefabSize" value="100, 47, 100" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="ResidentialNew, downtown" />
   <property name="YOffset" value="-10" />
@@ -23,15 +23,15 @@
   <property name="AllowedTownships" value="city,town" />
   <property name="QuestTags" value="fetch,hidden_cache,restore_power" />
   <property class="Stats">
-    <property name="TotalVertices" value="3561175" />
-    <property name="TotalTriangles" value="3397516" />
+    <property name="TotalVertices" value="3531399" />
+    <property name="TotalTriangles" value="3368032" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2828153" />
-      <property name="Triangles" value="2972897" />
+      <property name="Vertices" value="2798353" />
+      <property name="Triangles" value="2943401" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="698133" />
-      <property name="Triangles" value="374164" />
+      <property name="Vertices" value="698157" />
+      <property name="Triangles" value="374176" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -98,9 +98,6 @@
       <property name="0" value="66, 19, 54" />
       <property name="1" value="66, 25, 55" />
       <property name="2" value="74, 11, 59" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="44, 10, 0" />
     </property>
     <property class="QuestRestorePower">
       <property name="0" value="67, 35, 64" />

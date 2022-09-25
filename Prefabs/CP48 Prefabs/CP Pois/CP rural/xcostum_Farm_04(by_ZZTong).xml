@@ -15,7 +15,7 @@
   <property name="PrefabSize" value="60, 21, 60" />
   <property name="Tags" value="rural" />
   <property name="POIMarkerSize" value="6, 13, 3" />
-  <property name="POIMarkerStart" value="19, 4, -2" />
+  <property name="POIMarkerStart" value="19, 4, -3" />
   <property name="POIMarkerGroup" value="driveway" />
   <property name="POIMarkerTags" value="" />
   <property name="POIMarkerType" value="PartSpawn" />
@@ -30,15 +30,15 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,2" />
   <property class="Stats">
-    <property name="TotalVertices" value="414468" />
-    <property name="TotalTriangles" value="392356" />
+    <property name="TotalVertices" value="414492" />
+    <property name="TotalTriangles" value="392368" />
     <property class="BlockEntities">
       <property name="Vertices" value="330558" />
       <property name="Triangles" value="334665" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="65509" />
-      <property name="Triangles" value="34264" />
+      <property name="Vertices" value="65533" />
+      <property name="Triangles" value="34276" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -97,7 +97,7 @@
       <property name="4" value="13, 11, 22" />
     </property>
     <property class="Rally">
-      <property name="0" value="22, 5, 3" />
+      <property name="0" value="25, 5, 0" />
     </property>
   </property>
 </prefab>

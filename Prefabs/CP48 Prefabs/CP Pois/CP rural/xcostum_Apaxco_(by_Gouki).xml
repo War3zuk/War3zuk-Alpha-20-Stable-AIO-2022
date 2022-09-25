@@ -24,14 +24,14 @@
   <property name="ShowQuestClearCount" value="3" />
   <property name="Tags" value="wasteland,rural" />
   <property name="PrefabSize" value="70, 11, 70" />
-  <property name="POIMarkerSize" value="1, 13, 23" />
-  <property name="POIMarkerStart" value="70, 0, 9" />
-  <property name="POIMarkerGroup" value="1" />
-  <property name="POIMarkerTags" value="" />
-  <property name="POIMarkerType" value="PartSpawn" />
-  <property name="POIMarkerPartToSpawn" value="part_driveway_industrial_06" />
-  <property name="POIMarkerPartRotations" value="1" />
-  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="POIMarkerSize" value="3, 13, 9#3, 13, 9" />
+  <property name="POIMarkerStart" value="70, 0, 10#70, 0, 22" />
+  <property name="POIMarkerGroup" value="1,2" />
+  <property name="POIMarkerTags" value="#" />
+  <property name="POIMarkerType" value="PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_10,part_driveway_rural_10" />
+  <property name="POIMarkerPartRotations" value="1,1" />
+  <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property class="IndexedBlockOffsets">
     <property class="quest_feather">
       <property name="0" value="54, 10, 53" />
@@ -53,15 +53,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="2193534" />
-    <property name="TotalTriangles" value="2292914" />
+    <property name="TotalVertices" value="2133489" />
+    <property name="TotalTriangles" value="2232180" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2097184" />
-      <property name="Triangles" value="2219337" />
+      <property name="Vertices" value="2037171" />
+      <property name="Triangles" value="2158619" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="49333" />
-      <property name="Triangles" value="25923" />
+      <property name="Vertices" value="49349" />
+      <property name="Triangles" value="25931" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -96,8 +96,8 @@
       <property name="Triangles" value="144" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="68" />
-      <property name="Triangles" value="34" />
+      <property name="Vertices" value="20" />
+      <property name="Triangles" value="10" />
     </property>
   </property>
 </prefab>

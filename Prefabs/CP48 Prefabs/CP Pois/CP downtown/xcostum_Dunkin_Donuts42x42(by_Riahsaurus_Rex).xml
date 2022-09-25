@@ -11,13 +11,13 @@
   <property name="PrefabSize" value="42, 15, 42" />
   <property name="RotationToFaceNorth" value="0" />
   <property name="Zoning" value="Downtown, Commercial" />
-  <property name="SleeperVolumeSize" value="26, 4, 9#14, 4, 15#12, 3, 16#15, 4, 16#7, 2, 19#14, 2, 7#9, 4, 6#5, 3, 11#23, 3, 9#17, 3, 7#7, 3, 7" />
-  <property name="SleeperVolumeStart" value="9, 11, 8#9, 11, 17#23, 11, 17#20, 7, 19#11, 7, 11#18, 7, 11#19, 2, 10#28, 2, 13#10, 2, 24#11, 2, 17#11, 2, 10" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="S_Zom_Utility_Worker,1,2,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,2,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1" />
-  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeSize" value="26, 4, 9#14, 4, 15#12, 3, 16#15, 4, 16#7, 2, 19#14, 2, 7#9, 4, 6#5, 3, 11#23, 3, 9#17, 3, 7#7, 3, 7#5, 3, 3" />
+  <property name="SleeperVolumeStart" value="9, 11, 8#9, 11, 17#23, 11, 17#20, 7, 19#11, 7, 11#18, 7, 11#19, 2, 10#28, 2, 13#10, 2, 24#11, 2, 17#11, 2, 10#28, 2, 10" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,2,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="EditorGroups" value="Building, downtown, commercial" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="AllowedTownships" value="city,rural,town" />

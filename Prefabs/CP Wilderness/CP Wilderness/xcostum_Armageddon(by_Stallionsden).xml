@@ -23,7 +23,7 @@
   <property name="AllowedTownships" value="rural" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="Tags" value="forest,wilderness" />
-  <property name="POIMarkerSize" value="1, 1, 10" />
+  <property name="POIMarkerSize" value="10, 1, 10" />
   <property name="POIMarkerStart" value="121, 13, 58" />
   <property name="POIMarkerGroup" value="new" />
   <property name="POIMarkerTags" value="" />
@@ -33,11 +33,11 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="121, 34, 125" />
   <property class="Stats">
-    <property name="TotalVertices" value="1163326" />
-    <property name="TotalTriangles" value="1361122" />
+    <property name="TotalVertices" value="1164323" />
+    <property name="TotalTriangles" value="1362087" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1014564" />
-      <property name="Triangles" value="1225880" />
+      <property name="Vertices" value="1015462" />
+      <property name="Triangles" value="1226760" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="98072" />
@@ -56,8 +56,8 @@
       <property name="Triangles" value="186" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="2440" />
-      <property name="Triangles" value="1850" />
+      <property name="Vertices" value="2539" />
+      <property name="Triangles" value="1935" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -89,6 +89,9 @@
     </property>
     <property class="TraderOnOff">
       <property name="0" value="60, 27, 108" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="119, 15, 59" />
     </property>
   </property>
 </prefab>

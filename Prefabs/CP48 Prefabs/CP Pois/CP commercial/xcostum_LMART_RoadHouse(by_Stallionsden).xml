@@ -15,7 +15,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="downtown" />
   <property name="SleeperVolumeStart" value="47, 9, 1#0, 2, 1#15, 1, 18#0, 2, 45#15, 2, 1#38, 2, 18" />
-  <property name="SleeperVolumeSize" value="12, 15, 8#15, 6, 44#23, 4, 27#38, 6, 15#45, 6, 17#22, 5, 42" />
+  <property name="SleeperVolumeSize" value="12, 15, 8#15, 6, 44#23, 4, 27#38, 6, 15#44, 6, 17#22, 5, 42" />
   <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass_Only,3,4,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,8,10,S_-Group_Generic_Zombie,3,5,S_Zom_Utility_Worker,3,5,S_-Group_Generic_Zombie,9,10" />
   <property name="SleeperVolumeGameStageAdjust" value="200,250,medium,medium,easy,250" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False" />
@@ -36,7 +36,7 @@
       <property name="0" value="48, 2, 3" />
     </property>
     <property class="Rally">
-      <property name="0" value="58, 2, 8" />
+      <property name="0" value="59, 2, 11" />
     </property>
   </property>
   <property class="Stats">

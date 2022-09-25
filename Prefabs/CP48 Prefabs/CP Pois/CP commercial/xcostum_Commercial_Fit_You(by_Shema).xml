@@ -23,8 +23,8 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="Entertainment" />
   <property class="Stats">
-    <property name="TotalVertices" value="630522" />
-    <property name="TotalTriangles" value="613750" />
+    <property name="TotalVertices" value="630938" />
+    <property name="TotalTriangles" value="614518" />
     <property class="BlockEntities">
       <property name="Vertices" value="576675" />
       <property name="Triangles" value="580559" />
@@ -58,8 +58,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="416" />
+      <property name="Triangles" value="768" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />

@@ -14,7 +14,7 @@
   <property name="AllowedTownships" value="wilderness" />
   <property name="EditorGroups" value="Ancient" />
   <property name="ShowQuestClearCount" value="3" />
-  <property name="SleeperVolumeSize" value="80, 35, 88#80, 29, 88" />
+  <property name="SleeperVolumeSize" value="80, 35, 81#80, 29, 88" />
   <property name="SleeperVolumeStart" value="0, 29, 0#0, 0, 0" />
   <property name="SleeperVolumeGroupId" value="0,0" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,40,45,S_-Group_Generic_Zombie,45,55" />
@@ -53,16 +53,19 @@
     <property class="TraderOnOff">
       <property name="0" value="57, 29, 47" />
     </property>
+    <property class="Rally">
+      <property name="0" value="24, 29, 81" />
+    </property>
     <property class="quest_feather">
       <property name="0" value="51, 29, 8" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="2888903" />
-    <property name="TotalTriangles" value="2942042" />
+    <property name="TotalVertices" value="2829045" />
+    <property name="TotalTriangles" value="2882696" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2266078" />
-      <property name="Triangles" value="2572394" />
+      <property name="Vertices" value="2206220" />
+      <property name="Triangles" value="2513048" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="444938" />

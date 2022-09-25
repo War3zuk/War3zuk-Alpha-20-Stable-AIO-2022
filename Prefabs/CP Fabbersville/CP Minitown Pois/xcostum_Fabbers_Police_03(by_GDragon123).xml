@@ -14,8 +14,8 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="EditorGroups" value="Emergency Services" />
   <property name="YOffset" value="-2" />
-  <property name="SleeperVolumeSize" value="2, 2, 1#15, 5, 16#15, 4, 22#13, 5, 12#20, 3, 11#47, 3, 8#7, 4, 7#14, 3, 7#11, 7, 13#31, 3, 31#14, 3, 7#22, 3, 16#25, 3, 16" />
-  <property name="SleeperVolumeStart" value="31, 2, 42#32, 2, 24#17, 2, 35#32, 2, 40#12, 1, 24#7, 2, 0#32, 2, 52#39, 2, 53#45, 2, 40#16, 9, 22#17, 6, 50#32, 2, 8#7, 2, 8" />
+  <property name="SleeperVolumeSize" value="2, 2, 1#15, 5, 16#15, 4, 22#13, 5, 12#20, 3, 11#47, 3, 7#7, 4, 7#14, 3, 7#11, 7, 13#31, 3, 31#14, 3, 7#22, 3, 16#25, 3, 16" />
+  <property name="SleeperVolumeStart" value="31, 2, 42#32, 2, 24#17, 2, 35#32, 2, 40#12, 1, 24#7, 2, 1#32, 2, 52#39, 2, 53#45, 2, 40#16, 9, 22#17, 6, 50#32, 2, 8#7, 2, 8" />
   <property name="SleeperVolumeGroupId" value="4,1,1,1,1,0,1,0,2,2,0,1,0" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,0,0,S_Zom_Businessman,4,4,S_Zom_Businessman,7,7,S_-_Group_Zom_Badass_Only,6,8,S_Zom_FatCops,1,2,S_Zom_Businessman,1,2,S_Zom_Janitor_Only,1,2,S_Zom_Utility_Worker,1,2,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,8,8,S_-_Group_Zom_Badass,1,2,S_Zom_Businessman,1,2,S_Zom_Businessman,1,1" />
   <property name="SleeperIsLootVolume" value="False,True,False,False,False,False,False,False,False,False,False,False,False" />
@@ -82,11 +82,11 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="24, 2, 0" />
+    </property>
     <property class="POILight">
       <property name="0" value="46, 2, 16" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="27, 2, 1" />
     </property>
     <property class="quest_feather">
       <property name="0" value="46, 7, 45" />

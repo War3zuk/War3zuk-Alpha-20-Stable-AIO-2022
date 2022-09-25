@@ -22,11 +22,11 @@
   <property name="Tags" value="snow,commercial,pine_forest" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="285560" />
-    <property name="TotalTriangles" value="268199" />
+    <property name="TotalVertices" value="283816" />
+    <property name="TotalTriangles" value="266843" />
     <property class="BlockEntities">
-      <property name="Vertices" value="226069" />
-      <property name="Triangles" value="233044" />
+      <property name="Vertices" value="223909" />
+      <property name="Triangles" value="230920" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="55071" />
@@ -57,8 +57,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="416" />
+      <property name="Triangles" value="768" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />

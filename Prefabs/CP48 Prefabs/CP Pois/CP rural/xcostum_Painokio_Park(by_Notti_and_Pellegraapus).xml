@@ -14,8 +14,8 @@
   <property name="YOffset" value="-2" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Entertainment" />
-  <property name="SleeperVolumeStart" value="0, 2, 0#0, 2, 28" />
-  <property name="SleeperVolumeSize" value="33, 13, 28#33, 13, 32" />
+  <property name="SleeperVolumeStart" value="0, 2, 1#0, 2, 28" />
+  <property name="SleeperVolumeSize" value="33, 13, 27#33, 13, 32" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,5,S_-Group_Generic_Zombie,6,9" />
   <property name="SleeperVolumeGameStageAdjust" value="," />
   <property name="SleeperIsLootVolume" value="False,False" />
@@ -53,15 +53,15 @@
       <property name="0" value="17, 2, 24" />
     </property>
     <property class="Rally">
-      <property name="0" value="24, 2, 2" />
+      <property name="0" value="24, 3, 0" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="24, 6, 13" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="389045" />
-    <property name="TotalTriangles" value="436722" />
+    <property name="TotalVertices" value="389275" />
+    <property name="TotalTriangles" value="436894" />
     <property class="BlockEntities">
       <property name="Vertices" value="356947" />
       <property name="Triangles" value="410445" />
@@ -83,8 +83,8 @@
       <property name="Triangles" value="36" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="4227" />
-      <property name="Triangles" value="3433" />
+      <property name="Vertices" value="4457" />
+      <property name="Triangles" value="3605" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="3792" />

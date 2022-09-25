@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="snow,desert,countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="snow,desert,countrytown,diagonal,pine_forest" />
   <property name="POIMarkerSize" value="15, 13, 2" />
   <property name="POIMarkerStart" value="16, 2, -2" />
   <property name="POIMarkerGroup" value="driveway" />
@@ -58,15 +58,15 @@
       <property name="1" value="23, 8, 31" />
     </property>
     <property class="Rally">
-      <property name="0" value="36, 3, 2" />
+      <property name="0" value="33, 4, 2" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="504634" />
-    <property name="TotalTriangles" value="572811" />
+    <property name="TotalVertices" value="498756" />
+    <property name="TotalTriangles" value="567093" />
     <property class="BlockEntities">
-      <property name="Vertices" value="460066" />
-      <property name="Triangles" value="541331" />
+      <property name="Vertices" value="454188" />
+      <property name="Triangles" value="535613" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="31048" />

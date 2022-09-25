@@ -30,11 +30,11 @@
   <property name="Tags" value="countryresidential" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="113396" />
-    <property name="TotalTriangles" value="122735" />
+    <property name="TotalVertices" value="113517" />
+    <property name="TotalTriangles" value="122935" />
     <property class="BlockEntities">
-      <property name="Vertices" value="83021" />
-      <property name="Triangles" value="102171" />
+      <property name="Vertices" value="83142" />
+      <property name="Triangles" value="102371" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="21852" />
@@ -79,7 +79,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="8, 13, 1" />
+      <property name="0" value="10, 14, 0" />
     </property>
     <property class="POILight">
       <property name="0" value="13, 18, 12" />

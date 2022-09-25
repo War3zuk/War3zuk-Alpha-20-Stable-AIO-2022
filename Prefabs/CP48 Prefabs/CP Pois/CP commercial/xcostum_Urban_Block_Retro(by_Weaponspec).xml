@@ -24,11 +24,11 @@
   <property name="Tags" value="snow,commercial,pine_forest" />
   <property name="PrefabSize" value="60, 24, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="801225" />
-    <property name="TotalTriangles" value="782741" />
+    <property name="TotalVertices" value="801346" />
+    <property name="TotalTriangles" value="782941" />
     <property class="BlockEntities">
-      <property name="Vertices" value="695893" />
-      <property name="Triangles" value="710963" />
+      <property name="Vertices" value="696014" />
+      <property name="Triangles" value="711163" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="88346" />
@@ -72,15 +72,15 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="2, 5, 1" />
+    </property>
     <property class="POILight">
       <property name="0" value="49, 6, 46" />
       <property name="1" value="49, 6, 51" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="28, 5, 29" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="30, 4, 39" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="33, 16, 50" />

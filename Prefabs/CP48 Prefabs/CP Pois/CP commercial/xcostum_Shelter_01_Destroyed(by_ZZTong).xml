@@ -33,11 +33,11 @@
   <property name="POIMarkerPartRotations" value="0,0" />
   <property name="POIMarkerPartSpawnChance" value="0.8,0.2" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="4, 8, 6" />
+    </property>
     <property class="POILight">
       <property name="0" value="38, 4, 30" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="8, 7, 8" />
     </property>
     <property class="quest_wood">
       <property name="0" value="32, 7, 10" />

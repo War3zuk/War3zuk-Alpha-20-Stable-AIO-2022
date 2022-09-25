@@ -22,15 +22,15 @@
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="Tags" value="snow,desert,commercial,pine_forest" />
   <property class="Stats">
-    <property name="TotalVertices" value="396862" />
-    <property name="TotalTriangles" value="420555" />
+    <property name="TotalVertices" value="396886" />
+    <property name="TotalTriangles" value="420567" />
     <property class="BlockEntities">
       <property name="Vertices" value="266743" />
       <property name="Triangles" value="311835" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="129275" />
-      <property name="Triangles" value="107264" />
+      <property name="Vertices" value="129299" />
+      <property name="Triangles" value="107276" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -110,7 +110,7 @@
       <property name="1" value="13, 1, 19" />
     </property>
     <property class="Rally">
-      <property name="0" value="23, 1, 5" />
+      <property name="0" value="24, 1, 7" />
     </property>
   </property>
 </prefab>

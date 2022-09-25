@@ -23,7 +23,7 @@
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="nodiagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,nodiagonal" />
   <property name="POIMarkerSize" value="9, 13, 2#8, 13, 2" />
   <property name="POIMarkerStart" value="51, 1, 60#0, 1, 60" />
   <property name="POIMarkerGroup" value="1,2" />
@@ -34,15 +34,15 @@
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property name="PrefabSize" value="60, 19, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="600260" />
-    <property name="TotalTriangles" value="577726" />
+    <property name="TotalVertices" value="1256101" />
+    <property name="TotalTriangles" value="1213076" />
     <property class="BlockEntities">
-      <property name="Vertices" value="484627" />
-      <property name="Triangles" value="506446" />
+      <property name="Vertices" value="1140756" />
+      <property name="Triangles" value="1141940" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="96536" />
-      <property name="Triangles" value="49794" />
+      <property name="Vertices" value="96248" />
+      <property name="Triangles" value="49650" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -82,9 +82,6 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="7, 2, 8" />
-    </property>
     <property class="FetchContainer">
       <property name="0" value="42, 7, 42" />
     </property>
@@ -94,6 +91,9 @@
     </property>
     <property class="POILight">
       <property name="0" value="46, 4, 24" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="32, 2, 59" />
     </property>
   </property>
 </prefab>

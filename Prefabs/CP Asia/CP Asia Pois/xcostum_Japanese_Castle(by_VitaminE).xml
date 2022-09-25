@@ -74,7 +74,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="0, 2, 11" />
+      <property name="0" value="0, 1, 32" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="48, 14, 24" />

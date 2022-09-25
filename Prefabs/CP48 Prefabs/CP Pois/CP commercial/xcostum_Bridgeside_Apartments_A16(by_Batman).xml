@@ -26,11 +26,11 @@
   <property name="Tags" value="wasteland,commercial,wastelandcommercial" />
   <property name="PrefabSize" value="100, 60, 100" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="1, 16, 56" />
+    </property>
     <property class="POILight">
       <property name="0" value="82, 23, 89" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="3, 15, 50" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="69, 32, 55" />
@@ -43,8 +43,8 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="4934125" />
-    <property name="TotalTriangles" value="5502177" />
+    <property name="TotalVertices" value="4934355" />
+    <property name="TotalTriangles" value="5502349" />
     <property class="BlockEntities">
       <property name="Vertices" value="4364157" />
       <property name="Triangles" value="5134772" />
@@ -66,8 +66,8 @@
       <property name="Triangles" value="864" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="97921" />
-      <property name="Triangles" value="71474" />
+      <property name="Vertices" value="98151" />
+      <property name="Triangles" value="71646" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />

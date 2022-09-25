@@ -24,8 +24,8 @@
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
   <property name="Tags" value="wilderness,pine_forest" />
-  <property name="POIMarkerSize" value="13, 1, 1" />
-  <property name="POIMarkerStart" value="34, 1, -1" />
+  <property name="POIMarkerSize" value="13, 1, 8" />
+  <property name="POIMarkerStart" value="34, 1, -8" />
   <property name="POIMarkerGroup" value="new" />
   <property name="POIMarkerTags" value="" />
   <property name="POIMarkerType" value="RoadExit" />

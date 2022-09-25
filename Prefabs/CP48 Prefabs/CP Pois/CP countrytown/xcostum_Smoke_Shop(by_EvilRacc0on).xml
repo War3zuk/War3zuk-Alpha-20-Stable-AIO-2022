@@ -35,15 +35,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 10, 25" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="9, 3, 2" />
+    </property>
     <property class="POILight">
       <property name="0" value="14, 7, 14" />
       <property name="1" value="17, 7, 16" />
     </property>
     <property class="quest_feather">
       <property name="0" value="16, 9, 15" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="12, 2, 1" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="15, 6, 18" />

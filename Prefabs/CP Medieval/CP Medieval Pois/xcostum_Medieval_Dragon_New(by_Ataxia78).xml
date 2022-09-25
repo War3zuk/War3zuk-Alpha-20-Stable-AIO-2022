@@ -44,20 +44,17 @@
     <property class="TraderOnOff">
       <property name="0" value="43, 6, 29" />
     </property>
-    <property class="Rally">
-      <property name="0" value="59, 4, 21" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="119177" />
-    <property name="TotalTriangles" value="126375" />
+    <property name="TotalVertices" value="110874" />
+    <property name="TotalTriangles" value="118315" />
     <property class="BlockEntities">
-      <property name="Vertices" value="80314" />
-      <property name="Triangles" value="91431" />
+      <property name="Vertices" value="71927" />
+      <property name="Triangles" value="83331" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="22313" />
-      <property name="Triangles" value="10408" />
+      <property name="Vertices" value="22389" />
+      <property name="Triangles" value="10446" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -84,16 +81,16 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="13528" />
-      <property name="Triangles" value="22832" />
+      <property name="Vertices" value="13548" />
+      <property name="Triangles" value="22840" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="222" />
       <property name="Triangles" value="304" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="24" />
-      <property name="Triangles" value="12" />
+      <property name="Vertices" value="12" />
+      <property name="Triangles" value="6" />
     </property>
   </property>
 </prefab>

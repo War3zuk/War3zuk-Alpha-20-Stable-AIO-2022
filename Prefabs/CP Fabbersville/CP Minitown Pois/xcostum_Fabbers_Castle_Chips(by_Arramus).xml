@@ -51,22 +51,22 @@
       <property name="0" value="14, 1, 4" />
     </property>
     <property class="Rally">
-      <property name="0" value="14, 1, 1" />
+      <property name="0" value="16, 1, 0" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="14, 5, 15" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="232449" />
-    <property name="TotalTriangles" value="238386" />
+    <property name="TotalVertices" value="232473" />
+    <property name="TotalTriangles" value="238398" />
     <property class="BlockEntities">
       <property name="Vertices" value="208843" />
       <property name="Triangles" value="221136" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="13139" />
-      <property name="Triangles" value="7666" />
+      <property name="Vertices" value="13163" />
+      <property name="Triangles" value="7678" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

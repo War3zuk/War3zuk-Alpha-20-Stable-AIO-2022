@@ -6,7 +6,9 @@ Updated GUI/Windows.xml (20.6 B9)
 Updated RWGMixer.xml (20.6 B9)
 
 Launcher Edits: (Only For Launcher Install)
+Added War3zuk Alpha 20 AIO CCP Patcher
 Updated ZSCZA20 (20.6 B9)
+Updated CP48.4 (20.6 B9)
 
 Updated v7.6 to v7.7
 

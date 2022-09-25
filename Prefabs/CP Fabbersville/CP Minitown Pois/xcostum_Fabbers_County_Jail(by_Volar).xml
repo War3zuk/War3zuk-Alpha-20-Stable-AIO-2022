@@ -5,7 +5,7 @@
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="QuestTags" value="clear" />
+  <property name="QuestTags" value="clear,fetch" />
   <property name="DifficultyTier" value="5" />
   <property name="Zoning" value="none" />
   <property name="AllowedBiomes" value="desert" />
@@ -54,15 +54,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="479122" />
-    <property name="TotalTriangles" value="492994" />
+    <property name="TotalVertices" value="479146" />
+    <property name="TotalTriangles" value="493006" />
     <property class="BlockEntities">
       <property name="Vertices" value="417547" />
       <property name="Triangles" value="452917" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="52911" />
-      <property name="Triangles" value="29609" />
+      <property name="Vertices" value="52935" />
+      <property name="Triangles" value="29621" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

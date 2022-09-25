@@ -36,6 +36,9 @@
     <property class="TraderOnOff">
       <property name="0" value="47, 7, 24" />
     </property>
+    <property class="Rally">
+      <property name="0" value="17, 7, 5" />
+    </property>
     <property class="POILight">
       <property name="0" value="32, 17, 46" />
       <property name="1" value="33, 17, 46" />
@@ -57,11 +60,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1397554" />
-    <property name="TotalTriangles" value="1424737" />
+    <property name="TotalVertices" value="1398452" />
+    <property name="TotalTriangles" value="1425617" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1199847" />
-      <property name="Triangles" value="1302394" />
+      <property name="Vertices" value="1200745" />
+      <property name="Triangles" value="1303274" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="165277" />

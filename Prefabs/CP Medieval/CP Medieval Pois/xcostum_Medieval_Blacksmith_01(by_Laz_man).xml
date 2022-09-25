@@ -28,7 +28,7 @@
   <property name="PrefabSize" value="25, 12, 25" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="1, 1, 12" />
+      <property name="0" value="1, 2, 2" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="18, 1, 14" />

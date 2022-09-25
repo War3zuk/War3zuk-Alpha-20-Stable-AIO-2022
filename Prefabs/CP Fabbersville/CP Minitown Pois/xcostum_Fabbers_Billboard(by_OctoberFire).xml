@@ -32,15 +32,15 @@
   <property name="Zoning" value="none" />
   <property name="PrefabSize" value="25, 17, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="97517" />
-    <property name="TotalTriangles" value="97871" />
+    <property name="TotalVertices" value="97541" />
+    <property name="TotalTriangles" value="97883" />
     <property class="BlockEntities">
       <property name="Vertices" value="74332" />
       <property name="Triangles" value="81376" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="20020" />
-      <property name="Triangles" value="12252" />
+      <property name="Vertices" value="20044" />
+      <property name="Triangles" value="12264" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -87,7 +87,7 @@
       <property name="0" value="22, 3, 1" />
     </property>
     <property class="TraderOnOff">
-      <property name="0" value="15, 3, 8" />
+      <property name="0" value="15, 3, 7" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="13, 3, 16" />

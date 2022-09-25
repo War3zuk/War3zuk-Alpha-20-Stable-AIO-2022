@@ -35,7 +35,7 @@
   <property name="PrefabSize" value="60, 23, 60" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="8, 6, 22" />
+      <property name="0" value="4, 7, 17" />
     </property>
     <property class="quest_feather">
       <property name="0" value="53, 16, 33" />

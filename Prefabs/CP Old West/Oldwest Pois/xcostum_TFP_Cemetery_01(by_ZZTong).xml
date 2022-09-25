@@ -27,15 +27,15 @@
   <property name="YOffset" value="-3" />
   <property name="PrefabSize" value="42, 20, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="439985" />
-    <property name="TotalTriangles" value="465571" />
+    <property name="TotalVertices" value="440119" />
+    <property name="TotalTriangles" value="465679" />
     <property class="BlockEntities">
       <property name="Vertices" value="393777" />
       <property name="Triangles" value="431575" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="37386" />
-      <property name="Triangles" value="22960" />
+      <property name="Vertices" value="37290" />
+      <property name="Triangles" value="22896" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -50,8 +50,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="2712" />
-      <property name="Triangles" value="1920" />
+      <property name="Vertices" value="2942" />
+      <property name="Triangles" value="2092" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -82,7 +82,7 @@
       <property name="0" value="30, 3, 7" />
     </property>
     <property class="Rally">
-      <property name="0" value="22, 3, 1" />
+      <property name="0" value="22, 4, 0" />
     </property>
     <property class="POILight">
       <property name="0" value="33, 6, 24" />

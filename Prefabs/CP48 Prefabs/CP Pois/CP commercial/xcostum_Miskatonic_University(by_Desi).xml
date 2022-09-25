@@ -23,19 +23,19 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-1" />
   <property class="Stats">
-    <property name="TotalVertices" value="3202201" />
-    <property name="TotalTriangles" value="3268759" />
+    <property name="TotalVertices" value="3200801" />
+    <property name="TotalTriangles" value="3266455" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2460120" />
-      <property name="Triangles" value="2772491" />
+      <property name="Vertices" value="2456720" />
+      <property name="Triangles" value="2769187" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="641297" />
-      <property name="Triangles" value="399638" />
+      <property name="Vertices" value="641401" />
+      <property name="Triangles" value="399690" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="512" />
-      <property name="Triangles" value="256" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="6432" />
@@ -50,8 +50,8 @@
       <property name="Triangles" value="44874" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="4816" />
-      <property name="Triangles" value="2408" />
+      <property name="Vertices" value="7224" />
+      <property name="Triangles" value="3612" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="8" />

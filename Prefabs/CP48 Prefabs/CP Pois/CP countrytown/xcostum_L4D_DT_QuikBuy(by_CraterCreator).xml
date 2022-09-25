@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,2,2" />
   <property name="EditorGroups" value="TV_Movie_Game" />
   <property name="YOffset" value="-1" />
-  <property name="Tags" value="wasteland,countrytown,wastelandcountrytown,nodiagonal" />
+  <property name="Tags" value="wasteland,countrytown,nodiagonal,wastelandcountrytown" />
   <property name="POIMarkerSize" value="13, 13, 1" />
   <property name="POIMarkerStart" value="2, 0, 28" />
   <property name="POIMarkerGroup" value="1" />
@@ -91,7 +91,7 @@
       <property name="2" value="25, 1, 12" />
     </property>
     <property class="Rally">
-      <property name="0" value="5, 1, 26" />
+      <property name="0" value="2, 1, 26" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="18, 3, 14" />

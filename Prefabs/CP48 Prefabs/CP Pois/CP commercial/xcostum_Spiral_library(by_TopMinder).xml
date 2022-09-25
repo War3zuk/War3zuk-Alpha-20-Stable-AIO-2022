@@ -15,7 +15,7 @@
   <property name="ShowQuestClearCount" value="3" />
   <property name="Tags" value="commercial,pine_forest" />
   <property name="PrefabSize" value="60, 68, 60" />
-  <property name="QuestTags" value="clear,fetch,restore_power" />
+  <property name="QuestTags" value="clear,restore_power" />
   <property name="SleeperVolumeSize" value="12, 3, 23#21, 2, 11#10, 2, 22#24, 2, 11#15, 3, 21#15, 3, 21#27, 3, 15#30, 3, 14#8, 3, 9#8, 47, 7#9, 5, 33#32, 2, 9#8, 2, 24#41, 2, 9#15, 3, 15#8, 6, 6#7, 3, 7#8, 7, 8#8, 3, 8#9, 3, 13#12, 2, 9#9, 2, 12#13, 2, 9#10, 6, 14#14, 6, 10#10, 6, 14#14, 6, 10#1, 2, 1#1, 2, 1#7, 1, 5#8, 2, 2" />
   <property name="SleeperVolumeStart" value="46, 1, 2#2, 1, 2#2, 1, 36#34, 1, 47#22, 1, 2#21, 1, 37#2, 1, 22#29, 1, 23#13, 6, 14#36, 1, 15#41, 48, 18#9, 51, 42#9, 51, 18#9, 51, 9#21, 63, 24#25, 51, 27#14, 1, 15#13, 1, 38#37, 1, 38#37, 1, 2#2, 1, 13#12, 1, 46#45, 1, 38#40, 54, 23#22, 54, 41#9, 54, 23#22, 54, 9#55, 1, 37#21, 1, 17#13, 10, 16#13, 6, 17" />
   <property name="SleeperVolumeGroupId" value="6,7,8,9,0,0,0,0,20,0,0,0,0,0,1,1,2,0,3,6,7,8,9,0,0,0,0,2,3,21,21" />

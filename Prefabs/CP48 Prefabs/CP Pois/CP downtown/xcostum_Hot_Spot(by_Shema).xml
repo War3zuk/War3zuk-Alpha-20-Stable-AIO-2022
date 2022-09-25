@@ -22,8 +22,8 @@
   <property name="Zoning" value="none" />
   <property name="Tags" value="downtown" />
   <property class="Stats">
-    <property name="TotalVertices" value="193479" />
-    <property name="TotalTriangles" value="185374" />
+    <property name="TotalVertices" value="193813" />
+    <property name="TotalTriangles" value="185982" />
     <property class="BlockEntities">
       <property name="Vertices" value="147781" />
       <property name="Triangles" value="155858" />
@@ -57,8 +57,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="82" />
-      <property name="Triangles" value="160" />
+      <property name="Vertices" value="416" />
+      <property name="Triangles" value="768" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />

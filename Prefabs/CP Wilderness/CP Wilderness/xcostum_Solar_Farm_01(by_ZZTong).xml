@@ -46,11 +46,11 @@
       <property name="1" value="23, 2, 25" />
       <property name="2" value="22, 3, 32" />
     </property>
-    <property class="Rally">
-      <property name="0" value="19, 2, 40" />
-    </property>
     <property class="POILight">
       <property name="0" value="21, 4, 33" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="21, 3, 39" />
     </property>
   </property>
   <property class="Stats">

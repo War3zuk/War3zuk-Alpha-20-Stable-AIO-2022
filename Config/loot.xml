@@ -315,13 +315,13 @@
 	<item name="HDHeadlightsUpgrade" count="1" loot_prob_template="med"/>
 	<item name="HDTurboUpgrade" count="1" loot_prob_template="med"/>
 	<item name="HDTurboUpgrade" count="1" loot_prob_template="med"/>
-	<item name="resourceLockPick" count="1,2" loot_prob_template="low"/>
+	<item name="resourceLockPick" count="1,2" loot_prob_template="med"/>
 	<item group="groupScrapCommon" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukDumpsterLoot02" count="1">
 	<item group="groupScrapCommon" loot_prob_template="med"/>
-	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="veryLow"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="low"/>
 </lootgroup>	
 
 <lootgroup name="War3zukDumpsterLoot" count="1">

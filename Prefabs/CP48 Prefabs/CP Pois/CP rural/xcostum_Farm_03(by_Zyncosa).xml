@@ -34,6 +34,9 @@
   <property name="Tags" value="rural,pine_forest" />
   <property name="PrefabSize" value="60, 20, 60" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="4, 10, 59" />
+    </property>
     <property class="quest_feather">
       <property name="0" value="33, 19, 49" />
       <property name="1" value="42, 10, 59" />
@@ -49,9 +52,6 @@
       <property name="7" value="35, 14, 56" />
       <property name="8" value="40, 11, 56" />
     </property>
-    <property class="Rally">
-      <property name="0" value="29, 10, 58" />
-    </property>
     <property class="FetchContainer">
       <property name="0" value="36, 14, 47" />
       <property name="1" value="35, 15, 51" />
@@ -59,15 +59,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="547027" />
-    <property name="TotalTriangles" value="574055" />
+    <property name="TotalVertices" value="547051" />
+    <property name="TotalTriangles" value="574067" />
     <property class="BlockEntities">
       <property name="Vertices" value="503654" />
       <property name="Triangles" value="535939" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="25452" />
-      <property name="Triangles" value="13610" />
+      <property name="Vertices" value="25476" />
+      <property name="Triangles" value="13622" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

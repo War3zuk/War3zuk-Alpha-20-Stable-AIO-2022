@@ -15,7 +15,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Destroyed, Bunker_Mine" />
   <property name="SleeperVolumeStart" value="0, 1, 0" />
-  <property name="SleeperVolumeSize" value="25, 21, 25" />
+  <property name="SleeperVolumeSize" value="25, 21, 24" />
   <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Soldier,4,5" />
   <property name="SleeperVolumeGameStageAdjust" value=",," />
   <property name="SleeperIsLootVolume" value="False" />
@@ -46,21 +46,24 @@
     <property class="FetchContainer">
       <property name="0" value="5, 8, 23" />
     </property>
+    <property class="Rally">
+      <property name="0" value="3, 16, 24" />
+    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="278294" />
-    <property name="TotalTriangles" value="224679" />
+    <property name="TotalVertices" value="279287" />
+    <property name="TotalTriangles" value="225642" />
     <property class="BlockEntities">
-      <property name="Vertices" value="151400" />
-      <property name="Triangles" value="149683" />
+      <property name="Vertices" value="152298" />
+      <property name="Triangles" value="150563" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="105456" />
       <property name="Triangles" value="57418" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="15884" />
-      <property name="Triangles" value="7942" />
+      <property name="Vertices" value="15880" />
+      <property name="Triangles" value="7940" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="0" />
@@ -71,8 +74,8 @@
       <property name="Triangles" value="80" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="99" />
+      <property name="Triangles" value="85" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />

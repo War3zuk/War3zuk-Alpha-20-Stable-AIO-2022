@@ -5,7 +5,6 @@
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="QuestTags" value="clear,fetch" />
   <property name="DifficultyTier" value="4" />
   <property name="Zoning" value="ResidentialOld, wilderness" />
   <property name="AllowedBiomes" value="snow" />
@@ -35,11 +34,11 @@
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property name="PrefabSize" value="59, 11, 101" />
   <property class="Stats">
-    <property name="TotalVertices" value="698598" />
-    <property name="TotalTriangles" value="681065" />
+    <property name="TotalVertices" value="697700" />
+    <property name="TotalTriangles" value="680185" />
     <property class="BlockEntities">
-      <property name="Vertices" value="535944" />
-      <property name="Triangles" value="566746" />
+      <property name="Vertices" value="535046" />
+      <property name="Triangles" value="565866" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="126762" />
@@ -86,15 +85,9 @@
     <property class="POILight">
       <property name="0" value="46, 9, 84" />
     </property>
-    <property class="FetchContainer">
-      <property name="0" value="53, 8, 57" />
-    </property>
     <property class="TraderOnOff">
       <property name="0" value="41, 7, 76" />
       <property name="1" value="35, 7, 81" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="31, 3, 99" />
     </property>
   </property>
 </prefab>

@@ -21,7 +21,6 @@
   <property name="PrefabSize" value="100, 96, 100" />
   <property name="Tags" value="snow,desert,wilderness,pine_forest" />
   <property name="Zoning" value="none" />
-  <property name="QuestTags" value="clear" />
   <property name="POIMarkerSize" value="7, 1, 4" />
   <property name="POIMarkerStart" value="92, 21, -4" />
   <property name="POIMarkerGroup" value="1" />
@@ -32,19 +31,19 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="EditorGroups" value="Extreme, Mall, TV_Movie_Game" />
   <property class="Stats">
-    <property name="TotalVertices" value="13007003" />
-    <property name="TotalTriangles" value="13267703" />
+    <property name="TotalVertices" value="13006109" />
+    <property name="TotalTriangles" value="13266825" />
     <property class="BlockEntities">
-      <property name="Vertices" value="10871214" />
-      <property name="Triangles" value="11916889" />
+      <property name="Vertices" value="10870316" />
+      <property name="Triangles" value="11916009" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="1873331" />
       <property name="Triangles" value="1123361" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="88092" />
-      <property name="Triangles" value="44046" />
+      <property name="Vertices" value="88096" />
+      <property name="Triangles" value="44048" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="7438" />
@@ -109,9 +108,6 @@
       <property name="0" value="35, 68, 24" />
       <property name="1" value="35, 68, 26" />
       <property name="2" value="35, 68, 27" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="68, 22, 2" />
     </property>
   </property>
 </prefab>

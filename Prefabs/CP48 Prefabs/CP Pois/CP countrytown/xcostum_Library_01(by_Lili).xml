@@ -21,7 +21,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0" />
   <property name="YOffset" value="-2" />
   <property name="EditorGroups" value="Entertainment" />
-  <property name="Tags" value="countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="countrytown,diagonal,pine_forest" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="POIMarkerSize" value="5, 13, 2" />
   <property name="POIMarkerStart" value="19, 1, -2" />
@@ -33,15 +33,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 19, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="1096171" />
-    <property name="TotalTriangles" value="1109565" />
+    <property name="TotalVertices" value="994273" />
+    <property name="TotalTriangles" value="984737" />
     <property class="BlockEntities">
-      <property name="Vertices" value="919292" />
-      <property name="Triangles" value="981274" />
+      <property name="Vertices" value="817388" />
+      <property name="Triangles" value="856442" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="165633" />
-      <property name="Triangles" value="117165" />
+      <property name="Vertices" value="165639" />
+      <property name="Triangles" value="117169" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

@@ -35,7 +35,7 @@
   <property name="PrefabSize" value="60, 22, 60" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="1, 2, 30" />
+      <property name="0" value="0, 2, 35" />
     </property>
     <property class="quest_wood">
       <property name="0" value="42, 2, 37" />

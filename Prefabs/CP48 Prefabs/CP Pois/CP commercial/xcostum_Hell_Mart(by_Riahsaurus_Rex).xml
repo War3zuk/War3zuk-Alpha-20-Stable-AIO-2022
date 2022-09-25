@@ -26,6 +26,9 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="PrefabSize" value="100, 24, 100" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="4, 3, 5" />
+    </property>
     <property class="POILight">
       <property name="0" value="67, 5, 68" />
       <property name="1" value="72, 8, 69" />
@@ -33,9 +36,6 @@
       <property name="3" value="70, 7, 72" />
       <property name="4" value="74, 10, 73" />
       <property name="5" value="71, 5, 74" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="4, 3, 7" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="74, 2, 29" />
@@ -46,15 +46,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="2224593" />
-    <property name="TotalTriangles" value="2349339" />
+    <property name="TotalVertices" value="2213439" />
+    <property name="TotalTriangles" value="2325569" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2023262" />
-      <property name="Triangles" value="2200804" />
+      <property name="Vertices" value="2012092" />
+      <property name="Triangles" value="2177026" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="147018" />
-      <property name="Triangles" value="88172" />
+      <property name="Vertices" value="147054" />
+      <property name="Triangles" value="88190" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -89,8 +89,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="20" />
-      <property name="Triangles" value="10" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
   </property>
 </prefab>

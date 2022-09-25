@@ -44,23 +44,23 @@
       <property name="0" value="26, 6, 46" />
     </property>
     <property class="Rally">
-      <property name="0" value="22, 4, 54" />
+      <property name="0" value="37, 4, 59" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="561103" />
-    <property name="TotalTriangles" value="691777" />
+    <property name="TotalVertices" value="561283" />
+    <property name="TotalTriangles" value="691867" />
     <property class="BlockEntities">
       <property name="Vertices" value="484399" />
       <property name="Triangles" value="639716" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="53482" />
-      <property name="Triangles" value="27610" />
+      <property name="Vertices" value="53530" />
+      <property name="Triangles" value="27634" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="3840" />
-      <property name="Triangles" value="1920" />
+      <property name="Vertices" value="3972" />
+      <property name="Triangles" value="1986" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="648" />

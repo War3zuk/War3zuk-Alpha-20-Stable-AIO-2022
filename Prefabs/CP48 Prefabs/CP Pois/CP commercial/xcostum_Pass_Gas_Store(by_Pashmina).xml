@@ -22,8 +22,8 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-2" />
   <property class="Stats">
-    <property name="TotalVertices" value="238808" />
-    <property name="TotalTriangles" value="242650" />
+    <property name="TotalVertices" value="239038" />
+    <property name="TotalTriangles" value="242822" />
     <property class="BlockEntities">
       <property name="Vertices" value="215026" />
       <property name="Triangles" value="227900" />
@@ -45,8 +45,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="24" />
-      <property name="Triangles" value="12" />
+      <property name="Vertices" value="254" />
+      <property name="Triangles" value="184" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -71,7 +71,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="0, 2, 0" />
+      <property name="0" value="0, 3, 0" />
     </property>
     <property class="POILight">
       <property name="0" value="16, 2, 12" />

@@ -23,15 +23,15 @@
   <property name="Tags" value="desert,oldwest" />
   <property name="EditorGroups" value="oldwest" />
   <property class="Stats">
-    <property name="TotalVertices" value="344476" />
-    <property name="TotalTriangles" value="346788" />
+    <property name="TotalVertices" value="344500" />
+    <property name="TotalTriangles" value="346800" />
     <property class="BlockEntities">
       <property name="Vertices" value="294960" />
       <property name="Triangles" value="317285" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="43659" />
-      <property name="Triangles" value="23164" />
+      <property name="Vertices" value="43683" />
+      <property name="Triangles" value="23176" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -85,7 +85,7 @@
       <property name="0" value="13, 7, 10" />
     </property>
     <property class="Rally">
-      <property name="0" value="22, 2, 5" />
+      <property name="0" value="23, 2, 1" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="13, 7, 14" />

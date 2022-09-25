@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="diagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,diagonal" />
   <property name="POIMarkerSize" value="2, 13, 8#2, 13, 9" />
   <property name="POIMarkerStart" value="-2, 5, 42#-2, 5, 10" />
   <property name="POIMarkerGroup" value="1,2" />
@@ -40,33 +40,30 @@
       <property name="0" value="46, 6, 51" />
       <property name="1" value="55, 6, 52" />
     </property>
+    <property class="Rally">
+      <property name="0" value="0, 6, 10" />
+    </property>
     <property class="quest_stone">
       <property name="0" value="47, 6, 49" />
       <property name="1" value="55, 6, 51" />
     </property>
-    <property class="Rally">
-      <property name="0" value="1, 6, 14" />
-    </property>
     <property class="FetchContainer">
       <property name="0" value="49, 6, 32" />
-    </property>
-    <property class="brBlock">
-      <property name="0" value="41, 2, 27" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="57, 6, 40" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="534802" />
-    <property name="TotalTriangles" value="564306" />
+    <property name="TotalVertices" value="534636" />
+    <property name="TotalTriangles" value="564204" />
     <property class="BlockEntities">
       <property name="Vertices" value="462264" />
       <property name="Triangles" value="507558" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="49753" />
-      <property name="Triangles" value="29534" />
+      <property name="Vertices" value="49589" />
+      <property name="Triangles" value="29440" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -93,8 +90,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="10950" />
-      <property name="Triangles" value="18584" />
+      <property name="Vertices" value="10948" />
+      <property name="Triangles" value="18576" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="1099" />

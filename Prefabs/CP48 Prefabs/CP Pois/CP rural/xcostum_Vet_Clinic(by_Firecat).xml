@@ -34,14 +34,14 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="70, 17, 70" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="9, 3, 13" />
+    </property>
     <property class="quest_wood">
       <property name="0" value="39, 3, 46" />
       <property name="1" value="43, 3, 46" />
       <property name="2" value="46, 3, 46" />
       <property name="3" value="36, 3, 47" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="5, 2, 16" />
     </property>
     <property class="POILight">
       <property name="0" value="38, 6, 35" />

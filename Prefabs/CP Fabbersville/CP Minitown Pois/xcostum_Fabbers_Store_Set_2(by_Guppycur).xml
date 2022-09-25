@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="diagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,diagonal" />
   <property name="POIMarkerSize" value="10, 13, 2" />
   <property name="POIMarkerStart" value="7, 1, -2" />
   <property name="POIMarkerGroup" value="1" />
@@ -52,15 +52,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="136200" />
-    <property name="TotalTriangles" value="134436" />
+    <property name="TotalVertices" value="136224" />
+    <property name="TotalTriangles" value="134448" />
     <property class="BlockEntities">
       <property name="Vertices" value="118817" />
       <property name="Triangles" value="123052" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="14304" />
-      <property name="Triangles" value="7496" />
+      <property name="Vertices" value="14328" />
+      <property name="Triangles" value="7508" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

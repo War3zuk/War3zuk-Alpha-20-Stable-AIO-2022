@@ -23,8 +23,8 @@
   <property name="SleeperVolumeFlags" value="2,2,2,0,2,0,0,2,2,0,0,0,0,0,0,0,0,0,2" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="0" />
-  <property name="POIMarkerSize" value="1, 1, 1" />
-  <property name="POIMarkerStart" value="-1, 31, 36" />
+  <property name="POIMarkerSize" value="6, 1, 5" />
+  <property name="POIMarkerStart" value="-6, 31, 34" />
   <property name="POIMarkerGroup" value="new" />
   <property name="POIMarkerTags" value="" />
   <property name="POIMarkerType" value="RoadExit" />
@@ -34,15 +34,15 @@
   <property name="Tags" value="wasteland,wilderness" />
   <property name="PrefabSize" value="49, 48, 66" />
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="1, 32, 26" />
-    </property>
     <property class="POILight">
       <property name="0" value="29, 33, 50" />
       <property name="1" value="26, 23, 52" />
     </property>
     <property class="quest_feather">
       <property name="0" value="34, 37, 59" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="1, 33, 35" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="37, 15, 21" />
@@ -52,8 +52,8 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1191432" />
-    <property name="TotalTriangles" value="1165591" />
+    <property name="TotalVertices" value="1191531" />
+    <property name="TotalTriangles" value="1165676" />
     <property class="BlockEntities">
       <property name="Vertices" value="947485" />
       <property name="Triangles" value="990940" />
@@ -75,8 +75,8 @@
       <property name="Triangles" value="122" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="8333" />
-      <property name="Triangles" value="7249" />
+      <property name="Vertices" value="8432" />
+      <property name="Triangles" value="7334" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="360" />

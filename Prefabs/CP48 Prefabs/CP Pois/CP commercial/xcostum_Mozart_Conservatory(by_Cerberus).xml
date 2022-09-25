@@ -23,11 +23,11 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="Entertainment" />
   <property class="Stats">
-    <property name="TotalVertices" value="717101" />
-    <property name="TotalTriangles" value="720333" />
+    <property name="TotalVertices" value="717222" />
+    <property name="TotalTriangles" value="720533" />
     <property class="BlockEntities">
-      <property name="Vertices" value="585020" />
-      <property name="Triangles" value="639450" />
+      <property name="Vertices" value="585141" />
+      <property name="Triangles" value="639650" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="105046" />
@@ -72,7 +72,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="10, 2, 2" />
+      <property name="0" value="10, 3, 2" />
     </property>
     <property class="POILight">
       <property name="0" value="37, 20, 17" />

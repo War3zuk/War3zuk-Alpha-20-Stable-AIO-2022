@@ -5,7 +5,6 @@
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="QuestTags" value="clear,fetch" />
   <property name="DifficultyTier" value="1" />
   <property name="Zoning" value="Rural, ResidentialOld" />
   <property name="AllowedBiomes" value="burnt_forest,wasteland" />
@@ -32,30 +31,23 @@
   <property name="POIMarkerPartToSpawn" value="," />
   <property name="POIMarkerPartRotations" value="2,0" />
   <property name="POIMarkerPartSpawnChance" value="1,1" />
-  <property name="PrefabSize" value="27, 18, 22" />
+  <property name="PrefabSize" value="27, 17, 22" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="23, 2, 9" />
-    </property>
-    <property class="FetchContainer">
-      <property name="0" value="19, 12, 12" />
-      <property name="1" value="19, 17, 13" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="15, 2, 11" />
       <property name="1" value="15, 2, 14" />
       <property name="2" value="20, 2, 14" />
     </property>
-    <property class="Rally">
-      <property name="0" value="25, 2, 1" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="427998" />
-    <property name="TotalTriangles" value="582656" />
+    <property name="TotalVertices" value="413496" />
+    <property name="TotalTriangles" value="567192" />
     <property class="BlockEntities">
-      <property name="Vertices" value="406593" />
-      <property name="Triangles" value="565828" />
+      <property name="Vertices" value="392091" />
+      <property name="Triangles" value="550364" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="14794" />

@@ -39,26 +39,26 @@
     <property class="lpblock">
       <property name="0" value="20, 2, 20" />
     </property>
+    <property class="Rally">
+      <property name="0" value="32, 3, 0" />
+    </property>
     <property class="TraderOnOff">
       <property name="0" value="23, 3, 22" />
     </property>
     <property class="POILight">
       <property name="0" value="36, 3, 36" />
     </property>
-    <property class="Rally">
-      <property name="0" value="40, 3, 0" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="417838" />
-    <property name="TotalTriangles" value="399603" />
+    <property name="TotalVertices" value="417886" />
+    <property name="TotalTriangles" value="399627" />
     <property class="BlockEntities">
       <property name="Vertices" value="217587" />
       <property name="Triangles" value="261705" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="166219" />
-      <property name="Triangles" value="115136" />
+      <property name="Vertices" value="166267" />
+      <property name="Triangles" value="115160" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="25088" />

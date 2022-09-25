@@ -21,7 +21,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="ShowQuestClearCount" value="0" />
+  <property name="ShowQuestClearCount" value="3" />
   <property name="Tags" value="wasteland,rural" />
   <property name="PrefabSize" value="70, 42, 70" />
   <property name="POIMarkerSize" value="11, 13, 3" />

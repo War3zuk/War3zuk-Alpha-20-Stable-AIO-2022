@@ -32,26 +32,25 @@
       <property name="2" value="49, 12, 46" />
       <property name="3" value="48, 4, 48" />
     </property>
-    <property class="FetchContainer">
-      <property name="0" value="49, 7, 42" />
-      <property name="1" value="48, 20, 45" />
-    </property>
     <property class="TraderOnOff">
       <property name="0" value="20, 5, 11" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="49, 7, 42" />
     </property>
     <property class="quest_feather">
       <property name="0" value="32, 32, 32" />
     </property>
     <property class="Rally">
-      <property name="0" value="58, 4, 10" />
+      <property name="0" value="56, 5, 12" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="4348269" />
-    <property name="TotalTriangles" value="4886402" />
+    <property name="TotalVertices" value="4209684" />
+    <property name="TotalTriangles" value="4737598" />
     <property class="BlockEntities">
-      <property name="Vertices" value="3872798" />
-      <property name="Triangles" value="4570257" />
+      <property name="Vertices" value="3734213" />
+      <property name="Triangles" value="4421453" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="413023" />

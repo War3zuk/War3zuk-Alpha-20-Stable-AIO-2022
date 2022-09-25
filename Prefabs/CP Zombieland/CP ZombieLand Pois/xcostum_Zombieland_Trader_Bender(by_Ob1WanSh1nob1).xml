@@ -25,17 +25,18 @@
     </property>
     <property class="TraderOnOff">
       <property name="0" value="14, 3, 19" />
+      <property name="1" value="14, 5, 20" />
     </property>
     <property class="Trader">
       <property name="0" value="17, 12, 14" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="128092" />
-    <property name="TotalTriangles" value="131204" />
+    <property name="TotalVertices" value="128501" />
+    <property name="TotalTriangles" value="131546" />
     <property class="BlockEntities">
-      <property name="Vertices" value="108866" />
-      <property name="Triangles" value="120114" />
+      <property name="Vertices" value="109275" />
+      <property name="Triangles" value="120456" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="18650" />

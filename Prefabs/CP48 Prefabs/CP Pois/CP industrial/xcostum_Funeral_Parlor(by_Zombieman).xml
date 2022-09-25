@@ -15,7 +15,7 @@
   <property name="AllowedTownships" value="city" />
   <property name="EditorGroups" value="Emergency Services" />
   <property name="SleeperVolumeStart" value="39, 2, 8#6, 10, 17#46, 10, 9#36, 10, 9#16, 1, 7" />
-  <property name="SleeperVolumeSize" value="10, 3, 29#28, 3, 36#9, 3, 40#10, 3, 40#22, 5, 30" />
+  <property name="SleeperVolumeSize" value="10, 3, 29#28, 3, 36#9, 3, 44#10, 3, 40#22, 5, 30" />
   <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,1,2,S_-Group_Generic_Zombie,7,8,S_-Group_Generic_Zombie,3,4,S_Zom_Businessman,3,4,S_-_Group_Lab_Worker,4,5" />
   <property name="SleeperVolumeGameStageAdjust" value=",,,," />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False" />
@@ -41,19 +41,19 @@
       <property name="0" value="35, 1, 33" />
     </property>
     <property class="Rally">
-      <property name="0" value="55, 10, 31" />
+      <property name="0" value="59, 10, 27" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="637091" />
-    <property name="TotalTriangles" value="668736" />
+    <property name="TotalVertices" value="637187" />
+    <property name="TotalTriangles" value="668784" />
     <property class="BlockEntities">
       <property name="Vertices" value="515497" />
       <property name="Triangles" value="586304" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="73955" />
-      <property name="Triangles" value="39847" />
+      <property name="Vertices" value="74051" />
+      <property name="Triangles" value="39895" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

@@ -25,11 +25,11 @@
   <property name="Tags" value="snow,desert,commercial" />
   <property name="PrefabSize" value="60, 18, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="1324490" />
-    <property name="TotalTriangles" value="1287795" />
+    <property name="TotalVertices" value="1324784" />
+    <property name="TotalTriangles" value="1288015" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1216970" />
-      <property name="Triangles" value="1211435" />
+      <property name="Vertices" value="1217034" />
+      <property name="Triangles" value="1211483" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="86859" />
@@ -48,8 +48,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="9061" />
-      <property name="Triangles" value="6870" />
+      <property name="Vertices" value="9291" />
+      <property name="Triangles" value="7042" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -73,6 +73,9 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="12, 9, 1" />
+    </property>
     <property class="quest_feather">
       <property name="0" value="57, 12, 46" />
       <property name="1" value="47, 12, 56" />
@@ -83,12 +86,9 @@
     <property class="POILight">
       <property name="0" value="51, 14, 30" />
       <property name="1" value="53, 12, 35" />
-      <property name="2" value="47, 12, 36" />
+      <property name="2" value="49, 12, 38" />
       <property name="3" value="46, 12, 41" />
       <property name="4" value="53, 12, 41" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="16, 9, 3" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="49, 8, 56" />

@@ -22,15 +22,15 @@
   <property name="Tags" value="downtown" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="143246" />
-    <property name="TotalTriangles" value="134431" />
+    <property name="TotalVertices" value="143687" />
+    <property name="TotalTriangles" value="135212" />
     <property class="BlockEntities">
       <property name="Vertices" value="86884" />
       <property name="Triangles" value="91522" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="52018" />
-      <property name="Triangles" value="40573" />
+      <property name="Vertices" value="51947" />
+      <property name="Triangles" value="40538" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -49,16 +49,16 @@
       <property name="Triangles" value="412" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="192" />
-      <property name="Triangles" value="96" />
+      <property name="Vertices" value="288" />
+      <property name="Triangles" value="144" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="416" />
+      <property name="Triangles" value="768" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />

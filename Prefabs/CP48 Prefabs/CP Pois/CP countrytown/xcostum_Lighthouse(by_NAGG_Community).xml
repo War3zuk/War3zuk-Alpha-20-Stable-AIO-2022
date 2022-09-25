@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="Tags" value="snow,countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="snow,countrytown,diagonal,pine_forest" />
   <property name="POIMarkerSize" value="2, 13, 6" />
   <property name="POIMarkerStart" value="-2, 7, 28" />
   <property name="POIMarkerGroup" value="1" />
@@ -34,9 +34,6 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 48, 42" />
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="2, 8, 40" />
-    </property>
     <property class="POILight">
       <property name="0" value="37, 5, 23" />
       <property name="1" value="37, 5, 27" />
@@ -51,6 +48,9 @@
     </property>
     <property class="quest_wood">
       <property name="0" value="5, 8, 23" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="5, 9, 25" />
     </property>
     <property class="quest_feather">
       <property name="0" value="14, 33, 25" />

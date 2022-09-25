@@ -49,9 +49,6 @@
       <property name="8" value="32, 4, 31" />
       <property name="9" value="26, 4, 32" />
     </property>
-    <property class="brBlock">
-      <property name="0" value="23, 13, 12" />
-    </property>
     <property class="quest_feather">
       <property name="0" value="22, 13, 27" />
     </property>
@@ -60,15 +57,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="371367" />
-    <property name="TotalTriangles" value="396899" />
+    <property name="TotalVertices" value="371391" />
+    <property name="TotalTriangles" value="396911" />
     <property class="BlockEntities">
       <property name="Vertices" value="342276" />
       <property name="Triangles" value="375647" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="20504" />
-      <property name="Triangles" value="11104" />
+      <property name="Vertices" value="20528" />
+      <property name="Triangles" value="11116" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

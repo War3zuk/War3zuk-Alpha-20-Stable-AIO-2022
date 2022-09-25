@@ -14,8 +14,8 @@
   <property name="YOffset" value="-2" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Emergency Services" />
-  <property name="SleeperVolumeStart" value="5, 10, 7#2, 2, 0" />
-  <property name="SleeperVolumeSize" value="16, 4, 14#20, 7, 23" />
+  <property name="SleeperVolumeStart" value="5, 10, 7#2, 2, 1" />
+  <property name="SleeperVolumeSize" value="16, 4, 14#22, 7, 22" />
   <property name="SleeperVolumeGroup" value="S_Zom_HazMat_Only,3,4,S_-Group_Generic_Zombie,8,10" />
   <property name="SleeperVolumeGameStageAdjust" value="," />
   <property name="SleeperIsLootVolume" value="True,False" />
@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0" />
   <property name="SleeperVolumeGroupId" value="0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="wasteland,countrytown,wastelandcountrytown,nodiagonal" />
+  <property name="Tags" value="wasteland,countrytown,nodiagonal,wastelandcountrytown" />
   <property name="POIMarkerSize" value="20, 13, 2" />
   <property name="POIMarkerStart" value="3, 1, -2" />
   <property name="POIMarkerGroup" value="1" />

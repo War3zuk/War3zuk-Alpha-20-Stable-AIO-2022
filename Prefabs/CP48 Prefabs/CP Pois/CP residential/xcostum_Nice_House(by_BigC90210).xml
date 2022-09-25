@@ -35,7 +35,7 @@
   <property name="PrefabSize" value="42, 9, 42" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="19, 1, 1" />
+      <property name="0" value="8, 2, 0" />
     </property>
     <property class="POILight">
       <property name="0" value="34, 7, 21" />
@@ -52,8 +52,8 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="238282" />
-    <property name="TotalTriangles" value="263724" />
+    <property name="TotalVertices" value="238512" />
+    <property name="TotalTriangles" value="263896" />
     <property class="BlockEntities">
       <property name="Vertices" value="207820" />
       <property name="Triangles" value="243952" />
@@ -75,8 +75,8 @@
       <property name="Triangles" value="1236" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="1380" />
-      <property name="Triangles" value="924" />
+      <property name="Vertices" value="1610" />
+      <property name="Triangles" value="1096" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />

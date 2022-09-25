@@ -14,8 +14,8 @@
   <property name="YOffset" value="-1" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="rural" />
-  <property name="SleeperVolumeStart" value="3, 1, 5#0, 1, 0#2, 1, 0#2, 1, 19#15, 1, 0#2, 4, 6#2, 5, 18" />
-  <property name="SleeperVolumeSize" value="12, 2, 14#2, 2, 25#13, 3, 5#13, 3, 6#10, 5, 25#13, 3, 12#12, 3, 5" />
+  <property name="SleeperVolumeStart" value="3, 1, 5#0, 1, 0#2, 1, 1#2, 1, 19#15, 1, 0#2, 4, 6#2, 5, 18" />
+  <property name="SleeperVolumeSize" value="12, 2, 14#2, 2, 25#13, 3, 4#13, 3, 6#10, 5, 25#13, 3, 12#12, 3, 5" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,4,6,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,3,5,S_-Group_Generic_Zombie,6,9,S_-Group_Generic_Zombie,2,3" />
   <property name="SleeperVolumeGameStageAdjust" value=",,,,,," />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False" />

@@ -34,10 +34,10 @@
   <property name="PrefabSize" value="25, 13, 25" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="7, 2, 0" />
+      <property name="0" value="0, 3, 0" />
     </property>
     <property class="TraderOnOff">
-      <property name="0" value="3, 2, 23" />
+      <property name="0" value="3, 2, 24" />
     </property>
     <property class="POILight">
       <property name="0" value="14, 4, 17" />
@@ -52,15 +52,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="136996" />
-    <property name="TotalTriangles" value="143956" />
+    <property name="TotalVertices" value="139487" />
+    <property name="TotalTriangles" value="146482" />
     <property class="BlockEntities">
-      <property name="Vertices" value="113828" />
-      <property name="Triangles" value="128394" />
+      <property name="Vertices" value="115453" />
+      <property name="Triangles" value="129892" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="20146" />
-      <property name="Triangles" value="11794" />
+      <property name="Vertices" value="21020" />
+      <property name="Triangles" value="12826" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -95,8 +95,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="24" />
-      <property name="Triangles" value="12" />
+      <property name="Vertices" value="16" />
+      <property name="Triangles" value="8" />
     </property>
   </property>
 </prefab>

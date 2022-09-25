@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0" />
   <property name="SleeperVolumeGroupId" value="0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="nodiagonal,fabber,fabbersville" />
+  <property name="Tags" value="fabbersville,fabber,nodiagonal" />
   <property name="POIMarkerSize" value="7, 13, 2#7, 13, 2" />
   <property name="POIMarkerStart" value="0, 1, 25#16, 1, 25" />
   <property name="POIMarkerGroup" value="driveway1,driveway2" />
@@ -46,7 +46,7 @@
       <property name="0" value="11, 6, 21" />
     </property>
     <property class="Rally">
-      <property name="0" value="3, 2, 22" />
+      <property name="0" value="0, 2, 24" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="16, 3, 13" />
@@ -54,15 +54,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="221453" />
-    <property name="TotalTriangles" value="216788" />
+    <property name="TotalVertices" value="221533" />
+    <property name="TotalTriangles" value="216828" />
     <property class="BlockEntities">
       <property name="Vertices" value="209343" />
       <property name="Triangles" value="207536" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="10266" />
-      <property name="Triangles" value="6176" />
+      <property name="Vertices" value="10346" />
+      <property name="Triangles" value="6216" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

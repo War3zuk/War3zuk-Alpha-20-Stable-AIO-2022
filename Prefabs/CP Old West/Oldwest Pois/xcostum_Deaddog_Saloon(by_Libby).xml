@@ -26,15 +26,15 @@
   <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="42, 21, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="577805" />
-    <property name="TotalTriangles" value="566357" />
+    <property name="TotalVertices" value="577829" />
+    <property name="TotalTriangles" value="566369" />
     <property class="BlockEntities">
       <property name="Vertices" value="471231" />
       <property name="Triangles" value="504015" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="97519" />
-      <property name="Triangles" value="51378" />
+      <property name="Vertices" value="97543" />
+      <property name="Triangles" value="51390" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

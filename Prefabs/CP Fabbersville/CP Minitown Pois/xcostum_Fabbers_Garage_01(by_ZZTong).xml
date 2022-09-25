@@ -11,7 +11,7 @@
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 11, 25" />
   <property name="RotationToFaceNorth" value="2" />
-  <property name="Tags" value="diagonal,fabbersville,fabber" />
+  <property name="Tags" value="fabbersville,fabber,diagonal" />
   <property name="Zoning" value="none" />
   <property name="SleeperVolumeSize" value="21, 6, 15" />
   <property name="SleeperVolumeStart" value="2, 3, 7" />
@@ -30,26 +30,26 @@
   <property name="POIMarkerPartRotations" value="2,2" />
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="5, 3, 0" />
+    </property>
     <property class="FetchContainer">
       <property name="0" value="12, 3, 12" />
     </property>
     <property class="POILight">
       <property name="0" value="16, 7, 15" />
     </property>
-    <property class="Rally">
-      <property name="0" value="12, 3, 2" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="109377" />
-    <property name="TotalTriangles" value="114890" />
+    <property name="TotalVertices" value="109481" />
+    <property name="TotalTriangles" value="114942" />
     <property class="BlockEntities">
       <property name="Vertices" value="90078" />
       <property name="Triangles" value="102601" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="16580" />
-      <property name="Triangles" value="8414" />
+      <property name="Vertices" value="16684" />
+      <property name="Triangles" value="8466" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

@@ -38,15 +38,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 16, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="512031" />
-    <property name="TotalTriangles" value="527537" />
+    <property name="TotalVertices" value="511911" />
+    <property name="TotalTriangles" value="527477" />
     <property class="BlockEntities">
       <property name="Vertices" value="460574" />
       <property name="Triangles" value="493995" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="41756" />
-      <property name="Triangles" value="22942" />
+      <property name="Vertices" value="41780" />
+      <property name="Triangles" value="22954" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -65,8 +65,8 @@
       <property name="Triangles" value="1248" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="144" />
-      <property name="Triangles" value="72" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -87,11 +87,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="0, 2, 9" />
-    </property>
-    <property class="quest_wood">
-      <property name="0" value="38, 2, 14" />
-      <property name="1" value="40, 2, 14" />
+      <property name="0" value="1, 2, 0" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="40, 8, 23" />

@@ -47,16 +47,19 @@
     <property class="quest_stone">
       <property name="0" value="8, 4, 13" />
     </property>
+    <property class="Rally">
+      <property name="0" value="2, 2, 16" />
+    </property>
     <property class="FetchContainer">
       <property name="0" value="13, 4, 13" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="128593" />
-    <property name="TotalTriangles" value="131582" />
+    <property name="TotalVertices" value="129491" />
+    <property name="TotalTriangles" value="132462" />
     <property class="BlockEntities">
-      <property name="Vertices" value="107523" />
-      <property name="Triangles" value="116386" />
+      <property name="Vertices" value="108421" />
+      <property name="Triangles" value="117266" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="18466" />

@@ -36,17 +36,20 @@
     <property class="POILight">
       <property name="0" value="15, 12, 12" />
     </property>
+    <property class="Rally">
+      <property name="0" value="23, 7, 13" />
+    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="161708" />
-    <property name="TotalTriangles" value="154457" />
+    <property name="TotalVertices" value="162630" />
+    <property name="TotalTriangles" value="155349" />
     <property class="BlockEntities">
-      <property name="Vertices" value="110881" />
-      <property name="Triangles" value="121437" />
+      <property name="Vertices" value="111779" />
+      <property name="Triangles" value="122317" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="45430" />
-      <property name="Triangles" value="26051" />
+      <property name="Vertices" value="45454" />
+      <property name="Triangles" value="26063" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

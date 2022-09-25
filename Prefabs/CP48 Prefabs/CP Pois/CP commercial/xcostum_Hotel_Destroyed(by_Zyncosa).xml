@@ -36,19 +36,19 @@
       <property name="3" value="40, 14, 38" />
     </property>
     <property class="Rally">
-      <property name="0" value="53, 9, 31" />
+      <property name="0" value="58, 9, 1" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1260775" />
-    <property name="TotalTriangles" value="1372081" />
+    <property name="TotalVertices" value="1260799" />
+    <property name="TotalTriangles" value="1372093" />
     <property class="BlockEntities">
       <property name="Vertices" value="1065176" />
       <property name="Triangles" value="1247082" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="153103" />
-      <property name="Triangles" value="82337" />
+      <property name="Vertices" value="153127" />
+      <property name="Triangles" value="82349" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="10312" />

@@ -26,15 +26,15 @@
   <property name="Tags" value="snow,commercial,pine_forest" />
   <property name="PrefabSize" value="42, 12, 42" />
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="3, 1, 39" />
-    </property>
     <property class="POILight">
       <property name="0" value="37, 2, 25" />
       <property name="1" value="37, 2, 32" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="34, 3, 5" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="6, 3, 38" />
     </property>
   </property>
   <property class="Stats">

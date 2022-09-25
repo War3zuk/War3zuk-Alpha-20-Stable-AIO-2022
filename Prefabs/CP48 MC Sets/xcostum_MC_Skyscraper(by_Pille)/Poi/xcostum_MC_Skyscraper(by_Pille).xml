@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="Zoning" value="Commercial" />
+  <property name="AllowedBiomes" value="wasteland" />
+  <property name="AllowedTownships" value="city" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="DistantPOIYOffset" value="-11" />
+  <property name="EditorGroups" value="commercial, Cityblocks" />
+  <property name="ShowQuestClearCount" value="3" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="Tags" value="megacity,cpmegadowntown,megacitydowntown,megacitypille" />
+  <property name="PrefabSize" value="106, 167, 120" />
+  <property name="YOffset" value="-11" />
+  <property name="POIMarkerSize" value="5, 2, 4#5, 2, 4#4, 2, 5#4, 2, 5" />
+  <property name="POIMarkerStart" value="62, 132, 49#60, 118, 60#61, 118, 77#60, 108, 45" />
+  <property name="POIMarkerGroup" value="pilleloot,pilleloot,pilleloot,pilleloot" />
+  <property name="POIMarkerTags" value="###" />
+  <property name="POIMarkerType" value="PartSpawn,PartSpawn,PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_loot_t5,part_loot_t5,part_loot_t5,part_loot_t5" />
+  <property name="POIMarkerPartRotations" value="0,0,1,1" />
+  <property name="POIMarkerPartSpawnChance" value="1,0.2,0.2,0.2" />
+  <property name="SleeperVolumeSize" value="50, 11, 44#50, 9, 44#50, 8, 44#50, 8, 44#50, 8, 44#50, 8, 44#50, 8, 44#50, 8, 44#50, 8, 44#58, 8, 44#58, 8, 44#58, 8, 44#58, 8, 44#58, 8, 44#58, 8, 44#3, 2, 8#58, 8, 44#23, 4, 27#9, 3, 8#12, 3, 8#15, 3, 31#13, 5, 32#15, 5, 12#36, 2, 38#101, 3, 117#9, 3, 8" />
+  <property name="SleeperVolumeStart" value="22, 132, 43#22, 123, 43#22, 115, 43#22, 107, 43#22, 99, 43#22, 91, 43#22, 83, 43#22, 75, 43#22, 67, 43#22, 59, 43#22, 51, 43#22, 43, 43#22, 35, 43#22, 27, 43#22, 19, 43#57, 31, 61#22, 11, 43#56, 3, 92#63, 8, 79#37, 3, 79#43, 5, 34#45, 0, 34#53, 3, 14#12, 3, 7#3, 11, 2#63, 8, 43" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Special_Infected,30,30,S_-_Group_Zom_Soldier,30,30,S_-_Group_Lab_Worker,30,30,S_Zom_Utility_Worker,10,15,S_Zom_Utility_Worker,15,25,S_Zom_Utility_Worker,15,25,S_Zom_Utility_Worker,30,30,S_-_Group_Biker_Bar,30,30,S_-_Group_Zom_Badass_Only,30,30,S_Zom_Businessman,30,30,S_Zom_Businessman,30,30,S_Zom_Businessman,30,30,S_-_Group_Zom_Soldier,30,30,S_-_Group_Zom_Badass_Only,12,18,S_-_Group_Zom_Soldier,12,15,zombieDemolition,3,3,S_-_Group_Zom_Soldier,12,20,S_-_Group_Zom_Badass,15,22,S_-_Group_Zom_Badass_Only,2,3,S_Zom_FatCops,5,6,S_-_Group_Zom_Badass_Only,5,10,S_-_Group_Zom_Badass_Only,5,10,S_Zom_FatCops,3,4,S_-Group_Generic_Zombie,5,10,S_-_Group_Zom_Soldier,30,30,S_Zom_FatCops,5,6" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,2,0,0,0,0,2,0,0,0,0,0,2,0,0,2,2,0,0,0,0,0,0,0,2,0" />
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="103, 18, 91" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="71, 11, 38" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="70, 28, 43" />
+    </property>
+    <property class="quest_feather">
+      <property name="0" value="59, 31, 68" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="70, 24, 78" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="51, 12, 0" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="13847365" />
+    <property name="TotalTriangles" value="14361494" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="11456576" />
+      <property name="Triangles" value="12885517" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="2031787" />
+      <property name="Triangles" value="1203860" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="36928" />
+      <property name="Triangles" value="18464" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="7576" />
+      <property name="Triangles" value="3976" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="134330" />
+      <property name="Triangles" value="69200" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="118064" />
+      <property name="Triangles" value="85057" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="4104" />
+      <property name="Triangles" value="2052" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="54200" />
+      <property name="Triangles" value="89496" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="3512" />
+      <property name="Triangles" value="3728" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="288" />
+      <property name="Triangles" value="144" />
+    </property>
+  </property>
+</prefab>

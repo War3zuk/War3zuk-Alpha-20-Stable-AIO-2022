@@ -23,8 +23,8 @@
   <property name="Tags" value="zombie,zombie42x42" />
   <property name="PrefabSize" value="42, 30, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="227947" />
-    <property name="TotalTriangles" value="219570" />
+    <property name="TotalVertices" value="228046" />
+    <property name="TotalTriangles" value="219655" />
     <property class="BlockEntities">
       <property name="Vertices" value="159609" />
       <property name="Triangles" value="171216" />
@@ -46,8 +46,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="138" />
-      <property name="Triangles" value="84" />
+      <property name="Vertices" value="237" />
+      <property name="Triangles" value="169" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -84,7 +84,7 @@
       <property name="0" value="21, 4, 15" />
     </property>
     <property class="Rally">
-      <property name="0" value="39, 2, 39" />
+      <property name="0" value="40, 3, 40" />
     </property>
   </property>
 </prefab>

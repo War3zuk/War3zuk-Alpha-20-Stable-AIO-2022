@@ -33,15 +33,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="Tags" value="fabbersville,fabberres" />
   <property class="Stats">
-    <property name="TotalVertices" value="225227" />
-    <property name="TotalTriangles" value="227299" />
+    <property name="TotalVertices" value="225251" />
+    <property name="TotalTriangles" value="227311" />
     <property class="BlockEntities">
       <property name="Vertices" value="185773" />
       <property name="Triangles" value="201847" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="36098" />
-      <property name="Triangles" value="21190" />
+      <property name="Vertices" value="36122" />
+      <property name="Triangles" value="21202" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -91,7 +91,7 @@
       <property name="3" value="21, 2, 20" />
     </property>
     <property class="Rally">
-      <property name="0" value="12, 2, 23" />
+      <property name="0" value="13, 2, 23" />
     </property>
   </property>
 </prefab>

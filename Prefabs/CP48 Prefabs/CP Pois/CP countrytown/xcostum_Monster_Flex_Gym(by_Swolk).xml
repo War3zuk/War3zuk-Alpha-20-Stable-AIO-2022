@@ -13,8 +13,8 @@
   <property name="YOffset" value="-3" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Entertainment" />
-  <property name="SleeperVolumeStart" value="19, 9, 36#19, 2, 27#19, 3, 36#20, 14, 9#20, 2, 9#39, 3, 9#19, 3, 0#29, 9, 29#19, 10, 8#29, 10, 8#19, 9, 28#0, 3, 0" />
-  <property name="SleeperVolumeSize" value="16, 6, 5#18, 5, 9#23, 5, 6#18, 7, 26#19, 5, 18#3, 3, 27#23, 3, 8#10, 4, 7#10, 3, 20#10, 4, 21#10, 4, 8#19, 3, 42" />
+  <property name="SleeperVolumeStart" value="19, 9, 36#19, 2, 27#19, 3, 36#20, 14, 9#20, 2, 9#39, 3, 9#19, 3, 0#29, 9, 29#19, 10, 8#29, 10, 8#19, 9, 28#0, 3, 1" />
+  <property name="SleeperVolumeSize" value="16, 6, 5#18, 5, 9#23, 5, 6#18, 7, 26#19, 5, 18#3, 3, 27#23, 3, 8#10, 4, 7#10, 3, 20#10, 4, 21#10, 4, 8#19, 3, 41" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,3,4,S_Zom_Businessman,3,5,S_-Group_Generic_Zombie,2,2,S_-_Group_Zom_Badass,4,4,S_-Group_Generic_Zombie,7,7,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_Zom_Businessman,3,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,6,9" />
   <property name="SleeperVolumeGameStageAdjust" value="250,medium,250,easy,250,250,250,easy,250,250,250,350" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,True,False,False,False,False,False,False,False" />
@@ -33,6 +33,9 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 21, 42" />
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="8, 4, 0" />
+    </property>
     <property class="TraderOnOff">
       <property name="0" value="37, 8, 24" />
     </property>
@@ -53,11 +56,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="623616" />
-    <property name="TotalTriangles" value="606978" />
+    <property name="TotalVertices" value="624514" />
+    <property name="TotalTriangles" value="607858" />
     <property class="BlockEntities">
-      <property name="Vertices" value="517922" />
-      <property name="Triangles" value="540737" />
+      <property name="Vertices" value="518820" />
+      <property name="Triangles" value="541617" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="93419" />

@@ -19,8 +19,8 @@
   <property name="StaticSpawner.Trigger" value="160" />
   <property name="EditorGroups" value="Destroyed" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="SleeperVolumeSize" value="14, 14, 25#11, 14, 25" />
-  <property name="SleeperVolumeStart" value="0, 2, 0#14, 2, 0" />
+  <property name="SleeperVolumeSize" value="14, 14, 25#11, 14, 24" />
+  <property name="SleeperVolumeStart" value="0, 2, 0#14, 2, 1" />
   <property name="SleeperVolumeGroupId" value="0,0" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,6,7,S_-Group_Generic_Zombie,6,8" />
   <property name="SleeperIsLootVolume" value="False,False" />
@@ -38,15 +38,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 16, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="321247" />
-    <property name="TotalTriangles" value="322435" />
+    <property name="TotalVertices" value="317109" />
+    <property name="TotalTriangles" value="316907" />
     <property class="BlockEntities">
-      <property name="Vertices" value="283358" />
-      <property name="Triangles" value="299798" />
+      <property name="Vertices" value="279316" />
+      <property name="Triangles" value="294318" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="32343" />
-      <property name="Triangles" value="17489" />
+      <property name="Vertices" value="32367" />
+      <property name="Triangles" value="17501" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -65,8 +65,8 @@
       <property name="Triangles" value="1314" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="120" />
-      <property name="Triangles" value="60" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -86,10 +86,6 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
-    <property class="quest_wood">
-      <property name="0" value="24, 2, 2" />
-      <property name="1" value="14, 2, 4" />
-    </property>
     <property class="POILight">
       <property name="0" value="19, 12, 15" />
       <property name="1" value="15, 5, 20" />

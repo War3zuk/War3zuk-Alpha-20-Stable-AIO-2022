@@ -44,31 +44,24 @@
       <property name="3" value="56, 23, 49" />
       <property name="4" value="56, 29, 49" />
     </property>
-    <property class="Rally">
-      <property name="0" value="17, 41, 40" />
-    </property>
     <property class="quest_feather">
       <property name="0" value="59, 41, 39" />
     </property>
-    <property class="FetchContainer">
-      <property name="0" value="55, 36, 33" />
-      <property name="1" value="55, 32, 35" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="3821297" />
-    <property name="TotalTriangles" value="4165946" />
+    <property name="TotalVertices" value="3790818" />
+    <property name="TotalTriangles" value="4132766" />
     <property class="BlockEntities">
-      <property name="Vertices" value="3366453" />
-      <property name="Triangles" value="3835202" />
+      <property name="Vertices" value="3334946" />
+      <property name="Triangles" value="3801508" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="328772" />
       <property name="Triangles" value="195834" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="23684" />
-      <property name="Triangles" value="11842" />
+      <property name="Vertices" value="24712" />
+      <property name="Triangles" value="12356" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="592" />

@@ -34,9 +34,6 @@
   <property name="Tags" value="wasteland,wilderness" />
   <property name="PrefabSize" value="53, 20, 52" />
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="24, 2, 2" />
-    </property>
     <property class="FetchContainer">
       <property name="0" value="43, 7, 36" />
     </property>
@@ -44,10 +41,13 @@
       <property name="0" value="29, 10, 27" />
       <property name="1" value="40, 10, 31" />
     </property>
+    <property class="Rally">
+      <property name="0" value="27, 3, 1" />
+    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="767004" />
-    <property name="TotalTriangles" value="791182" />
+    <property name="TotalVertices" value="767234" />
+    <property name="TotalTriangles" value="791354" />
     <property class="BlockEntities">
       <property name="Vertices" value="655583" />
       <property name="Triangles" value="723611" />
@@ -69,8 +69,8 @@
       <property name="Triangles" value="486" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="2289" />
-      <property name="Triangles" value="1637" />
+      <property name="Vertices" value="2519" />
+      <property name="Triangles" value="1809" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="1248" />

@@ -45,18 +45,18 @@
       <property name="0" value="16, 5, 17" />
     </property>
     <property class="Rally">
-      <property name="0" value="13, 2, 0" />
+      <property name="0" value="13, 3, 0" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="16, 5, 4" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="194114" />
-    <property name="TotalTriangles" value="196190" />
+    <property name="TotalVertices" value="136321" />
+    <property name="TotalTriangles" value="134636" />
     <property class="BlockEntities">
-      <property name="Vertices" value="176731" />
-      <property name="Triangles" value="184806" />
+      <property name="Vertices" value="118938" />
+      <property name="Triangles" value="123252" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="14304" />

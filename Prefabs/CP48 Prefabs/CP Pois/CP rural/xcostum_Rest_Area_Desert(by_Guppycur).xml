@@ -33,15 +33,15 @@
   <property name="POIMarkerPartRotations" value="0,0" />
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property class="Stats">
-    <property name="TotalVertices" value="154304" />
-    <property name="TotalTriangles" value="182882" />
+    <property name="TotalVertices" value="153420" />
+    <property name="TotalTriangles" value="181950" />
     <property class="BlockEntities">
-      <property name="Vertices" value="142222" />
-      <property name="Triangles" value="171352" />
+      <property name="Vertices" value="141304" />
+      <property name="Triangles" value="170428" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="4980" />
-      <property name="Triangles" value="2900" />
+      <property name="Vertices" value="4948" />
+      <property name="Triangles" value="2884" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -56,8 +56,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="1424" />
-      <property name="Triangles" value="1262" />
+      <property name="Vertices" value="1526" />
+      <property name="Triangles" value="1294" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="1680" />
@@ -68,16 +68,16 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="3830" />
-      <property name="Triangles" value="6444" />
+      <property name="Vertices" value="3826" />
+      <property name="Triangles" value="6436" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="144" />
-      <property name="Triangles" value="72" />
+      <property name="Vertices" value="112" />
+      <property name="Triangles" value="56" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
@@ -89,6 +89,9 @@
     </property>
     <property class="FetchContainer">
       <property name="0" value="23, 4, 3" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="38, 4, 29" />
     </property>
   </property>
 </prefab>

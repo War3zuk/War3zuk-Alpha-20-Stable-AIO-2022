@@ -5,7 +5,6 @@
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="True" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="QuestTags" value="clear,fetch" />
   <property name="DifficultyTier" value="1" />
   <property name="Zoning" value="none" />
   <property name="AllowedTownships" value="wilderness" />
@@ -34,23 +33,17 @@
   <property name="POIMarkerPartSpawnChance" value="1,0.2" />
   <property name="PrefabSize" value="11, 11, 11" />
   <property class="IndexedBlockOffsets">
-    <property class="FetchContainer">
-      <property name="0" value="6, 1, 9" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="0, 6, 9" />
-    </property>
     <property class="quest_wood">
       <property name="0" value="8, 6, 6" />
       <property name="1" value="10, 6, 10" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="105127" />
-    <property name="TotalTriangles" value="115654" />
+    <property name="TotalVertices" value="97427" />
+    <property name="TotalTriangles" value="107482" />
     <property class="BlockEntities">
-      <property name="Vertices" value="98164" />
-      <property name="Triangles" value="111196" />
+      <property name="Vertices" value="90464" />
+      <property name="Triangles" value="103024" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="4020" />

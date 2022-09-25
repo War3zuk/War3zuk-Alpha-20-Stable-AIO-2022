@@ -35,7 +35,7 @@
   <property name="PrefabSize" value="45, 17, 45" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="5, 1, 22" />
+      <property name="0" value="1, 2, 18" />
     </property>
     <property class="quest_feather">
       <property name="0" value="23, 12, 22" />
@@ -48,11 +48,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1302921" />
-    <property name="TotalTriangles" value="1960938" />
+    <property name="TotalVertices" value="1303042" />
+    <property name="TotalTriangles" value="1961138" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1226497" />
-      <property name="Triangles" value="1900261" />
+      <property name="Vertices" value="1226618" />
+      <property name="Triangles" value="1900461" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="58638" />

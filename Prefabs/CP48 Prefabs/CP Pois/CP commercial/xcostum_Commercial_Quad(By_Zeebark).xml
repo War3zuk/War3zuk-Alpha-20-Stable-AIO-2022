@@ -23,8 +23,8 @@
   <property name="EditorGroups" value="downtown" />
   <property name="Tags" value="snow,desert,commercial,pine_forest" />
   <property class="Stats">
-    <property name="TotalVertices" value="603619" />
-    <property name="TotalTriangles" value="635712" />
+    <property name="TotalVertices" value="603827" />
+    <property name="TotalTriangles" value="636096" />
     <property class="BlockEntities">
       <property name="Vertices" value="544100" />
       <property name="Triangles" value="600735" />
@@ -58,8 +58,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="1556" />
-      <property name="Triangles" value="2696" />
+      <property name="Vertices" value="1764" />
+      <property name="Triangles" value="3080" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />

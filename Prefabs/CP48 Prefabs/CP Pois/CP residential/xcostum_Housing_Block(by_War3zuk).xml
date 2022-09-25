@@ -15,14 +15,14 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="MaxPerHub" value="1" />
   <property name="EditorGroups" value="house new" />
-  <property name="SleeperVolumeStart" value="6, 0, 21#6, 8, 21#6, 15, 21#1, 1, 1" />
-  <property name="SleeperVolumeSize" value="30, 8, 13#30, 7, 13#30, 4, 13#40, 22, 40" />
-  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,7,10,S_-Group_Generic_Zombie,4,4,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,10,10" />
+  <property name="SleeperVolumeStart" value="9, 2, 24#9, 8, 24#22, 17, 24#1, 1, 1#9, 15, 24#22, 2, 24#22, 9, 24" />
+  <property name="SleeperVolumeSize" value="13, 6, 8#13, 7, 8#11, 4, 8#40, 22, 40#13, 6, 8#11, 6, 8#11, 6, 8" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,17,17,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,2" />
   <property name="SleeperVolumeGameStageAdjust" value="medium,," />
-  <property name="SleeperIsLootVolume" value="True,True,True,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,2" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0" />
+  <property name="SleeperIsLootVolume" value="True,True,True,False,True,True,True" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,2,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="Tags" value="residential,pine_forest" />
   <property name="POIMarkerSize" value="8, 13, 5#8, 13, 5" />
@@ -45,19 +45,19 @@
       <property name="2" value="27, 20, 27" />
     </property>
     <property class="Rally">
-      <property name="0" value="21, 1, 37" />
+      <property name="0" value="8, 1, 41" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="316806" />
-    <property name="TotalTriangles" value="329857" />
+    <property name="TotalVertices" value="320239" />
+    <property name="TotalTriangles" value="332984" />
     <property class="BlockEntities">
-      <property name="Vertices" value="257734" />
-      <property name="Triangles" value="289503" />
+      <property name="Vertices" value="261063" />
+      <property name="Triangles" value="292578" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="49116" />
-      <property name="Triangles" value="30738" />
+      <property name="Vertices" value="49212" />
+      <property name="Triangles" value="30786" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -68,8 +68,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="5544" />
-      <property name="Triangles" value="2772" />
+      <property name="Vertices" value="5552" />
+      <property name="Triangles" value="2776" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />

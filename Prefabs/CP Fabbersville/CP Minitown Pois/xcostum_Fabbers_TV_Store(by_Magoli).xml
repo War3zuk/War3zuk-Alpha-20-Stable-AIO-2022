@@ -51,23 +51,23 @@
     <property class="TraderOnOff">
       <property name="0" value="4, 3, 13" />
     </property>
+    <property class="Rally">
+      <property name="0" value="0, 1, 17" />
+    </property>
     <property class="quest_feather">
       <property name="0" value="15, 6, 4" />
     </property>
-    <property class="Rally">
-      <property name="0" value="1, 1, 23" />
-    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="177016" />
-    <property name="TotalTriangles" value="185665" />
+    <property name="TotalVertices" value="177064" />
+    <property name="TotalTriangles" value="185689" />
     <property class="BlockEntities">
       <property name="Vertices" value="159044" />
       <property name="Triangles" value="173971" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="12884" />
-      <property name="Triangles" value="6622" />
+      <property name="Vertices" value="12932" />
+      <property name="Triangles" value="6646" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

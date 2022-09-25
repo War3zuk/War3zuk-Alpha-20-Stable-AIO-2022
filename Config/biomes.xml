@@ -52,18 +52,6 @@
 		<decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
 	</append>
 	
-<!--	<append xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']" >
-		<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="80"/>
-	</append>
-	
-	<append xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']" >
-		<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="80"/>
-	</append>
-	
-	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/weather[@name='storm']" >
-		<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="80"/>
-	</append>-->
-	
 	<insertAfter xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather">	
 		<subbiome prob="0.302">
 			<layers>

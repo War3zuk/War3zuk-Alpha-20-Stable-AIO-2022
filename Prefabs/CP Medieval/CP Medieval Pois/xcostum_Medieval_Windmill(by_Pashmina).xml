@@ -23,15 +23,15 @@
   <property name="Tags" value="medieval,medieval60x60" />
   <property name="PrefabSize" value="60, 36, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="670638" />
-    <property name="TotalTriangles" value="655661" />
+    <property name="TotalVertices" value="670662" />
+    <property name="TotalTriangles" value="655673" />
     <property class="BlockEntities">
       <property name="Vertices" value="549575" />
       <property name="Triangles" value="577748" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="102097" />
-      <property name="Triangles" value="55258" />
+      <property name="Vertices" value="102121" />
+      <property name="Triangles" value="55270" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -72,7 +72,7 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="2, 2, 1" />
+      <property name="0" value="0, 2, 0" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="44, 2, 36" />

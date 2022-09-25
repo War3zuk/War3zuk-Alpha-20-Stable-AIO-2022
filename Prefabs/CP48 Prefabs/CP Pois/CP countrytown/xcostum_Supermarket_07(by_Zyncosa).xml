@@ -31,7 +31,7 @@
   <property name="POIMarkerPartToSpawn" value="part_driveway_countrytown_15" />
   <property name="POIMarkerPartRotations" value="0" />
   <property name="POIMarkerPartSpawnChance" value="1" />
-  <property name="Tags" value="snow,desert,countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="snow,desert,countrytown,diagonal,pine_forest" />
   <property name="PrefabSize" value="42, 22, 42" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
@@ -48,23 +48,23 @@
       <property name="0" value="30, 15, 26" />
     </property>
     <property class="Rally">
-      <property name="0" value="23, 14, 41" />
+      <property name="0" value="23, 15, 41" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="572140" />
-    <property name="TotalTriangles" value="569718" />
+    <property name="TotalVertices" value="572370" />
+    <property name="TotalTriangles" value="569914" />
     <property class="BlockEntities">
       <property name="Vertices" value="491870" />
       <property name="Triangles" value="516296" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="58152" />
-      <property name="Triangles" value="31314" />
+      <property name="Vertices" value="58472" />
+      <property name="Triangles" value="31498" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="7360" />
-      <property name="Triangles" value="3680" />
+      <property name="Vertices" value="7040" />
+      <property name="Triangles" value="3520" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="0" />
@@ -75,8 +75,8 @@
       <property name="Triangles" value="1268" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="224" />
-      <property name="Triangles" value="128" />
+      <property name="Vertices" value="454" />
+      <property name="Triangles" value="300" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="2160" />

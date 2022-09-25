@@ -21,6 +21,7 @@
   <property name="Tags" value="snow,desert,commercial,pine_forest" />
   <property name="QuestTags" value="clear,fetch,restore_power" />
   <property name="EditorGroups" value="Emergency Services" />
+  <property name="YOffset" value="-1" />
   <property class="Stats">
     <property name="TotalVertices" value="3557968" />
     <property name="TotalTriangles" value="3193158" />

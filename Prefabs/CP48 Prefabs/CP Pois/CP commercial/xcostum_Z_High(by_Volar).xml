@@ -40,13 +40,16 @@
     <property class="FetchContainer">
       <property name="0" value="86, 10, 74" />
     </property>
+    <property class="Rally">
+      <property name="0" value="79, 11, 97" />
+    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1712760" />
-    <property name="TotalTriangles" value="1924243" />
+    <property name="TotalVertices" value="1725587" />
+    <property name="TotalTriangles" value="1935925" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1341577" />
-      <property name="Triangles" value="1673469" />
+      <property name="Vertices" value="1354404" />
+      <property name="Triangles" value="1685151" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="279807" />

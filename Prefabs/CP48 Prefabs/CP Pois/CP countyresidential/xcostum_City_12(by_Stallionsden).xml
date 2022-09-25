@@ -38,15 +38,15 @@
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property name="PrefabSize" value="60, 11, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="169671" />
-    <property name="TotalTriangles" value="184108" />
+    <property name="TotalVertices" value="163351" />
+    <property name="TotalTriangles" value="176544" />
     <property class="BlockEntities">
-      <property name="Vertices" value="118168" />
-      <property name="Triangles" value="146373" />
+      <property name="Vertices" value="113112" />
+      <property name="Triangles" value="139441" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="36432" />
-      <property name="Triangles" value="18396" />
+      <property name="Vertices" value="36456" />
+      <property name="Triangles" value="18408" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -65,8 +65,8 @@
       <property name="Triangles" value="2753" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="1408" />
-      <property name="Triangles" value="704" />
+      <property name="Vertices" value="120" />
+      <property name="Triangles" value="60" />
     </property>
     <property class="ChunkMeshes6">
       <property name="Vertices" value="0" />
@@ -86,16 +86,6 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
-    <property class="quest_wood">
-      <property name="0" value="43, 2, 46" />
-      <property name="1" value="43, 2, 49" />
-      <property name="2" value="30, 2, 51" />
-      <property name="3" value="32, 2, 51" />
-      <property name="4" value="34, 2, 51" />
-      <property name="5" value="36, 2, 51" />
-      <property name="6" value="41, 2, 51" />
-      <property name="7" value="42, 2, 51" />
-    </property>
     <property class="POILight">
       <property name="0" value="39, 5, 30" />
       <property name="1" value="31, 5, 40" />
@@ -107,6 +97,10 @@
     </property>
     <property class="quest_feather">
       <property name="0" value="36, 3, 40" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="41, 2, 36" />
+      <property name="1" value="42, 2, 36" />
     </property>
     <property class="Rally">
       <property name="0" value="47, 2, 17" />

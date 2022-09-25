@@ -19,7 +19,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,2" />
   <property name="EditorGroups" value="Entertainment" />
-  <property name="Tags" value="countrytown,pine_forest,diagonal" />
+  <property name="Tags" value="countrytown,diagonal,pine_forest" />
   <property name="POIMarkerSize" value="2, 13, 6" />
   <property name="POIMarkerStart" value="-2, 1, 14" />
   <property name="POIMarkerGroup" value="1" />
@@ -30,15 +30,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 61, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="541781" />
-    <property name="TotalTriangles" value="525281" />
+    <property name="TotalVertices" value="541829" />
+    <property name="TotalTriangles" value="525305" />
     <property class="BlockEntities">
       <property name="Vertices" value="446548" />
       <property name="Triangles" value="463019" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="80468" />
-      <property name="Triangles" value="47226" />
+      <property name="Vertices" value="80516" />
+      <property name="Triangles" value="47250" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -82,7 +82,7 @@
       <property name="0" value="3, 2, 6" />
     </property>
     <property class="Rally">
-      <property name="0" value="3, 2, 17" />
+      <property name="0" value="0, 2, 20" />
     </property>
     <property class="POILight">
       <property name="0" value="21, 4, 38" />

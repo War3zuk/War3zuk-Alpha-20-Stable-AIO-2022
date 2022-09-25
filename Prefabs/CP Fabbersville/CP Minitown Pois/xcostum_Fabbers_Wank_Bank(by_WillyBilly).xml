@@ -14,8 +14,8 @@
   <property name="YOffset" value="-9" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="downtown" />
-  <property name="SleeperVolumeStart" value="28, 3, 9#28, 3, 18#10, 3, 12#15, 3, 12#6, 9, 9#15, 9, 31#19, 9, 31#23, 9, 31#30, 9, 31#3, 9, 0" />
-  <property name="SleeperVolumeSize" value="7, 3, 9#7, 3, 12#5, 3, 13#13, 2, 13#29, 3, 31#3, 3, 3#3, 3, 3#7, 3, 3#3, 3, 8#36, 3, 8" />
+  <property name="SleeperVolumeStart" value="28, 3, 9#28, 3, 18#10, 3, 12#15, 3, 12#6, 9, 9#15, 9, 31#19, 9, 31#23, 9, 31#30, 9, 31#3, 9, 1" />
+  <property name="SleeperVolumeSize" value="7, 3, 9#7, 3, 12#5, 3, 13#13, 2, 13#29, 3, 31#3, 3, 3#3, 3, 3#7, 3, 3#3, 3, 8#36, 3, 7" />
   <property name="SleeperVolumeGroup" value="zombieBusinessManFeral,3,4,zombieUtilityWorkerFeral,2,4,zombieSoldierFeral,3,5,S_-_Group_Zom_Badass,7,7,S_-Group_Generic_Zombie,16,16,zombieDarleneFeral,2,3,zombieArleneFeral,1,1,S_-_Group_Night_Club,1,2,zombieFatCopFeral,1,1,zombieFatCop,2,2" />
   <property name="SleeperVolumeGameStageAdjust" value=",,hard,,,,,,," />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,True,True,True,False,False" />
@@ -35,22 +35,22 @@
   <property name="PrefabSize" value="42, 15, 42" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="1, 9, 1" />
+      <property name="0" value="5, 9, 0" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="25, 11, 38" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="522256" />
-    <property name="TotalTriangles" value="562501" />
+    <property name="TotalVertices" value="512152" />
+    <property name="TotalTriangles" value="552637" />
     <property class="BlockEntities">
-      <property name="Vertices" value="463996" />
-      <property name="Triangles" value="523599" />
+      <property name="Vertices" value="453796" />
+      <property name="Triangles" value="513687" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="49432" />
-      <property name="Triangles" value="25334" />
+      <property name="Vertices" value="49528" />
+      <property name="Triangles" value="25382" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

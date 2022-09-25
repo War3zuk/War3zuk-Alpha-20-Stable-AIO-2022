@@ -35,7 +35,7 @@
   <property name="Zoning" value="none" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="2, 5, 31" />
+      <property name="0" value="1, 6, 31" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="48, 6, 57" />
@@ -58,11 +58,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1056940" />
-    <property name="TotalTriangles" value="1081701" />
+    <property name="TotalVertices" value="1057061" />
+    <property name="TotalTriangles" value="1081901" />
     <property class="BlockEntities">
-      <property name="Vertices" value="851798" />
-      <property name="Triangles" value="940929" />
+      <property name="Vertices" value="851919" />
+      <property name="Triangles" value="941129" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="166766" />

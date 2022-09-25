@@ -33,31 +33,31 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="Stats">
-    <property name="TotalVertices" value="458393" />
-    <property name="TotalTriangles" value="459291" />
+    <property name="TotalVertices" value="455088" />
+    <property name="TotalTriangles" value="455922" />
     <property class="BlockEntities">
-      <property name="Vertices" value="380504" />
-      <property name="Triangles" value="405678" />
+      <property name="Vertices" value="377208" />
+      <property name="Triangles" value="402278" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="69632" />
-      <property name="Triangles" value="45549" />
+      <property name="Vertices" value="69540" />
+      <property name="Triangles" value="45503" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="1514" />
-      <property name="Triangles" value="772" />
+      <property name="Vertices" value="1506" />
+      <property name="Triangles" value="768" />
     </property>
     <property class="ChunkMeshes3">
       <property name="Vertices" value="56" />
       <property name="Triangles" value="28" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="5099" />
-      <property name="Triangles" value="4552" />
+      <property name="Vertices" value="5198" />
+      <property name="Triangles" value="4637" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -76,13 +76,13 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="32" />
-      <property name="Triangles" value="16" />
+      <property name="Vertices" value="24" />
+      <property name="Triangles" value="12" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
     <property class="Rally">
-      <property name="0" value="5, 1, 0" />
+      <property name="0" value="4, 2, 0" />
     </property>
     <property class="TraderOnOff">
       <property name="0" value="5, 1, 1" />

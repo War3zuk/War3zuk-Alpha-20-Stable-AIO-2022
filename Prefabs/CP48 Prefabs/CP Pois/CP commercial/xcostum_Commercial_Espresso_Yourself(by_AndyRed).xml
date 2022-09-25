@@ -13,8 +13,8 @@
   <property name="AllowedTownships" value="city" />
   <property name="AllowedBiomes" value="snow,pine_forest,desert" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="SleeperVolumeSize" value="12, 2, 19#25, 2, 25#12, 2, 19" />
-  <property name="SleeperVolumeStart" value="7, 7, 3#0, 2, 0#6, 2, 3" />
+  <property name="SleeperVolumeSize" value="12, 2, 19#24, 2, 25#12, 2, 19" />
+  <property name="SleeperVolumeStart" value="7, 7, 3#1, 2, 0#6, 2, 3" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,3,3,S_-Group_Generic_Zombie,4,8,S_-Group_Generic_Zombie,3,4" />
   <property name="SleeperVolumeGameStageAdjust" value="" />
   <property name="SleeperIsLootVolume" value="False,False,True" />
@@ -34,15 +34,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="25, 18, 25" />
   <property class="Stats">
-    <property name="TotalVertices" value="173727" />
-    <property name="TotalTriangles" value="182627" />
+    <property name="TotalVertices" value="172051" />
+    <property name="TotalTriangles" value="180987" />
     <property class="BlockEntities">
-      <property name="Vertices" value="145660" />
-      <property name="Triangles" value="164578" />
+      <property name="Vertices" value="143960" />
+      <property name="Triangles" value="162926" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="22976" />
-      <property name="Triangles" value="12516" />
+      <property name="Vertices" value="23000" />
+      <property name="Triangles" value="12528" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -82,13 +82,13 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="0, 2, 1" />
+    </property>
     <property class="POILight">
       <property name="0" value="16, 5, 15" />
       <property name="1" value="19, 6, 19" />
       <property name="2" value="16, 6, 22" />
-    </property>
-    <property class="Rally">
-      <property name="0" value="1, 2, 4" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="14, 4, 13" />

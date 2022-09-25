@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="DifficultyTier" value="3" />
+  <property name="ShowQuestClearCount" value="2" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="Zoning" value="ResidentialOld, wilderness" />
+  <property name="AllowedBiomes" value="pine_forest" />
+  <property name="AllowedTownships" value="rural" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="SleeperVolumeSize" value="12, 3, 11#13, 2, 8#13, 4, 2#12, 6, 7#10, 3, 9#13, 6, 8#12, 4, 11#9, 3, 9#13, 5, 14#11, 3, 9#6, 4, 13#8, 4, 3#17, 6, 6#4, 8, 12" />
+  <property name="SleeperVolumeStart" value="11, 2, 24#21, 2, 25#21, 4, 32#21, 6, 25#11, 7, 24#21, 12, 25#21, 19, 24#12, 20, 25#21, 23, 20#10, 25, 25#9, 28, 8#8, 24, 9#15, 25, 7#32, 24, 7" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,3,3,S_-_Group_Hospital,3,3,S_-_Group_Biker_Bar,2,2,S_Zom_HazMat_Only,4,4,S_-_Group_Lab_Worker,2,3,S_-Group_Generic_Zombie,2,2,S_-_Group_Zom_Soldier,3,3,S_-_Group_Zom_Badass_Only,2,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Soldier,1,2,S_-_Group_Zom_Soldier,4,5,S_-Group_Generic_Zombie,1,1" />
+  <property name="SleeperIsLootVolume" value="True,True,True,True,True,True,True,True,False,True,False,True,True,True" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="2,2,2,2,2,2,2,2,2,2,0,2,2,2" />
+  <property name="YOffset" value="-2" />
+  <property name="EditorGroups" value="TV_Movie_Game, Fantasy/Space" />
+  <property name="Tags" value="zombie,zombie42x42" />
+  <property name="PrefabSize" value="42, 33, 42" />
+  <property class="Stats">
+    <property name="TotalVertices" value="631797" />
+    <property name="TotalTriangles" value="623691" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="472511" />
+      <property name="Triangles" value="513355" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="149766" />
+      <property name="Triangles" value="98916" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="8" />
+      <property name="Triangles" value="4" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="1040" />
+      <property name="Triangles" value="520" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="3538" />
+      <property name="Triangles" value="3156" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="4902" />
+      <property name="Triangles" value="7724" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="32" />
+      <property name="Triangles" value="16" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="FetchContainer">
+      <property name="0" value="32, 16, 25" />
+      <property name="1" value="32, 7, 27" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="33, 26, 24" />
+      <property name="1" value="21, 19, 26" />
+      <property name="2" value="24, 9, 26" />
+      <property name="3" value="24, 19, 26" />
+      <property name="4" value="24, 23, 26" />
+      <property name="5" value="25, 5, 26" />
+      <property name="6" value="25, 12, 26" />
+      <property name="7" value="26, 5, 26" />
+      <property name="8" value="27, 9, 26" />
+      <property name="9" value="27, 23, 26" />
+      <property name="10" value="29, 12, 26" />
+      <property name="11" value="30, 5, 26" />
+      <property name="12" value="30, 9, 26" />
+      <property name="13" value="30, 19, 26" />
+      <property name="14" value="30, 23, 26" />
+      <property name="15" value="31, 5, 26" />
+      <property name="16" value="22, 14, 27" />
+      <property name="17" value="25, 14, 27" />
+      <property name="18" value="28, 14, 27" />
+      <property name="19" value="31, 14, 27" />
+      <property name="20" value="21, 5, 29" />
+      <property name="21" value="21, 9, 29" />
+      <property name="22" value="21, 19, 29" />
+      <property name="23" value="24, 19, 29" />
+      <property name="24" value="24, 23, 29" />
+      <property name="25" value="26, 5, 29" />
+      <property name="26" value="27, 19, 29" />
+      <property name="27" value="27, 23, 29" />
+      <property name="28" value="30, 5, 29" />
+      <property name="29" value="30, 19, 29" />
+      <property name="30" value="30, 23, 29" />
+      <property name="31" value="31, 9, 29" />
+      <property name="32" value="22, 14, 30" />
+      <property name="33" value="25, 14, 30" />
+      <property name="34" value="28, 14, 30" />
+      <property name="35" value="31, 14, 30" />
+      <property name="36" value="21, 5, 32" />
+      <property name="37" value="21, 19, 32" />
+      <property name="38" value="24, 19, 32" />
+      <property name="39" value="24, 23, 32" />
+      <property name="40" value="27, 23, 32" />
+      <property name="41" value="28, 6, 32" />
+      <property name="42" value="30, 5, 32" />
+      <property name="43" value="30, 19, 32" />
+      <property name="44" value="30, 23, 32" />
+      <property name="45" value="31, 14, 32" />
+      <property name="46" value="28, 6, 33" />
+      <property name="47" value="30, 5, 33" />
+      <property name="48" value="30, 16, 33" />
+      <property name="49" value="31, 14, 33" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="40, 2, 40" />
+    </property>
+  </property>
+</prefab>

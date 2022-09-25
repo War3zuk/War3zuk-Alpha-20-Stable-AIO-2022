@@ -26,15 +26,15 @@
   <property name="Tags" value="snow,desert,commercial,pine_forest" />
   <property name="PrefabSize" value="42, 60, 42" />
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="13, 3, 5" />
-    </property>
     <property class="POILight">
       <property name="0" value="37, 3, 6" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="34, 11, 27" />
       <property name="1" value="23, 18, 35" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="21, 2, 0" />
     </property>
     <property class="quest_feather">
       <property name="0" value="28, 18, 33" />

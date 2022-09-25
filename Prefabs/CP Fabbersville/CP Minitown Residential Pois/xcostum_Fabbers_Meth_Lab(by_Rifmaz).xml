@@ -34,19 +34,19 @@
   <property name="PrefabSize" value="42, 49, 42" />
   <property name="QuestTags" value="clear,fetch" />
   <property class="Stats">
-    <property name="TotalVertices" value="567275" />
-    <property name="TotalTriangles" value="560786" />
+    <property name="TotalVertices" value="567235" />
+    <property name="TotalTriangles" value="560766" />
     <property class="BlockEntities">
       <property name="Vertices" value="425138" />
       <property name="Triangles" value="448439" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="103536" />
-      <property name="Triangles" value="64497" />
+      <property name="Vertices" value="103560" />
+      <property name="Triangles" value="64509" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="8000" />
-      <property name="Triangles" value="4000" />
+      <property name="Vertices" value="7936" />
+      <property name="Triangles" value="3968" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="112" />

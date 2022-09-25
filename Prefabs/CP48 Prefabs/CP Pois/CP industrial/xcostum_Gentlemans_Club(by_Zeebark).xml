@@ -12,7 +12,7 @@
   <property name="Zoning" value="none" />
   <property name="AllowedBiomes" value="snow,pine_forest,desert" />
   <property name="AllowedTownships" value="city" />
-  <property name="SleeperVolumeSize" value="43, 2, 9#24, 3, 11#23, 2, 2#5, 3, 8#7, 2, 8#9, 3, 10#41, 1, 5#23, 5, 11#4, 2, 9#5, 3, 9#7, 4, 9#3, 2, 9" />
+  <property name="SleeperVolumeSize" value="40, 2, 9#24, 3, 11#23, 2, 2#5, 3, 8#7, 2, 8#9, 3, 10#41, 1, 5#23, 5, 11#4, 2, 9#5, 3, 9#7, 4, 9#3, 2, 9" />
   <property name="SleeperVolumeStart" value="1, 3, 1#7, 4, 10#6, 4, 22#6, 4, 24#12, 4, 24#21, 4, 24#1, 3, 33#7, 8, 12#7, 9, 23#13, 9, 23#18, 8, 23#26, 9, 23" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,5,6,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,5,5,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,3,S_-Group_Generic_Zombie,6,7,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2" />
@@ -33,15 +33,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="42, 14, 42" />
   <property class="Stats">
-    <property name="TotalVertices" value="587838" />
-    <property name="TotalTriangles" value="643223" />
+    <property name="TotalVertices" value="587890" />
+    <property name="TotalTriangles" value="643255" />
     <property class="BlockEntities">
       <property name="Vertices" value="521975" />
       <property name="Triangles" value="601349" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="52995" />
-      <property name="Triangles" value="27838" />
+      <property name="Vertices" value="53043" />
+      <property name="Triangles" value="27862" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -68,8 +68,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="5094" />
-      <property name="Triangles" value="8060" />
+      <property name="Vertices" value="5098" />
+      <property name="Triangles" value="8068" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
@@ -81,9 +81,6 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
-    <property class="Rally">
-      <property name="0" value="14, 3, 3" />
-    </property>
     <property class="POILight">
       <property name="0" value="23, 12, 22" />
       <property name="1" value="29, 5, 23" />
@@ -103,6 +100,9 @@
     </property>
     <property class="TraderOnOff">
       <property name="0" value="16, 4, 28" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="40, 3, 0" />
     </property>
   </property>
 </prefab>

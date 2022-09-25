@@ -22,13 +22,13 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="2,2,2,2,2,2,2,2,2,0,2,0,2,0,2,2,2,2" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="snow,desert,residential,pine_forest" />
-  <property name="POIMarkerSize" value="15, 13, 5#6, 13, 5" />
-  <property name="POIMarkerStart" value="9, 0, 86#41, 0, 86" />
+  <property name="Tags" value="snow,desert,rural,pine_forest" />
+  <property name="POIMarkerSize" value="13, 13, 3#8, 13, 3" />
+  <property name="POIMarkerStart" value="10, 0, 86#40, 0, 86" />
   <property name="POIMarkerGroup" value="1,2" />
   <property name="POIMarkerTags" value="#" />
   <property name="POIMarkerType" value="PartSpawn,PartSpawn" />
-  <property name="POIMarkerPartToSpawn" value="part_driveway_residential_07,part_driveway_residential_01" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_07,part_driveway_rural_06" />
   <property name="POIMarkerPartRotations" value="0,0" />
   <property name="POIMarkerPartSpawnChance" value="1,1" />
   <property name="PrefabSize" value="71, 18, 86" />
@@ -94,7 +94,7 @@
       <property name="0" value="52, 12, 38" />
     </property>
     <property class="Rally">
-      <property name="0" value="41, 1, 84" />
+      <property name="0" value="40, 2, 84" />
     </property>
   </property>
 </prefab>
