@@ -31,7 +31,7 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="150, 8, 150" />
-  <property name="Tags" value="hospital" />
+  <property name="Tags" value="downtown,hospital" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="111, 6, 133" />

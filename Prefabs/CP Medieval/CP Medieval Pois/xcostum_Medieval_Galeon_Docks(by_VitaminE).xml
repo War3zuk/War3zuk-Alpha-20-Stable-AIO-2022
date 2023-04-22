@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,2,2,2,2,2,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="3" />
-  <property name="Tags" value="medieval,medieval110x110" />
+  <property name="Tags" value="medieval,medievalvillage,medieval110x110" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="PrefabSize" value="110, 66, 110" />
   <property class="Stats">

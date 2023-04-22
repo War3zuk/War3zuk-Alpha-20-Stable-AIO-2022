@@ -1,6 +1,6 @@
 <rwgmixer>
 	
-	<remove xpath="/rwgmixer/world[@name='tiny']"/>
+<!--	<remove xpath="/rwgmixer/world[@name='tiny']"/>
 	<remove xpath="/rwgmixer/world[@name='small']"/>
 	<remove xpath="/rwgmixer/world[@name='medium']"/>
 	<remove xpath="/rwgmixer/world[@name='large']"/>
@@ -565,5 +565,5 @@
         <property name="spawn_custom_size_prefabs" value="true"/>
     </streettile>
 
-</append>
+</append>-->
 </rwgmixer>

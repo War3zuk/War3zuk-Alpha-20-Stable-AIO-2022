@@ -13,7 +13,7 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-2" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="zombie,zombie60x60" />
+  <property name="Tags" value="zombie,zombieland,zombie60x60" />
   <property name="SleeperVolumeSize" value="27, 3, 25#39, 3, 47" />
   <property name="SleeperVolumeStart" value="17, 1, 12#11, 1, 6" />
   <property name="SleeperVolumeGroupId" value="0,0" />

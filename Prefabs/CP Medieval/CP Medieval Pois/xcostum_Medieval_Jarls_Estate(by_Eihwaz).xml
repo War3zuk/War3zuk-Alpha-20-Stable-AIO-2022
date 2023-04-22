@@ -26,7 +26,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="medieval,medieval42x42" />
+  <property name="Tags" value="medieval,medievalvillage,medieval42x42" />
   <property name="PrefabSize" value="42, 24, 42" />
   <property class="IndexedBlockOffsets">
     <property class="quest_wood">

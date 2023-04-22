@@ -18,7 +18,7 @@
   <property name="SleeperIsLootVolume" value="True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,2,2,2,2,2,2,0,2" />
-  <property name="Tags" value="zombie,zombie60x60" />
+  <property name="Tags" value="zombie,zombieland,zombie60x60" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-2" />
   <property class="Stats">

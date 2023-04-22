@@ -31,7 +31,7 @@
   <property name="POIMarkerPartToSpawn" value="" />
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
-  <property name="Tags" value="farmerjoes" />
+  <property name="Tags" value="industrial,farmerjoes" />
   <property class="Stats">
     <property name="TotalVertices" value="75430" />
     <property name="TotalTriangles" value="108532" />

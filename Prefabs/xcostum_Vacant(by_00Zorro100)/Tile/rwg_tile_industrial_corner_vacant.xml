@@ -31,7 +31,7 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="150, 4, 150" />
-  <property name="Tags" value="vacant" />
+  <property name="Tags" value="industrial,vacant" />
   <property class="Stats">
     <property name="TotalVertices" value="69077" />
     <property name="TotalTriangles" value="100368" />

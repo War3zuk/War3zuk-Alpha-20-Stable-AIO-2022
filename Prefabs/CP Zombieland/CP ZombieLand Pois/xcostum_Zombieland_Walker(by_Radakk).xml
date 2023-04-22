@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="2,2,2,2,2,2,2,2,2,2,0,2,2,2" />
   <property name="YOffset" value="-2" />
   <property name="EditorGroups" value="TV_Movie_Game, Fantasy/Space" />
-  <property name="Tags" value="zombie,zombie42x42" />
+  <property name="Tags" value="zombie,zombieland,zombie42x42" />
   <property name="PrefabSize" value="42, 33, 42" />
   <property class="Stats">
     <property name="TotalVertices" value="631797" />

@@ -20,7 +20,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,2,0,0" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="zombie,zombie30x30" />
+  <property name="Tags" value="zombie,zombieland,zombie30x30" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-2" />
   <property name="PrefabSize" value="30, 55, 30" />

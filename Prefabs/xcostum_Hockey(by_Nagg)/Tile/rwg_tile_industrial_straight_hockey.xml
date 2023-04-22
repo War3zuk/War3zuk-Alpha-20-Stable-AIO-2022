@@ -31,7 +31,7 @@
   <property name="POIMarkerPartRotations" value="2,3,3,3,2,3,0,0,0,1" />
   <property name="POIMarkerPartSpawnChance" value="1,0.6,0.8,1,0.8,1,0.6,0.6,1,1" />
   <property name="PrefabSize" value="150, 11, 150" />
-  <property name="Tags" value="streettile,rwgonly,hockey" />
+  <property name="Tags" value="industrial,,hockey" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
       <property name="0" value="13, 7, 73" />

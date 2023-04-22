@@ -10,7 +10,7 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
-  <property name="Tags" value="zombie,zombie25x25" />
+  <property name="Tags" value="zombie,zombieland,zombie25x25" />
   <property name="PrefabSize" value="25, 32, 25" />
   <property name="YOffset" value="-1" />
   <property class="Stats">

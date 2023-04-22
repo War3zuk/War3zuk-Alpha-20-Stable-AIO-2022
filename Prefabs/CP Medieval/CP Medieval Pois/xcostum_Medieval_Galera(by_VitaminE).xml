@@ -12,7 +12,7 @@
   <property name="Zoning" value="none" />
   <property name="PrefabSize" value="100, 44, 100" />
   <property name="YOffset" value="-3" />
-  <property name="Tags" value="medieval,medieval100x100" />
+  <property name="Tags" value="medieval,medievalvillage,medieval100x100" />
   <property name="POIMarkerSize" value="33, 3, 16" />
   <property name="POIMarkerStart" value="67, 2, 84" />
   <property name="POIMarkerGroup" value="new" />

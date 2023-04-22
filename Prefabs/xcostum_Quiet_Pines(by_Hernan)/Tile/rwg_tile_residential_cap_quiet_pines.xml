@@ -31,7 +31,7 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="150, 8, 150" />
-  <property name="Tags" value="quietpines" />
+  <property name="Tags" value="residential,quietpines" />
   <property class="Stats">
     <property name="TotalVertices" value="4095339" />
     <property name="TotalTriangles" value="4114111" />

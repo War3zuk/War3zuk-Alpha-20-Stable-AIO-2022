@@ -22,7 +22,7 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-7" />
   <property name="EditorGroups" value="house old" />
-  <property name="Tags" value="zombie,zombie42x42" />
+  <property name="Tags" value="zombie,zombieland,zombie42x42" />
   <property name="PrefabSize" value="42, 31, 42" />
   <property class="IndexedBlockOffsets">
     <property class="FetchContainer">

@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="2,2,2,2,2,0,0,0,0,0,0,0,2,0,2,2,0,0,0,0,2,0,2,0,0,0,0,0,0,2,2,2,2,0,2,2,0,0,0,2,0,0,0,0,2" />
   <property name="SleeperVolumeGroupId" value="0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1" />
   <property name="ShowQuestClearCount" value="3" />
-  <property name="Tags" value="zombie,zombie120x50" />
+  <property name="Tags" value="zombie,zombieland,zombie120x50" />
   <property name="PrefabSize" value="120, 39, 50" />
   <property class="IndexedBlockOffsets">
     <property class="quest_wood">

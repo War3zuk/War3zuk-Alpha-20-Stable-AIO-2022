@@ -1,5 +1,14 @@
 War3zuk-Alpha-20.6 - AIO STABLE
 
+Updated v7.8 to v7.9
+
+Update LootGroups Code
+ReBuilt HDRuckSack Code (Alpha 20.7 B1)
+
+Launcher Edits: (Only For Launcher Install)
+Updated SMX Core Modules
+Updated CP48.6 TERAGON
+
 Updated v7.7 to v7.8
 
 Updated GUI/Windows.xml (20.6 B9)

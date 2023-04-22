@@ -29,7 +29,7 @@
   <property name="POIMarkerPartToSpawn" value="" />
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
-  <property name="Tags" value="skyhigh" />
+  <property name="Tags" value="downtown,skyhigh" />
   <property name="Zoning" value="none" />
   <property name="PrefabSize" value="150, 26, 150" />
   <property class="IndexedBlockOffsets">

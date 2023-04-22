@@ -23,7 +23,7 @@
   <property name="SleeperVolumeGroupId" value="0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
   <property name="PrefabSize" value="70, 59, 70" />
-  <property name="Tags" value="medieval70x70,medieval" />
+  <property name="Tags" value="medieval70x70,medievalvillage,medieval" />
   <property class="Stats">
     <property name="TotalVertices" value="957369" />
     <property name="TotalTriangles" value="910709" />

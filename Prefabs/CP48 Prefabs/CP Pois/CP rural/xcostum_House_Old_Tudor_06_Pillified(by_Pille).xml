@@ -15,14 +15,14 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="StaticSpawner.Size" value="32,2,32" />
   <property name="EditorGroups" value="house old, Extreme" />
-  <property name="SleeperVolumeStart" value="22, 1, 12#22, 1, 23#22, 1, 34#26, 1, 12#29, 1, 19#27, 1, 29#29, 1, 34#32, 1, 29#32, 1, 32#29, 1, 22#27, 5, 41#27, 5, 40#27, 5, 45#21, 5, 23#22, 6, 13#22, 6, 17#22, 6, 34#23, 6, 34#23, 6, 34#25, 5, 29#30, 6, 19#30, 7, 35#30, 7, 36#30, 7, 37#32, 6, 35#32, 6, 33#34, 7, 26#35, 7, 26#33, 6, 23#32, 6, 35#21, 11, 24#23, 11, 18#25, 11, 33#24, 11, 33#29, 11, 25#28, 11, 31#33, 11, 35#45, 21, 54#26, 12, 34#26, 11, 31#25, 14, 18#21, 15, 26#28, 15, 31#29, 10, 26" />
-  <property name="SleeperVolumeSize" value="5, 4, 11#8, 5, 10#8, 4, 6#5, 4, 12#7, 4, 11#6, 5, 6#4, 5, 7#8, 4, 4#8, 4, 9#11, 4, 11#8, 5, 3#7, 5, 6#7, 5, 6#9, 6, 11#9, 5, 5#9, 5, 6#7, 4, 3#3, 5, 5#5, 4, 6#15, 5, 5#7, 6, 8#3, 3, 3#3, 3, 3#3, 3, 3#6, 4, 6#4, 4, 8#3, 3, 3#3, 3, 3#6, 3, 7#8, 4, 6#9, 4, 8#6, 3, 6#3, 3, 3#5, 3, 5#11, 4, 7#6, 4, 10#5, 5, 6#-29, -19, -49#3, 3, 3#3, 4, 6#3, 4, 6#9, 3, 5#6, 3, 10#11, 10, 5" />
-  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,16,33,S_-Group_Generic_Zombie,15,30,S_-Group_Generic_Zombie,10,21,S_-Group_Generic_Zombie,14,29,S_-Group_Generic_Zombie,22,45,S_-Group_Generic_Zombie,10,21,S_-Group_Generic_Zombie,8,16,S_-Group_Generic_Zombie,8,17,S_-Group_Generic_Zombie,19,38,S_-Group_Generic_Zombie,35,71,S_-Group_Generic_Zombie,5,11,S_-Group_Generic_Zombie,10,20,S_-Group_Generic_Zombie,12,24,S_-Group_Generic_Zombie,23,46,S_-Group_Generic_Zombie,14,29,S_-Group_Generic_Zombie,20,40,S_-Group_Generic_Zombie,6,12,S_-Group_Generic_Zombie,4,9,S_-Group_Generic_Zombie,9,19,S_-Group_Generic_Zombie,15,31,S_-Group_Generic_Zombie,9,19,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,4,8,S_-Group_Generic_Zombie,3,6,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,7,S_-Group_Generic_Zombie,5,10,S_-Group_Generic_Zombie,17,35,S_-Group_Generic_Zombie,5,10,S_-Group_Generic_Zombie,2,4,S_-Group_Generic_Zombie,2,4,S_-Group_Generic_Zombie,12,24,S_-Group_Generic_Zombie,10,21,S_-Group_Generic_Zombie,5,10,S_-Group_Generic_Zombie,0,0,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,5,10,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,3,6,S_-Group_Generic_Zombie,8,17,S_-Group_Generic_Zombie,13,26" />
+  <property name="SleeperVolumeStart" value="30, 1, 35#22, 1, 23#22, 1, 34#22, 1, 12#30, 1, 19#30, 1, 29#33, 1, 29#32, 1, 32#36, 1, 22#27, 5, 40#27, 5, 45#21, 5, 23#22, 6, 13#22, 6, 17#23, 6, 34#29, 6, 29#30, 6, 19#32, 6, 34#33, 6, 23#21, 11, 24#23, 11, 18#25, 11, 32#29, 11, 31#33, 11, 32#29, 10, 25" />
+  <property name="SleeperVolumeSize" value="2, 3, 5#8, 2, 10#8, 4, 6#9, 4, 12#6, 4, 10#2, 5, 6#3, 3, 3#8, 4, 9#4, 4, 11#7, 5, 5#7, 5, 6#8, 4, 11#9, 5, 5#9, 5, 6#5, 4, 6#11, 4, 5#7, 5, 9#7, 4, 7#6, 3, 7#9, 4, 8#6, 3, 6#4, 3, 8#4, 4, 10#5, 5, 9#11, 10, 6" />
+  <property name="SleeperVolumeGroup" value="animalSnake,5,6,S_-animalSnake,15,25,animalSnake,10,20,animalSnake,35,35,animalSnake,22,41,animalSnake,5,9,animalSnake,5,6,S_-animalSnake,19,37,animalSnake,10,19,S_-animalSnake,10,14,S_-animalSnake,12,21,animalSnake,23,35,animalSnake,14,21,animalSnake,20,26,S_-animalSnake,9,17,animalSnake,10,14,animalSnake,9,16,animalSnake,4,6,animalSnake,3,7,animalSnake,17,31,S_-animalSnake,5,10,animalSnake,2,4,S_-animalSnake,10,21,S_-animalSnake,5,10,S_-animalSnake,13,18" />
   <property name="SleeperVolumeGameStageAdjust" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,111,0,111,0,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="5" />
   <property name="Tags" value="desert,rural" />
   <property name="POIMarkerSize" value="9, 13, 3" />
@@ -35,15 +35,15 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="60, 23, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="795680" />
-    <property name="TotalTriangles" value="714549" />
+    <property name="TotalVertices" value="795604" />
+    <property name="TotalTriangles" value="714509" />
     <property class="BlockEntities">
       <property name="Vertices" value="623179" />
       <property name="Triangles" value="590745" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="152899" />
-      <property name="Triangles" value="99769" />
+      <property name="Vertices" value="152823" />
+      <property name="Triangles" value="99729" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

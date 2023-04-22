@@ -21,7 +21,7 @@
   <property name="SleeperIsLootVolume" value="False" />
   <property name="SleeperIsQuestExclude" value="False" />
   <property name="SleeperVolumeFlags" value="0" />
-  <property name="Tags" value="medieval,medieval25x25" />
+  <property name="Tags" value="medieval,medievalvillage,medieval25x25" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="PrefabSize" value="25, 19, 25" />
   <property class="Stats">

@@ -15,7 +15,7 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-4" />
   <property name="EditorGroups" value="Wilderness" />
-  <property name="Tags" value="medieval,medieval60x60" />
+  <property name="Tags" value="medieval,medievalvillage,medieval60x60" />
   <property name="SleeperVolumeSize" value="56, 15, 49" />
   <property name="SleeperVolumeStart" value="1, 4, 7" />
   <property name="SleeperVolumeGroupId" value="0" />

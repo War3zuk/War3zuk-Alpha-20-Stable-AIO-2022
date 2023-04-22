@@ -22,7 +22,7 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-11" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="medieval,medieval60x60" />
+  <property name="Tags" value="medieval,medievalvillage,medieval60x60" />
   <property name="PrefabSize" value="60, 36, 60" />
   <property class="Stats">
     <property name="TotalVertices" value="383354" />

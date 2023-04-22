@@ -31,7 +31,7 @@
   <property name="POIMarkerPartRotations" value="2,2,0,0,2" />
   <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1" />
   <property name="PrefabSize" value="150, 27, 150" />
-  <property name="Tags" value="casino" />
+  <property name="Tags" value="downtown,casino" />
   <property class="Stats">
     <property name="TotalVertices" value="318503" />
     <property name="TotalTriangles" value="396640" />

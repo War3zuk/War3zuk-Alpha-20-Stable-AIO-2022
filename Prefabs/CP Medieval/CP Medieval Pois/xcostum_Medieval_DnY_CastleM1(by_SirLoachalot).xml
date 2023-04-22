@@ -23,7 +23,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="3" />
-  <property name="Tags" value="medieval,medieval110x110" />
+  <property name="Tags" value="medieval,medievalvillage,medieval110x110" />
   <property name="POIMarkerSize" value="3, 1, 8" />
   <property name="POIMarkerStart" value="88, 5, -8" />
   <property name="POIMarkerGroup" value="1" />

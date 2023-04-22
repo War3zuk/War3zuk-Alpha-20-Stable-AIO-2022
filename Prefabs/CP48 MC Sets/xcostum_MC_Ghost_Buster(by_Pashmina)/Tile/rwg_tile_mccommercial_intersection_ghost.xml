@@ -27,7 +27,7 @@
   <property name="POIMarkerPartRotations" value="0,1,2,1,1,1,0,3,3,3,3,2,1,1,3,3,3,0,0,0,3,0,0,1,0,3,0" />
   <property name="POIMarkerPartSpawnChance" value="1,1,1,1,1,1,1,1,1,1,1,0.8,0.8,0.2,0.8,0.8,0.8,0.6,0.6,0.6,1,0.2,0.8,0.2,0.8,1,1" />
   <property name="PrefabSize" value="150, 24, 150" />
-  <property name="Tags" value="megacity,cpmegacommercial,megacityghostbusters,megacitycommercial" />
+  <property name="Tags" value="megacity,cpmegacommercial,megacitycommercial,megacityghostbusters" />
   <property class="Stats">
     <property name="TotalVertices" value="896465" />
     <property name="TotalTriangles" value="944256" />

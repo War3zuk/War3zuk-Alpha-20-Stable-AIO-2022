@@ -34,8 +34,8 @@
 </lootgroup>
 	
 <lootgroup name="War3zukHDWeaponParts" count="1">
-	<item group="War3zukHDWeaponParts01" loot_prob_template="high"/>
-	<item group="War3zukHDWeaponParts02" loot_prob_template="med"/>
+	<item group="War3zukHDWeaponParts01" loot_prob_template="high" force_prob="true"/>
+	<item group="War3zukHDWeaponParts02" loot_prob_template="med" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons01" count="2">
@@ -70,8 +70,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons" count="1">
-	<item group="War3zukHDWeapons01" loot_prob_template="high"/>
-	<item group="War3zukHDWeapons02" loot_prob_template="med"/>
+	<item group="War3zukHDWeapons01" loot_prob_template="high" force_prob="true"/>
+	<item group="War3zukHDWeapons02" loot_prob_template="med" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches01" count="2">
@@ -89,8 +89,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches" count="1">
-	<item group="War3zukHDBenches01" loot_prob_template="med"/>
-	<item group="War3zukHDBenches02" loot_prob_template="low"/>
+	<item group="War3zukHDBenches01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDBenches02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons01" count="2">
@@ -113,8 +113,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons" count="1">
-	<item group="War3zukHDBenchAddons01" loot_prob_template="med"/>
-	<item group="War3zukHDBenchAddons02" loot_prob_template="low"/>
+	<item group="War3zukHDBenchAddons01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDBenchAddons02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools01" count="2">
@@ -138,8 +138,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDTools" count="1">
-	<item group="War3zukHDTools01" loot_prob_template="med"/>
-	<item group="War3zukHDTools02" loot_prob_template="low"/>
+	<item group="War3zukHDTools01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDTools02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo01" count="2">
@@ -180,8 +180,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo" count="1">
-	<item group="War3zukHDAmmo01" loot_prob_template="med"/>
-	<item group="War3zukHDAmmo02" loot_prob_template="low"/>
+	<item group="War3zukHDAmmo01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDAmmo02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary01" count="2">
@@ -209,8 +209,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary" count="1">
-	<item group="War3zukHDMilitary01" loot_prob_template="med"/>
-	<item group="War3zukHDMilitary02" loot_prob_template="low"/>
+	<item group="War3zukHDMilitary01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDMilitary02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical01" count="2">
@@ -223,8 +223,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical" count="1">
-	<item group="War3zukHDMedical01" loot_prob_template="med"/>
-	<item group="War3zukHDMedical02" loot_prob_template="low"/>
+	<item group="War3zukHDMedical01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDMedical02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares01" count="2">
@@ -240,8 +240,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares" count="1">
-	<item group="War3zukHDFlares01" loot_prob_template="veryLow" force_prob="true"/>
-	<item group="War3zukHDFlares02" loot_prob_template="veryLow" force_prob="true"/>
+	<item group="War3zukHDFlares01" loot_prob_template="low" force_prob="true"/>
+	<item group="War3zukHDFlares02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages01" count="2">
@@ -258,8 +258,8 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages" count="1">
-	<item group="War3zukHDCarePackages01" loot_prob_template="med"/>
-	<item group="War3zukHDCarePackages02" loot_prob_template="low"/>
+	<item group="War3zukHDCarePackages01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDCarePackages02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods01" count="2">
@@ -290,22 +290,23 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods" count="1">
-	<item group="War3zukHDFoods01" loot_prob_template="med"/>
-	<item group="War3zukHDFoods02" loot_prob_template="low"/>
+	<item group="War3zukHDFoods01" loot_prob_template="med" force_prob="true"/>
+	<item group="War3zukHDFoods02" loot_prob_template="low" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems01" count="2">
 	<item name="resourceLockPick" count="1,4" loot_prob_template="high"/>
-	<item group="groupScrapCommon" loot_prob_template="high"/>
+	<item group="groupScrapCommon" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems02" count="1">
-	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="low"/>
+	<item name="resourceLockPick" count="1,4" loot_prob_template="med"/>
+	<item group="groupScrapCommon" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="War3zukSpecialItems" count="1">
-	<item group="War3zukSpecialItems01" loot_prob_template="high"/>
-	<item group="War3zukSpecialItems02" loot_prob_template="med"/>
+	<item group="War3zukSpecialItems01" loot_prob_template="high" force_prob="true"/>
+	<item group="War3zukSpecialItems02" loot_prob_template="med" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="War3zukDumpsterLoot01" count="2">
@@ -319,14 +320,13 @@
 	<item group="groupScrapCommon" loot_prob_template="med"/>
 </lootgroup>
 
-<lootgroup name="War3zukDumpsterLoot02" count="1">
-	<item group="groupScrapCommon" loot_prob_template="med"/>
-	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="low"/>
+<lootgroup name="War3zukDumpsterLoot02" count="2">
+	<item group="groupScrapCommon" loot_prob_template="high"/>
 </lootgroup>	
 
 <lootgroup name="War3zukDumpsterLoot" count="1">
-	<item group="War3zukDumpsterLoot01" loot_prob_template="med"/>
-	<item group="War3zukDumpsterLoot02" loot_prob_template="low"/>
+	<item group="War3zukDumpsterLoot01" loot_prob_template="high" force_prob="true"/>
+	<item group="War3zukDumpsterLoot02" loot_prob_template="med" force_prob="true"/>
 </lootgroup>
 
 <lootgroup name="groupBuriedLootStashTreasureWART1" count="all">
@@ -1176,8 +1176,6 @@
 	<item group="War3zukHDMedical"/>
 </append>
 
-
-
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='157']">
 	
 <!-- Standard Animal -->
@@ -1586,24 +1584,6 @@
 	<item name="Donut Sprinkles" count="1"/>
 </append>
 
-<!--<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsSmall01']">
-	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
-	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
-	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsMed01']">
-	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
-	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
-	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsLarge01']">
-	<item name="Resource Old Milk" count="1" loot_prob_template="low"/>
-	<item name="Jambalaya InstaMix" count="1" loot_prob_template="low"/>
-	<item name="Donut Sprinkles" count="1" loot_prob_template="low"/>
-</append>-->
-
 <remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']"></remove>
 <remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot02']"></remove>
 <remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot03']"></remove>
@@ -1678,6 +1658,41 @@
 	<item group="groupGunSafeSecure03" loot_prob_template="veryLow"/>
 </lootgroup>
 <!-- *** Gun_Safe -->
+</insertAfter>
+
+<remove xpath="/lootcontainers/lootgroup[@name='groupJunk01']"></remove>
+<remove xpath="/lootcontainers/lootgroup[@name='groupJunk02']"></remove>
+<remove xpath="/lootcontainers/lootgroup[@name='groupJunk03']"></remove>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSinks']">
+	
+<lootgroup name="groupJunk01" count="3">
+	<item group="groupFoodTrash" loot_prob_template="high"/>
+	<item group="groupScrapCommon" loot_prob_template="high"/>
+	<item group="groupBuildingCommon" loot_prob_template="high"/>
+	<item group="groupCraftingCommon" loot_prob_template="high"/>
+	<item group="seeds" count="1,5" loot_prob_template="veryLow"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="veryLow"/>
+</lootgroup>
+	
+<lootgroup name="groupJunk02" count="2">
+	<item group="groupScrapUncommon" loot_prob_template="med"/>
+	<item group="groupCraftingUncommon" loot_prob_template="med"/>
+	<item group="groupBuildingUncommon" loot_prob_template="med"/>
+	<item group="groupAmmoResourcesSmall" loot_prob_template="med"/>
+	<item name="resourceFeather" count="1,5" loot_prob_template="med"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="med"/>
+</lootgroup>
+	
+<lootgroup name="groupJunk03" count="1">
+	<item group="groupScrapUncommon" loot_prob_template="medLow"/>
+	<item group="groupCraftingUncommon" loot_prob_template="medLow"/>
+	<item group="groupBuildingUncommon" loot_prob_template="medLow"/>
+	<item group="groupAmmoResourcesSmall" loot_prob_template="medLow"/>
+	<item name="resourceFeather" count="1,5" loot_prob_template="medLow"/>
+	<item name="HDRuckSackUpgrade" count="1" loot_prob_template="medLow"/>
+</lootgroup>
+	
 </insertAfter>
 
 </configs>

@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="2,2,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="EditorGroups" value="rural" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="medieval,medieval42x42" />
+  <property name="Tags" value="medieval,medievalvillage,medieval42x42" />
   <property name="PrefabSize" value="42, 26, 42" />
   <property class="Stats">
     <property name="TotalVertices" value="699151" />

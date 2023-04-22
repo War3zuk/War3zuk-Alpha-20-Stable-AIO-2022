@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="zombie,zombie100x100" />
+  <property name="Tags" value="zombie,zombieland,zombie100x100" />
   <property name="PrefabSize" value="100, 26, 100" />
   <property class="Stats">
     <property name="TotalVertices" value="273389" />

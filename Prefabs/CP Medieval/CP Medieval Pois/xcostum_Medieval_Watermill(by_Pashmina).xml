@@ -13,7 +13,7 @@
   <property name="QuestTags" value="clear,fetch" />
   <property name="YOffset" value="-2" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="medieval,medieval42x42" />
+  <property name="Tags" value="medieval,medievalvillage,medieval42x42" />
   <property name="SleeperVolumeSize" value="24, 11, 13#39, 4, 10#5, 3, 33#26, 3, 15#26, 4, 5#32, 3, 18" />
   <property name="SleeperVolumeStart" value="16, 2, 10#0, 2, 0#5, 7, 5#11, 3, 23#11, 8, 33#5, 13, 20" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0" />

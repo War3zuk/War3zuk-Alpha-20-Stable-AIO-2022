@@ -13,7 +13,7 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="PrefabSize" value="30, 58, 30" />
   <property name="Zoning" value="none" />
-  <property name="Tags" value="zombie,zombie30x30" />
+  <property name="Tags" value="zombie,zombieland,zombie30x30" />
   <property name="SleeperVolumeSize" value="28, 3, 28#5, 5, 17#5, 5, 17#6, 3, 9#6, 3, 9#5, 3, 9#3, 2, 4#27, 4, 16" />
   <property name="SleeperVolumeStart" value="1, 1, 1#4, 25, 5#22, 25, 5#2, 40, 12#23, 40, 12#13, 41, 13#14, 38, 13#2, 31, 8" />
   <property name="SleeperVolumeGroupId" value="0,0,0,1,1,1,2,2" />

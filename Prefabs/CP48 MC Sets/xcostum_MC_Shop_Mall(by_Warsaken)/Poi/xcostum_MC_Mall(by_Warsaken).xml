@@ -22,7 +22,7 @@
   <property name="SleeperVolumeGroupId" value="0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="3" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="cpmegacommercial,megacity,megacitycommercial,megacityshopcentre" />
+  <property name="Tags" value="megacity,cpmegacommercial,megacitycommercial,megacityshopcentre" />
   <property name="PrefabSize" value="130, 28, 129" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">

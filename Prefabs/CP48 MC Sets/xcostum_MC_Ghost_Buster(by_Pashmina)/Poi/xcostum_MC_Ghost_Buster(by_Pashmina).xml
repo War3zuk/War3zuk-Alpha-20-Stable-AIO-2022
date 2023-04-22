@@ -11,7 +11,7 @@
   <property name="TraderArea" value="False" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
-  <property name="Tags" value="cpmegacommercial,megacity,megacitycommercial,megacityghostbusters" />
+  <property name="Tags" value="megacity,cpmegacommercial,megacitycommercial,megacityghostbusters" />
   <property name="PrefabSize" value="62, 64, 62" />
   <property name="SleeperVolumeSize" value="11, 5, 14#15, 6, 17#15, 5, 17#10, 5, 16#10, 5, 17#10, 5, 17#10, 5, 17#10, 5, 17#10, 5, 17#10, 7, 19#29, 4, 19#29, 5, 19#31, 7, 19#30, 5, 11#24, 5, 11#24, 4, 11#31, 5, 11#31, 5, 11#31, 5, 11#27, 5, 26#27, 5, 26#27, 5, 26#24, 6, 21#9, 4, 35#23, 5, 3#9, 4, 37#9, 5, 37#9, 5, 22#9, 5, 22#9, 5, 15#9, 5, 15#10, 7, 37#15, 5, 38#15, 5, 38#16, 5, 39#16, 5, 39#16, 5, 39#16, 5, 39#16, 5, 39#16, 5, 39#16, 5, 39#17, 2, 13#20, 12, 15" />
   <property name="SleeperVolumeStart" value="51, 2, 3#47, 8, 2#47, 15, 2#34, 2, 2#34, 8, 1#34, 14, 1#34, 20, 1#34, 26, 1#34, 32, 1#34, 37, 1#1, 2, 2#1, 7, 2#1, 14, 2#1, 2, 22#1, 8, 22#1, 15, 22#1, 21, 22#1, 27, 22#1, 33, 22#3, 2, 34#3, 8, 34#3, 14, 34#7, 20, 34#34, 2, 23#32, 2, 19#34, 8, 23#34, 13, 23#34, 19, 21#34, 25, 21#34, 19, 45#34, 25, 45#33, 31, 21#46, 2, 23#46, 8, 23#46, 14, 22#46, 20, 22#46, 26, 22#46, 32, 22#46, 38, 22#46, 44, 22#46, 50, 22#45, 56, 25#42, 58, 27" />

@@ -30,7 +30,7 @@
   <property name="POIMarkerPartRotations" value="2" />
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="PrefabSize" value="150, 14, 150" />
-  <property name="Tags" value="basketball" />
+  <property name="Tags" value="downtown,basketball" />
   <property class="Stats">
     <property name="TotalVertices" value="162236" />
     <property name="TotalTriangles" value="175895" />

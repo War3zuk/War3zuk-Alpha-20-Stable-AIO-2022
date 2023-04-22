@@ -22,7 +22,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,2,2" />
   <property name="EditorGroups" value="rural" />
-  <property name="Tags" value="medieval,medieval100x100" />
+  <property name="Tags" value="medieval,medievalvillage,medieval100x100" />
   <property name="PrefabSize" value="100, 30, 100" />
   <property class="IndexedBlockOffsets">
     <property class="FetchContainer">

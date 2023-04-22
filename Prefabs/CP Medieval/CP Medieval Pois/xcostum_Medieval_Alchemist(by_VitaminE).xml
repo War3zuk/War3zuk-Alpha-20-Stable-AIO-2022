@@ -23,7 +23,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="medieval,medieval25x25" />
+  <property name="Tags" value="medieval,medievalvillage,medieval25x25" />
   <property name="PrefabSize" value="25, 18, 25" />
   <property class="Stats">
     <property name="TotalVertices" value="244558" />
